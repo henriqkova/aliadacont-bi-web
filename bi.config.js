@@ -2,7 +2,7 @@ module.exports = {
   cliente: {
     nome: "Aliadacont",
     subdomain: "aliadacont-bi",
-    coolify_app_uuid: "",
+    coolify_app_uuid: "q1474bbwbxmcx02btow5kbzc",
     cor_primaria: "#3b82f6",
   },
   fontes: {
