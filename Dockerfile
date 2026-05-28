@@ -25,6 +25,7 @@ COPY assets /usr/share/nginx/html/assets
 
 # Reports IA pré-gerados
 COPY report*.json /usr/share/nginx/html/
+COPY reports.js /usr/share/nginx/html/
 
 # Config nginx
 COPY nginx.conf /etc/nginx/conf.d/default.conf
