@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-05-28T14:00:00.000Z",
+  "empresa": "Aliadacont",
+  "periodo": "Abril/2026",
+  "year": 2026,
+  "month": 4,
+  "filter": "realizado",
+  "secoes": {
+    "visao_geral": {
+      "title": "Visão Geral",
+      "analysis": "Abril de 2026 registrou receita de R$ 82.535,67 e despesa de R$ 24.954,85, gerando superávit líquido de R$ 57.580,82 e margem de 69,8%. Embora a receita tenha caído 83,2% em relação ao pico de março (R$ 490.744), o resultado permaneceu positivo pelo segundo mês consecutivo, elevando o saldo acumulado do ano para R$ 251.045. O Plano Diamante liderou a receita com R$ 32.800 (39,7%), seguido pelo Plano Prata com R$ 19.141 (23,2%) e Adicional de Tizerpatida com R$ 8.059 (9,8%).\n\nO mês apresentou uma estrutura de despesas enxuta, com apenas R$ 24.955 de saída — a menor do ano até agora. Compras de insumos (R$ 20.375) representaram 81,6% das despesas, indicando que os custos fixos (salários, tributos) estão concentrados em outros meses. A presença de receita dos planos em abril, mesmo que menor, sugere que há um ciclo secundário de cobranças além da concentração principal de março.",
+      "error": null
+    },
+    "receita": {
+      "title": "Receita",
+      "analysis": "A receita de abril totalizou R$ 82.535,67, com destaque para Plano Diamante (R$ 32.800, 39,7%), Plano Prata (R$ 19.141, 23,2%), Adicional de Tizerpatida (R$ 8.059, 9,8%), Plano Bronze (R$ 6.075, 7,4%) e Implantes (R$ 3.900, 4,7%). Os planos de serviço somaram R$ 57.516 (69,7% do total), demonstrando que há cobranças residuais ou de novos contratos fora do ciclo principal de março. Consultas contribuíram com R$ 3.550, Suplementos R$ 3.259 e Teste Nutrigenético R$ 3.600.\n\nA cliente Monica de Oliveira destaca-se com R$ 20.450 (24,8% da receita), seguida por Isabela Fanti (R$ 16.720) e Nair da Silva (R$ 7.000). A concentração em dois clientes que representam 45% da receita do mês é um ponto de atenção — no entanto, isso reflete contratos de planos com valores elevados e não necessariamente um risco estrutural. A diversificação de serviços (Tizerpatida, Implantes, Nutrigenético) contribuiu com R$ 15.559, mostrando potencial de crescimento dessas linhas.",
+      "error": null
+    },
+    "despesa": {
+      "title": "Despesa",
+      "analysis": "Abril registrou a menor despesa do ano: R$ 24.954,85, uma redução de 80,6% em relação a março. Compras de insumos dominaram com R$ 20.375 (81,6%), seguidas de Marketing (R$ 4.100, 16,4%), Plano de Saúde (R$ 260), Telefonia (R$ 215) e ISS (R$ 5). A ausência de salários, tributos federais e demais custos fixos sugere que esses pagamentos foram concentrados em outros meses ou estão pendentes de lançamento. Os principais fornecedores foram Kamilla Pimentel Dermatologia (R$ 8.640), Wilian de Souza Oliveira (R$ 7.200) e Bioma4me (R$ 2.691).\n\nA despesa extremamente baixa de abril levanta uma ressalva: a ausência de salários e encargos trabalhistas no mês é atípica e pode indicar lançamentos pendentes ou regime de pagamento diferenciado. É fundamental verificar se todos os compromissos de abril estão devidamente registrados para evitar surpresas nos meses seguintes. O custo com Marketing manteve-se estável em R$ 4.100, consistente com o investimento mensal da clínica nesta frente.",
+      "error": null
+    },
+    "fluxo_caixa": {
+      "title": "Fluxo de Caixa",
+      "analysis": "O fluxo de caixa de abril foi positivo em R$ 57.580,82, consolidando a recuperação iniciada em março. O saldo acumulado do ano atingiu R$ 251.045, o ponto mais alto do primeiro quadrimestre. A relação receita/despesa de 3,3x foi excelente, demonstrando eficiência operacional quando os custos fixos estão equacionados.\n\nCom R$ 251.045 acumulados em quatro meses, a posição de caixa está confortável. No entanto, a tendência de queda na receita mensal (de R$ 490.744 em março para R$ 82.536 em abril) sinaliza que o ciclo de alta está se encerrando. Maio já mostra sinais de desaceleração com receita estimada bem menor. A recomendação é preservar o saldo atual como reserva para os meses de baixa e evitar compromissos adicionais significativos até que o próximo ciclo de alta se confirme.",
+      "error": null
+    },
+    "tesouraria": {
+      "title": "Tesouraria",
+      "analysis": "A tesouraria de abril mostra R$ 82.535,67 recebidos contra R$ 24.954,85 pagos, sem pendências. O saldo acumulado de R$ 251.045 oferece margem confortável de liquidez. A entrada líquida de R$ 57.581 reforçou a posição de caixa, que agora tem folga para absorver eventuais meses de déficit no segundo semestre.\n\nA posição de caixa atual permite considerar ações estratégicas: antecipação de pagamentos com desconto, investimentos em equipamentos ou expansão de serviços, ou simplesmente a constituição de reserva para os meses de menor faturamento. A prioridade deve ser manter liquidez suficiente para cobrir pelo menos três meses de custo operacional (estimado em R$ 60.000-80.000/mês), o que o saldo atual atende com folga.",
+      "error": null
+    },
+    "comparativo": {
+      "title": "Comparativo",
+      "analysis": "Abril representou uma desaceleração controlada após o pico de março: receita caiu 83,2% (de R$ 490.744 para R$ 82.536), mas a despesa também caiu 80,6% (de R$ 128.636 para R$ 24.955), mantendo a margem líquida elevada em 69,8%. O resultado positivo de R$ 57.581 foi o segundo melhor do ano, atrás apenas de março. O acumulado do quadrimestre (R$ 251.045) representa margem líquida de 41,2% sobre a receita total do período.\n\nComparando os dois trimestres em formação: o T1 (jan-mar) gerou saldo de R$ 193.464, enquanto abril sozinho adicionou R$ 57.581. A tendência é de desaceleração gradual, com maio projetando receita ainda menor. O padrão sazonal da Aliadacont está se tornando claro: concentração de receita entre março e abril, com os demais meses operando em base bem menor.",
+      "error": null
+    }
+  },
+  "conclusao": "Abril consolidou o quadrimestre com superávit de R$ 57.581 e saldo acumulado de R$ 251.045, confirmando a rentabilidade do modelo de negócio da Aliadacont quando os planos de serviço estão ativos. A margem líquida de 69,8% foi sustentada por uma despesa operacional enxuta de R$ 24.955, a menor do ano. O Plano Diamante liderou o faturamento com R$ 32.800, complementado por receitas diversificadas de Tizerpatida, Implantes e Consultas.\n\nRecomendações: (1) Verificar a completude dos lançamentos de despesa de abril, especialmente salários e encargos que não aparecem no período — podem estar pendentes e impactarão meses futuros. (2) Destinar parte do excedente acumulado (R$ 251.045) para uma aplicação de liquidez diária, gerando rendimento enquanto mantém disponibilidade para compromissos. (3) Investir na ampliação das linhas complementares de receita (Tizerpatida, Implantes, Nutrigenético) que já representam 18,9% do faturamento de abril e podem reduzir a dependência dos planos recorrentes."
+}

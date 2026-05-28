@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-05-28T14:00:00.000Z",
+  "empresa": "Aliadacont",
+  "periodo": "Março/2026",
+  "year": 2026,
+  "month": 3,
+  "filter": "realizado",
+  "secoes": {
+    "visao_geral": {
+      "title": "Visão Geral",
+      "analysis": "Março de 2026 foi o mês de maior expressão financeira da Aliadacont no ano, com receita realizada de R$ 490.743,83 e despesa de R$ 128.635,53, gerando um superávit líquido de R$ 362.108,30 e margem líquida de 73,8%. Este resultado não apenas reverteu o déficit acumulado de R$ 168.644 do primeiro bimestre como levou o saldo acumulado do ano para R$ 193.464 positivos. Os planos de serviço dominaram a receita: Plano Prata (R$ 233.574, 47,6%), Plano Diamante (R$ 110.982, 22,6%) e Plano Bronze (R$ 95.513, 19,5%), somando 89,7% do faturamento do mês.\n\nO resultado excepcional de março confirma que o modelo de negócios da clínica é altamente dependente da entrada concentrada dos planos de serviço. A despesa de R$ 128.636 manteve-se em nível compatível com a operação, com destaque para Compras de insumos (R$ 58.896), Antecipação de Lucros (R$ 20.750) e Salários (R$ 16.735). O fato de 89,7% da receita vir dos planos recorrentes é positivo em termos de previsibilidade, mas a concentração em um único mês representa risco de liquidez nos demais.",
+      "error": null
+    },
+    "receita": {
+      "title": "Receita",
+      "analysis": "A receita de março alcançou R$ 490.743,83, um salto de 10.101% em relação a fevereiro. O Plano Prata liderou com R$ 233.574 (47,6%), seguido pelo Plano Diamante com R$ 110.982 (22,6%), Plano Bronze com R$ 95.513 (19,5%), Injetáveis com R$ 24.302 (5,0%) e Protocolo Body Reset com R$ 6.436 (1,3%). Os 10 maiores clientes responderam por receitas entre R$ 16.050 e R$ 17.359 cada, demonstrando boa distribuição na base de clientes dos planos. Letícia Pionti (R$ 17.359), Meriely Rufino (R$ 16.700) e Edilaine Márcia (R$ 16.700) foram os maiores contribuintes.\n\nA concentração de 89,7% da receita em três planos de serviço é simultaneamente uma força (previsibilidade contratual) e uma vulnerabilidade (qualquer cancelamento em massa impacta fortemente o resultado). A diversificação de receita através de Injetáveis, Protocolo Body Reset, Teste Nutrigenético e Consultas representa 10,3% do faturamento — uma participação que pode ser expandida para reduzir a dependência dos planos. A boa distribuição entre clientes (nenhum representa mais de 3,5% do total) reduz o risco de concentração de carteira.",
+      "error": null
+    },
+    "despesa": {
+      "title": "Despesa",
+      "analysis": "As despesas de março totalizaram R$ 128.635,53, aumento de 163,4% sobre fevereiro, refletindo o aumento natural de atividade operacional. Compras de insumos lideraram com R$ 58.896 (45,8%), seguidas por Antecipação de Lucros (R$ 20.750, 16,1%), Salários (R$ 16.735, 13,0%), Despesas a Identificar (R$ 9.475, 7,4%) e Marketing (R$ 7.100, 5,5%). Os principais fornecedores foram BIO MEDS Pharmaceutica (R$ 24.645), Tokarski Comércio (R$ 14.300) e BIOS Farmacêutica (R$ 12.501).\n\nO custo com Compras/insumos de R$ 58.896 representa 12,0% da receita de março, indicando uma relação custo-receita saudável para a operação. A Antecipação de Lucros (R$ 20.750) reflete a distribuição de resultados aos sócios, prática que deve ser calibrada considerando os meses de caixa negativo (jan-fev). As Despesas a Identificar (R$ 9.475) precisam ser classificadas adequadamente para garantir a acurácia dos relatórios. A concentração de fornecedores farmacêuticos (BIO MEDS + Tokarski + BIOS = R$ 51.446) sugere oportunidade de negociação de volume.",
+      "error": null
+    },
+    "fluxo_caixa": {
+      "title": "Fluxo de Caixa",
+      "analysis": "Março registrou entrada líquida de R$ 362.108,30, revertendo completamente o déficit acumulado de R$ 168.644 e elevando o saldo do ano para R$ 193.464 positivos. A receita de R$ 490.744 superou a despesa de R$ 128.636 por uma margem de 3,8x, demonstrando a força do modelo de negócio quando os planos de serviço estão em fase de cobrança. O saldo acumulado passou de -R$ 168.644 para +R$ 193.464 em um único mês.\n\nA reversão de R$ 362.108 em um mês evidencia o padrão cíclico do fluxo de caixa da Aliadacont: dois meses de queima seguidos por um mês de forte recuperação. Este padrão, embora funcional, exige reservas robustas para atravessar os períodos de baixa. Com o saldo agora positivo em R$ 193.464, a empresa tem folga para os próximos meses, mas o ideal seria distribuir esse excedente entre provisões tributárias, reserva operacional e investimentos.",
+      "error": null
+    },
+    "tesouraria": {
+      "title": "Tesouraria",
+      "analysis": "A tesouraria de março mostra posição forte: R$ 490.743,83 recebidos contra R$ 128.635,53 pagos, gerando entrada líquida de R$ 362.108,30. O saldo acumulado do ano saltou para R$ 193.464 positivos. Não houve pendências a receber ou a pagar, indicando que toda a movimentação foi liquidada dentro do mês. A posição de caixa máxima atingida em março oferece conforto para os compromissos dos próximos meses.\n\nCom o excedente de março, é o momento ideal para: (1) provisionar R$ 100.000+ para as obrigações tributárias que incidirão sobre esse faturamento nos próximos meses, (2) constituir reserva de capital de giro de pelo menos R$ 50.000 para cobrir os meses de baixa receita, e (3) avaliar antecipação de pagamentos a fornecedores estratégicos para negociar descontos. A saúde do caixa depende criticamente da gestão disciplinada do excedente gerado neste mês.",
+      "error": null
+    },
+    "comparativo": {
+      "title": "Comparativo",
+      "analysis": "Março representou uma guinada radical em relação ao bimestre anterior: a receita saltou de R$ 4.810 (fev) para R$ 490.744 (+10.101%), enquanto a despesa subiu de R$ 48.829 para R$ 128.636 (+163,4%). O superávit de R$ 362.108 contrastou com os déficits de R$ 124.625 (jan) e R$ 44.019 (fev). A margem líquida passou de -915,1% em fevereiro para +73,8% em março, a melhor do semestre.\n\nA volatilidade entre meses — de -R$ 124.625 a +R$ 362.108 — é o principal desafio financeiro da Aliadacont. Em termos absolutos, março sozinho gerou R$ 362.108 de superávit, mais que suficiente para cobrir os R$ 168.644 de déficit acumulado nos dois meses anteriores. O trimestre 1 encerrou com saldo positivo de R$ 193.464, demonstrando que o modelo é rentável no acumulado, mas exige gestão cuidadosa de liquidez.",
+      "error": null
+    }
+  },
+  "conclusao": "Março de 2026 consolidou a virada financeira da Aliadacont, com superávit de R$ 362.108 que não apenas zerou o déficit de R$ 168.644 acumulado no bimestre jan-fev, como levou o saldo do ano para R$ 193.464 positivos. O resultado foi impulsionado pela entrada concentrada dos planos de serviço (Prata, Diamante e Bronze = R$ 440.069, 89,7% da receita), enquanto as despesas se mantiveram em R$ 128.636, com boa relação custo-receita de 26,2%. O primeiro trimestre encerrou com rentabilidade líquida acumulada de 27,5%.\n\nRecomendações: (1) Provisionar imediatamente R$ 100.000 do excedente de março para as obrigações tributárias (IRPJ, ISS, PIS/COFINS) que incidirão sobre o faturamento, evitando repetir o estrangulamento de caixa de janeiro. (2) Renegociar com fornecedores farmacêuticos (BIO MEDS, Tokarski, BIOS — R$ 51.446 só em março) contratos de fornecimento anual com desconto por volume, aproveitando o poder de compra demonstrado. (3) Classificar os R$ 9.475 em Despesas a Identificar para garantir acurácia contábil e melhor visibilidade dos custos operacionais reais."
+}

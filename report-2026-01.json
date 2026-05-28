@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-05-28T14:00:00.000Z",
+  "empresa": "Aliadacont",
+  "periodo": "Janeiro/2026",
+  "year": 2026,
+  "month": 1,
+  "filter": "realizado",
+  "secoes": {
+    "visao_geral": {
+      "title": "Visão Geral",
+      "analysis": "Janeiro de 2026 apresentou um cenário desafiador para a Aliadacont, com receita realizada de R$ 7.795,06 contra uma despesa expressiva de R$ 132.420,28, resultando em um déficit líquido de R$ 124.625,22. A margem líquida ficou em -1.598,7%, reflexo de um mês com alto volume de obrigações tributárias — IRPJ e CSLL (R$ 42.977), ISS (R$ 30.629) e PIS/COFINS (R$ 27.949) — que juntas representaram mais de 76% da despesa total. A receita concentrou-se em Consultas (R$ 3.200) e Suplementos (R$ 2.595), ainda longe de compensar os compromissos fiscais.\n\nO resultado negativo de janeiro é típico de meses com concentração de tributos do período anterior, o que não necessariamente indica problema estrutural. No entanto, o baixo volume de receita no período merece atenção: apenas R$ 7.795 foram efetivamente recebidos, sem qualquer valor a receber pendente. A recomendação é monitorar a entrada dos planos de serviço nos meses seguintes para garantir a recuperação do caixa e avaliar o planejamento tributário para diluir o impacto dos impostos ao longo do ano.",
+      "error": null
+    },
+    "receita": {
+      "title": "Receita",
+      "analysis": "A receita realizada em janeiro totalizou R$ 7.795,06, distribuída entre três categorias principais: Consultas com R$ 3.200 (41% do total), Suplementos com R$ 2.595 (33%) e Receitas de Serviços a Identificar com R$ 2.000 (26%). Os rendimentos de aplicações financeiras foram residuais, com apenas R$ 0,06. Não houve valores a receber no período, indicando que toda a receita prevista foi efetivamente quitada.\n\nA ausência de receitas dos planos de serviço (Prata, Diamante, Bronze) em janeiro é o principal ponto de atenção. Esses planos costumam ser o carro-chefe do faturamento da clínica. O volume baixo pode indicar que os contratos de planos foram concentrados em outros meses ou que houve atraso na entrada dos recebimentos. Os principais clientes do mês foram atendimentos avulsos de consulta, com destaque para Joerlaine da Silva (R$ 700), Doriete de Souza (R$ 500) e Meriely Rufino (R$ 500).",
+      "error": null
+    },
+    "despesa": {
+      "title": "Despesa",
+      "analysis": "As despesas de janeiro somaram R$ 132.420,28, fortemente impactadas por obrigações tributárias que representaram R$ 101.555 (76,7% do total). IRPJ e CSLL lideraram com R$ 42.977 (32,5%), seguidos de ISS com R$ 30.629 (23,1%) e PIS/COFINS com R$ 27.949 (21,1%). Materiais Aplicados na Prestação de Serviços consumiram R$ 7.500 (5,7%) e INSS sobre Salários totalizou R$ 7.012 (5,3%). Os principais fornecedores foram lançamentos sem identificação (R$ 117.123, referentes aos tributos em guia), BIO MEDS Pharmaceutica (R$ 7.500) e Delogo & Saints Contabilidade (R$ 2.360).\n\nA concentração de tributos em janeiro distorce a análise mensal, já que estes valores referem-se tipicamente a fatos geradores do período anterior. É fundamental separar os impostos recorrentes dos custos operacionais para uma visão mais limpa da eficiência da operação. Os custos com marketing (R$ 2.100) e alimentação (R$ 45) foram relativamente baixos, sugerindo que a operação comercial estava em ritmo reduzido no início do ano.",
+      "error": null
+    },
+    "fluxo_caixa": {
+      "title": "Fluxo de Caixa",
+      "analysis": "O fluxo de caixa de janeiro registrou um saldo negativo de R$ 124.625,22, com receita de R$ 7.795,06 insuficiente para cobrir a despesa de R$ 132.420,28. A margem líquida ficou em -1.598,7%, evidenciando a forte pressão das obrigações tributárias sobre o caixa. Este é o ponto mais baixo do fluxo de caixa no primeiro semestre, funcionando como um vale que precede a recuperação nos meses seguintes.\n\nA saída líquida de R$ 124.625 em janeiro é um padrão esperado em empresas com tributação concentrada no início do ano. O ponto crítico é garantir que o caixa disponível no final de dezembro tenha sido suficiente para absorver esse impacto. Para os próximos ciclos, recomenda-se provisionar mensalmente os tributos para evitar a pressão concentrada sobre o caixa de janeiro.",
+      "error": null
+    },
+    "tesouraria": {
+      "title": "Tesouraria",
+      "analysis": "A posição de tesouraria em janeiro mostra um cenário de saída líquida significativa: R$ 7.795,06 recebidos contra R$ 132.420,28 pagos, sem valores pendentes a receber ou a pagar no período. O saldo acumulado ao final de janeiro ficou negativo em R$ 124.625, representando o ponto de maior pressão sobre o caixa no ano.\n\nA ausência de valores a receber em janeiro indica que o mês não gerou faturamento futuro relevante, o que reforça a hipótese de sazonalidade ou período de baixa atividade comercial. A recomendação é monitorar o saldo de caixa disponível e garantir que as reservas sejam suficientes para absorver meses com perfil tributário pesado como este, evitando necessidade de capital de giro emergencial.",
+      "error": null
+    },
+    "comparativo": {
+      "title": "Comparativo",
+      "analysis": "Comparando janeiro isoladamente, o mês apresenta o pior resultado do primeiro semestre de 2026, com déficit de R$ 124.625. Este resultado contrasta fortemente com março, que registrou superávit de R$ 362.108 — uma diferença de R$ 486.733 entre os dois meses. A concentração de tributos em janeiro e a entrada massiva de receitas dos planos de serviço em março explicam essa volatilidade.\n\nA disparidade entre meses sugere uma forte sazonalidade no fluxo de caixa da Aliadacont. Enquanto janeiro absorve impostos do período anterior com receita mínima, março concentra a entrada de contratos dos planos. Para reduzir essa volatilidade, recomenda-se avaliar a possibilidade de distribuir melhor os recebimentos ao longo dos meses e provisionar tributos mensalmente.",
+      "error": null
+    }
+  },
+  "conclusao": "Janeiro de 2026 foi um mês de forte pressão sobre o caixa da Aliadacont, com déficit líquido de R$ 124.625 causado pela concentração de obrigações tributárias (IRPJ, CSLL, ISS e PIS/COFINS totalizando R$ 101.555) contra uma receita operacional de apenas R$ 7.795. A ausência de receitas dos planos de serviço neste mês e o baixo volume de consultas avulsas não ofereceram qualquer contrapeso às saídas. O cenário, embora negativo, é estrutural e esperado para o início do ano fiscal.\n\nRecomendações estratégicas: (1) Implementar um regime de provisão tributária mensal, reservando aproximadamente R$ 17.000/mês para diluir o impacto das obrigações ao longo do ano em vez de concentrá-las em janeiro. (2) Avaliar a antecipação de recebimentos de planos de serviço para janeiro, negociando com clientes condições de pagamento que garantam fluxo mínimo no primeiro mês do ano. (3) Manter uma reserva de caixa equivalente a pelo menos R$ 150.000 ao final de dezembro para absorver o impacto tributário de janeiro sem comprometer a operação."
+}

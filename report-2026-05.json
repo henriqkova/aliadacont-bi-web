@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-05-28T14:00:00.000Z",
+  "empresa": "Aliadacont",
+  "periodo": "Maio/2026",
+  "year": 2026,
+  "month": 5,
+  "filter": "realizado",
+  "secoes": {
+    "visao_geral": {
+      "title": "Visão Geral",
+      "analysis": "Maio de 2026 retornou ao território negativo com receita realizada de R$ 5.615,00 e despesa de R$ 12.586,22, resultando em déficit líquido de R$ 6.971,22 e margem de -124,2%. O resultado reduziu o saldo acumulado do ano de R$ 251.045 para R$ 244.074. Embora o déficit seja relativamente modesto, marca o retorno ao padrão de baixa receita observado em janeiro e fevereiro. A receita concentrou-se em Suplementos (R$ 2.111), Consultas (R$ 1.800) e Adicional de Tizerpatida (R$ 1.704). Há R$ 13.988 a receber ainda no mês, o que pode melhorar o resultado final.\n\nAs despesas foram dominadas por Compras de insumos (R$ 7.934, 63,0%) e Marketing (R$ 4.100, 32,6%), mantendo o padrão de investimento em publicidade mesmo nos meses de baixa receita. A existência de R$ 13.988 a receber é positiva e indica que maio pode encerrar com um resultado próximo do equilíbrio quando esses valores forem liquidados. O saldo acumulado de R$ 244.074 permanece saudável e oferece conforto para os meses seguintes.",
+      "error": null
+    },
+    "receita": {
+      "title": "Receita",
+      "analysis": "A receita realizada de maio foi de R$ 5.615, com distribuição entre Suplementos (R$ 2.111, 37,6%), Consultas (R$ 1.800, 32,1%) e Adicional de Tizerpatida (R$ 1.704, 30,3%). Os planos de serviço não tiveram entrada no mês, confirmando que o ciclo de cobrança está concentrado entre março e abril. Os principais clientes foram Marilza de Aguiar (R$ 1.404), Cristina Bragança (R$ 650), Lúcia Moreira (R$ 650), Dorli Martins (R$ 625) e Maria das Graças (R$ 500). Há R$ 13.988 a receber pendente, que se liquidado elevaria a receita total para R$ 19.603.\n\nA receita de maio está em linha com o padrão de janeiro-fevereiro, com faturamento baseado em serviços avulsos (consultas, suplementos, procedimentos). A presença de R$ 13.988 a receber sugere que há contratos faturados aguardando pagamento. A Tizerpatida continua ganhando relevância como linha de receita complementar, representando 30,3% do faturamento realizado — uma tendência positiva de diversificação.",
+      "error": null
+    },
+    "despesa": {
+      "title": "Despesa",
+      "analysis": "As despesas de maio totalizaram R$ 12.586,22, distribuídas entre Compras (R$ 7.934, 63,0%), Marketing e Publicidade (R$ 4.100, 32,6%), Plano de Saúde (R$ 260, 2,1%), Telefonia (R$ 215, 1,7%) e IRRF (R$ 41, 0,3%). Novamente os salários e encargos trabalhistas não aparecem no mês, padrão que se repete desde abril. Os fornecedores principais foram Google Brasil (R$ 2.639), Ketelly Goularte (R$ 2.600), BIO MEDS (R$ 2.557) e Wilian de Souza (R$ 2.100).\n\nO Marketing manteve-se estável em R$ 4.100/mês, sendo o segundo maior item de despesa. O investimento em Google Ads (R$ 2.639) e Rádio São Francisco (R$ 2.000) compõe a estratégia de captação de clientes. A relação marketing/receita de 73% em maio é elevada, mas precisa ser avaliada no contexto anual — no acumulado, marketing representa apenas 4,2% da receita total. A ausência de salários por dois meses consecutivos deve ser investigada.",
+      "error": null
+    },
+    "fluxo_caixa": {
+      "title": "Fluxo de Caixa",
+      "analysis": "O fluxo de caixa de maio registrou saída líquida de R$ 6.971, reduzindo o saldo acumulado para R$ 244.074. Esta é a menor saída líquida negativa do ano, bem inferior aos déficits de janeiro (-R$ 124.625) e fevereiro (-R$ 44.019). O ritmo de queima de caixa desacelerou significativamente, e com R$ 244.074 acumulados, a empresa tem conforto para meses de operação.\n\nConsiderando o padrão de receita dos próximos meses (junho a dezembro com valores pendentes de R$ 4.575 a R$ 16.261 a receber por mês), o caixa acumulado é suficiente para cobrir a operação até o final do ano, desde que as despesas se mantenham no patamar atual (R$ 12.000-25.000/mês). O risco principal está na concentração dos tributos que incidirão sobre a receita de março, que podem impactar o caixa nos próximos meses de forma semelhante a janeiro.",
+      "error": null
+    },
+    "tesouraria": {
+      "title": "Tesouraria",
+      "analysis": "A posição de tesouraria em maio mostra R$ 5.615 recebidos, R$ 12.586 pagos e R$ 13.988 a receber pendentes. Não há valores a pagar no mês. O saldo acumulado de R$ 244.074 é robusto e cobre mais de 10 meses de despesa operacional no ritmo atual. A liquidez da empresa está em posição confortável.\n\nOs R$ 13.988 a receber são relevantes — representam 2,5x a receita realizada do mês. A velocidade de conversão desses valores em caixa efetivo determinará se maio encerra próximo do equilíbrio ou mantém o déficit. Para o segundo semestre, os valores a receber mensais projetados (R$ 7.000 a R$ 16.000) podem sustentar uma operação mínima, mas o próximo ciclo forte de receita depende do faturamento dos planos de serviço, provavelmente em março de 2027.",
+      "error": null
+    },
+    "comparativo": {
+      "title": "Comparativo",
+      "analysis": "Maio confirmou o retorno ao padrão de baixa receita: R$ 5.615 contra R$ 82.536 de abril, uma queda de 93,2%. No entanto, a despesa também caiu de R$ 24.955 para R$ 12.586 (-49,6%), limitando o déficit a apenas R$ 6.971. Comparando com o início do ano, maio foi significativamente melhor que janeiro (-R$ 124.625) e fevereiro (-R$ 44.019) em termos de saída líquida.\n\nO primeiro quinquimestre apresenta um padrão claro: dois meses de queima pesada (jan-fev: -R$ 168.644), um mês de recuperação excepcional (mar: +R$ 362.108), um mês de superávit moderado (abr: +R$ 57.581) e retorno à base (mai: -R$ 6.971). O saldo acumulado de R$ 244.074 ao final de maio é sólido e demonstra a viabilidade do modelo, desde que a gestão de caixa seja disciplinada nos meses de baixa.",
+      "error": null
+    }
+  },
+  "conclusao": "Maio encerrou com déficit modesto de R$ 6.971, mantendo o saldo acumulado robusto em R$ 244.074. O mês marca a transição para o período de baixa receita da Aliadacont, com faturamento baseado em serviços avulsos (Suplementos, Consultas, Tizerpatida) totalizando R$ 5.615 realizados e R$ 13.988 a receber. As despesas de R$ 12.586 foram contidas, embora a ausência de salários e encargos por dois meses consecutivos mereça verificação. O investimento em marketing (R$ 4.100/mês) foi mantido mesmo no período de baixa, visando a captação contínua de clientes.\n\nRecomendações: (1) Investigar a ausência de lançamentos de salários e encargos em abril e maio — se estiverem pendentes, representam um passivo estimado de R$ 35.000-40.000 que impactará meses futuros. (2) Acelerar a conversão dos R$ 13.988 a receber em maio e monitorar a inadimplência dos meses futuros (R$ 86.117 total a receber no ano). (3) Iniciar o planejamento tributário do faturamento de março (R$ 490.744) que gerará obrigações significativas de IRPJ, ISS e PIS/COFINS, provisionando pelo menos R$ 80.000-100.000 do saldo atual para essa finalidade."
+}

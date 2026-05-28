@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-05-28T14:00:00.000Z",
+  "empresa": "Aliadacont",
+  "periodo": "Fevereiro/2026",
+  "year": 2026,
+  "month": 2,
+  "filter": "realizado",
+  "secoes": {
+    "visao_geral": {
+      "title": "Visão Geral",
+      "analysis": "Fevereiro de 2026 registrou receita de R$ 4.810,36 e despesa de R$ 48.829,03, resultando em déficit líquido de R$ 44.018,67 e margem de -915,1%. Embora ainda negativo, o resultado representa uma melhora significativa em relação a janeiro (déficit de R$ 124.625), com redução de 64,7% nas despesas. A receita permaneceu baixa, concentrada em Consultas (R$ 4.550) e Suplementos (R$ 260), ainda sem entrada dos planos de serviço recorrentes.\n\nAs despesas foram dominadas por Salários (R$ 16.212), Compras de insumos (R$ 12.460) e Marketing (R$ 5.600), representando custos operacionais mais regulares em comparação ao peso tributário de janeiro. O INSS sobre salários totalizou R$ 2.956 e o ISS ficou em R$ 2.246. O saldo acumulado no ano atingiu -R$ 168.644, aprofundando o déficit acumulado. A expectativa é de recuperação forte em março com a entrada dos planos.",
+      "error": null
+    },
+    "receita": {
+      "title": "Receita",
+      "analysis": "A receita de fevereiro totalizou R$ 4.810,36, ligeiramente abaixo de janeiro (R$ 7.795), com concentração quase total em Consultas (R$ 4.550, 94,6%) e uma participação marginal de Suplementos (R$ 260, 5,4%). Os rendimentos de aplicações foram de R$ 0,36. Não houve valores a receber pendentes no período. Os principais clientes foram Érica Rodrigues (R$ 650), Mayke Correia (R$ 650), Letícia Batista (R$ 650), Edilaine Márcia (R$ 650) e Divaldo Gomes (R$ 650), todos com valor de consulta padrão.\n\nA receita de fevereiro continua muito abaixo do potencial da clínica, que em março demonstrou capacidade de faturar R$ 490.744. A ausência dos planos de serviço (Prata, Diamante, Bronze) por dois meses consecutivos sugere que o ciclo de faturamento desses contratos é concentrado e não mensal. Entender esse ciclo é fundamental para o planejamento de caixa.",
+      "error": null
+    },
+    "despesa": {
+      "title": "Despesa",
+      "analysis": "As despesas de fevereiro totalizaram R$ 48.829,03, uma queda de 63,1% em relação a janeiro. Os principais itens foram Salários (R$ 16.212, 33,2%), Compras de insumos (R$ 12.460, 25,5%) e Marketing e Publicidade (R$ 5.600, 11,5%). Encargos trabalhistas (INSS R$ 2.956) e ISS (R$ 2.246) completaram o quadro. O principal fornecedor identificado foi Elmeco Serviços Farmacêuticos (R$ 7.140), seguido de Wolf Mentors (R$ 2.500) e Wilian de Souza Oliveira (R$ 2.100).\n\nA estrutura de despesas de fevereiro reflete melhor o custo operacional recorrente da clínica, sem a distorção dos tributos concentrados de janeiro. O custo com Marketing representou 11,5% da despesa total, um investimento relevante que deve ser avaliado em relação ao retorno em captação de novos clientes nos meses seguintes. As compras de insumos (R$ 12.460) indicam reposição de estoque para atender a demanda esperada em março.",
+      "error": null
+    },
+    "fluxo_caixa": {
+      "title": "Fluxo de Caixa",
+      "analysis": "O fluxo de caixa de fevereiro registrou saída líquida de R$ 44.019, elevando o déficit acumulado no ano para R$ 168.644. A receita de R$ 4.810 cobriu apenas 9,9% da despesa de R$ 48.829. O mês deu continuidade ao padrão de queima de caixa iniciado em janeiro, porém em ritmo significativamente menor — a saída líquida reduziu 64,7% em relação ao mês anterior.\n\nO fluxo negativo acumulado de R$ 168.644 em dois meses exige atenção ao capital de giro disponível. A expectativa é que março reverta esse quadro com a entrada dos planos de serviço. Caso a recuperação de março não se materialize conforme esperado, a empresa pode enfrentar necessidade de capital de giro adicional. Recomenda-se acompanhar semanalmente a posição de caixa até a confirmação das entradas de março.",
+      "error": null
+    },
+    "tesouraria": {
+      "title": "Tesouraria",
+      "analysis": "A tesouraria de fevereiro mostra R$ 4.810,36 recebidos contra R$ 48.829,03 pagos, sem pendências a receber ou a pagar. O saldo acumulado negativo de R$ 168.644 ao final do mês coloca a empresa em posição delicada de liquidez, dependente da materialização das receitas de março para recompor o caixa.\n\nA concentração de custos operacionais regulares (salários, insumos, marketing) sem contrapartida de receita dos planos de serviço cria uma janela de vulnerabilidade nos dois primeiros meses do ano. Para mitigar esse risco, recomenda-se negociar prazos de pagamento mais elásticos com fornecedores de insumos no início do ano ou estruturar uma linha de crédito rotativo de curto prazo como rede de segurança.",
+      "error": null
+    },
+    "comparativo": {
+      "title": "Comparativo",
+      "analysis": "Fevereiro apresentou melhora em relação a janeiro: o déficit reduziu de R$ 124.625 para R$ 44.019, uma diminuição de 64,7%. As despesas caíram de R$ 132.420 para R$ 48.829 com a saída dos tributos concentrados, mas a receita também caiu de R$ 7.795 para R$ 4.810 (-38,3%). A relação receita/despesa permaneceu desfavorável em 9,9%, embora melhor que os 5,9% de janeiro.\n\nO primeiro bimestre acumula déficit de R$ 168.644, que será absorvido pela forte entrada de março (R$ 490.744 de receita). O padrão bimestral de queima seguido de recuperação forte sugere um ciclo de faturamento concentrado que merece atenção no planejamento de caixa para evitar estresse financeiro nos meses de baixa receita.",
+      "error": null
+    }
+  },
+  "conclusao": "Fevereiro manteve o padrão de déficit iniciado em janeiro, com saída líquida de R$ 44.019 e acumulado negativo de R$ 168.644 no bimestre. As despesas refletiram o custo operacional regular da clínica (salários, insumos e marketing), sem a distorção tributária de janeiro, enquanto a receita permaneceu baixa (R$ 4.810) pela ausência dos planos de serviço. O cenário, embora preocupante em termos de liquidez de curto prazo, é consistente com um modelo de negócio com faturamento concentrado.\n\nRecomendações: (1) Reestruturar os ciclos de cobrança dos planos de serviço para garantir entrada mínima mensal, reduzindo a dependência de meses isolados como março. (2) Negociar com o fornecedor de insumos (BIO MEDS, Elmeco) condições de pagamento em 30/60 dias nos meses de janeiro e fevereiro, alinhando as saídas com a entrada de receita em março. (3) Estabelecer um limite mínimo de caixa de R$ 50.000 como gatilho de alerta para ação preventiva, evitando comprometer a operação nos meses de baixa receita."
+}
