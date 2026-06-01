@@ -290,6 +290,7 @@ function normalizeAdapter(m) {
   if (cancelado) return null;
   const valor = Math.abs(num(m.valor_total) || num(m.valor_pago) || 0);
   if (!valor) return null;
+  const atrasado = m.atrasado || (m.status || '').toUpperCase() === 'ATRASADO';
   return {
     id: m.id,
     kind: (m.natureza || '').toUpperCase() === 'R' ? 'receita' : 'despesa',
@@ -301,6 +302,7 @@ function normalizeAdapter(m) {
     valor,
     status: m.status || '',
     realizado,
+    atrasado,
     cancelado: false,
     regime: m.regime || 'caixa',
   };
@@ -351,11 +353,13 @@ console.log(`  ano de referencia: ${REF_YEAR} | anos disponiveis: ${AVAILABLE_YE
 
 // ---------- segmentos por filtro ----------
 function selectByFilter(items, filter) {
-  // 'realizado'      => status PAGO/RECEBIDO
-  // 'a_pagar_receber'=> status A VENCER, ATRASADO, VENCE HOJE (nao pago)
+  // 'realizado'      => status PAGO/RECEBIDO (conciliado/quitado)
+  // 'atrasado'       => status ATRASADO (vencido e nao pago)
+  // 'a_pagar_receber'=> status A VENCER, VENCE HOJE (nao pago, nao atrasado)
   // 'tudo'           => tudo (exceto CANCELADO, ja filtrado antes)
   if (filter === 'realizado') return items.filter((t) => t.realizado);
-  if (filter === 'a_pagar_receber') return items.filter((t) => !t.realizado);
+  if (filter === 'atrasado') return items.filter((t) => t.atrasado);
+  if (filter === 'a_pagar_receber') return items.filter((t) => !t.realizado && !t.atrasado);
   return items;
 }
 
@@ -547,13 +551,15 @@ function buildSegment(rec, desp, year, label) {
 const hasDualRegime = recNorm.some(t => t.regime) || despNorm.some(t => t.regime);
 const cxRec = hasDualRegime ? recNorm.filter(t => (t.regime || 'caixa') === 'caixa') : recNorm;
 const cxDesp = hasDualRegime ? despNorm.filter(t => (t.regime || 'caixa') === 'caixa') : despNorm;
-console.log('\n=== Construindo segmentos (realizado / a_pagar_receber / tudo) ===');
+console.log('\n=== Construindo segmentos (realizado / atrasado / a_pagar_receber / tudo) ===');
 if (hasDualRegime) console.log(`  dual-regime: ${recNorm.length} rec total → ${cxRec.length} caixa, ${despNorm.length} desp total → ${cxDesp.length} caixa`);
 const realizado = buildSegment(cxRec, cxDesp, REF_YEAR, 'realizado');
+const atrasado = buildSegment(cxRec, cxDesp, REF_YEAR, 'atrasado');
 const a_pagar_receber = buildSegment(cxRec, cxDesp, REF_YEAR, 'a_pagar_receber');
 const tudo = buildSegment(cxRec, cxDesp, REF_YEAR, 'tudo');
 
 console.log(`  realizado: receita=${realizado.KPIS.TOTAL_RECEITA.toFixed(2)} despesa=${realizado.KPIS.TOTAL_DESPESA.toFixed(2)} liq=${realizado.KPIS.VALOR_LIQUIDO.toFixed(2)}`);
+console.log(`  atrasado:  receita=${atrasado.KPIS.TOTAL_RECEITA.toFixed(2)} despesa=${atrasado.KPIS.TOTAL_DESPESA.toFixed(2)}`);
 console.log(`  a_pagar:   receita=${a_pagar_receber.KPIS.TOTAL_RECEITA.toFixed(2)} despesa=${a_pagar_receber.KPIS.TOTAL_DESPESA.toFixed(2)}`);
 console.log(`  tudo:      receita=${tudo.KPIS.TOTAL_RECEITA.toFixed(2)} despesa=${tudo.KPIS.TOTAL_DESPESA.toFixed(2)}`);
 
@@ -615,13 +621,14 @@ const META = ${JSON.stringify(meta, null, 2)};
 const POSICAO_CAIXA = ${JSON.stringify(POSICAO_CAIXA, null, 2)};
 const COMPOSICAO_DESPESA = ${JSON.stringify(COMPOSICAO_DESPESA, null, 2)};
 
-const SEGMENTS = ${JSON.stringify({ realizado, a_pagar_receber, tudo }, null, 2)};
+const SEGMENTS = ${JSON.stringify({ realizado, atrasado, a_pagar_receber, tudo }, null, 2)};
 
 // ALL_TX: lista flat de TODAS as transacoes normalizadas (despesa + receita,
 // realizadas + a pagar + canceladas excluidas). Usada pra cross-filter real
 // — pagina recalcula KPIs/charts/tabelas em runtime via aggregateTx().
 // Cada row eh tupla compacta pra reduzir tamanho do bundle:
-// [kind, mes, dia, categoria, cliente, valor, realizado, fornecedor, centroCusto, regime]
+// [kind, mes, dia, categoria, cliente, valor, statusCode, fornecedor, centroCusto, regime]
+// statusCode: 1 = realizado, 0 = em aberto, 2 = atrasado
 // regime: 'c' = caixa, 'k' = competencia (compacto pra economizar bytes)
 const ALL_TX = ${JSON.stringify([
   ...recNorm.map(t => [
@@ -631,7 +638,7 @@ const ALL_TX = ${JSON.stringify([
     t.categoria,
     t.cliente,
     t.valor,
-    t.realizado ? 1 : 0,
+    t.realizado ? 1 : (t.atrasado ? 2 : 0),
     '',
     t.centroCusto || '',
     (t.regime || 'caixa') === 'caixa' ? 'c' : 'k',
@@ -643,7 +650,7 @@ const ALL_TX = ${JSON.stringify([
     t.categoria,
     '',
     t.valor,
-    t.realizado ? 1 : 0,
+    t.realizado ? 1 : (t.atrasado ? 2 : 0),
     t.cliente,
     t.centroCusto || '',
     (t.regime || 'caixa') === 'caixa' ? 'c' : 'k',
@@ -740,15 +747,17 @@ function aggregateTx(txList, year) {
 }
 
 // applyDrilldown: filtra ALL_TX baseado em statusFilter + drilldown + regime.
-// statusFilter: 'realizado' | 'a_pagar_receber' | 'tudo'
+// statusFilter: 'realizado' | 'atrasado' | 'a_pagar_receber' | 'tudo'
 // drilldown: null | { type: 'mes'|'categoria'|'cliente'|'fornecedor', value: ... }
 // regime: 'caixa' | 'competencia' | null (null = caixa default)
+// statusCode index [6]: 1 = realizado, 0 = em aberto, 2 = atrasado
 function filterTx(allTx, statusFilter, drilldown, regime, extraFilters) {
   let out = allTx;
   // Filtro por regime (caixa/competencia) — index [9]: 'c' ou 'k'
   var rg = (regime === 'competencia') ? 'k' : 'c';
   out = out.filter(r => r[9] === rg);
   if (statusFilter === 'realizado') out = out.filter(r => r[6] === 1);
+  else if (statusFilter === 'atrasado') out = out.filter(r => r[6] === 2);
   else if (statusFilter === 'a_pagar_receber') out = out.filter(r => r[6] === 0);
   if (drilldown) {
     if (drilldown.type === 'mes') out = out.filter(r => r[1] === drilldown.value);

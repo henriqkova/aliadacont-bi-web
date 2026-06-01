@@ -143,6 +143,7 @@ const DateRangeSeg = ({ value, onChange }) => (
 
 const STATUS_FILTERS = [
   { id: "realizado", label: "Realizado" },
+  { id: "atrasado", label: "Atrasado" },
   { id: "a_pagar_receber", label: "A pagar/receber" },
   { id: "tudo", label: "Tudo" },
 ];

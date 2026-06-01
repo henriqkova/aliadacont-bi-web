@@ -64,7 +64,7 @@ module.exports = {
     const rows = XLSX.utils.sheet_to_json(ws, { defval: '' });
     console.log(`  ${rows.length} linhas raw`);
 
-    const REALIZADO_SET = new Set(['quitado', 'conciliado', 'confirmado', 'realizado', 'atrasado']);
+    const REALIZADO_SET = new Set(['quitado', 'conciliado', 'confirmado', 'realizado']);
 
     let idCounter = 0;
     const movimentos = [];
@@ -76,6 +76,7 @@ module.exports = {
       const natureza = tipo === 'receita' ? 'R' : 'P';
       const situacao = String(r['Situação'] || r['Situacao'] || '').trim().toLowerCase();
       const realizado = REALIZADO_SET.has(situacao);
+      const atrasado = situacao === 'atrasado';
 
       const valorRaw = num(r['Valor (R$)']);
       const valorTotal = Math.abs(valorRaw);
@@ -94,13 +95,16 @@ module.exports = {
       const descricao = String(r['Descrição'] || r['Descricao'] || '').trim();
 
       idCounter++;
+      const status = realizado ? 'PAGO' : (atrasado ? 'ATRASADO' : 'A_PAGAR');
+
       // Linha caixa (data movimento)
       movimentos.push({
         id: String(idCounter) + '-cx',
         fonte: 'aliadacont-xlsx',
         natureza,
-        status: realizado ? 'PAGO' : 'A_PAGAR',
+        status,
         realizado,
+        atrasado,
         data_emissao: dataMov,
         data_vencimento: dataVenc,
         data_pagamento: realizado ? dataMov : null,
@@ -122,8 +126,9 @@ module.exports = {
         id: String(idCounter) + '-cp',
         fonte: 'aliadacont-xlsx',
         natureza,
-        status: realizado ? 'PAGO' : 'A_PAGAR',
+        status,
         realizado,
+        atrasado,
         data_emissao: dataComp,
         data_vencimento: dataComp,
         data_pagamento: realizado ? dataComp : null,
