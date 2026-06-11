@@ -1,4 +1,4 @@
-/* BGP BI — gerado por build-data.cjs em 2026-06-10T12:23:58.105Z */
+/* BGP BI — gerado por build-data.cjs em 2026-06-11T12:28:09.409Z */
 /* Empresa: Aliadacont | Ano ref: 2026 */
 const MONTHS = ["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
 const MONTHS_FULL = ["janeiro","fevereiro","março","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"];
@@ -23,20 +23,20 @@ const META = {
   "empresa": {
     "nome_fantasia": "Aliadacont"
   },
-  "fetched_at": "2026-06-10T12:23:57.938Z",
+  "fetched_at": "2026-06-11T12:28:09.001Z",
   "ref_year": 2026,
   "counts": {
     "contas_pagar": 0,
     "contas_receber": 0,
     "categorias": 51,
     "departamentos": 0,
-    "clientes": 158
+    "clientes": 225
   }
 };
 const POSICAO_CAIXA = [
   {
     "name": "Saldo realizado YTD",
-    "value": 85073.35000000021
+    "value": 164607.64000000025
   },
   {
     "name": "A receber (futuro)",
@@ -44,38 +44,38 @@ const POSICAO_CAIXA = [
   },
   {
     "name": "A pagar (futuro)",
-    "value": 27454.559999999998
+    "value": 27448.799999999996
   }
 ];
 const COMPOSICAO_DESPESA = [
   {
-    "name": "Despesas Diversas (Cartão)",
-    "value": 112127.39000000001,
-    "color": "#2dd4bf"
-  },
-  {
     "name": "Salários",
-    "value": 100564.92,
-    "color": "#22c55e"
+    "value": 100652.92,
+    "color": "#2dd4bf"
   },
   {
     "name": "Retiradas para Sócios",
     "value": 93713.65999999999,
-    "color": "#a78bfa"
+    "color": "#22c55e"
   },
   {
     "name": "Mentorias, Cursos e Treinamentos",
-    "value": 63101.42,
+    "value": 64673.42,
+    "color": "#a78bfa"
+  },
+  {
+    "name": "Insumos e Materiais Clínicos",
+    "value": 64424.27,
     "color": "#f59e0b"
   },
   {
     "name": "ISS",
-    "value": 59845.200000000004,
+    "value": 59839.920000000006,
     "color": "#ef4444"
   },
   {
-    "name": "Despesas a identificar",
-    "value": 57244.47,
+    "name": "IRPJ E CSLL",
+    "value": 54193.020000000004,
     "color": "#6b7686"
   }
 ];
@@ -86,7 +86,7 @@ const SEGMENTS = {
       {
         "m": "janeiro",
         "receita": 190952.14000000004,
-        "despesa": 152863.34
+        "despesa": 150567.93
       },
       {
         "m": "fevereiro",
@@ -96,17 +96,17 @@ const SEGMENTS = {
       {
         "m": "março",
         "receita": 178485.60000000006,
-        "despesa": 198247.00999999998
+        "despesa": 155349.37999999998
       },
       {
         "m": "abril",
         "receita": 157368.86999999997,
-        "despesa": 158783.96999999997
+        "despesa": 156195.82999999996
       },
       {
         "m": "maio",
         "receita": 142902.91000000003,
-        "despesa": 156153.94
+        "despesa": 124400.82999999999
       },
       {
         "m": "junho",
@@ -208,13 +208,8 @@ const SEGMENTS = {
     ],
     "DESPESA_CATEGORIAS": [
       {
-        "name": "Despesas Diversas (Cartão)",
-        "value": 112127.39000000001,
-        "fornecedores": 1
-      },
-      {
         "name": "Salários",
-        "value": 100564.92,
+        "value": 100652.92,
         "fornecedores": 2
       },
       {
@@ -224,17 +219,17 @@ const SEGMENTS = {
       },
       {
         "name": "Mentorias, Cursos e Treinamentos",
-        "value": 63101.42,
-        "fornecedores": 3
+        "value": 64673.42,
+        "fornecedores": 5
+      },
+      {
+        "name": "Insumos e Materiais Clínicos",
+        "value": 64424.27,
+        "fornecedores": 22
       },
       {
         "name": "ISS",
-        "value": 59845.200000000004,
-        "fornecedores": 3
-      },
-      {
-        "name": "Despesas a identificar",
-        "value": 57244.47,
+        "value": 59839.920000000006,
         "fornecedores": 2
       },
       {
@@ -248,14 +243,14 @@ const SEGMENTS = {
         "fornecedores": 2
       },
       {
+        "name": "Despesas a identificar",
+        "value": 34394.76,
+        "fornecedores": 8
+      },
+      {
         "name": "Marketing e Publicidade",
         "value": 26275,
         "fornecedores": 4
-      },
-      {
-        "name": "Insumos e Materiais Clínicos",
-        "value": 24041.839999999997,
-        "fornecedores": 6
       },
       {
         "name": "INSS sobre Salários - GPS",
@@ -265,6 +260,11 @@ const SEGMENTS = {
       {
         "name": "Pró-labore",
         "value": 15000,
+        "fornecedores": 1
+      },
+      {
+        "name": "Honorários Consultoria",
+        "value": 10000,
         "fornecedores": 1
       }
     ],
@@ -321,7 +321,7 @@ const SEGMENTS = {
     "DESPESA_FORNECEDORES": [
       {
         "name": "Sem cliente",
-        "value": 532288.3099999999
+        "value": 398269.80999999994
       },
       {
         "name": "O MEDICO EMPRESARIO LTDA",
@@ -332,12 +332,12 @@ const SEGMENTS = {
         "value": 46393.740000000005
       },
       {
-        "name": "ANNA PAULA FERNANDES MARTINS",
-        "value": 14100
+        "name": "Bio Meds Pharmaceutics",
+        "value": 16620.9
       },
       {
-        "name": "BIO MEDS PHARMACEUTICA LTDA",
-        "value": 13616.25
+        "name": "ANNA PAULA FERNANDES MARTINS",
+        "value": 14100
       },
       {
         "name": "52.526.409 WILIAN DE SOUZA OLIVEIRA",
@@ -360,12 +360,12 @@ const SEGMENTS = {
         "value": 8785.2
       },
       {
-        "name": "FLUKKA FARMA",
-        "value": 3727.5
+        "name": "BIO MEDS PHARMACEUTICA LTDA",
+        "value": 7500
       },
       {
-        "name": "HEMILLY LACERDA BARBOSA",
-        "value": 3713.91
+        "name": "Sgrancio & Souza LTDA",
+        "value": 6061.82
       }
     ],
     "EXTRATO": [
@@ -684,7 +684,7 @@ const SEGMENTS = {
       [
         "21/05/2026",
         "Operações",
-        "IRRF",
+        "Retenção - Darf 1708 - IRRF",
         "RECEITA FEDERAL",
         -7947.55,
         "PAGO"
@@ -1356,6 +1356,14 @@ const SEGMENTS = {
       [
         "07/05/2026",
         "Operações",
+        "Insumos e Materiais Clínicos",
+        "BIOMA4ME ANALISES CLINICAS S.A.",
+        -2521.26,
+        "PAGO"
+      ],
+      [
+        "07/05/2026",
+        "Operações",
         "Honorários Contábeis",
         "DELOGO & SAINTS CONTABILIDADE LTDA",
         -1156.3,
@@ -1404,33 +1412,17 @@ const SEGMENTS = {
       [
         "07/05/2026",
         "Operações",
-        "Insumos e Materiais Clínicos",
-        "BIOMA4ME ANALISES CLINICAS S.A.",
-        -2521.26,
-        "PAGO"
-      ],
-      [
-        "07/05/2026",
-        "Operações",
-        "Insumos e Materiais Clínicos",
-        "BIOMA4ME ANALISES CLINICAS S.A.",
-        -41.4,
-        "PAGO"
-      ],
-      [
-        "07/05/2026",
-        "Operações",
-        "Insumos e Materiais Clínicos",
-        "BIOMA4ME ANALISES CLINICAS S.A.",
-        -27.6,
-        "PAGO"
-      ],
-      [
-        "07/05/2026",
-        "Operações",
         "BPO Financeiro",
         "Sem cliente",
         -2400,
+        "PAGO"
+      ],
+      [
+        "07/05/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "BIOMA4ME ANALISES CLINICAS S.A.",
+        -2590.26,
         "PAGO"
       ],
       [
@@ -1540,14 +1532,6 @@ const SEGMENTS = {
       [
         "05/05/2026",
         "Operações",
-        "Despesas Diversas (Cartão)",
-        "Sem cliente",
-        -2300,
-        "PAGO"
-      ],
-      [
-        "05/05/2026",
-        "Operações",
         "Salários",
         "Sem cliente",
         -3150,
@@ -1559,6 +1543,70 @@ const SEGMENTS = {
         "Salários",
         "Sem cliente",
         -2299.32,
+        "PAGO"
+      ],
+      [
+        "05/05/2026",
+        "Operações",
+        "Viagens e Representações",
+        "Sup Princesa Búzios",
+        -660.93,
+        "PAGO"
+      ],
+      [
+        "05/05/2026",
+        "Operações",
+        "Viagens e Representações",
+        "Posto Armação dos Búzios",
+        -374.1,
+        "PAGO"
+      ],
+      [
+        "05/05/2026",
+        "Operações",
+        "Viagens e Representações",
+        "Posto Bellas Búzios LT",
+        -372.88,
+        "PAGO"
+      ],
+      [
+        "05/05/2026",
+        "Operações",
+        "Viagens e Representações",
+        "Auto Posto Schueng MIL",
+        -304.29,
+        "PAGO"
+      ],
+      [
+        "05/05/2026",
+        "Operações",
+        "Viagens e Representações",
+        "Posto Iate LTDA",
+        -263.94,
+        "PAGO"
+      ],
+      [
+        "05/05/2026",
+        "Operações",
+        "Viagens e Representações",
+        "Posto Praia de Camburi",
+        -209.76,
+        "PAGO"
+      ],
+      [
+        "05/05/2026",
+        "Operações",
+        "Lanches e Refeições",
+        "Espeluncas Bar",
+        -108,
+        "PAGO"
+      ],
+      [
+        "05/05/2026",
+        "Operações",
+        "Viagens e Representações",
+        "Serra",
+        -6.1,
         "PAGO"
       ],
       [
@@ -1660,14 +1708,6 @@ const SEGMENTS = {
       [
         "04/05/2026",
         "Operações",
-        "Despesas Diversas (Cartão)",
-        "Sem cliente",
-        -34274.37,
-        "PAGO"
-      ],
-      [
-        "04/05/2026",
-        "Operações",
         "Salários",
         "Sem cliente",
         -4950,
@@ -1692,9 +1732,129 @@ const SEGMENTS = {
       [
         "04/05/2026",
         "Operações",
-        "Despesas Diversas (Cartão)",
-        "Sem cliente",
-        -1224,
+        "Serviços e Materiais de Limpeza e de Higiene",
+        "Casa do Cloro",
+        -281.46,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Lanches e Refeições",
+        "Supermercado C",
+        -133.59,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Materiais de Escritório",
+        "Reis e Souza L",
+        -121.5,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Materiais de Escritório",
+        "Rosa Linda",
+        -115,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Farmácia Alian",
+        -89.52,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Despesas a identificar",
+        "DLKNET*AC",
+        -83.5,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Materiais de Escritório",
+        "Forte Embalagens",
+        -74.95,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Despesas a identificar",
+        "Mironga",
+        -63,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Materiais de Escritório",
+        "Papelaria Renascer",
+        -57.7,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Lanches e Refeições",
+        "Supermercado C",
+        -52.7,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Despesas a identificar",
+        "Daniely Aguia Branca",
+        -50,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Brindes para Clientes",
+        "O Boticário",
+        -35.08,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Lanches e Refeições",
+        "MP*TaTyDoces Osasco BR",
+        -23,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Lanches e Refeições",
+        "Ki-Pastel",
+        -20,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Lanches e Refeições",
+        "Dinomania Lanches",
+        -16,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Lanches e Refeições",
+        "Cozinha da Ivone",
+        -7,
         "PAGO"
       ],
       [
@@ -1807,166 +1967,6 @@ const SEGMENTS = {
         "Consulta",
         "ANA LÚCIA COLOMBEKI SALDANHA",
         650,
-        "PAGO"
-      ],
-      [
-        "28/04/2026",
-        "Operações",
-        "Receitas de Serviços a Identificar",
-        "Sem cliente",
-        1621.2,
-        "PAGO"
-      ],
-      [
-        "28/04/2026",
-        "Operações",
-        "Receitas de Serviços a Identificar",
-        "Sem cliente",
-        435.03,
-        "PAGO"
-      ],
-      [
-        "27/04/2026",
-        "Operações",
-        "Receita de Serviços - Plano Bronze",
-        "FERNANDA APARECIDA DE ALMEIDA",
-        2975,
-        "PAGO"
-      ],
-      [
-        "27/04/2026",
-        "Operações",
-        "Receita de Serviços - Plano Prata",
-        "ROSIANE ALMEIDA COSTA BELING",
-        1000,
-        "PAGO"
-      ],
-      [
-        "27/04/2026",
-        "Operações",
-        "Receitas de Serviços a Identificar",
-        "Sem cliente",
-        608.75,
-        "PAGO"
-      ],
-      [
-        "27/04/2026",
-        "Operações",
-        "Receitas de Serviços a Identificar",
-        "Sem cliente",
-        1087.58,
-        "PAGO"
-      ],
-      [
-        "27/04/2026",
-        "Operações",
-        "Receitas de Serviços a Identificar",
-        "Sem cliente",
-        193.08,
-        "PAGO"
-      ],
-      [
-        "27/04/2026",
-        "Operações",
-        "Receitas de Serviços a Identificar",
-        "Sem cliente",
-        2170.59,
-        "PAGO"
-      ],
-      [
-        "27/04/2026",
-        "Operações",
-        "Receitas de Serviços a Identificar",
-        "Sem cliente",
-        581.94,
-        "PAGO"
-      ],
-      [
-        "27/04/2026",
-        "Operações",
-        "Mentorias, Cursos e Treinamentos",
-        "O MEDICO EMPRESARIO LTDA",
-        -13000,
-        "PAGO"
-      ],
-      [
-        "23/04/2026",
-        "Operações",
-        "Rendimentos de Aplicações",
-        "Sem cliente",
-        0.44,
-        "PAGO"
-      ],
-      [
-        "23/04/2026",
-        "Operações",
-        "Receitas de Serviços a Identificar",
-        "Sem cliente",
-        65,
-        "PAGO"
-      ],
-      [
-        "23/04/2026",
-        "Operações",
-        "Receitas de Serviços a Identificar",
-        "Sem cliente",
-        1200,
-        "PAGO"
-      ],
-      [
-        "23/04/2026",
-        "Operações",
-        "Receitas de Serviços a Identificar",
-        "Sem cliente",
-        3810.3,
-        "PAGO"
-      ],
-      [
-        "23/04/2026",
-        "Operações",
-        "Receitas de Serviços a Identificar",
-        "Sem cliente",
-        928.23,
-        "PAGO"
-      ],
-      [
-        "23/04/2026",
-        "Operações",
-        "Receitas de Serviços a Identificar",
-        "Sem cliente",
-        4585.47,
-        "PAGO"
-      ],
-      [
-        "23/04/2026",
-        "Operações",
-        "Receitas de Serviços a Identificar",
-        "Sem cliente",
-        1116.43,
-        "PAGO"
-      ],
-      [
-        "23/04/2026",
-        "Operações",
-        "IRPJ E CSLL",
-        "RECEITA FEDERAL",
-        -11216.09,
-        "PAGO"
-      ],
-      [
-        "23/04/2026",
-        "Operações",
-        "Pis/Cofins",
-        "RECEITA FEDERAL",
-        -16405.95,
-        "PAGO"
-      ],
-      [
-        "23/04/2026",
-        "Operações",
-        "FGTS e Multa de FGTS",
-        "CEF MATRIZ",
-        -548.22,
         "PAGO"
       ]
     ],
@@ -3656,7 +3656,7 @@ const SEGMENTS = {
       [
         "21/05/2026",
         "Operações",
-        "IRRF",
+        "Retenção - Darf 1708 - IRRF",
         "RECEITA FEDERAL",
         -7947.55,
         "PAGO"
@@ -3944,6 +3944,14 @@ const SEGMENTS = {
       [
         "07/05/2026",
         "Operações",
+        "Insumos e Materiais Clínicos",
+        "BIOMA4ME ANALISES CLINICAS S.A.",
+        -2521.26,
+        "PAGO"
+      ],
+      [
+        "07/05/2026",
+        "Operações",
         "Honorários Contábeis",
         "DELOGO & SAINTS CONTABILIDADE LTDA",
         -1156.3,
@@ -3992,33 +4000,17 @@ const SEGMENTS = {
       [
         "07/05/2026",
         "Operações",
-        "Insumos e Materiais Clínicos",
-        "BIOMA4ME ANALISES CLINICAS S.A.",
-        -2521.26,
-        "PAGO"
-      ],
-      [
-        "07/05/2026",
-        "Operações",
-        "Insumos e Materiais Clínicos",
-        "BIOMA4ME ANALISES CLINICAS S.A.",
-        -41.4,
-        "PAGO"
-      ],
-      [
-        "07/05/2026",
-        "Operações",
-        "Insumos e Materiais Clínicos",
-        "BIOMA4ME ANALISES CLINICAS S.A.",
-        -27.6,
-        "PAGO"
-      ],
-      [
-        "07/05/2026",
-        "Operações",
         "BPO Financeiro",
         "Sem cliente",
         -2400,
+        "PAGO"
+      ],
+      [
+        "07/05/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "BIOMA4ME ANALISES CLINICAS S.A.",
+        -2590.26,
         "PAGO"
       ],
       [
@@ -4027,14 +4019,6 @@ const SEGMENTS = {
         "Mentorias, Cursos e Treinamentos",
         "SEGEX UVV ON",
         -449.96,
-        "PAGO"
-      ],
-      [
-        "05/05/2026",
-        "Operações",
-        "Despesas Diversas (Cartão)",
-        "Sem cliente",
-        -2300,
         "PAGO"
       ],
       [
@@ -4051,6 +4035,70 @@ const SEGMENTS = {
         "Salários",
         "Sem cliente",
         -2299.32,
+        "PAGO"
+      ],
+      [
+        "05/05/2026",
+        "Operações",
+        "Viagens e Representações",
+        "Sup Princesa Búzios",
+        -660.93,
+        "PAGO"
+      ],
+      [
+        "05/05/2026",
+        "Operações",
+        "Viagens e Representações",
+        "Posto Armação dos Búzios",
+        -374.1,
+        "PAGO"
+      ],
+      [
+        "05/05/2026",
+        "Operações",
+        "Viagens e Representações",
+        "Posto Bellas Búzios LT",
+        -372.88,
+        "PAGO"
+      ],
+      [
+        "05/05/2026",
+        "Operações",
+        "Viagens e Representações",
+        "Auto Posto Schueng MIL",
+        -304.29,
+        "PAGO"
+      ],
+      [
+        "05/05/2026",
+        "Operações",
+        "Viagens e Representações",
+        "Posto Iate LTDA",
+        -263.94,
+        "PAGO"
+      ],
+      [
+        "05/05/2026",
+        "Operações",
+        "Viagens e Representações",
+        "Posto Praia de Camburi",
+        -209.76,
+        "PAGO"
+      ],
+      [
+        "05/05/2026",
+        "Operações",
+        "Lanches e Refeições",
+        "Espeluncas Bar",
+        -108,
+        "PAGO"
+      ],
+      [
+        "05/05/2026",
+        "Operações",
+        "Viagens e Representações",
+        "Serra",
+        -6.1,
         "PAGO"
       ],
       [
@@ -4080,14 +4128,6 @@ const SEGMENTS = {
       [
         "04/05/2026",
         "Operações",
-        "Despesas Diversas (Cartão)",
-        "Sem cliente",
-        -34274.37,
-        "PAGO"
-      ],
-      [
-        "04/05/2026",
-        "Operações",
         "Salários",
         "Sem cliente",
         -4950,
@@ -4112,9 +4152,129 @@ const SEGMENTS = {
       [
         "04/05/2026",
         "Operações",
-        "Despesas Diversas (Cartão)",
-        "Sem cliente",
-        -1224,
+        "Serviços e Materiais de Limpeza e de Higiene",
+        "Casa do Cloro",
+        -281.46,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Lanches e Refeições",
+        "Supermercado C",
+        -133.59,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Materiais de Escritório",
+        "Reis e Souza L",
+        -121.5,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Materiais de Escritório",
+        "Rosa Linda",
+        -115,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Farmácia Alian",
+        -89.52,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Despesas a identificar",
+        "DLKNET*AC",
+        -83.5,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Materiais de Escritório",
+        "Forte Embalagens",
+        -74.95,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Despesas a identificar",
+        "Mironga",
+        -63,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Materiais de Escritório",
+        "Papelaria Renascer",
+        -57.7,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Lanches e Refeições",
+        "Supermercado C",
+        -52.7,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Despesas a identificar",
+        "Daniely Aguia Branca",
+        -50,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Brindes para Clientes",
+        "O Boticário",
+        -35.08,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Lanches e Refeições",
+        "MP*TaTyDoces Osasco BR",
+        -23,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Lanches e Refeições",
+        "Ki-Pastel",
+        -20,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Lanches e Refeições",
+        "Dinomania Lanches",
+        -16,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Lanches e Refeições",
+        "Cozinha da Ivone",
+        -7,
         "PAGO"
       ],
       [
@@ -4208,14 +4368,6 @@ const SEGMENTS = {
       [
         "22/04/2026",
         "Operações",
-        "Serviços de Pessoa Jurídica",
-        "NICKSCELL COMERCIO E SERVICOS LTDA",
-        -88,
-        "PAGO"
-      ],
-      [
-        "22/04/2026",
-        "Operações",
         "Telefonia e Internet",
         "TELEFONICA BRASIL S.A",
         -49.43,
@@ -4227,6 +4379,14 @@ const SEGMENTS = {
         "Telefonia e Internet",
         "TELEFONICA BRASIL S.A",
         -41.76,
+        "PAGO"
+      ],
+      [
+        "22/04/2026",
+        "Operações",
+        "Salários",
+        "Sem cliente",
+        -88,
         "PAGO"
       ],
       [
@@ -4328,6 +4488,14 @@ const SEGMENTS = {
       [
         "07/04/2026",
         "Operações",
+        "Coleta de Resíduos Ambientais",
+        "RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP",
+        -3.36,
+        "PAGO"
+      ],
+      [
+        "07/04/2026",
+        "Operações",
         "Marketing e Publicidade",
         "RADIO SAO FRANCISCO LTDA",
         -2000,
@@ -4352,30 +4520,6 @@ const SEGMENTS = {
       [
         "07/04/2026",
         "Operações",
-        "Coleta de Resíduos Ambientais",
-        "RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP",
-        -3.36,
-        "PAGO"
-      ],
-      [
-        "07/04/2026",
-        "Operações",
-        "Coleta de Resíduos Ambientais",
-        "RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP",
-        -118.08,
-        "PAGO"
-      ],
-      [
-        "07/04/2026",
-        "Operações",
-        "ISS",
-        "RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP",
-        -5.28,
-        "PAGO"
-      ],
-      [
-        "07/04/2026",
-        "Operações",
         "Despesas a identificar",
         "Sem cliente",
         -200,
@@ -4384,9 +4528,9 @@ const SEGMENTS = {
       [
         "07/04/2026",
         "Operações",
-        "Despesas a identificar",
-        "Sem cliente",
-        -2591.5,
+        "Coleta de Resíduos Ambientais",
+        "RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP",
+        -126.72,
         "PAGO"
       ],
       [
@@ -4424,7 +4568,7 @@ const SEGMENTS = {
       [
         "06/04/2026",
         "Operações",
-        "Despesas Diversas (Cartão)",
+        "Insumos e Materiais Clínicos",
         "Sem cliente",
         -364.91,
         "PAGO"
@@ -4528,14 +4672,6 @@ const SEGMENTS = {
       [
         "01/04/2026",
         "Operações",
-        "Despesas Diversas (Cartão)",
-        "Sem cliente",
-        -3265.71,
-        "PAGO"
-      ],
-      [
-        "01/04/2026",
-        "Operações",
         "Salários",
         "Sem cliente",
         -2820,
@@ -4563,6 +4699,158 @@ const SEGMENTS = {
         "Plano de Saúde Colaboradores",
         "UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO",
         -260,
+        "PAGO"
+      ],
+      [
+        "01/04/2026",
+        "Operações",
+        "Materiais de Escritório",
+        "Barra Copy Gráfica",
+        -1440,
+        "PAGO"
+      ],
+      [
+        "01/04/2026",
+        "Operações",
+        "Lanches e Refeições",
+        "Adega Zero Grau Distr",
+        -175,
+        "PAGO"
+      ],
+      [
+        "01/04/2026",
+        "Operações",
+        "Lanches e Refeições",
+        "Supermercado Cardoso",
+        -170.24,
+        "PAGO"
+      ],
+      [
+        "01/04/2026",
+        "Operações",
+        "Materiais de Escritório",
+        "Cerimonial Rosa Linda",
+        -140,
+        "PAGO"
+      ],
+      [
+        "01/04/2026",
+        "Operações",
+        "Materiais de Escritório",
+        "Rosa Linda",
+        -140,
+        "PAGO"
+      ],
+      [
+        "01/04/2026",
+        "Operações",
+        "Materiais de Escritório",
+        "Papelaria Renascer",
+        -135.03,
+        "PAGO"
+      ],
+      [
+        "01/04/2026",
+        "Operações",
+        "Lanches e Refeições",
+        "Supermercado Cardoso",
+        -133.59,
+        "PAGO"
+      ],
+      [
+        "01/04/2026",
+        "Operações",
+        "Materiais de Escritório",
+        "Rosa Linda",
+        -130,
+        "PAGO"
+      ],
+      [
+        "01/04/2026",
+        "Operações",
+        "Materiais de Escritório",
+        "Reis e Souza L",
+        -121.5,
+        "PAGO"
+      ],
+      [
+        "01/04/2026",
+        "Operações",
+        "Materiais de Escritório",
+        "Rosa Linda",
+        -115,
+        "PAGO"
+      ],
+      [
+        "01/04/2026",
+        "Operações",
+        "Serviços de Pessoa Jurídica",
+        "Nickscell",
+        -91,
+        "PAGO"
+      ],
+      [
+        "01/04/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Farmácia Aliança",
+        -89.52,
+        "PAGO"
+      ],
+      [
+        "01/04/2026",
+        "Operações",
+        "Materiais de Escritório",
+        "Papelaria Renascer",
+        -86.7,
+        "PAGO"
+      ],
+      [
+        "01/04/2026",
+        "Operações",
+        "Materiais de Escritório",
+        "Comercial V B",
+        -69.99,
+        "PAGO"
+      ],
+      [
+        "01/04/2026",
+        "Operações",
+        "Lanches e Refeições",
+        "Supermercado Cardoso",
+        -63.92,
+        "PAGO"
+      ],
+      [
+        "01/04/2026",
+        "Operações",
+        "Lanches e Refeições",
+        "Supermercado Cardoso",
+        -52.71,
+        "PAGO"
+      ],
+      [
+        "01/04/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Cirúrgica Barra",
+        -49.97,
+        "PAGO"
+      ],
+      [
+        "01/04/2026",
+        "Operações",
+        "Brindes para Clientes",
+        "Boticário",
+        -35.08,
+        "PAGO"
+      ],
+      [
+        "01/04/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Farmácia Aliança",
+        -26.46,
         "PAGO"
       ],
       [
@@ -4699,22 +4987,6 @@ const SEGMENTS = {
         "Retiradas para Sócios",
         "Sem cliente",
         -750,
-        "PAGO"
-      ],
-      [
-        "24/03/2026",
-        "Operações",
-        "Despesas Diversas (Cartão)",
-        "Sem cliente",
-        -38625.88,
-        "PAGO"
-      ],
-      [
-        "24/03/2026",
-        "Operações",
-        "Despesas Diversas (Cartão)",
-        "Sem cliente",
-        -5000,
         "PAGO"
       ],
       [
@@ -4900,291 +5172,19 @@ const SEGMENTS = {
         "Sem cliente",
         -199.83,
         "PAGO"
-      ],
-      [
-        "13/03/2026",
-        "Operações",
-        "Despesas Diversas (Cartão)",
-        "Sem cliente",
-        -582.6,
-        "PAGO"
-      ],
-      [
-        "13/03/2026",
-        "Operações",
-        "Despesas Diversas (Cartão)",
-        "Sem cliente",
-        -10192.32,
-        "PAGO"
-      ],
-      [
-        "12/03/2026",
-        "Operações",
-        "Materiais de Escritório",
-        "REIS & SOUZA LIMITADA",
-        -98,
-        "PAGO"
-      ],
-      [
-        "10/03/2026",
-        "Operações",
-        "Despesas Diversas (Cartão)",
-        "Sem cliente",
-        -11039.45,
-        "PAGO"
-      ],
-      [
-        "09/03/2026",
-        "Operações",
-        "Insumos e Materiais Clínicos",
-        "BIO MEDS PHARMACEUTICA LTDA",
-        -6116.25,
-        "PAGO"
-      ],
-      [
-        "06/03/2026",
-        "Operações",
-        "Marketing e Publicidade",
-        "52.526.409 WILIAN DE SOUZA OLIVEIRA",
-        -2100,
-        "PAGO"
-      ],
-      [
-        "06/03/2026",
-        "Operações",
-        "Mentorias, Cursos e Treinamentos",
-        "SEGEX UVV ON",
-        -449.96,
-        "PAGO"
-      ],
-      [
-        "06/03/2026",
-        "Operações",
-        "Telefonia e Internet",
-        "BIZZ INTERNET LTDA",
-        -114.9,
-        "PAGO"
-      ],
-      [
-        "06/03/2026",
-        "Operações",
-        "Telefonia e Internet",
-        "BIZZ INTERNET LTDA",
-        -99.9,
-        "PAGO"
-      ],
-      [
-        "05/03/2026",
-        "Operações",
-        "Plano de Saúde Colaboradores",
-        "UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO",
-        -499.09,
-        "PAGO"
-      ],
-      [
-        "04/03/2026",
-        "Operações",
-        "Materiais de Escritório",
-        "EXTINSAN EXTINTORES LTDA",
-        -100,
-        "PAGO"
-      ],
-      [
-        "04/03/2026",
-        "Operações",
-        "Marketing e Publicidade",
-        "RADIO SAO FRANCISCO LTDA",
-        -2000,
-        "PAGO"
-      ],
-      [
-        "04/03/2026",
-        "Operações",
-        "Salários",
-        "Sem cliente",
-        -1500,
-        "PAGO"
-      ],
-      [
-        "04/03/2026",
-        "Operações",
-        "Coleta de Resíduos Ambientais",
-        "RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP",
-        -125.28,
-        "PAGO"
-      ],
-      [
-        "04/03/2026",
-        "Operações",
-        "Seguros",
-        "PORTO SEGURO COMPANHIA DE SEGUROS GERAIS",
-        -61.29,
-        "PAGO"
-      ],
-      [
-        "04/03/2026",
-        "Operações",
-        "Plano de Saúde Colaboradores",
-        "UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO",
-        -260,
-        "PAGO"
-      ],
-      [
-        "03/03/2026",
-        "Operações",
-        "Retiradas para Sócios",
-        "Sem cliente",
-        -20000,
-        "PAGO"
-      ],
-      [
-        "03/03/2026",
-        "Operações",
-        "Salários",
-        "Sem cliente",
-        -4604.02,
-        "PAGO"
-      ],
-      [
-        "03/03/2026",
-        "Operações",
-        "Salários",
-        "Sem cliente",
-        -4400,
-        "PAGO"
-      ],
-      [
-        "03/03/2026",
-        "Operações",
-        "Salários",
-        "Sem cliente",
-        -3781.71,
-        "PAGO"
-      ],
-      [
-        "03/03/2026",
-        "Operações",
-        "Salários",
-        "Sem cliente",
-        -2299.32,
-        "PAGO"
-      ],
-      [
-        "03/03/2026",
-        "Operações",
-        "Telefonia e Internet",
-        "TELEFONICA BRASIL S.A",
-        -44.89,
-        "PAGO"
-      ],
-      [
-        "03/03/2026",
-        "Operações",
-        "Telefonia e Internet",
-        "TELEFONICA BRASIL S.A",
-        -43,
-        "PAGO"
-      ],
-      [
-        "03/03/2026",
-        "Operações",
-        "Salários",
-        "Sem cliente",
-        -980,
-        "PAGO"
-      ],
-      [
-        "03/03/2026",
-        "Operações",
-        "Honorários Contábeis",
-        "DELOGO & SAINTS CONTABILIDADE LTDA",
-        -1156.3,
-        "PAGO"
-      ],
-      [
-        "02/03/2026",
-        "Operações",
-        "Despesas Diversas (Cartão)",
-        "Sem cliente",
-        -1069.96,
-        "PAGO"
-      ],
-      [
-        "02/03/2026",
-        "Operações",
-        "Tarifas Bancárias",
-        "Sem cliente",
-        -30.85,
-        "PAGO"
-      ],
-      [
-        "26/02/2026",
-        "Operações",
-        "Mentorias, Cursos e Treinamentos",
-        "O MEDICO EMPRESARIO LTDA",
-        -13000,
-        "PAGO"
-      ],
-      [
-        "23/02/2026",
-        "Operações",
-        "Software / Licença de Uso",
-        "BIONEXO S.A",
-        -601.25,
-        "PAGO"
-      ],
-      [
-        "23/02/2026",
-        "Operações",
-        "Despesas a identificar",
-        "Sem cliente",
-        -2150,
-        "PAGO"
-      ],
-      [
-        "19/02/2026",
-        "Operações",
-        "Honorários Consultoria",
-        "WOLF MENTOR'S SERVICOS DE APOIO ADMINISTRATIVO LTDA",
-        -2500,
-        "PAGO"
-      ],
-      [
-        "19/02/2026",
-        "Operações",
-        "Telefonia Móvel",
-        "TELEFONICA BRASIL S.A",
-        -36.74,
-        "PAGO"
-      ],
-      [
-        "18/02/2026",
-        "Operações",
-        "Energia Elétrica",
-        "EDP ESPIRITO SANTO",
-        -735.14,
-        "PAGO"
-      ],
-      [
-        "18/02/2026",
-        "Operações",
-        "Marketing e Publicidade",
-        "Sem cliente",
-        -1500,
-        "PAGO"
       ]
     ],
     "KPIS": {
       "TOTAL_RECEITA": 823939.5300000001,
-      "TOTAL_DESPESA": 738866.1799999999,
-      "VALOR_LIQUIDO": 85073.35000000021,
-      "MARGEM_LIQUIDA": 10.325193403452824,
+      "TOTAL_DESPESA": 659331.8899999999,
+      "VALOR_LIQUIDO": 164607.64000000025,
+      "MARGEM_LIQUIDA": 19.97812145267508,
       "VALOR_LIQ_SERIES": [
-        38088.80000000005,
+        40384.21000000005,
         81412.08999999994,
-        -19761.409999999916,
-        -1415.1000000000058,
-        -13251.02999999997,
+        23136.22000000009,
+        1173.0400000000081,
+        18502.080000000045,
         0,
         0,
         0,
@@ -5228,19 +5228,19 @@ const SEGMENTS = {
       9391.94
     ],
     "DESPESA_DIA": [
-      35339.07,
-      30620.679999999993,
+      35339.069999999985,
+      28325.269999999997,
       39309.240000000005,
-      73541.01000000001,
-      18052.57,
+      39266.63999999998,
+      18052.569999999996,
       12566.979999999998,
-      25919.79,
+      25852.910000000003,
       18325.15,
-      29812.870000000003,
-      11245.52,
-      14545.38,
+      29812.87,
+      11245.519999999999,
+      15273.63,
       34936.159999999996,
-      23510.889999999996,
+      23510.89,
       37496.240000000005,
       13681.53,
       23230.27,
@@ -5251,7 +5251,7 @@ const SEGMENTS = {
       18342.910000000003,
       38724.399999999994,
       52742.740000000005,
-      45875.88,
+      2250,
       1473.09,
       74170.04,
       15130,
@@ -5261,18 +5261,18 @@ const SEGMENTS = {
       15825
     ],
     "SALDOS_MES": [
-      38088.80000000005,
-      119500.88999999998,
-      99739.48000000007,
-      98324.38000000006,
-      85073.3500000001,
-      85073.3500000001,
-      85073.3500000001,
-      85073.3500000001,
-      85073.3500000001,
-      85073.3500000001,
-      85073.3500000001,
-      85073.3500000001
+      40384.21000000005,
+      121796.29999999999,
+      144932.52000000008,
+      146105.56000000008,
+      164607.64000000013,
+      164607.64000000013,
+      164607.64000000013,
+      164607.64000000013,
+      164607.64000000013,
+      164607.64000000013,
+      164607.64000000013,
+      164607.64000000013
     ],
     "FLUXO_RECEITA": [
       {
@@ -5363,29 +5363,12 @@ const SEGMENTS = {
     ],
     "FLUXO_DESPESA": [
       {
-        "cat": "Despesas Diversas (Cartão)",
-        "values": [
-          -2295.41,
-          -1892.78,
-          -66510.20999999999,
-          -3630.62,
-          -37798.37,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      },
-      {
         "cat": "Salários",
         "values": [
           0,
           -16211.62,
           -17715.05,
-          -24832.08,
+          -24920.08,
           -41806.17,
           0,
           0,
@@ -5416,11 +5399,28 @@ const SEGMENTS = {
       {
         "cat": "Mentorias, Cursos e Treinamentos",
         "values": [
-          -13000,
-          -13330.75,
-          -22989.96,
+          -13099,
+          -14704.75,
+          -23088.96,
           -13330.75,
           -449.96,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "cat": "Insumos e Materiais Clínicos",
+        "values": [
+          -11619.89,
+          -17199.97,
+          -26825.32,
+          -3531.16,
+          -5247.930000000001,
           0,
           0,
           0,
@@ -5436,7 +5436,7 @@ const SEGMENTS = {
           -30629.31,
           -2246.07,
           0,
-          -17984.43,
+          -17979.15,
           -8985.39,
           0,
           0,
@@ -5554,14 +5554,8 @@ const SEGMENTS = {
       {
         "tipo": "Despesa",
         "isHeader": true,
-        "d1": -423928.27000000014,
-        "d2": -314937.9099999999
-      },
-      {
-        "tipo": "Despesas Diversas (Cartão)",
-        "parent": "Despesa",
-        "d1": -70698.4,
-        "d2": -41428.990000000005
+        "d1": -378735.23000000016,
+        "d2": -280596.66
       },
       {
         "tipo": "Tarifas Bancárias",
@@ -5578,14 +5572,14 @@ const SEGMENTS = {
       {
         "tipo": "Lanches e Refeições",
         "parent": "Despesa",
-        "d1": -329,
-        "d2": -155
+        "d1": -1945.03,
+        "d2": -1110.75
       },
       {
         "tipo": "Serviços de Pessoa Jurídica",
         "parent": "Despesa",
-        "d1": -3137,
-        "d2": -143
+        "d1": -3242,
+        "d2": -146
       },
       {
         "tipo": "Telefonia Móvel",
@@ -5602,14 +5596,44 @@ const SEGMENTS = {
       {
         "tipo": "Despesas a identificar",
         "parent": "Despesa",
-        "d1": -50207.04,
-        "d2": -7037.43
+        "d1": -29752.33,
+        "d2": -4642.43
+      },
+      {
+        "tipo": "Insumos e Materiais Clínicos",
+        "parent": "Despesa",
+        "d1": -55645.17999999999,
+        "d2": -8779.09
+      },
+      {
+        "tipo": "Materiais de Escritório",
+        "parent": "Despesa",
+        "d1": -4829.17,
+        "d2": -2754.469999999999
+      },
+      {
+        "tipo": "Software / Licença de Uso",
+        "parent": "Despesa",
+        "d1": -2596.9700000000003,
+        "d2": -399.9
+      },
+      {
+        "tipo": "Mentorias, Cursos e Treinamentos",
+        "parent": "Despesa",
+        "d1": -50892.71,
+        "d2": -13780.71
+      },
+      {
+        "tipo": "Brindes para Clientes",
+        "parent": "Despesa",
+        "d1": -320.22999999999996,
+        "d2": -70.16
       },
       {
         "tipo": "Coleta de Resíduos Ambientais",
         "parent": "Despesa",
         "d1": -409.91999999999996,
-        "d2": -239.51999999999998
+        "d2": -248.16000000000003
       },
       {
         "tipo": "Telefonia e Internet",
@@ -5621,31 +5645,19 @@ const SEGMENTS = {
         "tipo": "Serviços e Materiais de Limpeza e de Higiene",
         "parent": "Despesa",
         "d1": -480,
-        "d2": -2189
+        "d2": -2470.46
       },
       {
         "tipo": "ISS",
         "parent": "Despesa",
         "d1": -32875.380000000005,
-        "d2": -26969.82
-      },
-      {
-        "tipo": "Insumos e Materiais Clínicos",
-        "parent": "Despesa",
-        "d1": -18404.39,
-        "d2": -5637.450000000001
+        "d2": -26964.54
       },
       {
         "tipo": "Energia Elétrica",
         "parent": "Despesa",
         "d1": -2133.85,
         "d2": -1291.37
-      },
-      {
-        "tipo": "Materiais de Escritório",
-        "parent": "Despesa",
-        "d1": -1068.87,
-        "d2": -7.1
       },
       {
         "tipo": "FGTS e Multa de FGTS",
@@ -5672,22 +5684,10 @@ const SEGMENTS = {
         "d2": -11216.09
       },
       {
-        "tipo": "Mentorias, Cursos e Treinamentos",
-        "parent": "Despesa",
-        "d1": -49320.71,
-        "d2": -13780.71
-      },
-      {
         "tipo": "Salários",
         "parent": "Despesa",
         "d1": -33926.67,
-        "d2": -66638.25
-      },
-      {
-        "tipo": "Software / Licença de Uso",
-        "parent": "Despesa",
-        "d1": -1251.25,
-        "d2": -399.9
+        "d2": -66726.25
       },
       {
         "tipo": "Honorários Consultoria",
@@ -5729,7 +5729,7 @@ const SEGMENTS = {
         "tipo": "Viagens e Representações",
         "parent": "Despesa",
         "d1": 0,
-        "d2": -92.4
+        "d2": -2284.4
       },
       {
         "tipo": "Troco",
@@ -5744,7 +5744,7 @@ const SEGMENTS = {
         "d2": -2876.6
       },
       {
-        "tipo": "IRRF",
+        "tipo": "Retenção - Darf 1708 - IRRF",
         "parent": "Despesa",
         "d1": 0,
         "d2": -7947.55
@@ -5767,27 +5767,27 @@ const SEGMENTS = {
       {
         "m": "fevereiro",
         "receita": 1492,
-        "despesa": 9559.789999999999
+        "despesa": 0
       },
       {
         "m": "março",
         "receita": 321170.8,
-        "despesa": 47612.42999999999
+        "despesa": 80245.52999999998
       },
       {
         "m": "abril",
         "receita": 60064.75,
-        "despesa": 11908.789999999999
+        "despesa": 0
       },
       {
         "m": "maio",
         "receita": 63885.03999999999,
-        "despesa": 8490.640000000001
+        "despesa": 184.94
       },
       {
         "m": "junho",
         "receita": 8585.84,
-        "despesa": 4574.799999999999
+        "despesa": 4759.74
       },
       {
         "m": "julho",
@@ -5885,38 +5885,38 @@ const SEGMENTS = {
     "DESPESA_CATEGORIAS": [
       {
         "name": "Insumos e Materiais Clínicos",
-        "value": 58619.54,
-        "fornecedores": 5
+        "value": 59805.14,
+        "fornecedores": 12
       },
       {
         "name": "Marketing e Publicidade",
-        "value": 9420.39,
+        "value": 15009.43,
         "fornecedores": 4
       },
       {
-        "name": "Despesas Pessoais dos Sócios",
-        "value": 8640,
-        "fornecedores": 1
-      },
-      {
-        "name": "Software / Licença de Uso",
-        "value": 2317.34,
-        "fornecedores": 2
+        "name": "Despesas a identificar",
+        "value": 3952,
+        "fornecedores": 3
       },
       {
         "name": "Materiais de Escritório",
-        "value": 1600,
-        "fornecedores": 1
+        "value": 2560.35,
+        "fornecedores": 3
       },
       {
-        "name": "FGTS e Multa de FGTS",
-        "value": 548.22,
-        "fornecedores": 1
+        "name": "Software / Licença de Uso",
+        "value": 2042.4200000000003,
+        "fornecedores": 5
       },
       {
-        "name": "Coleta de Resíduos Ambientais",
-        "value": 361.02,
-        "fornecedores": 1
+        "name": "Viagens e Representações",
+        "value": 621.88,
+        "fornecedores": 3
+      },
+      {
+        "name": "Lanches e Refeições",
+        "value": 429.06,
+        "fornecedores": 2
       },
       {
         "name": "Plano de Saúde Colaboradores",
@@ -5929,13 +5929,13 @@ const SEGMENTS = {
         "fornecedores": 1
       },
       {
-        "name": "Serviços de Pessoa Jurídica",
-        "value": 151,
-        "fornecedores": 2
+        "name": "Combustíveis",
+        "value": 177,
+        "fornecedores": 1
       },
       {
-        "name": "ISS",
-        "value": 14.14,
+        "name": "Brindes para Clientes",
+        "value": 118.13,
         "fornecedores": 1
       }
     ],
@@ -5991,36 +5991,40 @@ const SEGMENTS = {
     ],
     "DESPESA_FORNECEDORES": [
       {
-        "name": "BIO MEDS PHARMACEUTICA LTDA",
-        "value": 21987.7
+        "name": "Bio Meds Pharmaceutics",
+        "value": 22751.77
       },
       {
-        "name": "TOKARSKI COMERCIO INDUSTRIA LTDA",
-        "value": 14300.04
+        "name": "Unikka Pharma",
+        "value": 13767
       },
       {
-        "name": "BIOS FARMACEUTICA LTDA",
-        "value": 12500.8
+        "name": "Bios Farmacêutica",
+        "value": 8949.419999999998
       },
       {
-        "name": "KAMILLA PIMENTEL DERMATOLOGIA LTDA",
-        "value": 8640
+        "name": "Facebook",
+        "value": 6909.430000000001
       },
       {
-        "name": "ELMECO SERVICOS FARMACEUTICOS E TREINAMENTO PROFISSIONAL LTDA",
-        "value": 7140
+        "name": "Farmacia Arte",
+        "value": 4766.68
       },
       {
-        "name": "GOOGLE BRASIL INTERNET LTDA.",
-        "value": 2720.39
+        "name": "Google ADS",
+        "value": 4000
       },
       {
-        "name": "BIOMA4ME ANALISES CLINICAS S.A.",
-        "value": 2691
+        "name": "Debora Nunes",
+        "value": 3483.34
       },
       {
-        "name": "64.659.216 KETELLY ALVES GOULARTE",
-        "value": 2600
+        "name": "Central Farma",
+        "value": 2792.03
+      },
+      {
+        "name": "Next Segurança Eletr",
+        "value": 2412
       },
       {
         "name": "52.526.409 WILIAN DE SOUZA OLIVEIRA",
@@ -6031,12 +6035,8 @@ const SEGMENTS = {
         "value": 2000
       },
       {
-        "name": "BARRACOPY COMUNICACAO VISUAL LTDA",
-        "value": 1600
-      },
-      {
-        "name": "CLOUDIA TECNOLOGIA EM SOFTWARE LTDA",
-        "value": 1399.6999999999998
+        "name": "Magazine Med",
+        "value": 1563.6999999999998
       }
     ],
     "EXTRATO": [
@@ -6142,6 +6142,14 @@ const SEGMENTS = {
         "Plano de Saúde Colaboradores",
         "UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO",
         -260,
+        "ATRASADO"
+      ],
+      [
+        "05/06/2026",
+        "Operações",
+        "Viagens e Representações",
+        "Sem cliente",
+        -184.94,
         "ATRASADO"
       ],
       [
@@ -6281,14 +6289,6 @@ const SEGMENTS = {
         "ATRASADO"
       ],
       [
-        "28/05/2026",
-        "Operações",
-        "FGTS e Multa de FGTS",
-        "CEF MATRIZ",
-        -548.22,
-        "ATRASADO"
-      ],
-      [
         "26/05/2026",
         "Operações",
         "Suplementos",
@@ -6377,22 +6377,6 @@ const SEGMENTS = {
         "ATRASADO"
       ],
       [
-        "13/05/2026",
-        "Operações",
-        "Coleta de Resíduos Ambientais",
-        "RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP",
-        -138.3,
-        "ATRASADO"
-      ],
-      [
-        "12/05/2026",
-        "Operações",
-        "Insumos e Materiais Clínicos",
-        "BIO MEDS PHARMACEUTICA LTDA",
-        -2405.4,
-        "ATRASADO"
-      ],
-      [
         "11/05/2026",
         "Operações",
         "Suplementos",
@@ -6422,14 +6406,6 @@ const SEGMENTS = {
         "Receita de Serviços - Plano Prata",
         "NAZARETH ALVES DE ARAÚJO",
         1000,
-        "ATRASADO"
-      ],
-      [
-        "11/05/2026",
-        "Operações",
-        "Insumos e Materiais Clínicos",
-        "BIO MEDS PHARMACEUTICA LTDA",
-        -151.3,
         "ATRASADO"
       ],
       [
@@ -6470,22 +6446,6 @@ const SEGMENTS = {
         "Implantes",
         "ÉRICA RODRIGUES LIMA BOECHAT",
         4500,
-        "ATRASADO"
-      ],
-      [
-        "08/05/2026",
-        "Operações",
-        "ISS",
-        "RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP",
-        -4.92,
-        "ATRASADO"
-      ],
-      [
-        "08/05/2026",
-        "Operações",
-        "ISS",
-        "RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP",
-        -4,
         "ATRASADO"
       ],
       [
@@ -6553,6 +6513,14 @@ const SEGMENTS = {
         "ATRASADO"
       ],
       [
+        "05/05/2026",
+        "Operações",
+        "Viagens e Representações",
+        "Sup Princesa Búzios",
+        -184.94,
+        "ATRASADO"
+      ],
+      [
         "04/05/2026",
         "Operações",
         "Suplementos",
@@ -6590,22 +6558,6 @@ const SEGMENTS = {
         "Receita de Serviços - Plano Prata",
         "ROSIANE ALMEIDA COSTA BELING",
         500,
-        "ATRASADO"
-      ],
-      [
-        "04/05/2026",
-        "Operações",
-        "Marketing e Publicidade",
-        "64.659.216 KETELLY ALVES GOULARTE",
-        -2600,
-        "ATRASADO"
-      ],
-      [
-        "02/05/2026",
-        "Operações",
-        "Marketing e Publicidade",
-        "GOOGLE BRASIL INTERNET LTDA.",
-        -2638.5,
         "ATRASADO"
       ],
       [
@@ -6777,22 +6729,6 @@ const SEGMENTS = {
         "ATRASADO"
       ],
       [
-        "30/04/2026",
-        "Operações",
-        "Software / Licença de Uso",
-        "CLOUDIA TECNOLOGIA EM SOFTWARE LTDA",
-        -399.9,
-        "ATRASADO"
-      ],
-      [
-        "30/04/2026",
-        "Operações",
-        "Insumos e Materiais Clínicos",
-        "BIOMA4ME ANALISES CLINICAS S.A.",
-        -2691,
-        "ATRASADO"
-      ],
-      [
         "25/04/2026",
         "Operações",
         "Receita de Serviços - Plano Prata",
@@ -6817,35 +6753,11 @@ const SEGMENTS = {
         "ATRASADO"
       ],
       [
-        "14/04/2026",
-        "Operações",
-        "Coleta de Resíduos Ambientais",
-        "RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP",
-        -96,
-        "ATRASADO"
-      ],
-      [
-        "02/04/2026",
-        "Operações",
-        "Marketing e Publicidade",
-        "GOOGLE BRASIL INTERNET LTDA.",
-        -81.89,
-        "ATRASADO"
-      ],
-      [
         "01/04/2026",
         "Operações",
         "Implantes",
         "Tomadores Diversos",
         3900,
-        "ATRASADO"
-      ],
-      [
-        "01/04/2026",
-        "Operações",
-        "Despesas Pessoais dos Sócios",
-        "KAMILLA PIMENTEL DERMATOLOGIA LTDA",
-        -8640,
         "ATRASADO"
       ],
       [
@@ -7297,30 +7209,6 @@ const SEGMENTS = {
         "ATRASADO"
       ],
       [
-        "30/03/2026",
-        "Operações",
-        "Materiais de Escritório",
-        "BARRACOPY COMUNICACAO VISUAL LTDA",
-        -1600,
-        "ATRASADO"
-      ],
-      [
-        "30/03/2026",
-        "Operações",
-        "Insumos e Materiais Clínicos",
-        "BIOS FARMACEUTICA LTDA",
-        -12500.8,
-        "ATRASADO"
-      ],
-      [
-        "28/03/2026",
-        "Operações",
-        "Software / Licença de Uso",
-        "CLOUDIA TECNOLOGIA EM SOFTWARE LTDA",
-        -399.9,
-        "ATRASADO"
-      ],
-      [
         "26/03/2026",
         "Operações",
         "Receita de Serviços - Plano Prata",
@@ -7331,209 +7219,425 @@ const SEGMENTS = {
       [
         "24/03/2026",
         "Operações",
-        "Serviços de Pessoa Jurídica",
-        "37.901.199 VAGNER LISBOA RIBEIRO",
-        -60,
-        "ATRASADO"
-      ],
-      [
-        "19/03/2026",
-        "Operações",
-        "Serviços de Pessoa Jurídica",
-        "NICKSCELL COMERCIO E SERVICOS LTDA",
-        -91,
-        "ATRASADO"
-      ],
-      [
-        "12/03/2026",
-        "Operações",
         "Insumos e Materiais Clínicos",
-        "BIO MEDS PHARMACEUTICA LTDA",
-        -18528.75,
+        "Central Farma",
+        -243.07,
         "ATRASADO"
       ],
       [
-        "11/03/2026",
-        "Operações",
-        "Insumos e Materiais Clínicos",
-        "TOKARSKI COMERCIO INDUSTRIA LTDA",
-        -14300.04,
-        "ATRASADO"
-      ],
-      [
-        "11/03/2026",
-        "Operações",
-        "Coleta de Resíduos Ambientais",
-        "RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP",
-        -126.72,
-        "ATRASADO"
-      ],
-      [
-        "10/03/2026",
-        "Operações",
-        "Suplementos",
-        "RODRIGO SOARES SIQUEIRA",
-        60,
-        "ATRASADO"
-      ],
-      [
-        "10/03/2026",
-        "Operações",
-        "ISS",
-        "RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP",
-        -5.22,
-        "ATRASADO"
-      ],
-      [
-        "09/03/2026",
-        "Operações",
-        "Suplementos",
-        "SAYONARIA LOPES EVANGELISTA",
-        185,
-        "ATRASADO"
-      ],
-      [
-        "07/03/2026",
-        "Operações",
-        "Receita de Serviços - Plano Bronze",
-        "ROSANGELA GOMES RIBEIRO FIUZA",
-        3367,
-        "ATRASADO"
-      ],
-      [
-        "28/02/2026",
+        "24/03/2026",
         "Operações",
         "Software / Licença de Uso",
-        "CLOUDIA TECNOLOGIA EM SOFTWARE LTDA",
-        -599.9,
+        "Adapta",
+        -99,
         "ATRASADO"
       ],
       [
-        "23/02/2026",
+        "24/03/2026",
         "Operações",
-        "Suplementos",
-        "MARLETE ALVARES CABRAL",
-        50,
+        "Insumos e Materiais Clínicos",
+        "Bios Farmacêutica",
+        -1158.85,
         "ATRASADO"
       ],
       [
-        "20/02/2026",
+        "24/03/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Magazine Med",
+        -158.5,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Central Farma",
+        -229.45,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Materiais de Escritório",
+        "Mercado Livre",
+        -43.35,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Central Farma",
+        -424.07,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Cirúrgica Barra LTDA",
+        -162.3,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Despesas a identificar",
+        "Debora Nunes",
+        -1000,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Sarita Scrubs",
+        -263.4,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Bio Meds Pharmaceutics",
+        -810.46,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Bios Farmacêutica",
+        -1232.4,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Despesas a identificar",
+        "Marilza Moda Intima",
+        -212.66,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Magazine Med",
+        -320.1,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Brindes para Clientes",
+        "O Boticário",
+        -59.06,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Materiais de Escritório",
+        "Next Segurança Eletr",
+        -1206,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
         "Operações",
         "Software / Licença de Uso",
-        "CONTAAZUL SOFTWARE LTDA",
-        -917.64,
+        "Conta Azul",
+        -305.88,
         "ATRASADO"
       ],
       [
-        "13/02/2026",
-        "Operações",
-        "Suplementos",
-        "NAZARETH ALVES DE ARAÚJO",
-        75,
-        "ATRASADO"
-      ],
-      [
-        "12/02/2026",
-        "Operações",
-        "Consulta",
-        "LETICIA BATISTA DE MORAES",
-        650,
-        "ATRASADO"
-      ],
-      [
-        "11/02/2026",
-        "Operações",
-        "Suplementos",
-        "JOSÉ ESTHEVAN PIRES DA CUNHA",
-        135,
-        "ATRASADO"
-      ],
-      [
-        "11/02/2026",
+        "24/03/2026",
         "Operações",
         "Insumos e Materiais Clínicos",
-        "ELMECO SERVICOS FARMACEUTICOS E TREINAMENTO PROFISSIONAL LTDA",
-        -7140,
+        "Stin Pharma e Comme",
+        -592.66,
         "ATRASADO"
       ],
       [
-        "10/02/2026",
-        "Operações",
-        "Consulta",
-        "ÉRICA RODRIGUES LIMA BOECHAT",
-        582,
-        "ATRASADO"
-      ],
-      [
-        "04/02/2026",
+        "24/03/2026",
         "Operações",
         "Insumos e Materiais Clínicos",
-        "BIO MEDS PHARMACEUTICA LTDA",
-        -902.25,
+        "Bios Farmacêutica",
+        -2083.47,
         "ATRASADO"
       ],
       [
-        "26/01/2026",
+        "24/03/2026",
         "Operações",
-        "Consulta",
-        "SAYONARIA LOPES EVANGELISTA",
-        500,
+        "Insumos e Materiais Clínicos",
+        "Bio Meds Pharmaceutics",
+        -6176.25,
         "ATRASADO"
       ],
       [
-        "21/01/2026",
+        "24/03/2026",
         "Operações",
-        "Suplementos",
-        "HAYANE SILVA VALARDAO",
-        135,
+        "Insumos e Materiais Clínicos",
+        "Bio Meds Pharmaceutics",
+        -639.18,
         "ATRASADO"
       ],
       [
-        "19/01/2026",
+        "24/03/2026",
         "Operações",
-        "Suplementos",
-        "JADER JESUS SILVA",
-        150,
+        "Insumos e Materiais Clínicos",
+        "Unikka Pharma",
+        -6883.5,
         "ATRASADO"
       ],
       [
-        "13/01/2026",
+        "24/03/2026",
         "Operações",
-        "Suplementos",
-        "NAZARETH ALVES DE ARAÚJO",
-        185,
+        "Insumos e Materiais Clínicos",
+        "Cirúrgica Barra LTDA",
+        -509.55,
         "ATRASADO"
       ],
       [
-        "08/01/2026",
+        "24/03/2026",
         "Operações",
-        "Suplementos",
-        "LAYLA TEIXEIRA BARBOSA COSTA",
-        135,
+        "Software / Licença de Uso",
+        "Cloudia",
+        -399.9,
         "ATRASADO"
       ],
       [
-        "06/01/2026",
+        "24/03/2026",
         "Operações",
-        "Suplementos",
-        "ANA PAULA COELHO PORTES MATTOS",
-        75,
+        "Insumos e Materiais Clínicos",
+        "Magazine Med",
+        -606.5,
         "ATRASADO"
       ],
       [
-        "05/01/2026",
+        "24/03/2026",
         "Operações",
-        "Suplementos",
-        "LEILA DA SILVA DE SOUZA COELHO",
-        75,
+        "Insumos e Materiais Clínicos",
+        "Central Farma",
+        -998.85,
         "ATRASADO"
       ],
       [
-        "05/01/2026",
+        "24/03/2026",
         "Operações",
-        "Suplementos",
-        "KAIKE PIOL",
-        75,
+        "Insumos e Materiais Clínicos",
+        "Farmacia Arte",
+        -2383.34,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -39.89,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -50.14,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -174.82,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -67.24,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -258.65,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -67.2,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -258.64,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -67.16,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -292.65,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -67.24,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -292.68,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -67.19,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Software / Licença de Uso",
+        "Open AI",
+        -51.2,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -293.24,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -67.32,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -67.19,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Bionexo S A",
+        -588.9,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -292.8,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -67.24,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -120.42,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -33.88,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -293.01,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -67.19,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -292.66,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -67.17,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -292.93,
         "ATRASADO"
       ]
     ],
@@ -8829,226 +8933,1098 @@ const SEGMENTS = {
         "ATRASADO"
       ],
       [
-        "28/05/2026",
+        "05/06/2026",
         "Operações",
-        "FGTS e Multa de FGTS",
-        "CEF MATRIZ",
-        -548.22,
+        "Viagens e Representações",
+        "Sem cliente",
+        -184.94,
         "ATRASADO"
       ],
       [
-        "13/05/2026",
+        "05/05/2026",
         "Operações",
-        "Coleta de Resíduos Ambientais",
-        "RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP",
-        -138.3,
+        "Viagens e Representações",
+        "Sup Princesa Búzios",
+        -184.94,
         "ATRASADO"
       ],
       [
-        "12/05/2026",
-        "Operações",
-        "Insumos e Materiais Clínicos",
-        "BIO MEDS PHARMACEUTICA LTDA",
-        -2405.4,
-        "ATRASADO"
-      ],
-      [
-        "11/05/2026",
+        "24/03/2026",
         "Operações",
         "Insumos e Materiais Clínicos",
-        "BIO MEDS PHARMACEUTICA LTDA",
-        -151.3,
+        "Central Farma",
+        -243.07,
         "ATRASADO"
       ],
       [
-        "08/05/2026",
-        "Operações",
-        "ISS",
-        "RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP",
-        -4.92,
-        "ATRASADO"
-      ],
-      [
-        "08/05/2026",
-        "Operações",
-        "ISS",
-        "RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP",
-        -4,
-        "ATRASADO"
-      ],
-      [
-        "04/05/2026",
-        "Operações",
-        "Marketing e Publicidade",
-        "64.659.216 KETELLY ALVES GOULARTE",
-        -2600,
-        "ATRASADO"
-      ],
-      [
-        "02/05/2026",
-        "Operações",
-        "Marketing e Publicidade",
-        "GOOGLE BRASIL INTERNET LTDA.",
-        -2638.5,
-        "ATRASADO"
-      ],
-      [
-        "30/04/2026",
+        "24/03/2026",
         "Operações",
         "Software / Licença de Uso",
-        "CLOUDIA TECNOLOGIA EM SOFTWARE LTDA",
-        -399.9,
+        "Adapta",
+        -99,
         "ATRASADO"
       ],
       [
-        "30/04/2026",
+        "24/03/2026",
         "Operações",
         "Insumos e Materiais Clínicos",
-        "BIOMA4ME ANALISES CLINICAS S.A.",
-        -2691,
+        "Bios Farmacêutica",
+        -1158.85,
         "ATRASADO"
       ],
       [
-        "14/04/2026",
+        "24/03/2026",
         "Operações",
-        "Coleta de Resíduos Ambientais",
-        "RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP",
-        -96,
+        "Insumos e Materiais Clínicos",
+        "Magazine Med",
+        -158.5,
         "ATRASADO"
       ],
       [
-        "02/04/2026",
+        "24/03/2026",
         "Operações",
-        "Marketing e Publicidade",
-        "GOOGLE BRASIL INTERNET LTDA.",
-        -81.89,
+        "Insumos e Materiais Clínicos",
+        "Central Farma",
+        -229.45,
         "ATRASADO"
       ],
       [
-        "01/04/2026",
-        "Operações",
-        "Despesas Pessoais dos Sócios",
-        "KAMILLA PIMENTEL DERMATOLOGIA LTDA",
-        -8640,
-        "ATRASADO"
-      ],
-      [
-        "30/03/2026",
+        "24/03/2026",
         "Operações",
         "Materiais de Escritório",
-        "BARRACOPY COMUNICACAO VISUAL LTDA",
-        -1600,
+        "Mercado Livre",
+        -43.35,
         "ATRASADO"
       ],
       [
-        "30/03/2026",
+        "24/03/2026",
         "Operações",
         "Insumos e Materiais Clínicos",
-        "BIOS FARMACEUTICA LTDA",
-        -12500.8,
+        "Central Farma",
+        -424.07,
         "ATRASADO"
       ],
       [
-        "28/03/2026",
+        "24/03/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Cirúrgica Barra LTDA",
+        -162.3,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Despesas a identificar",
+        "Debora Nunes",
+        -1000,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Sarita Scrubs",
+        -263.4,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Bio Meds Pharmaceutics",
+        -810.46,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Bios Farmacêutica",
+        -1232.4,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Despesas a identificar",
+        "Marilza Moda Intima",
+        -212.66,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Magazine Med",
+        -320.1,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Brindes para Clientes",
+        "O Boticário",
+        -59.06,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Materiais de Escritório",
+        "Next Segurança Eletr",
+        -1206,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
         "Operações",
         "Software / Licença de Uso",
-        "CLOUDIA TECNOLOGIA EM SOFTWARE LTDA",
+        "Conta Azul",
+        -305.88,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Stin Pharma e Comme",
+        -592.66,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Bios Farmacêutica",
+        -2083.47,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Bio Meds Pharmaceutics",
+        -6176.25,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Bio Meds Pharmaceutics",
+        -639.18,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Unikka Pharma",
+        -6883.5,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Cirúrgica Barra LTDA",
+        -509.55,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Software / Licença de Uso",
+        "Cloudia",
         -399.9,
         "ATRASADO"
       ],
       [
         "24/03/2026",
         "Operações",
-        "Serviços de Pessoa Jurídica",
-        "37.901.199 VAGNER LISBOA RIBEIRO",
-        -60,
+        "Insumos e Materiais Clínicos",
+        "Magazine Med",
+        -606.5,
         "ATRASADO"
       ],
       [
-        "19/03/2026",
-        "Operações",
-        "Serviços de Pessoa Jurídica",
-        "NICKSCELL COMERCIO E SERVICOS LTDA",
-        -91,
-        "ATRASADO"
-      ],
-      [
-        "12/03/2026",
+        "24/03/2026",
         "Operações",
         "Insumos e Materiais Clínicos",
-        "BIO MEDS PHARMACEUTICA LTDA",
-        -18528.75,
+        "Central Farma",
+        -998.85,
         "ATRASADO"
       ],
       [
-        "11/03/2026",
+        "24/03/2026",
         "Operações",
         "Insumos e Materiais Clínicos",
-        "TOKARSKI COMERCIO INDUSTRIA LTDA",
-        -14300.04,
+        "Farmacia Arte",
+        -2383.34,
         "ATRASADO"
       ],
       [
-        "11/03/2026",
+        "24/03/2026",
         "Operações",
-        "Coleta de Resíduos Ambientais",
-        "RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP",
-        -126.72,
+        "Marketing e Publicidade",
+        "Facebook",
+        -39.89,
         "ATRASADO"
       ],
       [
-        "10/03/2026",
+        "24/03/2026",
         "Operações",
-        "ISS",
-        "RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP",
-        -5.22,
+        "Marketing e Publicidade",
+        "Facebook",
+        -50.14,
         "ATRASADO"
       ],
       [
-        "28/02/2026",
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -174.82,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -67.24,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -258.65,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -67.2,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -258.64,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -67.16,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -292.65,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -67.24,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -292.68,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -67.19,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
         "Operações",
         "Software / Licença de Uso",
-        "CLOUDIA TECNOLOGIA EM SOFTWARE LTDA",
+        "Open AI",
+        -51.2,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -293.24,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -67.32,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -67.19,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Bionexo S A",
+        -588.9,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -292.8,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -67.24,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -120.42,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -33.88,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -293.01,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -67.19,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -292.66,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -67.17,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -292.93,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Software / Licença de Uso",
+        "Open AI",
+        -50.44,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -292.95,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -67.25,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -67.16,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -292.61,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Central Farma",
+        -243.07,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Software / Licença de Uso",
+        "Adapta",
+        -99,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Despesas a identificar",
+        "Mercado Livre",
+        -43.33,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Bios Farmacêutica",
+        -1158.83,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Magazine Med",
+        -158.5,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Central Farma",
+        -229.45,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Central Farma",
+        -424.07,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Cirúrgica Barra LTDA",
+        -162.3,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Despesas a identificar",
+        "Debora Nunes",
+        -1000,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Bio Meds Pharmaceutics",
+        -810.45,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Despesas a identificar",
+        "Debora Nunes",
+        -1483.34,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Bios Farmacêutica",
+        -1232.4,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Farmácia Aliança",
+        -123.52,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Bio Meds Pharmaceutics",
+        -7500,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Sarita Scrubs",
+        -263.4,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Magazine Med",
+        -320.1,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Despesas a identificar",
+        "Marilza Moda Intima",
+        -212.67,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Materiais de Escritório",
+        "Paizante Tem de Tudo",
+        -105,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Brindes para Clientes",
+        "O Boticário",
+        -59.07,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Materiais de Escritório",
+        "Next Segurança Eletr",
+        -1206,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Stin Pharma e Comme",
+        -592.67,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Software / Licença de Uso",
+        "Conta Azul",
+        -305.88,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Software / Licença de Uso",
+        "Cloudia",
         -599.9,
         "ATRASADO"
       ],
       [
-        "20/02/2026",
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -11.99,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -26.24,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -12.91,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -13.86,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -12.56,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Farmacia Arte",
+        -2383.34,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -14.83,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -12.81,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -29.29,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -52.39,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -27.46,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -55.88,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -69.45,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -61.85,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -70.71,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -70.64,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -94.55,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -72.87,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Sgrancio & Souza LTDA",
+        -1366.94,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -73.39,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Bio Meds Pharmaceutics",
+        -6176.25,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -94.62,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Bionexo S A",
+        -588.9,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Bios Farmacêutica",
+        -2083.47,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -91.47,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Bio Meds Pharmaceutics",
+        -639.18,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -76.03,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -38.02,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -19,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -19,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -163.35,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -157.56,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -194.65,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -191.34,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -217.48,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -14.95,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -117.47,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -16.64,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -19.4,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -14.8,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Unikka Pharma",
+        -6883.5,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -13.74,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -37.59,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -233.65,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Marketing e Publicidade",
+        "Facebook",
+        -16.47,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Combustíveis",
+        "Posto Alvorada LTDA",
+        -177,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Viagens e Representações",
+        "Hotel Ilha do Boi Vitória",
+        -252,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
         "Operações",
         "Software / Licença de Uso",
-        "CONTAAZUL SOFTWARE LTDA",
-        -917.64,
+        "OpenAI",
+        -78,
         "ATRASADO"
       ],
       [
-        "11/02/2026",
+        "24/03/2026",
         "Operações",
-        "Insumos e Materiais Clínicos",
-        "ELMECO SERVICOS FARMACEUTICOS E TREINAMENTO PROFISSIONAL LTDA",
-        -7140,
+        "Marketing e Publicidade",
+        "Google ADS",
+        -4000,
         "ATRASADO"
       ],
       [
-        "04/02/2026",
+        "24/03/2026",
         "Operações",
-        "Insumos e Materiais Clínicos",
-        "BIO MEDS PHARMACEUTICA LTDA",
-        -902.25,
+        "Lanches e Refeições",
+        "Restaurante Vitória",
+        -311.06,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Lanches e Refeições",
+        "Don Paganotto",
+        -118,
+        "ATRASADO"
+      ],
+      [
+        "24/03/2026",
+        "Operações",
+        "Software / Licença de Uso",
+        "OpenAI",
+        -53.22,
         "ATRASADO"
       ]
     ],
     "KPIS": {
       "TOTAL_RECEITA": 456528.43,
-      "TOTAL_DESPESA": 82146.45,
-      "VALOR_LIQUIDO": 374381.98,
-      "MARGEM_LIQUIDA": 82.00627943368171,
+      "TOTAL_DESPESA": 85190.20999999999,
+      "VALOR_LIQUIDO": 371338.22,
+      "MARGEM_LIQUIDA": 81.33956082428425,
       "VALOR_LIQ_SERIES": [
         1330,
-        -8067.789999999999,
-        273558.37,
-        48155.96,
-        55394.399999999994,
-        4011.040000000001,
+        1492,
+        240925.27000000002,
+        60064.75,
+        63700.09999999999,
+        3826.1000000000004,
         0,
         0,
         0,
@@ -9091,51 +10067,51 @@ const SEGMENTS = {
       316933.8
     ],
     "DESPESA_DIA": [
-      8640,
-      2720.39,
       0,
-      3502.25,
-      2260,
+      0,
+      0,
+      0,
+      2629.88,
       2314.8,
       0,
-      8.92,
-      0,
-      5.22,
-      21718.06,
-      20934.15,
-      138.3,
-      96,
       0,
       0,
       0,
       0,
-      91,
-      917.64,
       0,
       0,
       0,
-      60,
       0,
       0,
       0,
-      1548.02,
       0,
-      17191.699999999997,
+      0,
+      0,
+      0,
+      0,
+      0,
+      80245.52999999998,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
       0
     ],
     "SALDOS_MES": [
       1330,
-      -6737.789999999999,
-      266820.58,
-      314976.54000000004,
-      370370.94000000006,
-      374381.98000000004,
-      374381.98000000004,
-      374381.98000000004,
-      374381.98000000004,
-      374381.98000000004,
-      374381.98000000004,
-      374381.98000000004
+      2822,
+      243747.27000000002,
+      303812.02,
+      367512.12,
+      371338.22,
+      371338.22,
+      371338.22,
+      371338.22,
+      371338.22,
+      371338.22,
+      371338.22
     ],
     "FLUXO_RECEITA": [
       {
@@ -9229,10 +10205,10 @@ const SEGMENTS = {
         "cat": "Insumos e Materiais Clínicos",
         "values": [
           0,
-          -8042.25,
-          -45329.59,
-          -2691,
-          -2556.7000000000003,
+          0,
+          -59805.14,
+          0,
+          0,
           0,
           0,
           0,
@@ -9247,9 +10223,9 @@ const SEGMENTS = {
         "values": [
           0,
           0,
+          -10909.43,
           0,
-          -81.89,
-          -5238.5,
+          0,
           -4100,
           0,
           0,
@@ -9260,29 +10236,12 @@ const SEGMENTS = {
         ]
       },
       {
-        "cat": "Despesas Pessoais dos Sócios",
+        "cat": "Despesas a identificar",
         "values": [
           0,
           0,
+          -3952,
           0,
-          -8640,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      },
-      {
-        "cat": "Software / Licença de Uso",
-        "values": [
-          0,
-          -1517.54,
-          -399.9,
-          -399.9,
           0,
           0,
           0,
@@ -9298,7 +10257,24 @@ const SEGMENTS = {
         "values": [
           0,
           0,
-          -1600,
+          -2560.35,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "cat": "Software / Licença de Uso",
+        "values": [
+          0,
+          0,
+          -2042.4200000000003,
           0,
           0,
           0,
@@ -9393,62 +10369,62 @@ const SEGMENTS = {
       {
         "tipo": "Despesa",
         "isHeader": true,
-        "d1": -57172.22,
-        "d2": -24974.230000000003
+        "d1": -80245.52999999998,
+        "d2": -4944.679999999999
       },
       {
         "tipo": "Insumos e Materiais Clínicos",
         "parent": "Despesa",
-        "d1": -53371.84,
-        "d2": -5247.700000000001
+        "d1": -59805.14,
+        "d2": 0
       },
       {
         "tipo": "Software / Licença de Uso",
         "parent": "Despesa",
-        "d1": -1917.44,
-        "d2": -399.9
-      },
-      {
-        "tipo": "ISS",
-        "parent": "Despesa",
-        "d1": -5.22,
-        "d2": -8.92
-      },
-      {
-        "tipo": "Coleta de Resíduos Ambientais",
-        "parent": "Despesa",
-        "d1": -126.72,
-        "d2": -234.3
-      },
-      {
-        "tipo": "Serviços de Pessoa Jurídica",
-        "parent": "Despesa",
-        "d1": -151,
+        "d1": -2042.4200000000003,
         "d2": 0
       },
       {
         "tipo": "Materiais de Escritório",
         "parent": "Despesa",
-        "d1": -1600,
+        "d1": -2560.35,
         "d2": 0
       },
       {
-        "tipo": "Despesas Pessoais dos Sócios",
+        "tipo": "Despesas a identificar",
         "parent": "Despesa",
-        "d1": 0,
-        "d2": -8640
+        "d1": -3952,
+        "d2": 0
+      },
+      {
+        "tipo": "Brindes para Clientes",
+        "parent": "Despesa",
+        "d1": -118.13,
+        "d2": 0
       },
       {
         "tipo": "Marketing e Publicidade",
         "parent": "Despesa",
-        "d1": 0,
-        "d2": -9420.39
+        "d1": -10909.43,
+        "d2": -4100
       },
       {
-        "tipo": "FGTS e Multa de FGTS",
+        "tipo": "Combustíveis",
         "parent": "Despesa",
-        "d1": 0,
-        "d2": -548.22
+        "d1": -177,
+        "d2": 0
+      },
+      {
+        "tipo": "Viagens e Representações",
+        "parent": "Despesa",
+        "d1": -252,
+        "d2": -369.88
+      },
+      {
+        "tipo": "Lanches e Refeições",
+        "parent": "Despesa",
+        "d1": -429.06,
+        "d2": 0
       },
       {
         "tipo": "Plano de Saúde Colaboradores",
@@ -9494,7 +10470,7 @@ const SEGMENTS = {
       {
         "m": "junho",
         "receita": 20240.53,
-        "despesa": 5.76
+        "despesa": 0
       },
       {
         "m": "julho",
@@ -9594,11 +10570,6 @@ const SEGMENTS = {
         "name": "Telefonia e Internet",
         "value": 1288.8000000000002,
         "fornecedores": 1
-      },
-      {
-        "name": "Coleta de Resíduos Ambientais",
-        "value": 5.76,
-        "fornecedores": 1
       }
     ],
     "RECEITA_CLIENTES": [
@@ -9667,10 +10638,6 @@ const SEGMENTS = {
       {
         "name": "BIZZ INTERNET LTDA",
         "value": 1288.8000000000002
-      },
-      {
-        "name": "RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP",
-        "value": 5.76
       }
     ],
     "EXTRATO": [
@@ -11056,14 +12023,6 @@ const SEGMENTS = {
         "Consulta",
         "Débora Eliziário de Oliveira",
         50,
-        "A_PAGAR"
-      ],
-      [
-        "10/06/2026",
-        "Operações",
-        "Coleta de Resíduos Ambientais",
-        "RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP",
-        -5.76,
         "A_PAGAR"
       ]
     ],
@@ -12453,28 +13412,20 @@ const SEGMENTS = {
         "UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO",
         -260,
         "A_PAGAR"
-      ],
-      [
-        "10/06/2026",
-        "Operações",
-        "Coleta de Resíduos Ambientais",
-        "RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP",
-        -5.76,
-        "A_PAGAR"
       ]
     ],
     "KPIS": {
       "TOTAL_RECEITA": 99283.63,
-      "TOTAL_DESPESA": 27454.559999999998,
-      "VALOR_LIQUIDO": 71829.07,
-      "MARGEM_LIQUIDA": 72.34734467303421,
+      "TOTAL_DESPESA": 27448.799999999996,
+      "VALOR_LIQUIDO": 71834.83000000002,
+      "MARGEM_LIQUIDA": 72.35314623367418,
       "VALOR_LIQ_SERIES": [
         0,
         0,
         0,
         0,
         0,
-        20234.77,
+        20240.53,
         14082.910000000003,
         13382.910000000003,
         9739.140000000001,
@@ -12526,7 +13477,7 @@ const SEGMENTS = {
       0,
       0,
       0,
-      5.76,
+      0,
       0,
       0,
       0,
@@ -12555,13 +13506,13 @@ const SEGMENTS = {
       0,
       0,
       0,
-      20234.77,
-      34317.68000000001,
-      47700.59000000001,
-      57439.73000000001,
-      63862.72000000001,
-      69660.67000000001,
-      71829.07
+      20240.53,
+      34323.44,
+      47706.350000000006,
+      57445.490000000005,
+      63868.48,
+      69666.43000000001,
+      71834.83
     ],
     "FLUXO_RECEITA": [
       {
@@ -12701,23 +13652,6 @@ const SEGMENTS = {
           -214.8,
           -214.8
         ]
-      },
-      {
-        "cat": "Coleta de Resíduos Ambientais",
-        "values": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          -5.76,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
       }
     ],
     "COMP_DATA": [
@@ -12791,13 +13725,7 @@ const SEGMENTS = {
         "tipo": "Despesa",
         "isHeader": true,
         "d1": 0,
-        "d2": -5.76
-      },
-      {
-        "tipo": "Coleta de Resíduos Ambientais",
-        "parent": "Despesa",
-        "d1": 0,
-        "d2": -5.76
+        "d2": 0
       }
     ]
   },
@@ -12806,32 +13734,32 @@ const SEGMENTS = {
       {
         "m": "janeiro",
         "receita": 192282.14000000004,
-        "despesa": 152863.34
+        "despesa": 150567.93
       },
       {
         "m": "fevereiro",
         "receita": 155722.00999999995,
-        "despesa": 82377.71
+        "despesa": 72817.92000000001
       },
       {
         "m": "março",
         "receita": 499656.39999999997,
-        "despesa": 245859.43999999997
+        "despesa": 235594.91
       },
       {
         "m": "abril",
         "receita": 217433.62,
-        "despesa": 170692.75999999998
+        "despesa": 156195.82999999996
       },
       {
         "m": "maio",
         "receita": 206787.95000000004,
-        "despesa": 164644.58000000002
+        "despesa": 124585.76999999999
       },
       {
         "m": "junho",
         "receita": 28826.370000000003,
-        "despesa": 4580.5599999999995
+        "despesa": 4759.74
       },
       {
         "m": "julho",
@@ -12928,13 +13856,13 @@ const SEGMENTS = {
     ],
     "DESPESA_CATEGORIAS": [
       {
-        "name": "Despesas Diversas (Cartão)",
-        "value": 112127.39000000001,
-        "fornecedores": 1
+        "name": "Insumos e Materiais Clínicos",
+        "value": 124229.41,
+        "fornecedores": 24
       },
       {
         "name": "Salários",
-        "value": 100564.92,
+        "value": 100652.92,
         "fornecedores": 2
       },
       {
@@ -12943,28 +13871,18 @@ const SEGMENTS = {
         "fornecedores": 2
       },
       {
-        "name": "Insumos e Materiais Clínicos",
-        "value": 82661.37999999999,
-        "fornecedores": 9
-      },
-      {
-        "name": "Mentorias, Cursos e Treinamentos",
-        "value": 63101.42,
-        "fornecedores": 3
-      },
-      {
         "name": "Marketing e Publicidade",
-        "value": 60295.39,
+        "value": 65884.43000000001,
         "fornecedores": 6
       },
       {
-        "name": "ISS",
-        "value": 59859.340000000004,
-        "fornecedores": 3
+        "name": "Mentorias, Cursos e Treinamentos",
+        "value": 64673.42,
+        "fornecedores": 5
       },
       {
-        "name": "Despesas a identificar",
-        "value": 57244.47,
+        "name": "ISS",
+        "value": 59839.920000000006,
         "fornecedores": 2
       },
       {
@@ -12978,6 +13896,11 @@ const SEGMENTS = {
         "fornecedores": 2
       },
       {
+        "name": "Despesas a identificar",
+        "value": 38346.76,
+        "fornecedores": 9
+      },
+      {
         "name": "INSS sobre Salários - GPS",
         "value": 18615.829999999998,
         "fornecedores": 1
@@ -12986,6 +13909,11 @@ const SEGMENTS = {
         "name": "Pró-labore",
         "value": 15000,
         "fornecedores": 1
+      },
+      {
+        "name": "Materiais de Escritório",
+        "value": 10143.990000000003,
+        "fornecedores": 22
       }
     ],
     "RECEITA_CLIENTES": [
@@ -13041,7 +13969,7 @@ const SEGMENTS = {
     "DESPESA_FORNECEDORES": [
       {
         "name": "Sem cliente",
-        "value": 532288.3099999999
+        "value": 398454.74999999994
       },
       {
         "name": "O MEDICO EMPRESARIO LTDA",
@@ -13052,8 +13980,8 @@ const SEGMENTS = {
         "value": 46393.740000000005
       },
       {
-        "name": "BIO MEDS PHARMACEUTICA LTDA",
-        "value": 35603.950000000004
+        "name": "Bio Meds Pharmaceutics",
+        "value": 39372.670000000006
       },
       {
         "name": "52.526.409 WILIAN DE SOUZA OLIVEIRA",
@@ -13064,16 +13992,16 @@ const SEGMENTS = {
         "value": 24000
       },
       {
-        "name": "TOKARSKI COMERCIO INDUSTRIA LTDA",
-        "value": 14300.04
+        "name": "Unikka Pharma",
+        "value": 14912
+      },
+      {
+        "name": "Bios Farmacêutica",
+        "value": 14890.709999999997
       },
       {
         "name": "ANNA PAULA FERNANDES MARTINS",
         "value": 14100
-      },
-      {
-        "name": "BIOS FARMACEUTICA LTDA",
-        "value": 12500.8
       },
       {
         "name": "WOLF MENTOR'S SERVICOS DE APOIO ADMINISTRATIVO LTDA",
@@ -14474,14 +15402,6 @@ const SEGMENTS = {
         "A_PAGAR"
       ],
       [
-        "10/06/2026",
-        "Operações",
-        "Coleta de Resíduos Ambientais",
-        "RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP",
-        -5.76,
-        "A_PAGAR"
-      ],
-      [
         "08/06/2026",
         "Operações",
         "Receita de Serviços - Plano Bronze",
@@ -14583,6 +15503,14 @@ const SEGMENTS = {
         "Plano de Saúde Colaboradores",
         "UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO",
         -260,
+        "ATRASADO"
+      ],
+      [
+        "05/06/2026",
+        "Operações",
+        "Viagens e Representações",
+        "Sem cliente",
+        -184.94,
         "ATRASADO"
       ],
       [
@@ -16534,14 +17462,6 @@ const SEGMENTS = {
         "A_PAGAR"
       ],
       [
-        "10/06/2026",
-        "Operações",
-        "Coleta de Resíduos Ambientais",
-        "RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP",
-        -5.76,
-        "A_PAGAR"
-      ],
-      [
         "06/06/2026",
         "Operações",
         "Marketing e Publicidade",
@@ -16582,6 +17502,14 @@ const SEGMENTS = {
         "ATRASADO"
       ],
       [
+        "05/06/2026",
+        "Operações",
+        "Viagens e Representações",
+        "Sem cliente",
+        -184.94,
+        "ATRASADO"
+      ],
+      [
         "29/05/2026",
         "Operações",
         "Exames Médicos",
@@ -16604,14 +17532,6 @@ const SEGMENTS = {
         "Sem cliente",
         -1448.01,
         "PAGO"
-      ],
-      [
-        "28/05/2026",
-        "Operações",
-        "FGTS e Multa de FGTS",
-        "CEF MATRIZ",
-        -548.22,
-        "ATRASADO"
       ],
       [
         "25/05/2026",
@@ -16672,7 +17592,7 @@ const SEGMENTS = {
       [
         "21/05/2026",
         "Operações",
-        "IRRF",
+        "Retenção - Darf 1708 - IRRF",
         "RECEITA FEDERAL",
         -7947.55,
         "PAGO"
@@ -16894,28 +17814,12 @@ const SEGMENTS = {
         "PAGO"
       ],
       [
-        "13/05/2026",
-        "Operações",
-        "Coleta de Resíduos Ambientais",
-        "RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP",
-        -138.3,
-        "ATRASADO"
-      ],
-      [
         "12/05/2026",
         "Operações",
         "Tarifas Bancárias",
         "Sem cliente",
         -133.85,
         "PAGO"
-      ],
-      [
-        "12/05/2026",
-        "Operações",
-        "Insumos e Materiais Clínicos",
-        "BIO MEDS PHARMACEUTICA LTDA",
-        -2405.4,
-        "ATRASADO"
       ],
       [
         "11/05/2026",
@@ -16958,14 +17862,6 @@ const SEGMENTS = {
         "PAGO"
       ],
       [
-        "11/05/2026",
-        "Operações",
-        "Insumos e Materiais Clínicos",
-        "BIO MEDS PHARMACEUTICA LTDA",
-        -151.3,
-        "ATRASADO"
-      ],
-      [
         "08/05/2026",
         "Operações",
         "Troco",
@@ -16974,27 +17870,19 @@ const SEGMENTS = {
         "PAGO"
       ],
       [
-        "08/05/2026",
-        "Operações",
-        "ISS",
-        "RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP",
-        -4.92,
-        "ATRASADO"
-      ],
-      [
-        "08/05/2026",
-        "Operações",
-        "ISS",
-        "RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP",
-        -4,
-        "ATRASADO"
-      ],
-      [
         "07/05/2026",
         "Operações",
         "BPO Financeiro",
         "ALIADACONT CONTABILIDADE",
         -2400,
+        "PAGO"
+      ],
+      [
+        "07/05/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "BIOMA4ME ANALISES CLINICAS S.A.",
+        -2521.26,
         "PAGO"
       ],
       [
@@ -17048,33 +17936,17 @@ const SEGMENTS = {
       [
         "07/05/2026",
         "Operações",
-        "Insumos e Materiais Clínicos",
-        "BIOMA4ME ANALISES CLINICAS S.A.",
-        -2521.26,
-        "PAGO"
-      ],
-      [
-        "07/05/2026",
-        "Operações",
-        "Insumos e Materiais Clínicos",
-        "BIOMA4ME ANALISES CLINICAS S.A.",
-        -41.4,
-        "PAGO"
-      ],
-      [
-        "07/05/2026",
-        "Operações",
-        "Insumos e Materiais Clínicos",
-        "BIOMA4ME ANALISES CLINICAS S.A.",
-        -27.6,
-        "PAGO"
-      ],
-      [
-        "07/05/2026",
-        "Operações",
         "BPO Financeiro",
         "Sem cliente",
         -2400,
+        "PAGO"
+      ],
+      [
+        "07/05/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "BIOMA4ME ANALISES CLINICAS S.A.",
+        -2590.26,
         "PAGO"
       ],
       [
@@ -17083,14 +17955,6 @@ const SEGMENTS = {
         "Mentorias, Cursos e Treinamentos",
         "SEGEX UVV ON",
         -449.96,
-        "PAGO"
-      ],
-      [
-        "05/05/2026",
-        "Operações",
-        "Despesas Diversas (Cartão)",
-        "Sem cliente",
-        -2300,
         "PAGO"
       ],
       [
@@ -17108,6 +17972,78 @@ const SEGMENTS = {
         "Sem cliente",
         -2299.32,
         "PAGO"
+      ],
+      [
+        "05/05/2026",
+        "Operações",
+        "Viagens e Representações",
+        "Sup Princesa Búzios",
+        -660.93,
+        "PAGO"
+      ],
+      [
+        "05/05/2026",
+        "Operações",
+        "Viagens e Representações",
+        "Posto Armação dos Búzios",
+        -374.1,
+        "PAGO"
+      ],
+      [
+        "05/05/2026",
+        "Operações",
+        "Viagens e Representações",
+        "Posto Bellas Búzios LT",
+        -372.88,
+        "PAGO"
+      ],
+      [
+        "05/05/2026",
+        "Operações",
+        "Viagens e Representações",
+        "Auto Posto Schueng MIL",
+        -304.29,
+        "PAGO"
+      ],
+      [
+        "05/05/2026",
+        "Operações",
+        "Viagens e Representações",
+        "Posto Iate LTDA",
+        -263.94,
+        "PAGO"
+      ],
+      [
+        "05/05/2026",
+        "Operações",
+        "Viagens e Representações",
+        "Posto Praia de Camburi",
+        -209.76,
+        "PAGO"
+      ],
+      [
+        "05/05/2026",
+        "Operações",
+        "Lanches e Refeições",
+        "Espeluncas Bar",
+        -108,
+        "PAGO"
+      ],
+      [
+        "05/05/2026",
+        "Operações",
+        "Viagens e Representações",
+        "Serra",
+        -6.1,
+        "PAGO"
+      ],
+      [
+        "05/05/2026",
+        "Operações",
+        "Viagens e Representações",
+        "Sup Princesa Búzios",
+        -184.94,
+        "ATRASADO"
       ],
       [
         "04/05/2026",
@@ -17131,14 +18067,6 @@ const SEGMENTS = {
         "Salários",
         "Sem cliente",
         -2570,
-        "PAGO"
-      ],
-      [
-        "04/05/2026",
-        "Operações",
-        "Despesas Diversas (Cartão)",
-        "Sem cliente",
-        -34274.37,
         "PAGO"
       ],
       [
@@ -17168,26 +18096,130 @@ const SEGMENTS = {
       [
         "04/05/2026",
         "Operações",
-        "Despesas Diversas (Cartão)",
-        "Sem cliente",
-        -1224,
+        "Serviços e Materiais de Limpeza e de Higiene",
+        "Casa do Cloro",
+        -281.46,
         "PAGO"
       ],
       [
         "04/05/2026",
         "Operações",
-        "Marketing e Publicidade",
-        "64.659.216 KETELLY ALVES GOULARTE",
-        -2600,
-        "ATRASADO"
+        "Lanches e Refeições",
+        "Supermercado C",
+        -133.59,
+        "PAGO"
       ],
       [
-        "02/05/2026",
+        "04/05/2026",
         "Operações",
-        "Marketing e Publicidade",
-        "GOOGLE BRASIL INTERNET LTDA.",
-        -2638.5,
-        "ATRASADO"
+        "Materiais de Escritório",
+        "Reis e Souza L",
+        -121.5,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Materiais de Escritório",
+        "Rosa Linda",
+        -115,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Farmácia Alian",
+        -89.52,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Despesas a identificar",
+        "DLKNET*AC",
+        -83.5,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Materiais de Escritório",
+        "Forte Embalagens",
+        -74.95,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Despesas a identificar",
+        "Mironga",
+        -63,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Materiais de Escritório",
+        "Papelaria Renascer",
+        -57.7,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Lanches e Refeições",
+        "Supermercado C",
+        -52.7,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Despesas a identificar",
+        "Daniely Aguia Branca",
+        -50,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Brindes para Clientes",
+        "O Boticário",
+        -35.08,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Lanches e Refeições",
+        "MP*TaTyDoces Osasco BR",
+        -23,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Lanches e Refeições",
+        "Ki-Pastel",
+        -20,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Lanches e Refeições",
+        "Dinomania Lanches",
+        -16,
+        "PAGO"
+      ],
+      [
+        "04/05/2026",
+        "Operações",
+        "Lanches e Refeições",
+        "Cozinha da Ivone",
+        -7,
+        "PAGO"
       ],
       [
         "30/04/2026",
@@ -17196,22 +18228,6 @@ const SEGMENTS = {
         "Sem cliente",
         -390,
         "PAGO"
-      ],
-      [
-        "30/04/2026",
-        "Operações",
-        "Software / Licença de Uso",
-        "CLOUDIA TECNOLOGIA EM SOFTWARE LTDA",
-        -399.9,
-        "ATRASADO"
-      ],
-      [
-        "30/04/2026",
-        "Operações",
-        "Insumos e Materiais Clínicos",
-        "BIOMA4ME ANALISES CLINICAS S.A.",
-        -2691,
-        "ATRASADO"
       ],
       [
         "29/04/2026",
@@ -17296,14 +18312,6 @@ const SEGMENTS = {
       [
         "22/04/2026",
         "Operações",
-        "Serviços de Pessoa Jurídica",
-        "NICKSCELL COMERCIO E SERVICOS LTDA",
-        -88,
-        "PAGO"
-      ],
-      [
-        "22/04/2026",
-        "Operações",
         "Telefonia e Internet",
         "TELEFONICA BRASIL S.A",
         -49.43,
@@ -17315,6 +18323,14 @@ const SEGMENTS = {
         "Telefonia e Internet",
         "TELEFONICA BRASIL S.A",
         -41.76,
+        "PAGO"
+      ],
+      [
+        "22/04/2026",
+        "Operações",
+        "Salários",
+        "Sem cliente",
+        -88,
         "PAGO"
       ],
       [
@@ -17382,14 +18398,6 @@ const SEGMENTS = {
         "PAGO"
       ],
       [
-        "14/04/2026",
-        "Operações",
-        "Coleta de Resíduos Ambientais",
-        "RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP",
-        -96,
-        "ATRASADO"
-      ],
-      [
         "09/04/2026",
         "Operações",
         "Despesas a identificar",
@@ -17424,6 +18432,14 @@ const SEGMENTS = {
       [
         "07/04/2026",
         "Operações",
+        "Coleta de Resíduos Ambientais",
+        "RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP",
+        -3.36,
+        "PAGO"
+      ],
+      [
+        "07/04/2026",
+        "Operações",
         "Marketing e Publicidade",
         "RADIO SAO FRANCISCO LTDA",
         -2000,
@@ -17448,30 +18464,6 @@ const SEGMENTS = {
       [
         "07/04/2026",
         "Operações",
-        "Coleta de Resíduos Ambientais",
-        "RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP",
-        -3.36,
-        "PAGO"
-      ],
-      [
-        "07/04/2026",
-        "Operações",
-        "Coleta de Resíduos Ambientais",
-        "RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP",
-        -118.08,
-        "PAGO"
-      ],
-      [
-        "07/04/2026",
-        "Operações",
-        "ISS",
-        "RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP",
-        -5.28,
-        "PAGO"
-      ],
-      [
-        "07/04/2026",
-        "Operações",
         "Despesas a identificar",
         "Sem cliente",
         -200,
@@ -17480,9 +18472,9 @@ const SEGMENTS = {
       [
         "07/04/2026",
         "Operações",
-        "Despesas a identificar",
-        "Sem cliente",
-        -2591.5,
+        "Coleta de Resíduos Ambientais",
+        "RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP",
+        -126.72,
         "PAGO"
       ],
       [
@@ -17520,7 +18512,7 @@ const SEGMENTS = {
       [
         "06/04/2026",
         "Operações",
-        "Despesas Diversas (Cartão)",
+        "Insumos e Materiais Clínicos",
         "Sem cliente",
         -364.91,
         "PAGO"
@@ -17590,14 +18582,6 @@ const SEGMENTS = {
         "PAGO"
       ],
       [
-        "02/04/2026",
-        "Operações",
-        "Marketing e Publicidade",
-        "GOOGLE BRASIL INTERNET LTDA.",
-        -81.89,
-        "ATRASADO"
-      ],
-      [
         "01/04/2026",
         "Operações",
         "Tarifas Bancárias",
@@ -17627,14 +18611,6 @@ const SEGMENTS = {
         "Salários",
         "Sem cliente",
         -3710,
-        "PAGO"
-      ],
-      [
-        "01/04/2026",
-        "Operações",
-        "Despesas Diversas (Cartão)",
-        "Sem cliente",
-        -3265.71,
         "PAGO"
       ],
       [
@@ -17672,10 +18648,154 @@ const SEGMENTS = {
       [
         "01/04/2026",
         "Operações",
-        "Despesas Pessoais dos Sócios",
-        "KAMILLA PIMENTEL DERMATOLOGIA LTDA",
-        -8640,
-        "ATRASADO"
+        "Materiais de Escritório",
+        "Barra Copy Gráfica",
+        -1440,
+        "PAGO"
+      ],
+      [
+        "01/04/2026",
+        "Operações",
+        "Lanches e Refeições",
+        "Adega Zero Grau Distr",
+        -175,
+        "PAGO"
+      ],
+      [
+        "01/04/2026",
+        "Operações",
+        "Lanches e Refeições",
+        "Supermercado Cardoso",
+        -170.24,
+        "PAGO"
+      ],
+      [
+        "01/04/2026",
+        "Operações",
+        "Materiais de Escritório",
+        "Cerimonial Rosa Linda",
+        -140,
+        "PAGO"
+      ],
+      [
+        "01/04/2026",
+        "Operações",
+        "Materiais de Escritório",
+        "Rosa Linda",
+        -140,
+        "PAGO"
+      ],
+      [
+        "01/04/2026",
+        "Operações",
+        "Materiais de Escritório",
+        "Papelaria Renascer",
+        -135.03,
+        "PAGO"
+      ],
+      [
+        "01/04/2026",
+        "Operações",
+        "Lanches e Refeições",
+        "Supermercado Cardoso",
+        -133.59,
+        "PAGO"
+      ],
+      [
+        "01/04/2026",
+        "Operações",
+        "Materiais de Escritório",
+        "Rosa Linda",
+        -130,
+        "PAGO"
+      ],
+      [
+        "01/04/2026",
+        "Operações",
+        "Materiais de Escritório",
+        "Reis e Souza L",
+        -121.5,
+        "PAGO"
+      ],
+      [
+        "01/04/2026",
+        "Operações",
+        "Materiais de Escritório",
+        "Rosa Linda",
+        -115,
+        "PAGO"
+      ],
+      [
+        "01/04/2026",
+        "Operações",
+        "Serviços de Pessoa Jurídica",
+        "Nickscell",
+        -91,
+        "PAGO"
+      ],
+      [
+        "01/04/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Farmácia Aliança",
+        -89.52,
+        "PAGO"
+      ],
+      [
+        "01/04/2026",
+        "Operações",
+        "Materiais de Escritório",
+        "Papelaria Renascer",
+        -86.7,
+        "PAGO"
+      ],
+      [
+        "01/04/2026",
+        "Operações",
+        "Materiais de Escritório",
+        "Comercial V B",
+        -69.99,
+        "PAGO"
+      ],
+      [
+        "01/04/2026",
+        "Operações",
+        "Lanches e Refeições",
+        "Supermercado Cardoso",
+        -63.92,
+        "PAGO"
+      ],
+      [
+        "01/04/2026",
+        "Operações",
+        "Lanches e Refeições",
+        "Supermercado Cardoso",
+        -52.71,
+        "PAGO"
+      ],
+      [
+        "01/04/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Cirúrgica Barra",
+        -49.97,
+        "PAGO"
+      ],
+      [
+        "01/04/2026",
+        "Operações",
+        "Brindes para Clientes",
+        "Boticário",
+        -35.08,
+        "PAGO"
+      ],
+      [
+        "01/04/2026",
+        "Operações",
+        "Insumos e Materiais Clínicos",
+        "Farmácia Aliança",
+        -26.46,
+        "PAGO"
       ],
       [
         "31/03/2026",
@@ -17700,212 +18820,20 @@ const SEGMENTS = {
         "TELEFONICA BRASIL S.A",
         -21.56,
         "PAGO"
-      ],
-      [
-        "30/03/2026",
-        "Operações",
-        "Serviços de Pessoa Jurídica",
-        "Sem cliente",
-        -70,
-        "PAGO"
-      ],
-      [
-        "30/03/2026",
-        "Operações",
-        "Materiais de Escritório",
-        "ARTCOPIAS",
-        -230,
-        "PAGO"
-      ],
-      [
-        "30/03/2026",
-        "Operações",
-        "Marketing e Publicidade",
-        "52.526.409 WILIAN DE SOUZA OLIVEIRA",
-        -1500,
-        "PAGO"
-      ],
-      [
-        "30/03/2026",
-        "Operações",
-        "Materiais de Escritório",
-        "BARRACOPY COMUNICACAO VISUAL LTDA",
-        -1600,
-        "ATRASADO"
-      ],
-      [
-        "30/03/2026",
-        "Operações",
-        "Insumos e Materiais Clínicos",
-        "BIOS FARMACEUTICA LTDA",
-        -12500.8,
-        "ATRASADO"
-      ],
-      [
-        "28/03/2026",
-        "Operações",
-        "Software / Licença de Uso",
-        "CLOUDIA TECNOLOGIA EM SOFTWARE LTDA",
-        -399.9,
-        "ATRASADO"
-      ],
-      [
-        "27/03/2026",
-        "Operações",
-        "Materiais de Escritório",
-        "Sem cliente",
-        -115,
-        "PAGO"
-      ],
-      [
-        "27/03/2026",
-        "Operações",
-        "Despesas a identificar",
-        "Sem cliente",
-        -15,
-        "PAGO"
-      ],
-      [
-        "26/03/2026",
-        "Operações",
-        "Lanches e Refeições",
-        "DON PAGANOTTO LTDA",
-        -284,
-        "PAGO"
-      ],
-      [
-        "26/03/2026",
-        "Operações",
-        "Despesas a identificar",
-        "Sem cliente",
-        -200,
-        "PAGO"
-      ],
-      [
-        "26/03/2026",
-        "Operações",
-        "Despesas a identificar",
-        "Sem cliente",
-        -800,
-        "PAGO"
-      ],
-      [
-        "26/03/2026",
-        "Operações",
-        "Materiais de Escritório",
-        "BARRACOPY COMUNICACAO VISUAL LTDA",
-        -160,
-        "PAGO"
-      ],
-      [
-        "26/03/2026",
-        "Operações",
-        "Despesas a identificar",
-        "Sem cliente",
-        -2192.5,
-        "PAGO"
-      ],
-      [
-        "26/03/2026",
-        "Operações",
-        "Pis/Cofins",
-        "Sem cliente",
-        -56.61,
-        "PAGO"
-      ],
-      [
-        "26/03/2026",
-        "Operações",
-        "Marketing e Publicidade",
-        "52.526.409 WILIAN DE SOUZA OLIVEIRA",
-        -1500,
-        "PAGO"
-      ],
-      [
-        "24/03/2026",
-        "Operações",
-        "Despesas a identificar",
-        "Sem cliente",
-        -1500,
-        "PAGO"
-      ],
-      [
-        "24/03/2026",
-        "Operações",
-        "Retiradas para Sócios",
-        "Sem cliente",
-        -750,
-        "PAGO"
-      ],
-      [
-        "24/03/2026",
-        "Operações",
-        "Despesas Diversas (Cartão)",
-        "Sem cliente",
-        -38625.88,
-        "PAGO"
-      ],
-      [
-        "24/03/2026",
-        "Operações",
-        "Despesas Diversas (Cartão)",
-        "Sem cliente",
-        -5000,
-        "PAGO"
-      ],
-      [
-        "24/03/2026",
-        "Operações",
-        "Serviços de Pessoa Jurídica",
-        "37.901.199 VAGNER LISBOA RIBEIRO",
-        -60,
-        "ATRASADO"
-      ],
-      [
-        "23/03/2026",
-        "Operações",
-        "Insumos e Materiais Clínicos",
-        "FLUKKA FARMA",
-        -3727.5,
-        "PAGO"
-      ],
-      [
-        "23/03/2026",
-        "Operações",
-        "Despesas a identificar",
-        "Sem cliente",
-        -2102.5,
-        "PAGO"
-      ],
-      [
-        "23/03/2026",
-        "Operações",
-        "Despesas a identificar",
-        "Sem cliente",
-        -60,
-        "PAGO"
-      ],
-      [
-        "23/03/2026",
-        "Operações",
-        "Telefonia e Internet",
-        "TELEFONICA BRASIL S.A",
-        -35.7,
-        "PAGO"
       ]
     ],
     "KPIS": {
       "TOTAL_RECEITA": 1379751.5899999999,
-      "TOTAL_DESPESA": 848467.1900000004,
-      "VALOR_LIQUIDO": 531284.3999999994,
-      "MARGEM_LIQUIDA": 38.50580088840481,
+      "TOTAL_DESPESA": 771970.9000000003,
+      "VALOR_LIQUIDO": 607780.6899999996,
+      "MARGEM_LIQUIDA": 44.0500083062053,
       "VALOR_LIQ_SERIES": [
-        39418.80000000005,
-        73344.29999999994,
-        253796.96,
-        46740.860000000015,
-        42143.370000000024,
-        24245.810000000005,
+        41714.21000000005,
+        82904.08999999994,
+        264061.49,
+        61237.79000000004,
+        82202.18000000005,
+        24066.630000000005,
         14082.910000000003,
         13382.910000000003,
         9739.140000000001,
@@ -17948,51 +18876,51 @@ const SEGMENTS = {
       326325.74000000005
     ],
     "DESPESA_DIA": [
-      43979.07,
-      33341.06999999999,
+      35339.069999999985,
+      28325.269999999997,
       39309.240000000005,
-      77043.26000000001,
-      33872.57,
+      39266.63999999998,
+      34242.45,
       28770.580000000016,
-      25919.79,
-      18334.07,
-      29812.870000000003,
-      11256.5,
-      36263.44000000001,
-      55870.31,
-      23649.189999999995,
-      37592.240000000005,
+      25852.910000000003,
+      18325.15,
+      29812.87,
+      11245.519999999999,
+      15273.63,
+      34936.159999999996,
+      23510.89,
+      37496.240000000005,
       13681.53,
       23230.27,
       2268,
       11147.15,
-      5511.83,
-      11650.33,
+      5420.83,
+      10732.69,
       18342.910000000003,
       38724.399999999994,
       52742.740000000005,
-      45935.88,
+      82495.52999999997,
       1473.09,
       74170.04,
       15130,
-      3180.7799999999997,
+      1632.76,
       1035.78,
-      19403.26,
+      2211.56,
       15825
     ],
     "SALDOS_MES": [
-      39418.80000000005,
-      112763.09999999999,
-      366560.06,
-      413300.92000000004,
-      455444.29000000004,
-      479690.10000000003,
-      493773.01,
-      507155.92000000004,
-      516895.06000000006,
-      523318.05000000005,
-      529116,
-      531284.4
+      41714.21000000005,
+      124618.29999999999,
+      388679.79,
+      449917.58,
+      532119.76,
+      556186.39,
+      570269.3,
+      583652.2100000001,
+      593391.3500000001,
+      599814.3400000001,
+      605612.29,
+      607780.6900000001
     ],
     "FLUXO_RECEITA": [
       {
@@ -18083,13 +19011,13 @@ const SEGMENTS = {
     ],
     "FLUXO_DESPESA": [
       {
-        "cat": "Despesas Diversas (Cartão)",
+        "cat": "Insumos e Materiais Clínicos",
         "values": [
-          -2295.41,
-          -1892.78,
-          -66510.20999999999,
-          -3630.62,
-          -37798.37,
+          -11619.89,
+          -17199.97,
+          -86630.45999999999,
+          -3531.16,
+          -5247.930000000001,
           0,
           0,
           0,
@@ -18105,7 +19033,7 @@ const SEGMENTS = {
           0,
           -16211.62,
           -17715.05,
-          -24832.08,
+          -24920.08,
           -41806.17,
           0,
           0,
@@ -18134,28 +19062,28 @@ const SEGMENTS = {
         ]
       },
       {
-        "cat": "Insumos e Materiais Clínicos",
+        "cat": "Marketing e Publicidade",
         "values": [
-          -7500,
-          -9102.89,
-          -55173.34,
-          -5691.3,
-          -5193.850000000001,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
+          -4100,
+          -5600,
+          -18009.429999999993,
+          -4100,
+          -5375,
+          -4100,
+          -4100,
+          -4100,
+          -4100,
+          -4100,
+          -4100,
+          -4100
         ]
       },
       {
         "cat": "Mentorias, Cursos e Treinamentos",
         "values": [
-          -13000,
-          -13330.75,
-          -22989.96,
+          -13099,
+          -14704.75,
+          -23088.96,
           -13330.75,
           -449.96,
           0,
@@ -18280,14 +19208,8 @@ const SEGMENTS = {
       {
         "tipo": "Despesa",
         "isHeader": true,
-        "d1": -481100.4900000001,
-        "d2": -339917.89999999985
-      },
-      {
-        "tipo": "Despesas Diversas (Cartão)",
-        "parent": "Despesa",
-        "d1": -70698.4,
-        "d2": -41428.990000000005
+        "d1": -458980.76000000024,
+        "d2": -285541.34
       },
       {
         "tipo": "Tarifas Bancárias",
@@ -18298,20 +19220,20 @@ const SEGMENTS = {
       {
         "tipo": "Marketing e Publicidade",
         "parent": "Despesa",
-        "d1": -16800,
-        "d2": -18895.39
+        "d1": -27709.430000000004,
+        "d2": -13575
       },
       {
         "tipo": "Lanches e Refeições",
         "parent": "Despesa",
-        "d1": -329,
-        "d2": -155
+        "d1": -2374.09,
+        "d2": -1110.75
       },
       {
         "tipo": "Serviços de Pessoa Jurídica",
         "parent": "Despesa",
-        "d1": -3288,
-        "d2": -143
+        "d1": -3242,
+        "d2": -146
       },
       {
         "tipo": "Telefonia Móvel",
@@ -18328,14 +19250,44 @@ const SEGMENTS = {
       {
         "tipo": "Despesas a identificar",
         "parent": "Despesa",
-        "d1": -50207.04,
-        "d2": -7037.43
+        "d1": -33704.33,
+        "d2": -4642.43
+      },
+      {
+        "tipo": "Insumos e Materiais Clínicos",
+        "parent": "Despesa",
+        "d1": -115450.31999999999,
+        "d2": -8779.09
+      },
+      {
+        "tipo": "Materiais de Escritório",
+        "parent": "Despesa",
+        "d1": -7389.52,
+        "d2": -2754.469999999999
+      },
+      {
+        "tipo": "Software / Licença de Uso",
+        "parent": "Despesa",
+        "d1": -4639.39,
+        "d2": -399.9
+      },
+      {
+        "tipo": "Mentorias, Cursos e Treinamentos",
+        "parent": "Despesa",
+        "d1": -50892.71,
+        "d2": -13780.71
+      },
+      {
+        "tipo": "Brindes para Clientes",
+        "parent": "Despesa",
+        "d1": -438.35999999999996,
+        "d2": -70.16
       },
       {
         "tipo": "Coleta de Resíduos Ambientais",
         "parent": "Despesa",
-        "d1": -536.64,
-        "d2": -479.58
+        "d1": -409.91999999999996,
+        "d2": -248.16000000000003
       },
       {
         "tipo": "Telefonia e Internet",
@@ -18347,19 +19299,13 @@ const SEGMENTS = {
         "tipo": "Serviços e Materiais de Limpeza e de Higiene",
         "parent": "Despesa",
         "d1": -480,
-        "d2": -2189
+        "d2": -2470.46
       },
       {
         "tipo": "ISS",
         "parent": "Despesa",
-        "d1": -32880.600000000006,
-        "d2": -26978.739999999998
-      },
-      {
-        "tipo": "Insumos e Materiais Clínicos",
-        "parent": "Despesa",
-        "d1": -71776.23,
-        "d2": -10885.15
+        "d1": -32875.380000000005,
+        "d2": -26964.54
       },
       {
         "tipo": "Energia Elétrica",
@@ -18368,16 +19314,10 @@ const SEGMENTS = {
         "d2": -1291.37
       },
       {
-        "tipo": "Materiais de Escritório",
-        "parent": "Despesa",
-        "d1": -2668.87,
-        "d2": -7.1
-      },
-      {
         "tipo": "FGTS e Multa de FGTS",
         "parent": "Despesa",
         "d1": -2315.1200000000003,
-        "d2": -2544.45
+        "d2": -1996.23
       },
       {
         "tipo": "INSS sobre Salários - GPS",
@@ -18398,22 +19338,10 @@ const SEGMENTS = {
         "d2": -11216.09
       },
       {
-        "tipo": "Mentorias, Cursos e Treinamentos",
-        "parent": "Despesa",
-        "d1": -49320.71,
-        "d2": -13780.71
-      },
-      {
         "tipo": "Salários",
         "parent": "Despesa",
         "d1": -33926.67,
-        "d2": -66638.25
-      },
-      {
-        "tipo": "Software / Licença de Uso",
-        "parent": "Despesa",
-        "d1": -3168.69,
-        "d2": -799.8
+        "d2": -66726.25
       },
       {
         "tipo": "Honorários Consultoria",
@@ -18440,28 +19368,28 @@ const SEGMENTS = {
         "d2": -1040
       },
       {
+        "tipo": "Combustíveis",
+        "parent": "Despesa",
+        "d1": -177,
+        "d2": 0
+      },
+      {
+        "tipo": "Viagens e Representações",
+        "parent": "Despesa",
+        "d1": -252,
+        "d2": -2654.28
+      },
+      {
         "tipo": "Pró-labore",
         "parent": "Despesa",
         "d1": -15000,
         "d2": 0
       },
       {
-        "tipo": "Despesas Pessoais dos Sócios",
-        "parent": "Despesa",
-        "d1": 0,
-        "d2": -8640
-      },
-      {
         "tipo": "BPO Financeiro",
         "parent": "Despesa",
         "d1": 0,
         "d2": -7200
-      },
-      {
-        "tipo": "Viagens e Representações",
-        "parent": "Despesa",
-        "d1": 0,
-        "d2": -92.4
       },
       {
         "tipo": "Troco",
@@ -18476,7 +19404,7 @@ const SEGMENTS = {
         "d2": -2876.6
       },
       {
-        "tipo": "IRRF",
+        "tipo": "Retenção - Darf 1708 - IRRF",
         "parent": "Despesa",
         "d1": 0,
         "d2": -7947.55
@@ -18498,7 +19426,7 @@ const SEGMENTS = {
 // [kind, mes, dia, categoria, cliente, valor, statusCode, fornecedor, centroCusto, regime]
 // statusCode: 1 = realizado, 0 = em aberto, 2 = atrasado
 // regime: 'c' = caixa, 'k' = competencia (compacto pra economizar bytes)
-const ALL_TX = [["r","2026-01",2,"Rendimentos de Aplicações","Sem cliente",0.06,1,"","","c"],["r","2026-01",2,"Rendimentos de Aplicações","Sem cliente",0.06,1,"","","k"],["r","2026-01",2,"Receitas de Serviços a Identificar","Sem cliente",216.05,1,"","","c"],["r","2026-01",2,"Receitas de Serviços a Identificar","Sem cliente",216.05,1,"","","k"],["r","2026-01",2,"Receitas de Serviços a Identificar","Sem cliente",145.65,1,"","","c"],["r","2026-01",2,"Receitas de Serviços a Identificar","Sem cliente",145.65,1,"","","k"],["r","2026-01",2,"Receitas de Serviços a Identificar","Sem cliente",345.6,1,"","","c"],["r","2026-01",2,"Receitas de Serviços a Identificar","Sem cliente",345.6,1,"","","k"],["r","2026-01",2,"Receitas de Serviços a Identificar","Sem cliente",1967.8,1,"","","c"],["r","2026-01",2,"Receitas de Serviços a Identificar","Sem cliente",1967.8,1,"","","k"],["r","2026-01",2,"Receitas de Serviços a Identificar","Sem cliente",7887.67,1,"","","c"],["r","2026-01",2,"Receitas de Serviços a Identificar","Sem cliente",7887.67,1,"","","k"],["r","2026-01",5,"Receitas de Serviços a Identificar","Sem cliente",2000,1,"","","c"],["r","2026-01",5,"Receitas de Serviços a Identificar","Sem cliente",2000,1,"","","k"],["r","2026-01",5,"Receitas a Identificar","Sem cliente",260,1,"","","c"],["r","2026-01",5,"Receitas a Identificar","Sem cliente",260,1,"","","k"],["r","2026-01",5,"Receitas de Serviços a Identificar","FLAVYANNE PAULO MORETT AGUIAR",500,1,"","","c"],["r","2026-01",5,"Receitas de Serviços a Identificar","FLAVYANNE PAULO MORETT AGUIAR",500,1,"","","k"],["r","2026-01",5,"Receitas de Serviços a Identificar","Sem cliente",1000,1,"","","c"],["r","2026-01",5,"Receitas de Serviços a Identificar","Sem cliente",1000,1,"","","k"],["r","2026-01",5,"Receitas de Serviços a Identificar","SIMONE ALVES DE SÁ GOMES ASSIS",1021.37,1,"","","c"],["r","2026-01",5,"Receitas de Serviços a Identificar","SIMONE ALVES DE SÁ GOMES ASSIS",1021.37,1,"","","k"],["r","2026-01",5,"Receitas de Serviços a Identificar","Sem cliente",1177.62,1,"","","c"],["r","2026-01",5,"Receitas de Serviços a Identificar","Sem cliente",1177.62,1,"","","k"],["r","2026-01",5,"Receitas de Serviços a Identificar","Sem cliente",1672.08,1,"","","c"],["r","2026-01",5,"Receitas de Serviços a Identificar","Sem cliente",1672.08,1,"","","k"],["r","2026-01",5,"Receitas de Serviços a Identificar","Sem cliente",1740.96,1,"","","c"],["r","2026-01",5,"Receitas de Serviços a Identificar","Sem cliente",1740.96,1,"","","k"],["r","2026-01",5,"Receitas de Serviços a Identificar","Sem cliente",2404.87,1,"","","c"],["r","2026-01",5,"Receitas de Serviços a Identificar","Sem cliente",2404.87,1,"","","k"],["r","2026-01",5,"Receitas de Serviços a Identificar","Sem cliente",4630.48,1,"","","c"],["r","2026-01",5,"Receitas de Serviços a Identificar","Sem cliente",4630.48,1,"","","k"],["r","2026-01",5,"Receitas de Serviços a Identificar","Sem cliente",6924.37,1,"","","c"],["r","2026-01",5,"Receitas de Serviços a Identificar","Sem cliente",6924.37,1,"","","k"],["r","2026-01",5,"Suplementos","LEILA DA SILVA DE SOUZA COELHO",75,2,"","","c"],["r","2026-04",30,"Suplementos","LEILA DA SILVA DE SOUZA COELHO",75,2,"","","k"],["r","2026-01",5,"Suplementos","KAIKE PIOL",75,2,"","","c"],["r","2026-04",30,"Suplementos","KAIKE PIOL",75,2,"","","k"],["r","2026-01",6,"Receita de Serviços - Plano Prata","SIMONE ALVES DE SÁ GOMES ASSIS",1500,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","SIMONE ALVES DE SÁ GOMES ASSIS",1500,1,"","","k"],["r","2026-01",6,"Receitas de Serviços a Identificar","Sem cliente",1178.63,1,"","","c"],["r","2026-01",6,"Receitas de Serviços a Identificar","Sem cliente",1178.63,1,"","","k"],["r","2026-01",6,"Receitas de Serviços a Identificar","Sem cliente",368.25,1,"","","c"],["r","2026-01",6,"Receitas de Serviços a Identificar","Sem cliente",368.25,1,"","","k"],["r","2026-01",6,"Receitas de Serviços a Identificar","Sem cliente",193.98,1,"","","c"],["r","2026-01",6,"Receitas de Serviços a Identificar","Sem cliente",193.98,1,"","","k"],["r","2026-01",6,"Suplementos","ANA PAULA COELHO PORTES MATTOS",75,2,"","","c"],["r","2026-04",30,"Suplementos","ANA PAULA COELHO PORTES MATTOS",75,2,"","","k"],["r","2026-01",7,"Suplementos","NOEME PEDROSA DE SOUZA SATURNINO",270,1,"","","c"],["r","2026-04",30,"Suplementos","NOEME PEDROSA DE SOUZA SATURNINO",270,1,"","","k"],["r","2026-01",7,"Suplementos","KEILA SOARES RODRIGUES MONTEIRO",75,1,"","","c"],["r","2026-04",30,"Suplementos","KEILA SOARES RODRIGUES MONTEIRO",75,1,"","","k"],["r","2026-01",7,"Receitas de Serviços a Identificar","HAYANE SILVA VALARDAO",1500,1,"","","c"],["r","2026-01",7,"Receitas de Serviços a Identificar","HAYANE SILVA VALARDAO",1500,1,"","","k"],["r","2026-01",7,"Receitas de Serviços a Identificar","Sem cliente",3042.7,1,"","","c"],["r","2026-01",7,"Receitas de Serviços a Identificar","Sem cliente",3042.7,1,"","","k"],["r","2026-01",7,"Receitas de Serviços a Identificar","Sem cliente",1682.31,1,"","","c"],["r","2026-01",7,"Receitas de Serviços a Identificar","Sem cliente",1682.31,1,"","","k"],["r","2026-01",7,"Receitas de Serviços a Identificar","Sem cliente",300.32,1,"","","c"],["r","2026-01",7,"Receitas de Serviços a Identificar","Sem cliente",300.32,1,"","","k"],["r","2026-01",8,"Receita de Serviços - Plano Prata","SIMONE ALVES DE SÁ GOMES ASSIS",1178.63,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","SIMONE ALVES DE SÁ GOMES ASSIS",1178.63,1,"","","k"],["r","2026-01",8,"Receitas de Serviços a Identificar","Sem cliente",3666,1,"","","c"],["r","2026-01",8,"Receitas de Serviços a Identificar","Sem cliente",3666,1,"","","k"],["r","2026-01",8,"Receitas de Serviços a Identificar","Sem cliente",1761.19,1,"","","c"],["r","2026-01",8,"Receitas de Serviços a Identificar","Sem cliente",1761.19,1,"","","k"],["r","2026-01",8,"Receitas de Serviços a Identificar","Sem cliente",2275.11,1,"","","c"],["r","2026-01",8,"Receitas de Serviços a Identificar","Sem cliente",2275.11,1,"","","k"],["r","2026-01",8,"Suplementos","LAYLA TEIXEIRA BARBOSA COSTA",135,2,"","","c"],["r","2026-04",30,"Suplementos","LAYLA TEIXEIRA BARBOSA COSTA",135,2,"","","k"],["r","2026-01",9,"Rendimentos de Aplicações","Sem cliente",0.03,1,"","","c"],["r","2026-01",9,"Rendimentos de Aplicações","Sem cliente",0.03,1,"","","k"],["r","2026-01",9,"Receitas de Serviços a Identificar","Sem cliente",503.43,1,"","","c"],["r","2026-01",9,"Receitas de Serviços a Identificar","Sem cliente",503.43,1,"","","k"],["r","2026-01",9,"Receitas de Serviços a Identificar","Sem cliente",992.1,1,"","","c"],["r","2026-01",9,"Receitas de Serviços a Identificar","Sem cliente",992.1,1,"","","k"],["r","2026-01",12,"Suplementos","EDUARDA CORREA PILKER",75,1,"","","c"],["r","2026-04",30,"Suplementos","EDUARDA CORREA PILKER",75,1,"","","k"],["r","2026-01",12,"Consulta","DORIETE DE SOUZA",500,1,"","","c"],["r","2026-04",30,"Consulta","DORIETE DE SOUZA",500,1,"","","k"],["r","2026-01",12,"Rendimentos de Aplicações","Sem cliente",0.18,1,"","","c"],["r","2026-01",12,"Rendimentos de Aplicações","Sem cliente",0.18,1,"","","k"],["r","2026-01",12,"Receitas de Serviços a Identificar","Sem cliente",500,1,"","","c"],["r","2026-01",12,"Receitas de Serviços a Identificar","Sem cliente",500,1,"","","k"],["r","2026-01",12,"Receita de Serviços - Plano Prata","CRISTIANE CANDIDA DA SILVA",4350,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","CRISTIANE CANDIDA DA SILVA",4350,1,"","","k"],["r","2026-01",12,"Receita de Serviços - Plano Prata","TALITA FABIELLE PEREIRA DA SILVA BITTENCOURT",6000,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","TALITA FABIELLE PEREIRA DA SILVA BITTENCOURT",6000,1,"","","k"],["r","2026-01",12,"Descontos financeiros obtidos","Sem cliente",1085,1,"","","c"],["r","2026-01",12,"Descontos financeiros obtidos","Sem cliente",1085,1,"","","k"],["r","2026-01",12,"Receitas de Serviços a Identificar","Sem cliente",1000.22,1,"","","c"],["r","2026-01",12,"Receitas de Serviços a Identificar","Sem cliente",1000.22,1,"","","k"],["r","2026-01",12,"Receitas de Serviços a Identificar","Sem cliente",249.5,1,"","","c"],["r","2026-01",12,"Receitas de Serviços a Identificar","Sem cliente",249.5,1,"","","k"],["r","2026-01",12,"Receitas de Serviços a Identificar","Sem cliente",376.32,1,"","","c"],["r","2026-01",12,"Receitas de Serviços a Identificar","Sem cliente",376.32,1,"","","k"],["r","2026-01",12,"Receitas de Serviços a Identificar","Sem cliente",448.64,1,"","","c"],["r","2026-01",12,"Receitas de Serviços a Identificar","Sem cliente",448.64,1,"","","k"],["r","2026-01",12,"Receitas de Serviços a Identificar","Sem cliente",4777.33,1,"","","c"],["r","2026-01",12,"Receitas de Serviços a Identificar","Sem cliente",4777.33,1,"","","k"],["r","2026-01",13,"Rendimentos de Aplicações","Sem cliente",0.01,1,"","","c"],["r","2026-01",13,"Rendimentos de Aplicações","Sem cliente",0.01,1,"","","k"],["r","2026-01",13,"Receitas de Serviços a Identificar","Sem cliente",494.88,1,"","","c"],["r","2026-01",13,"Receitas de Serviços a Identificar","Sem cliente",494.88,1,"","","k"],["r","2026-01",13,"Receitas de Serviços a Identificar","Sem cliente",490.21,1,"","","c"],["r","2026-01",13,"Receitas de Serviços a Identificar","Sem cliente",490.21,1,"","","k"],["r","2026-01",13,"Receitas de Serviços a Identificar","Sem cliente",417.06,1,"","","c"],["r","2026-01",13,"Receitas de Serviços a Identificar","Sem cliente",417.06,1,"","","k"],["r","2026-01",13,"Receitas de Serviços a Identificar","Sem cliente",847.24,1,"","","c"],["r","2026-01",13,"Receitas de Serviços a Identificar","Sem cliente",847.24,1,"","","k"],["r","2026-01",13,"Suplementos","NAZARETH ALVES DE ARAÚJO",185,2,"","","c"],["r","2026-04",30,"Suplementos","NAZARETH ALVES DE ARAÚJO",185,2,"","","k"],["r","2026-01",14,"Rendimentos de Aplicações","Sem cliente",0.58,1,"","","c"],["r","2026-01",14,"Rendimentos de Aplicações","Sem cliente",0.58,1,"","","k"],["r","2026-01",14,"Receitas de Serviços a Identificar","Sem cliente",1400,1,"","","c"],["r","2026-01",14,"Receitas de Serviços a Identificar","Sem cliente",1400,1,"","","k"],["r","2026-01",14,"Receitas de Serviços a Identificar","Sem cliente",623.29,1,"","","c"],["r","2026-01",14,"Receitas de Serviços a Identificar","Sem cliente",623.29,1,"","","k"],["r","2026-01",15,"Rendimentos de Aplicações","Sem cliente",0.03,1,"","","c"],["r","2026-01",15,"Rendimentos de Aplicações","Sem cliente",0.03,1,"","","k"],["r","2026-01",15,"Receitas de Serviços a Identificar","Sem cliente",251.21,1,"","","c"],["r","2026-01",15,"Receitas de Serviços a Identificar","Sem cliente",251.21,1,"","","k"],["r","2026-01",15,"Receitas de Serviços a Identificar","Sem cliente",1347.71,1,"","","c"],["r","2026-01",15,"Receitas de Serviços a Identificar","Sem cliente",1347.71,1,"","","k"],["r","2026-01",16,"Suplementos","RODRIGO SOARES SIQUEIRA",75,1,"","","c"],["r","2026-04",30,"Suplementos","RODRIGO SOARES SIQUEIRA",75,1,"","","k"],["r","2026-01",16,"Suplementos","JULIMAR MARTINS FANTI",75,1,"","","c"],["r","2026-04",30,"Suplementos","JULIMAR MARTINS FANTI",75,1,"","","k"],["r","2026-01",16,"Receita de Serviços - Plano Prata","ELIEZER MOURA DE ASSIS",1741,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","ELIEZER MOURA DE ASSIS",1741,1,"","","k"],["r","2026-01",16,"Receita de Serviços - Plano Bronze","ORLANDA ALVES SALVADOR",3800,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","ORLANDA ALVES SALVADOR",3800,1,"","","k"],["r","2026-01",16,"Receitas de Serviços a Identificar","Sem cliente",465.98,1,"","","c"],["r","2026-01",16,"Receitas de Serviços a Identificar","Sem cliente",465.98,1,"","","k"],["r","2026-01",16,"Receitas de Serviços a Identificar","Sem cliente",1220.43,1,"","","c"],["r","2026-01",16,"Receitas de Serviços a Identificar","Sem cliente",1220.43,1,"","","k"],["r","2026-01",16,"Receitas de Serviços a Identificar","Sem cliente",384.08,1,"","","c"],["r","2026-01",16,"Receitas de Serviços a Identificar","Sem cliente",384.08,1,"","","k"],["r","2026-01",19,"Suplementos","TELMELITA SAAR ORECCHIO",75,1,"","","c"],["r","2026-04",30,"Suplementos","TELMELITA SAAR ORECCHIO",75,1,"","","k"],["r","2026-01",19,"Consulta","JOERLAINE DA SILVA OLIVEIRA ELIZEU",700,1,"","","c"],["r","2026-04",30,"Consulta","JOERLAINE DA SILVA OLIVEIRA ELIZEU",700,1,"","","k"],["r","2026-01",19,"Receitas de Serviços a Identificar","ELIENE PEREIRA SOBRINHO",500,1,"","","c"],["r","2026-01",19,"Receitas de Serviços a Identificar","ELIENE PEREIRA SOBRINHO",500,1,"","","k"],["r","2026-01",19,"Receitas de Serviços a Identificar","Sem cliente",1133.17,1,"","","c"],["r","2026-01",19,"Receitas de Serviços a Identificar","Sem cliente",1133.17,1,"","","k"],["r","2026-01",19,"Receita de Serviços - Plano Bronze","FERNANDA RAQUEL TEIXEIRA CHIPOLESC",2165,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","FERNANDA RAQUEL TEIXEIRA CHIPOLESC",2165,1,"","","k"],["r","2026-01",19,"Suplementos","FERNANDA RAQUEL TEIXEIRA CHIPOLESC",135,1,"","","c"],["r","2026-04",30,"Suplementos","FERNANDA RAQUEL TEIXEIRA CHIPOLESC",135,1,"","","k"],["r","2026-01",19,"Receita de Serviços - Plano Bronze","NUBIA SILVA AMARAL STOHEL",2400,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","NUBIA SILVA AMARAL STOHEL",2400,1,"","","k"],["r","2026-01",19,"Receitas de Serviços a Identificar","Sem cliente",2680.25,1,"","","c"],["r","2026-01",19,"Receitas de Serviços a Identificar","Sem cliente",2680.25,1,"","","k"],["r","2026-01",19,"Receitas de Serviços a Identificar","Sem cliente",4983.81,1,"","","c"],["r","2026-01",19,"Receitas de Serviços a Identificar","Sem cliente",4983.81,1,"","","k"],["r","2026-01",19,"Receitas de Serviços a Identificar","Sem cliente",2169.27,1,"","","c"],["r","2026-01",19,"Receitas de Serviços a Identificar","Sem cliente",2169.27,1,"","","k"],["r","2026-01",19,"Receitas de Serviços a Identificar","Sem cliente",6994.02,1,"","","c"],["r","2026-01",19,"Receitas de Serviços a Identificar","Sem cliente",6994.02,1,"","","k"],["r","2026-01",19,"Suplementos","JADER JESUS SILVA",150,2,"","","c"],["r","2026-04",30,"Suplementos","JADER JESUS SILVA",150,2,"","","k"],["r","2026-01",20,"Suplementos","CRISTIANE CANDIDA DA SILVA",210,1,"","","c"],["r","2026-04",30,"Suplementos","CRISTIANE CANDIDA DA SILVA",210,1,"","","k"],["r","2026-01",20,"Rendimentos de Aplicações","Sem cliente",0.11,1,"","","c"],["r","2026-01",20,"Rendimentos de Aplicações","Sem cliente",0.11,1,"","","k"],["r","2026-01",20,"Receita de Serviços - Plano Bronze","LAUDENICIA ALVES DE OLIVEIRA ZAROWNY",1656,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","LAUDENICIA ALVES DE OLIVEIRA ZAROWNY",1656,1,"","","k"],["r","2026-01",20,"Receitas de Serviços a Identificar","Sem cliente",1251.57,1,"","","c"],["r","2026-01",20,"Receitas de Serviços a Identificar","Sem cliente",1251.57,1,"","","k"],["r","2026-01",20,"Receitas de Serviços a Identificar","Sem cliente",2087.1,1,"","","c"],["r","2026-01",20,"Receitas de Serviços a Identificar","Sem cliente",2087.1,1,"","","k"],["r","2026-01",20,"Receitas de Serviços a Identificar","Sem cliente",132.89,1,"","","c"],["r","2026-01",20,"Receitas de Serviços a Identificar","Sem cliente",132.89,1,"","","k"],["r","2026-01",20,"Receitas de Serviços a Identificar","Sem cliente",368.56,1,"","","c"],["r","2026-01",20,"Receitas de Serviços a Identificar","Sem cliente",368.56,1,"","","k"],["r","2026-01",21,"Consulta","MERIELY RUFINO VAZ MUTZ",500,1,"","","c"],["r","2026-04",30,"Consulta","MERIELY RUFINO VAZ MUTZ",500,1,"","","k"],["r","2026-01",21,"Receitas de Serviços a Identificar","LETICIA RENATA RODRIGUES SOUZA PIONTI",2000,1,"","","c"],["r","2026-01",21,"Receitas de Serviços a Identificar","LETICIA RENATA RODRIGUES SOUZA PIONTI",2000,1,"","","k"],["r","2026-01",21,"Receitas de Serviços a Identificar","Sem cliente",4500,1,"","","c"],["r","2026-01",21,"Receitas de Serviços a Identificar","Sem cliente",4500,1,"","","k"],["r","2026-01",21,"Receitas de Serviços a Identificar","Sem cliente",659.44,1,"","","c"],["r","2026-01",21,"Receitas de Serviços a Identificar","Sem cliente",659.44,1,"","","k"],["r","2026-01",21,"Receitas de Serviços a Identificar","Sem cliente",1809.53,1,"","","c"],["r","2026-01",21,"Receitas de Serviços a Identificar","Sem cliente",1809.53,1,"","","k"],["r","2026-01",21,"Receitas de Serviços a Identificar","Sem cliente",1725.49,1,"","","c"],["r","2026-01",21,"Receitas de Serviços a Identificar","Sem cliente",1725.49,1,"","","k"],["r","2026-01",21,"Receitas de Serviços a Identificar","Sem cliente",821.79,1,"","","c"],["r","2026-01",21,"Receitas de Serviços a Identificar","Sem cliente",821.79,1,"","","k"],["r","2026-01",21,"Receitas de Serviços a Identificar","Sem cliente",239.1,1,"","","c"],["r","2026-01",21,"Receitas de Serviços a Identificar","Sem cliente",239.1,1,"","","k"],["r","2026-01",21,"Receitas de Serviços a Identificar","Sem cliente",842.65,1,"","","c"],["r","2026-01",21,"Receitas de Serviços a Identificar","Sem cliente",842.65,1,"","","k"],["r","2026-01",21,"Receitas de Serviços a Identificar","Sem cliente",1821.54,1,"","","c"],["r","2026-01",21,"Receitas de Serviços a Identificar","Sem cliente",1821.54,1,"","","k"],["r","2026-01",21,"Receitas de Serviços a Identificar","Sem cliente",1544.16,1,"","","c"],["r","2026-01",21,"Receitas de Serviços a Identificar","Sem cliente",1544.16,1,"","","k"],["r","2026-01",21,"Suplementos","HAYANE SILVA VALARDAO",135,2,"","","c"],["r","2026-04",30,"Suplementos","HAYANE SILVA VALARDAO",135,2,"","","k"],["r","2026-01",22,"Consulta","ALEX MARCHIOLI STEFANON",500,1,"","","c"],["r","2026-04",30,"Consulta","ALEX MARCHIOLI STEFANON",500,1,"","","k"],["r","2026-01",22,"Receitas de Serviços a Identificar","Sem cliente",1495,1,"","","c"],["r","2026-01",22,"Receitas de Serviços a Identificar","Sem cliente",1495,1,"","","k"],["r","2026-01",22,"Receitas de Serviços a Identificar","Sem cliente",356.47,1,"","","c"],["r","2026-01",22,"Receitas de Serviços a Identificar","Sem cliente",356.47,1,"","","k"],["r","2026-01",22,"Receitas de Serviços a Identificar","Sem cliente",316.78,1,"","","c"],["r","2026-01",22,"Receitas de Serviços a Identificar","Sem cliente",316.78,1,"","","k"],["r","2026-01",22,"Receitas de Serviços a Identificar","Sem cliente",673.18,1,"","","c"],["r","2026-01",22,"Receitas de Serviços a Identificar","Sem cliente",673.18,1,"","","k"],["r","2026-01",22,"Receitas de Serviços a Identificar","Sem cliente",759.48,1,"","","c"],["r","2026-01",22,"Receitas de Serviços a Identificar","Sem cliente",759.48,1,"","","k"],["r","2026-01",23,"Suplementos","KEILA SOARES RODRIGUES MONTEIRO",395,1,"","","c"],["r","2026-04",30,"Suplementos","KEILA SOARES RODRIGUES MONTEIRO",395,1,"","","k"],["r","2026-01",23,"Receita de Serviços - Plano Prata","KEILA SOARES RODRIGUES MONTEIRO",1500,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","KEILA SOARES RODRIGUES MONTEIRO",1500,1,"","","k"],["r","2026-01",23,"Receita de Serviços - Plano Bronze","LUCIMAR MARCHIOLI STEFANON",3500,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","LUCIMAR MARCHIOLI STEFANON",3500,1,"","","k"],["r","2026-01",23,"Receitas de Serviços a Identificar","Sem cliente",1267.56,1,"","","c"],["r","2026-01",23,"Receitas de Serviços a Identificar","Sem cliente",1267.56,1,"","","k"],["r","2026-01",23,"Receitas de Serviços a Identificar","Sem cliente",1621.01,1,"","","c"],["r","2026-01",23,"Receitas de Serviços a Identificar","Sem cliente",1621.01,1,"","","k"],["r","2026-01",26,"Consulta","ROSIANE ALMEIDA COSTA BELING",500,1,"","","c"],["r","2026-04",30,"Consulta","ROSIANE ALMEIDA COSTA BELING",500,1,"","","k"],["r","2026-01",26,"Rendimentos de Aplicações","Sem cliente",0.67,1,"","","c"],["r","2026-01",26,"Rendimentos de Aplicações","Sem cliente",0.67,1,"","","k"],["r","2026-01",26,"Receita de Serviços - Plano Prata","LETICIA RENATA RODRIGUES SOUZA PIONTI",2865,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","LETICIA RENATA RODRIGUES SOUZA PIONTI",2865,1,"","","k"],["r","2026-01",26,"Suplementos","LETICIA RENATA RODRIGUES SOUZA PIONTI",135,1,"","","c"],["r","2026-04",30,"Suplementos","LETICIA RENATA RODRIGUES SOUZA PIONTI",135,1,"","","k"],["r","2026-01",26,"Receita de Serviços - Plano Bronze","ELIZABETH DE REZENDE ALMEIDA",6100,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","ELIZABETH DE REZENDE ALMEIDA",6100,1,"","","k"],["r","2026-01",26,"Receitas de Serviços a Identificar","Sem cliente",479.8,1,"","","c"],["r","2026-01",26,"Receitas de Serviços a Identificar","Sem cliente",479.8,1,"","","k"],["r","2026-01",26,"Receitas de Serviços a Identificar","Sem cliente",1682.31,1,"","","c"],["r","2026-01",26,"Receitas de Serviços a Identificar","Sem cliente",1682.31,1,"","","k"],["r","2026-01",26,"Receitas de Serviços a Identificar","Sem cliente",581.94,1,"","","c"],["r","2026-01",26,"Receitas de Serviços a Identificar","Sem cliente",581.94,1,"","","k"],["r","2026-01",26,"Receitas de Serviços a Identificar","Sem cliente",1551.5,1,"","","c"],["r","2026-01",26,"Receitas de Serviços a Identificar","Sem cliente",1551.5,1,"","","k"],["r","2026-01",26,"Consulta","SAYONARIA LOPES EVANGELISTA",500,2,"","","c"],["r","2026-04",30,"Consulta","SAYONARIA LOPES EVANGELISTA",500,2,"","","k"],["r","2026-01",27,"Receitas de Serviços a Identificar","Sem cliente",75,1,"","","c"],["r","2026-01",27,"Receitas de Serviços a Identificar","Sem cliente",75,1,"","","k"],["r","2026-01",27,"Injetaveis","WALAS FERNANDES VITAL",1200,1,"","","c"],["r","2026-03",31,"Injetaveis","WALAS FERNANDES VITAL",1200,1,"","","k"],["r","2026-01",27,"Receita de Serviços - Plano Bronze","LAUDENICIA ALVES DE OLIVEIRA ZAROWNY",1500,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","LAUDENICIA ALVES DE OLIVEIRA ZAROWNY",1500,1,"","","k"],["r","2026-01",27,"Receita de Serviços - Plano Prata","DORIETE DE SOUZA",8100,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","DORIETE DE SOUZA",8100,1,"","","k"],["r","2026-01",27,"Receita de Serviços - Plano Prata","JOERLAINE DA SILVA OLIVEIRA ELIZEU",2488,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","JOERLAINE DA SILVA OLIVEIRA ELIZEU",2488,1,"","","k"],["r","2026-01",27,"Receitas de Serviços a Identificar","Sem cliente",2200,1,"","","c"],["r","2026-01",27,"Receitas de Serviços a Identificar","Sem cliente",2200,1,"","","k"],["r","2026-01",27,"Receitas de Serviços a Identificar","Sem cliente",1458.45,1,"","","c"],["r","2026-01",27,"Receitas de Serviços a Identificar","Sem cliente",1458.45,1,"","","k"],["r","2026-01",27,"Receitas de Serviços a Identificar","Sem cliente",236.1,1,"","","c"],["r","2026-01",27,"Receitas de Serviços a Identificar","Sem cliente",236.1,1,"","","k"],["r","2026-01",27,"Receitas de Serviços a Identificar","Sem cliente",2203.86,1,"","","c"],["r","2026-01",27,"Receitas de Serviços a Identificar","Sem cliente",2203.86,1,"","","k"],["r","2026-01",28,"Receitas de Serviços a Identificar","Sem cliente",1000,1,"","","c"],["r","2026-01",28,"Receitas de Serviços a Identificar","Sem cliente",1000,1,"","","k"],["r","2026-01",28,"Injetaveis","MAGDA CRISTINA ANGELO DE OLIVEIRA",900,1,"","","c"],["r","2026-03",31,"Injetaveis","MAGDA CRISTINA ANGELO DE OLIVEIRA",900,1,"","","k"],["r","2026-01",28,"Receitas de Serviços a Identificar","Sem cliente",682.52,1,"","","c"],["r","2026-01",28,"Receitas de Serviços a Identificar","Sem cliente",682.52,1,"","","k"],["r","2026-01",28,"Receitas de Serviços a Identificar","Sem cliente",435.03,1,"","","c"],["r","2026-01",28,"Receitas de Serviços a Identificar","Sem cliente",435.03,1,"","","k"],["r","2026-01",29,"Receitas de Serviços a Identificar","Sem cliente",389.2,1,"","","c"],["r","2026-01",29,"Receitas de Serviços a Identificar","Sem cliente",389.2,1,"","","k"],["r","2026-01",29,"Receitas de Serviços a Identificar","Sem cliente",622.72,1,"","","c"],["r","2026-01",29,"Receitas de Serviços a Identificar","Sem cliente",622.72,1,"","","k"],["r","2026-01",29,"Receitas de Serviços a Identificar","Sem cliente",1744.02,1,"","","c"],["r","2026-01",29,"Receitas de Serviços a Identificar","Sem cliente",1744.02,1,"","","k"],["r","2026-01",30,"Receita de Serviços - Plano Prata","MARIA LEUZINA DE AGUIAR DIAS",815,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","MARIA LEUZINA DE AGUIAR DIAS",815,1,"","","k"],["r","2026-01",30,"Suplementos","MARIA LEUZINA DE AGUIAR DIAS",185,1,"","","c"],["r","2026-04",30,"Suplementos","MARIA LEUZINA DE AGUIAR DIAS",185,1,"","","k"],["r","2026-01",30,"Receitas de Serviços a Identificar","SHEILA MARIA NEGRI PONTES",4096,1,"","","c"],["r","2026-01",30,"Receitas de Serviços a Identificar","SHEILA MARIA NEGRI PONTES",4096,1,"","","k"],["r","2026-01",30,"Receitas de Serviços a Identificar","Sem cliente",581.94,1,"","","c"],["r","2026-01",30,"Receitas de Serviços a Identificar","Sem cliente",581.94,1,"","","k"],["r","2026-01",30,"Receitas de Serviços a Identificar","Sem cliente",274.99,1,"","","c"],["r","2026-01",30,"Receitas de Serviços a Identificar","Sem cliente",274.99,1,"","","k"],["r","2026-02",2,"Rendimentos de Aplicações","Sem cliente",0.36,1,"","","c"],["r","2026-02",2,"Rendimentos de Aplicações","Sem cliente",0.36,1,"","","k"],["r","2026-02",2,"Receita de Serviços - Plano Diamante","ALEX MARCHIOLI STEFANON",3183.17,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","ALEX MARCHIOLI STEFANON",3183.17,1,"","","k"],["r","2026-02",2,"Receitas de Serviços a Identificar","Sem cliente",216.05,1,"","","c"],["r","2026-02",2,"Receitas de Serviços a Identificar","Sem cliente",216.05,1,"","","k"],["r","2026-02",2,"Receitas de Serviços a Identificar","Sem cliente",145.65,1,"","","c"],["r","2026-02",2,"Receitas de Serviços a Identificar","Sem cliente",145.65,1,"","","k"],["r","2026-02",2,"Receitas de Serviços a Identificar","Sem cliente",966.34,1,"","","c"],["r","2026-02",2,"Receitas de Serviços a Identificar","Sem cliente",966.34,1,"","","k"],["r","2026-02",2,"Receitas de Serviços a Identificar","Sem cliente",1421.47,1,"","","c"],["r","2026-02",2,"Receitas de Serviços a Identificar","Sem cliente",1421.47,1,"","","k"],["r","2026-02",2,"Receitas de Serviços a Identificar","Sem cliente",3700.52,1,"","","c"],["r","2026-02",2,"Receitas de Serviços a Identificar","Sem cliente",3700.52,1,"","","k"],["r","2026-02",2,"Receitas de Serviços a Identificar","Sem cliente",6119.12,1,"","","c"],["r","2026-02",2,"Receitas de Serviços a Identificar","Sem cliente",6119.12,1,"","","k"],["r","2026-02",3,"Receitas de Serviços a Identificar","SANDRA VIEIRA FARIA",430,1,"","","c"],["r","2026-02",3,"Receitas de Serviços a Identificar","SANDRA VIEIRA FARIA",430,1,"","","k"],["r","2026-02",3,"Receita de Serviços - Plano Bronze","LAUDENICIA ALVES DE OLIVEIRA ZAROWNY",600,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","LAUDENICIA ALVES DE OLIVEIRA ZAROWNY",600,1,"","","k"],["r","2026-02",3,"Receita de Serviços - Plano Bronze","EVERALDO DE SOUZA VELTEN SANTIAGO",900,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","EVERALDO DE SOUZA VELTEN SANTIAGO",900,1,"","","k"],["r","2026-02",3,"Receitas de Serviços a Identificar","Sem cliente",1672.08,1,"","","c"],["r","2026-02",3,"Receitas de Serviços a Identificar","Sem cliente",1672.08,1,"","","k"],["r","2026-02",3,"Receitas de Serviços a Identificar","Sem cliente",1186.39,1,"","","c"],["r","2026-02",3,"Receitas de Serviços a Identificar","Sem cliente",1186.39,1,"","","k"],["r","2026-02",3,"Receitas de Serviços a Identificar","Sem cliente",2088.69,1,"","","c"],["r","2026-02",3,"Receitas de Serviços a Identificar","Sem cliente",2088.69,1,"","","k"],["r","2026-02",4,"Receitas de Serviços a Identificar","Sem cliente",1177.62,1,"","","c"],["r","2026-02",4,"Receitas de Serviços a Identificar","Sem cliente",1177.62,1,"","","k"],["r","2026-02",4,"Receitas de Serviços a Identificar","Sem cliente",1740.96,1,"","","c"],["r","2026-02",4,"Receitas de Serviços a Identificar","Sem cliente",1740.96,1,"","","k"],["r","2026-02",4,"Receitas de Serviços a Identificar","Sem cliente",3584.81,1,"","","c"],["r","2026-02",4,"Receitas de Serviços a Identificar","Sem cliente",3584.81,1,"","","k"],["r","2026-02",4,"Receitas de Serviços a Identificar","Sem cliente",1920.99,1,"","","c"],["r","2026-02",4,"Receitas de Serviços a Identificar","Sem cliente",1920.99,1,"","","k"],["r","2026-02",5,"Rendimentos de Aplicações","Sem cliente",0.18,1,"","","c"],["r","2026-02",5,"Rendimentos de Aplicações","Sem cliente",0.18,1,"","","k"],["r","2026-02",5,"Receita de Serviços - Plano Bronze","BETANIA KINACIA DE SOUZA SATURNINO",1200,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","BETANIA KINACIA DE SOUZA SATURNINO",1200,1,"","","k"],["r","2026-02",5,"Receitas de Serviços a Identificar","Sem cliente",368.25,1,"","","c"],["r","2026-02",5,"Receitas de Serviços a Identificar","Sem cliente",368.25,1,"","","k"],["r","2026-02",5,"Receitas de Serviços a Identificar","Sem cliente",193.98,1,"","","c"],["r","2026-02",5,"Receitas de Serviços a Identificar","Sem cliente",193.98,1,"","","k"],["r","2026-02",5,"Receitas de Serviços a Identificar","Sem cliente",547.09,1,"","","c"],["r","2026-02",5,"Receitas de Serviços a Identificar","Sem cliente",547.09,1,"","","k"],["r","2026-02",5,"Receitas de Serviços a Identificar","Sem cliente",1256.97,1,"","","c"],["r","2026-02",5,"Receitas de Serviços a Identificar","Sem cliente",1256.97,1,"","","k"],["r","2026-02",6,"Rendimentos de Aplicações","Sem cliente",0.02,1,"","","c"],["r","2026-02",6,"Rendimentos de Aplicações","Sem cliente",0.02,1,"","","k"],["r","2026-02",6,"Receita de Serviços - Plano Bronze","LAUDENICIA ALVES DE OLIVEIRA ZAROWNY",1900,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","LAUDENICIA ALVES DE OLIVEIRA ZAROWNY",1900,1,"","","k"],["r","2026-02",6,"Receitas de Serviços a Identificar","Sem cliente",615.8,1,"","","c"],["r","2026-02",6,"Receitas de Serviços a Identificar","Sem cliente",615.8,1,"","","k"],["r","2026-02",6,"Receitas de Serviços a Identificar","Sem cliente",365.52,1,"","","c"],["r","2026-02",6,"Receitas de Serviços a Identificar","Sem cliente",365.52,1,"","","k"],["r","2026-02",9,"Rendimentos de Aplicações","Sem cliente",0.03,1,"","","c"],["r","2026-02",9,"Rendimentos de Aplicações","Sem cliente",0.03,1,"","","k"],["r","2026-02",9,"Injetaveis","SOLANGE RODRIGUES DE SOUZA PIMENTA",135,1,"","","c"],["r","2026-03",31,"Injetaveis","SOLANGE RODRIGUES DE SOUZA PIMENTA",135,1,"","","k"],["r","2026-02",9,"Receitas de Serviços a Identificar","Sem cliente",1500,1,"","","c"],["r","2026-02",9,"Receitas de Serviços a Identificar","Sem cliente",1500,1,"","","k"],["r","2026-02",9,"Receitas de Serviços a Identificar","Sem cliente",728.25,1,"","","c"],["r","2026-02",9,"Receitas de Serviços a Identificar","Sem cliente",728.25,1,"","","k"],["r","2026-02",9,"Receitas de Serviços a Identificar","Sem cliente",2391.46,1,"","","c"],["r","2026-02",9,"Receitas de Serviços a Identificar","Sem cliente",2391.46,1,"","","k"],["r","2026-02",9,"Receitas de Serviços a Identificar","Sem cliente",5304.42,1,"","","c"],["r","2026-02",9,"Receitas de Serviços a Identificar","Sem cliente",5304.42,1,"","","k"],["r","2026-02",10,"Receita de Serviço - alquimia Prata","MARCELO PARANHO",935,1,"","","c"],["r","2026-03",31,"Receita de Serviço - alquimia Prata","MARCELO PARANHO",935,1,"","","k"],["r","2026-02",10,"Receitas de Serviços a Identificar","Sem cliente",242.48,1,"","","c"],["r","2026-02",10,"Receitas de Serviços a Identificar","Sem cliente",242.48,1,"","","k"],["r","2026-02",10,"Receitas de Serviços a Identificar","Sem cliente",448.64,1,"","","c"],["r","2026-02",10,"Receitas de Serviços a Identificar","Sem cliente",448.64,1,"","","k"],["r","2026-02",10,"Receitas de Serviços a Identificar","Sem cliente",1810.45,1,"","","c"],["r","2026-02",10,"Receitas de Serviços a Identificar","Sem cliente",1810.45,1,"","","k"],["r","2026-02",10,"Consulta","ÉRICA RODRIGUES LIMA BOECHAT",582,2,"","","c"],["r","2026-04",30,"Consulta","ÉRICA RODRIGUES LIMA BOECHAT",582,2,"","","k"],["r","2026-02",11,"Receitas de Serviços a Identificar","SHEILA MARIA NEGRI PONTES",550,1,"","","c"],["r","2026-02",11,"Receitas de Serviços a Identificar","SHEILA MARIA NEGRI PONTES",550,1,"","","k"],["r","2026-02",11,"Receita de Serviço - alquimia Prata","MARCELO PARANHO",1000,1,"","","c"],["r","2026-03",31,"Receita de Serviço - alquimia Prata","MARCELO PARANHO",1000,1,"","","k"],["r","2026-02",11,"Injetaveis","LEDIANA NEIVA ANACLETO OLIVEIRA",1108,1,"","","c"],["r","2026-03",31,"Injetaveis","LEDIANA NEIVA ANACLETO OLIVEIRA",1108,1,"","","k"],["r","2026-02",11,"Suplementos","LEDIANA NEIVA ANACLETO OLIVEIRA",75,1,"","","c"],["r","2026-04",30,"Suplementos","LEDIANA NEIVA ANACLETO OLIVEIRA",75,1,"","","k"],["r","2026-02",11,"Receita de Serviços - Plano Diamante","MERIELY RUFINO VAZ MUTZ",4175,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","MERIELY RUFINO VAZ MUTZ",4175,1,"","","k"],["r","2026-02",11,"Receitas de Serviços a Identificar","Sem cliente",582.6,1,"","","c"],["r","2026-02",11,"Receitas de Serviços a Identificar","Sem cliente",582.6,1,"","","k"],["r","2026-02",11,"Receitas de Serviços a Identificar","Sem cliente",133.85,1,"","","c"],["r","2026-02",11,"Receitas de Serviços a Identificar","Sem cliente",133.85,1,"","","k"],["r","2026-02",11,"Suplementos","JOSÉ ESTHEVAN PIRES DA CUNHA",135,2,"","","c"],["r","2026-04",30,"Suplementos","JOSÉ ESTHEVAN PIRES DA CUNHA",135,2,"","","k"],["r","2026-02",12,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",25,1,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",25,1,"","","k"],["r","2026-02",12,"Consulta","MAYKE CORREIA DE SOUZA",650,1,"","","c"],["r","2026-04",30,"Consulta","MAYKE CORREIA DE SOUZA",650,1,"","","k"],["r","2026-02",12,"Receita de Serviços - Plano Diamante","MAYKE CORREIA DE SOUZA",650,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","MAYKE CORREIA DE SOUZA",650,1,"","","k"],["r","2026-02",12,"Receitas de Serviços a Identificar","Sem cliente",233.33,1,"","","c"],["r","2026-02",12,"Receitas de Serviços a Identificar","Sem cliente",233.33,1,"","","k"],["r","2026-02",12,"Receitas de Serviços a Identificar","Sem cliente",417.06,1,"","","c"],["r","2026-02",12,"Receitas de Serviços a Identificar","Sem cliente",417.06,1,"","","k"],["r","2026-02",12,"Receitas de Serviços a Identificar","Sem cliente",847.24,1,"","","c"],["r","2026-02",12,"Receitas de Serviços a Identificar","Sem cliente",847.24,1,"","","k"],["r","2026-02",12,"Consulta","LETICIA BATISTA DE MORAES",650,2,"","","c"],["r","2026-04",30,"Consulta","LETICIA BATISTA DE MORAES",650,2,"","","k"],["r","2026-02",13,"Consulta","EDILAINE MARCIA MARCIANO DE SOUZA",650,1,"","","c"],["r","2026-04",30,"Consulta","EDILAINE MARCIA MARCIANO DE SOUZA",650,1,"","","k"],["r","2026-02",13,"Receitas de Serviços a Identificar","ADMIR CUSTÓDIO DE ALMEIDA JÚNIOR",140,1,"","","c"],["r","2026-02",13,"Receitas de Serviços a Identificar","ADMIR CUSTÓDIO DE ALMEIDA JÚNIOR",140,1,"","","k"],["r","2026-02",13,"Receita de Serviços - Plano Prata","CRISTIANE CANDIDA DA SILVA",4350,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","CRISTIANE CANDIDA DA SILVA",4350,1,"","","k"],["r","2026-02",13,"Receitas de Serviços a Identificar","Sem cliente",509.25,1,"","","c"],["r","2026-02",13,"Receitas de Serviços a Identificar","Sem cliente",509.25,1,"","","k"],["r","2026-02",13,"Suplementos","NAZARETH ALVES DE ARAÚJO",75,2,"","","c"],["r","2026-04",30,"Suplementos","NAZARETH ALVES DE ARAÚJO",75,2,"","","k"],["r","2026-02",18,"Consulta","DIVALDO GOMES DE SOUZA FILHO",650,1,"","","c"],["r","2026-04",30,"Consulta","DIVALDO GOMES DE SOUZA FILHO",650,1,"","","k"],["r","2026-02",18,"Consulta","VALDETE APARECIDA FERREIRA HERMISDOLFE",650,1,"","","c"],["r","2026-04",30,"Consulta","VALDETE APARECIDA FERREIRA HERMISDOLFE",650,1,"","","k"],["r","2026-02",18,"Receita de Serviços - Alquimia Ouro","TELMA DOMINGOS DA SILVA",300,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Alquimia Ouro","TELMA DOMINGOS DA SILVA",300,1,"","","k"],["r","2026-02",18,"Receita de Serviços - Plano Bronze","STEPHANIE SOLE BARABANI",1610,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","STEPHANIE SOLE BARABANI",1610,1,"","","k"],["r","2026-02",18,"Receitas de Serviços a Identificar","Sem cliente",3146.23,1,"","","c"],["r","2026-02",18,"Receitas de Serviços a Identificar","Sem cliente",3146.23,1,"","","k"],["r","2026-02",18,"Receitas de Serviços a Identificar","Sem cliente",251.21,1,"","","c"],["r","2026-02",18,"Receitas de Serviços a Identificar","Sem cliente",251.21,1,"","","k"],["r","2026-02",18,"Receitas de Serviços a Identificar","Sem cliente",73.83,1,"","","c"],["r","2026-02",18,"Receitas de Serviços a Identificar","Sem cliente",73.83,1,"","","k"],["r","2026-02",18,"Receitas de Serviços a Identificar","Sem cliente",384.08,1,"","","c"],["r","2026-02",18,"Receitas de Serviços a Identificar","Sem cliente",384.08,1,"","","k"],["r","2026-02",18,"Receitas de Serviços a Identificar","Sem cliente",2879.49,1,"","","c"],["r","2026-02",18,"Receitas de Serviços a Identificar","Sem cliente",2879.49,1,"","","k"],["r","2026-02",18,"Receitas de Serviços a Identificar","Sem cliente",10808.37,1,"","","c"],["r","2026-02",18,"Receitas de Serviços a Identificar","Sem cliente",10808.37,1,"","","k"],["r","2026-02",19,"Consulta","FABRÍCIO RODRIGUES LINHARES",650,1,"","","c"],["r","2026-04",30,"Consulta","FABRÍCIO RODRIGUES LINHARES",650,1,"","","k"],["r","2026-02",19,"Rendimentos de Aplicações","Sem cliente",0.21,1,"","","c"],["r","2026-02",19,"Rendimentos de Aplicações","Sem cliente",0.21,1,"","","k"],["r","2026-02",19,"Receitas de Serviços a Identificar","NOEME PEDROSA DE SOUZA SATURNINO",270,1,"","","c"],["r","2026-02",19,"Receitas de Serviços a Identificar","NOEME PEDROSA DE SOUZA SATURNINO",270,1,"","","k"],["r","2026-02",19,"Receitas de Serviços a Identificar","Sem cliente",1251.57,1,"","","c"],["r","2026-02",19,"Receitas de Serviços a Identificar","Sem cliente",1251.57,1,"","","k"],["r","2026-02",19,"Receitas de Serviços a Identificar","Sem cliente",2087.1,1,"","","c"],["r","2026-02",19,"Receitas de Serviços a Identificar","Sem cliente",2087.1,1,"","","k"],["r","2026-02",19,"Receitas de Serviços a Identificar","Sem cliente",314.42,1,"","","c"],["r","2026-02",19,"Receitas de Serviços a Identificar","Sem cliente",314.42,1,"","","k"],["r","2026-02",19,"Receitas de Serviços a Identificar","Sem cliente",368.56,1,"","","c"],["r","2026-02",19,"Receitas de Serviços a Identificar","Sem cliente",368.56,1,"","","k"],["r","2026-02",19,"Receitas de Serviços a Identificar","Sem cliente",3937.6,1,"","","c"],["r","2026-02",19,"Receitas de Serviços a Identificar","Sem cliente",3937.6,1,"","","k"],["r","2026-02",20,"Receitas de Serviços a Identificar","Sem cliente",659.44,1,"","","c"],["r","2026-02",20,"Receitas de Serviços a Identificar","Sem cliente",659.44,1,"","","k"],["r","2026-02",20,"Receitas de Serviços a Identificar","Sem cliente",1725.49,1,"","","c"],["r","2026-02",20,"Receitas de Serviços a Identificar","Sem cliente",1725.49,1,"","","k"],["r","2026-02",20,"Receitas de Serviços a Identificar","Sem cliente",821.79,1,"","","c"],["r","2026-02",20,"Receitas de Serviços a Identificar","Sem cliente",821.79,1,"","","k"],["r","2026-02",20,"Receitas de Serviços a Identificar","Sem cliente",282.73,1,"","","c"],["r","2026-02",20,"Receitas de Serviços a Identificar","Sem cliente",282.73,1,"","","k"],["r","2026-02",20,"Receitas de Serviços a Identificar","Sem cliente",1544.16,1,"","","c"],["r","2026-02",20,"Receitas de Serviços a Identificar","Sem cliente",1544.16,1,"","","k"],["r","2026-02",20,"Receitas de Serviços a Identificar","Sem cliente",2930.31,1,"","","c"],["r","2026-02",20,"Receitas de Serviços a Identificar","Sem cliente",2930.31,1,"","","k"],["r","2026-02",23,"Injetaveis","FERNANDA APARECIDA DE ALMEIDA",1747.9,1,"","","c"],["r","2026-03",31,"Injetaveis","FERNANDA APARECIDA DE ALMEIDA",1747.9,1,"","","k"],["r","2026-02",23,"Receitas de Serviços a Identificar","SHEILA MARIA NEGRI PONTES",3696,1,"","","c"],["r","2026-02",23,"Receitas de Serviços a Identificar","SHEILA MARIA NEGRI PONTES",3696,1,"","","k"],["r","2026-02",23,"Receita de Serviços - Plano Prata","ISABELA CRISTINA FANTI",7880,1,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","ISABELA CRISTINA FANTI",7880,1,"","","k"],["r","2026-02",23,"Injetaveis","ISABELA CRISTINA FANTI",900,1,"","","c"],["r","2026-03",31,"Injetaveis","ISABELA CRISTINA FANTI",900,1,"","","k"],["r","2026-02",23,"Suplementos","ISABELA CRISTINA FANTI",320,1,"","","c"],["r","2026-04",30,"Suplementos","ISABELA CRISTINA FANTI",320,1,"","","k"],["r","2026-02",23,"Receitas de Serviços a Identificar","Sem cliente",356.47,1,"","","c"],["r","2026-02",23,"Receitas de Serviços a Identificar","Sem cliente",356.47,1,"","","k"],["r","2026-02",23,"Receitas de Serviços a Identificar","Sem cliente",316.78,1,"","","c"],["r","2026-02",23,"Receitas de Serviços a Identificar","Sem cliente",316.78,1,"","","k"],["r","2026-02",23,"Receitas de Serviços a Identificar","Sem cliente",673.18,1,"","","c"],["r","2026-02",23,"Receitas de Serviços a Identificar","Sem cliente",673.18,1,"","","k"],["r","2026-02",23,"Receitas de Serviços a Identificar","Sem cliente",3103.5,1,"","","c"],["r","2026-02",23,"Receitas de Serviços a Identificar","Sem cliente",3103.5,1,"","","k"],["r","2026-02",23,"Receitas de Serviços a Identificar","Sem cliente",3366.29,1,"","","c"],["r","2026-02",23,"Receitas de Serviços a Identificar","Sem cliente",3366.29,1,"","","k"],["r","2026-02",23,"Suplementos","MARLETE ALVARES CABRAL",50,2,"","","c"],["r","2026-04",30,"Suplementos","MARLETE ALVARES CABRAL",50,2,"","","k"],["r","2026-02",24,"Receita de Serviços - Plano Diamante","MAYKE CORREIA DE SOUZA",5000,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","MAYKE CORREIA DE SOUZA",5000,1,"","","k"],["r","2026-02",24,"Receitas de Serviços a Identificar","Sem cliente",479.8,1,"","","c"],["r","2026-02",24,"Receitas de Serviços a Identificar","Sem cliente",479.8,1,"","","k"],["r","2026-02",24,"Receitas de Serviços a Identificar","Sem cliente",836.74,1,"","","c"],["r","2026-02",24,"Receitas de Serviços a Identificar","Sem cliente",836.74,1,"","","k"],["r","2026-02",24,"Receitas de Serviços a Identificar","Sem cliente",581.94,1,"","","c"],["r","2026-02",24,"Receitas de Serviços a Identificar","Sem cliente",581.94,1,"","","k"],["r","2026-02",25,"Receita de Serviços - Plano Prata","SALETTE DE ALMEIDA SANTANA",150,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","SALETTE DE ALMEIDA SANTANA",150,1,"","","k"],["r","2026-02",25,"Suplementos","SALETTE DE ALMEIDA SANTANA",135,1,"","","c"],["r","2026-04",30,"Suplementos","SALETTE DE ALMEIDA SANTANA",135,1,"","","k"],["r","2026-02",25,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",600,1,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",600,1,"","","k"],["r","2026-02",25,"Receitas de Serviços a Identificar","Sem cliente",1108.46,1,"","","c"],["r","2026-02",25,"Receitas de Serviços a Identificar","Sem cliente",1108.46,1,"","","k"],["r","2026-02",26,"Receita de Serviços - Plano Diamante","MAYKE CORREIA DE SOUZA",2460,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","MAYKE CORREIA DE SOUZA",2460,1,"","","k"],["r","2026-02",26,"Receita de Serviços - Plano Bronze","TELMELITA SAAR ORECCHIO",3900,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","TELMELITA SAAR ORECCHIO",3900,1,"","","k"],["r","2026-02",26,"Receitas de Serviços a Identificar","Sem cliente",1698.25,1,"","","c"],["r","2026-02",26,"Receitas de Serviços a Identificar","Sem cliente",1698.25,1,"","","k"],["r","2026-02",26,"Receitas de Serviços a Identificar","Sem cliente",193.08,1,"","","c"],["r","2026-02",26,"Receitas de Serviços a Identificar","Sem cliente",193.08,1,"","","k"],["r","2026-02",26,"Receitas de Serviços a Identificar","Sem cliente",3143.61,1,"","","c"],["r","2026-02",26,"Receitas de Serviços a Identificar","Sem cliente",3143.61,1,"","","k"],["r","2026-02",26,"Receitas de Serviços a Identificar","Sem cliente",236.1,1,"","","c"],["r","2026-02",26,"Receitas de Serviços a Identificar","Sem cliente",236.1,1,"","","k"],["r","2026-02",27,"Receita de Serviços - Plano Prata","MARIA LEUZINA DE AGUIAR DIAS",4600,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","MARIA LEUZINA DE AGUIAR DIAS",4600,1,"","","k"],["r","2026-02",27,"Receitas de Serviços a Identificar","Sem cliente",435.03,1,"","","c"],["r","2026-02",27,"Receitas de Serviços a Identificar","Sem cliente",435.03,1,"","","k"],["r","2026-02",27,"Receitas de Serviços a Identificar","Sem cliente",1621.2,1,"","","c"],["r","2026-02",27,"Receitas de Serviços a Identificar","Sem cliente",1621.2,1,"","","k"],["r","2026-03",2,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",400,1,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",400,1,"","","k"],["r","2026-03",2,"Receitas de Serviços a Identificar","SANDRA VIEIRA FARIA",430,1,"","","c"],["r","2026-03",2,"Receitas de Serviços a Identificar","SANDRA VIEIRA FARIA",430,1,"","","k"],["r","2026-03",2,"Receita de Serviços - Plano Diamante","EDILAINE MARCIA MARCIANO DE SOUZA",3340,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","EDILAINE MARCIA MARCIANO DE SOUZA",3340,1,"","","k"],["r","2026-03",2,"Receitas de Serviços a Identificar","Sem cliente",145.65,1,"","","c"],["r","2026-03",2,"Receitas de Serviços a Identificar","Sem cliente",145.65,1,"","","k"],["r","2026-03",2,"Receitas de Serviços a Identificar","Sem cliente",216.05,1,"","","c"],["r","2026-03",2,"Receitas de Serviços a Identificar","Sem cliente",216.05,1,"","","k"],["r","2026-03",2,"Receitas de Serviços a Identificar","Sem cliente",389.2,1,"","","c"],["r","2026-03",2,"Receitas de Serviços a Identificar","Sem cliente",389.2,1,"","","k"],["r","2026-03",2,"Receitas de Serviços a Identificar","Sem cliente",622.72,1,"","","c"],["r","2026-03",2,"Receitas de Serviços a Identificar","Sem cliente",622.72,1,"","","k"],["r","2026-03",2,"Receitas de Serviços a Identificar","Sem cliente",1744.02,1,"","","c"],["r","2026-03",2,"Receitas de Serviços a Identificar","Sem cliente",1744.02,1,"","","k"],["r","2026-03",2,"Receitas de Serviços a Identificar","Sem cliente",2800.14,1,"","","c"],["r","2026-03",2,"Receitas de Serviços a Identificar","Sem cliente",2800.14,1,"","","k"],["r","2026-03",3,"Suplementos","ÉRICA RODRIGUES LIMA BOECHAT",75,1,"","","c"],["r","2026-04",30,"Suplementos","ÉRICA RODRIGUES LIMA BOECHAT",75,1,"","","k"],["r","2026-03",3,"Rendimentos de Aplicações","Sem cliente",5.48,1,"","","c"],["r","2026-03",3,"Rendimentos de Aplicações","Sem cliente",5.48,1,"","","k"],["r","2026-03",3,"Receitas de Serviços a Identificar","Sem cliente",1159.11,1,"","","c"],["r","2026-03",3,"Receitas de Serviços a Identificar","Sem cliente",1159.11,1,"","","k"],["r","2026-03",3,"Receitas de Serviços a Identificar","Sem cliente",1855.91,1,"","","c"],["r","2026-03",3,"Receitas de Serviços a Identificar","Sem cliente",1855.91,1,"","","k"],["r","2026-03",3,"Receitas de Serviços a Identificar","Sem cliente",345.6,1,"","","c"],["r","2026-03",3,"Receitas de Serviços a Identificar","Sem cliente",345.6,1,"","","k"],["r","2026-03",4,"Rendimentos de Aplicações","Sem cliente",0.12,1,"","","c"],["r","2026-03",4,"Rendimentos de Aplicações","Sem cliente",0.12,1,"","","k"],["r","2026-03",4,"Receitas de Serviços a Identificar","ANA LÚCIA COLOMBEKI SALDANHA",650,1,"","","c"],["r","2026-03",4,"Receitas de Serviços a Identificar","ANA LÚCIA COLOMBEKI SALDANHA",650,1,"","","k"],["r","2026-03",4,"Receitas de Serviços a Identificar","Sem cliente",1173.42,1,"","","c"],["r","2026-03",4,"Receitas de Serviços a Identificar","Sem cliente",1173.42,1,"","","k"],["r","2026-03",4,"Receitas de Serviços a Identificar","Sem cliente",620.74,1,"","","c"],["r","2026-03",4,"Receitas de Serviços a Identificar","Sem cliente",620.74,1,"","","k"],["r","2026-03",4,"Receitas de Serviços a Identificar","Sem cliente",809.76,1,"","","c"],["r","2026-03",4,"Receitas de Serviços a Identificar","Sem cliente",809.76,1,"","","k"],["r","2026-03",4,"Receitas de Serviços a Identificar","Sem cliente",4151.32,1,"","","c"],["r","2026-03",4,"Receitas de Serviços a Identificar","Sem cliente",4151.32,1,"","","k"],["r","2026-03",5,"Receita de Serviços - Plano Prata","ZILDA MARIA MAIA DE CARVALHO",4500,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","ZILDA MARIA MAIA DE CARVALHO",4500,1,"","","k"],["r","2026-03",5,"Receitas de Serviços a Identificar","Sem cliente",1873.2,1,"","","c"],["r","2026-03",5,"Receitas de Serviços a Identificar","Sem cliente",1873.2,1,"","","k"],["r","2026-03",5,"Receitas de Serviços a Identificar","Sem cliente",652.58,1,"","","c"],["r","2026-03",5,"Receitas de Serviços a Identificar","Sem cliente",652.58,1,"","","k"],["r","2026-03",5,"Receitas de Serviços a Identificar","Sem cliente",1181.28,1,"","","c"],["r","2026-03",5,"Receitas de Serviços a Identificar","Sem cliente",1181.28,1,"","","k"],["r","2026-03",5,"Receitas de Serviços a Identificar","Sem cliente",1186.39,1,"","","c"],["r","2026-03",5,"Receitas de Serviços a Identificar","Sem cliente",1186.39,1,"","","k"],["r","2026-03",5,"Receitas de Serviços a Identificar","Sem cliente",2088.69,1,"","","c"],["r","2026-03",5,"Receitas de Serviços a Identificar","Sem cliente",2088.69,1,"","","k"],["r","2026-04",30,"Receita de Serviços - Plano Diamante","BETANIA KINACIA DE SOUZA SATURNINO",2164.67,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Diamante","BETANIA KINACIA DE SOUZA SATURNINO",2164.67,2,"","","k"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",280,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",280,2,"","","k"],["r","2026-03",6,"Receita de Serviços - Plano Prata","ADELSON ANDRE BAECE STREY",210,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","ADELSON ANDRE BAECE STREY",210,1,"","","k"],["r","2026-03",6,"Receita de Serviços - Plano Prata","LETICIA RENATA RODRIGUES SOUZA PIONTI",2000,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","LETICIA RENATA RODRIGUES SOUZA PIONTI",2000,1,"","","k"],["r","2026-03",6,"Receita de Serviços - Plano Prata","VALDETE APARECIDA FERREIRA HERMISDOLFE",5000,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","VALDETE APARECIDA FERREIRA HERMISDOLFE",5000,1,"","","k"],["r","2026-03",6,"Receitas de Serviços a Identificar","Sem cliente",1177.62,1,"","","c"],["r","2026-03",6,"Receitas de Serviços a Identificar","Sem cliente",1177.62,1,"","","k"],["r","2026-03",6,"Receitas de Serviços a Identificar","Sem cliente",1740.96,1,"","","c"],["r","2026-03",6,"Receitas de Serviços a Identificar","Sem cliente",1740.96,1,"","","k"],["r","2026-03",6,"Receitas de Serviços a Identificar","Sem cliente",1920.99,1,"","","c"],["r","2026-03",6,"Receitas de Serviços a Identificar","Sem cliente",1920.99,1,"","","k"],["r","2026-03",6,"Receitas de Serviços a Identificar","Sem cliente",3584.81,1,"","","c"],["r","2026-03",6,"Receitas de Serviços a Identificar","Sem cliente",3584.81,1,"","","k"],["r","2026-03",7,"Receita de Serviços - Plano Bronze","ROSANGELA GOMES RIBEIRO FIUZA",3367,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","ROSANGELA GOMES RIBEIRO FIUZA",3367,2,"","","k"],["r","2026-05",30,"Adicional de Tizerpatida","THAÍS DAMASCENA DE PAULO HONORATO",400,2,"","","c"],["r","2026-04",30,"Adicional de Tizerpatida","THAÍS DAMASCENA DE PAULO HONORATO",400,2,"","","k"],["r","2026-03",9,"Consulta","MARILZA DE AGUIAR DIAS",650,1,"","","c"],["r","2026-04",30,"Consulta","MARILZA DE AGUIAR DIAS",650,1,"","","k"],["r","2026-03",9,"Rendimentos de Aplicações","Sem cliente",0.23,1,"","","c"],["r","2026-03",9,"Rendimentos de Aplicações","Sem cliente",0.23,1,"","","k"],["r","2026-03",9,"Receitas de Serviços a Identificar","Sem cliente",368.25,1,"","","c"],["r","2026-03",9,"Receitas de Serviços a Identificar","Sem cliente",368.25,1,"","","k"],["r","2026-03",9,"Receitas de Serviços a Identificar","Sem cliente",3011.86,1,"","","c"],["r","2026-03",9,"Receitas de Serviços a Identificar","Sem cliente",3011.86,1,"","","k"],["r","2026-03",9,"Receitas de Serviços a Identificar","Sem cliente",547.05,1,"","","c"],["r","2026-03",9,"Receitas de Serviços a Identificar","Sem cliente",547.05,1,"","","k"],["r","2026-03",9,"Receitas de Serviços a Identificar","Sem cliente",2117.6,1,"","","c"],["r","2026-03",9,"Receitas de Serviços a Identificar","Sem cliente",2117.6,1,"","","k"],["r","2026-03",9,"Receitas de Serviços a Identificar","Sem cliente",3018.1,1,"","","c"],["r","2026-03",9,"Receitas de Serviços a Identificar","Sem cliente",3018.1,1,"","","k"],["r","2026-03",9,"Suplementos","SAYONARIA LOPES EVANGELISTA",185,2,"","","c"],["r","2026-04",30,"Suplementos","SAYONARIA LOPES EVANGELISTA",185,2,"","","k"],["r","2026-03",10,"Consulta","NATALIA PEREIRA MARTINS SILVA",650,1,"","","c"],["r","2026-04",30,"Consulta","NATALIA PEREIRA MARTINS SILVA",650,1,"","","k"],["r","2026-03",10,"Receitas de Serviços a Identificar","Sem cliente",285,1,"","","c"],["r","2026-03",10,"Receitas de Serviços a Identificar","Sem cliente",285,1,"","","k"],["r","2026-03",10,"Injetaveis","ITELVINA FERNANDA DE OLIVEIRA VERLY",975,1,"","","c"],["r","2026-03",31,"Injetaveis","ITELVINA FERNANDA DE OLIVEIRA VERLY",975,1,"","","k"],["r","2026-03",10,"Receitas de Serviços a Identificar","Sem cliente",503.43,1,"","","c"],["r","2026-03",10,"Receitas de Serviços a Identificar","Sem cliente",503.43,1,"","","k"],["r","2026-03",10,"Suplementos","RODRIGO SOARES SIQUEIRA",60,2,"","","c"],["r","2026-04",30,"Suplementos","RODRIGO SOARES SIQUEIRA",60,2,"","","k"],["r","2026-03",11,"Receitas de Serviços a Identificar","Sem cliente",388,1,"","","c"],["r","2026-03",11,"Receitas de Serviços a Identificar","Sem cliente",388,1,"","","k"],["r","2026-03",11,"Receitas de Serviços a Identificar","Sem cliente",2966.88,1,"","","c"],["r","2026-03",11,"Receitas de Serviços a Identificar","Sem cliente",2966.88,1,"","","k"],["r","2026-03",12,"Suplementos","ISADORA DE VETE BOTELHO",75,1,"","","c"],["r","2026-04",30,"Suplementos","ISADORA DE VETE BOTELHO",75,1,"","","k"],["r","2026-03",12,"Receita de Serviços - Plano Prata","ADELSON ANDRE BAECE STREY",4128,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","ADELSON ANDRE BAECE STREY",4128,1,"","","k"],["r","2026-03",12,"Receitas de Serviços a Identificar","NOEME PEDROSA DE SOUZA SATURNINO",5100,1,"","","c"],["r","2026-03",12,"Receitas de Serviços a Identificar","NOEME PEDROSA DE SOUZA SATURNINO",5100,1,"","","k"],["r","2026-03",12,"Receitas de Serviços a Identificar","Sem cliente",448.64,1,"","","c"],["r","2026-03",12,"Receitas de Serviços a Identificar","Sem cliente",448.64,1,"","","k"],["r","2026-03",12,"Receitas de Serviços a Identificar","Sem cliente",2377.9,1,"","","c"],["r","2026-03",12,"Receitas de Serviços a Identificar","Sem cliente",2377.9,1,"","","k"],["r","2026-03",12,"Receitas de Serviços a Identificar","Sem cliente",242.48,1,"","","c"],["r","2026-03",12,"Receitas de Serviços a Identificar","Sem cliente",242.48,1,"","","k"],["r","2026-03",13,"Consulta","HIGLEST ALVES DE LA SALLE",650,1,"","","c"],["r","2026-04",30,"Consulta","HIGLEST ALVES DE LA SALLE",650,1,"","","k"],["r","2026-03",13,"Rendimentos de Aplicações","Sem cliente",1.25,1,"","","c"],["r","2026-03",13,"Rendimentos de Aplicações","Sem cliente",1.25,1,"","","k"],["r","2026-03",13,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",500,1,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",500,1,"","","k"],["r","2026-03",13,"Receitas de Serviços a Identificar","Sem cliente",582.6,1,"","","c"],["r","2026-03",13,"Receitas de Serviços a Identificar","Sem cliente",582.6,1,"","","k"],["r","2026-03",13,"Receitas de Serviços a Identificar","Sem cliente",133.85,1,"","","c"],["r","2026-03",13,"Receitas de Serviços a Identificar","Sem cliente",133.85,1,"","","k"],["r","2026-03",13,"Receitas de Serviços a Identificar","Sem cliente",498.23,1,"","","c"],["r","2026-03",13,"Receitas de Serviços a Identificar","Sem cliente",498.23,1,"","","k"],["r","2026-03",13,"Receitas de Serviços a Identificar","Sem cliente",2228.34,1,"","","c"],["r","2026-03",13,"Receitas de Serviços a Identificar","Sem cliente",2228.34,1,"","","k"],["r","2026-03",16,"Rendimentos de Aplicações","Sem cliente",0.03,1,"","","c"],["r","2026-03",16,"Rendimentos de Aplicações","Sem cliente",0.03,1,"","","k"],["r","2026-03",16,"Receitas de Serviços a Identificar","Sem cliente",251.21,1,"","","c"],["r","2026-03",16,"Receitas de Serviços a Identificar","Sem cliente",251.21,1,"","","k"],["r","2026-03",16,"Receitas de Serviços a Identificar","Sem cliente",233.33,1,"","","c"],["r","2026-03",16,"Receitas de Serviços a Identificar","Sem cliente",233.33,1,"","","k"],["r","2026-03",16,"Receitas de Serviços a Identificar","Sem cliente",417.06,1,"","","c"],["r","2026-03",16,"Receitas de Serviços a Identificar","Sem cliente",417.06,1,"","","k"],["r","2026-03",16,"Receitas de Serviços a Identificar","Sem cliente",3492.37,1,"","","c"],["r","2026-03",16,"Receitas de Serviços a Identificar","Sem cliente",3492.37,1,"","","k"],["r","2026-03",17,"Receita de Serviços - Plano Diamante","FABRÍCIO RODRIGUES LINHARES",1500,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","FABRÍCIO RODRIGUES LINHARES",1500,1,"","","k"],["r","2026-03",17,"Receitas de Serviços a Identificar","Sem cliente",1700,1,"","","c"],["r","2026-03",17,"Receitas de Serviços a Identificar","Sem cliente",1700,1,"","","k"],["r","2026-03",17,"Receita de Serviços - Plano Bronze","AMANTINO STEFANON",2700,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","AMANTINO STEFANON",2700,1,"","","k"],["r","2026-03",17,"Receita de Serviços - Protocolo Body Reset","ANA LÚCIA COLOMBEKI SALDANHA",3000,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Protocolo Body Reset","ANA LÚCIA COLOMBEKI SALDANHA",3000,1,"","","k"],["r","2026-03",17,"Receitas de Serviços a Identificar","Sem cliente",465.98,1,"","","c"],["r","2026-03",17,"Receitas de Serviços a Identificar","Sem cliente",465.98,1,"","","k"],["r","2026-03",17,"Receitas de Serviços a Identificar","Sem cliente",1220.43,1,"","","c"],["r","2026-03",17,"Receitas de Serviços a Identificar","Sem cliente",1220.43,1,"","","k"],["r","2026-03",17,"Receitas de Serviços a Identificar","Sem cliente",384.08,1,"","","c"],["r","2026-03",17,"Receitas de Serviços a Identificar","Sem cliente",384.08,1,"","","k"],["r","2026-03",18,"Receitas de Serviços a Identificar","Sem cliente",468,1,"","","c"],["r","2026-03",18,"Receitas de Serviços a Identificar","Sem cliente",468,1,"","","k"],["r","2026-03",18,"Injetaveis","SOLANGE RODRIGUES DE SOUZA PIMENTA",333,1,"","","c"],["r","2026-03",31,"Injetaveis","SOLANGE RODRIGUES DE SOUZA PIMENTA",333,1,"","","k"],["r","2026-03",18,"Receitas de Serviços a Identificar","Sem cliente",135,1,"","","c"],["r","2026-03",18,"Receitas de Serviços a Identificar","Sem cliente",135,1,"","","k"],["r","2026-03",18,"Receitas de Serviços a Identificar","Sem cliente",350.28,1,"","","c"],["r","2026-03",18,"Receitas de Serviços a Identificar","Sem cliente",350.28,1,"","","k"],["r","2026-03",18,"Receitas de Serviços a Identificar","Sem cliente",1608.47,1,"","","c"],["r","2026-03",18,"Receitas de Serviços a Identificar","Sem cliente",1608.47,1,"","","k"],["r","2026-03",19,"Receita de Serviços - Plano Diamante","MERIELY RUFINO VAZ MUTZ",75,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","MERIELY RUFINO VAZ MUTZ",75,1,"","","k"],["r","2026-03",19,"Receitas de Serviços a Identificar","Sem cliente",1368.09,1,"","","c"],["r","2026-03",19,"Receitas de Serviços a Identificar","Sem cliente",1368.09,1,"","","k"],["r","2026-03",19,"Receitas de Serviços a Identificar","Sem cliente",5606.07,1,"","","c"],["r","2026-03",19,"Receitas de Serviços a Identificar","Sem cliente",5606.07,1,"","","k"],["r","2026-03",19,"Receitas de Serviços a Identificar","Sem cliente",560.8,1,"","","c"],["r","2026-03",19,"Receitas de Serviços a Identificar","Sem cliente",560.8,1,"","","k"],["r","2026-03",20,"Adicional de Tizerpatida","WARLLEM FERREIRA COSTA",1540,1,"","","c"],["r","2026-04",30,"Adicional de Tizerpatida","WARLLEM FERREIRA COSTA",1540,1,"","","k"],["r","2026-03",20,"Receita de Serviços - Plano Prata","VALDETE APARECIDA FERREIRA HERMISDOLFE",75,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","VALDETE APARECIDA FERREIRA HERMISDOLFE",75,1,"","","k"],["r","2026-03",20,"Receita de Serviços - Plano Prata","HIGLEST ALVES DE LA SALLE",2690,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","HIGLEST ALVES DE LA SALLE",2690,1,"","","k"],["r","2026-03",20,"Receitas de Serviços a Identificar","Sem cliente",355.72,1,"","","c"],["r","2026-03",20,"Receitas de Serviços a Identificar","Sem cliente",355.72,1,"","","k"],["r","2026-03",20,"Receitas de Serviços a Identificar","Sem cliente",1037.67,1,"","","c"],["r","2026-03",20,"Receitas de Serviços a Identificar","Sem cliente",1037.67,1,"","","k"],["r","2026-03",20,"Receitas de Serviços a Identificar","Sem cliente",926.4,1,"","","c"],["r","2026-03",20,"Receitas de Serviços a Identificar","Sem cliente",926.4,1,"","","k"],["r","2026-03",20,"Receitas de Serviços a Identificar","Sem cliente",966.57,1,"","","c"],["r","2026-03",20,"Receitas de Serviços a Identificar","Sem cliente",966.57,1,"","","k"],["r","2026-03",20,"Receitas de Serviços a Identificar","Sem cliente",1655.56,1,"","","c"],["r","2026-03",20,"Receitas de Serviços a Identificar","Sem cliente",1655.56,1,"","","k"],["r","2026-03",23,"Rendimentos de Aplicações","Sem cliente",0.39,1,"","","c"],["r","2026-03",23,"Rendimentos de Aplicações","Sem cliente",0.39,1,"","","k"],["r","2026-03",23,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",500,1,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",500,1,"","","k"],["r","2026-03",23,"Receitas de Serviços a Identificar","Sem cliente",646.35,1,"","","c"],["r","2026-03",23,"Receitas de Serviços a Identificar","Sem cliente",646.35,1,"","","k"],["r","2026-03",23,"Receitas de Serviços a Identificar","Sem cliente",2543.25,1,"","","c"],["r","2026-03",23,"Receitas de Serviços a Identificar","Sem cliente",2543.25,1,"","","k"],["r","2026-03",23,"Receitas de Serviços a Identificar","Sem cliente",659.44,1,"","","c"],["r","2026-03",23,"Receitas de Serviços a Identificar","Sem cliente",659.44,1,"","","k"],["r","2026-03",23,"Receitas de Serviços a Identificar","Sem cliente",480.1,1,"","","c"],["r","2026-03",23,"Receitas de Serviços a Identificar","Sem cliente",480.1,1,"","","k"],["r","2026-03",23,"Receitas de Serviços a Identificar","Sem cliente",821.79,1,"","","c"],["r","2026-03",23,"Receitas de Serviços a Identificar","Sem cliente",821.79,1,"","","k"],["r","2026-03",23,"Receitas de Serviços a Identificar","Sem cliente",997.14,1,"","","c"],["r","2026-03",23,"Receitas de Serviços a Identificar","Sem cliente",997.14,1,"","","k"],["r","2026-03",23,"Receitas de Serviços a Identificar","Sem cliente",1410.77,1,"","","c"],["r","2026-03",23,"Receitas de Serviços a Identificar","Sem cliente",1410.77,1,"","","k"],["r","2026-03",23,"Receitas de Serviços a Identificar","Sem cliente",3852.07,1,"","","c"],["r","2026-03",23,"Receitas de Serviços a Identificar","Sem cliente",3852.07,1,"","","k"],["r","2026-03",24,"Injetaveis","ELIZABETH DE REZENDE ALMEIDA",680,1,"","","c"],["r","2026-04",30,"Injetaveis","ELIZABETH DE REZENDE ALMEIDA",680,1,"","","k"],["r","2026-03",24,"Rendimentos de Aplicações","Sem cliente",0.58,1,"","","c"],["r","2026-03",24,"Rendimentos de Aplicações","Sem cliente",0.58,1,"","","k"],["r","2026-03",24,"Injetaveis","LIETE VOLPONI FORTUNA",75,1,"","","c"],["r","2026-03",31,"Injetaveis","LIETE VOLPONI FORTUNA",75,1,"","","k"],["r","2026-03",24,"Receita de Serviços - Plano Bronze","ANA PAULA COELHO PORTES MATTOS",400,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","ANA PAULA COELHO PORTES MATTOS",400,1,"","","k"],["r","2026-03",24,"Receitas de Serviços a Identificar","LINDAURA RODRIGUES BARBOSA ASSIS",650,1,"","","c"],["r","2026-03",24,"Receitas de Serviços a Identificar","LINDAURA RODRIGUES BARBOSA ASSIS",650,1,"","","k"],["r","2026-03",24,"Receitas de Serviços a Identificar","Sem cliente",750,1,"","","c"],["r","2026-03",24,"Receitas de Serviços a Identificar","Sem cliente",750,1,"","","k"],["r","2026-03",24,"Receita de Serviços - Plano Bronze","TELMELITA SAAR ORECCHIO",4782,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","TELMELITA SAAR ORECCHIO",4782,1,"","","k"],["r","2026-03",24,"Receita de Serviços - Plano Prata","HIGLEST ALVES DE LA SALLE",6910,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","HIGLEST ALVES DE LA SALLE",6910,1,"","","k"],["r","2026-03",24,"Receitas de Serviços a Identificar","Sem cliente",3830.55,1,"","","c"],["r","2026-03",24,"Receitas de Serviços a Identificar","Sem cliente",3830.55,1,"","","k"],["r","2026-03",24,"Receitas de Serviços a Identificar","Sem cliente",1621.01,1,"","","c"],["r","2026-03",24,"Receitas de Serviços a Identificar","Sem cliente",1621.01,1,"","","k"],["r","2026-03",24,"Receitas de Serviços a Identificar","Sem cliente",2053.17,1,"","","c"],["r","2026-03",24,"Receitas de Serviços a Identificar","Sem cliente",2053.17,1,"","","k"],["r","2026-03",25,"Receita de Serviços - Plano Prata","KEILA SOARES RODRIGUES MONTEIRO",3500,1,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","KEILA SOARES RODRIGUES MONTEIRO",3500,1,"","","k"],["r","2026-03",25,"Receitas de Serviços a Identificar","Sem cliente",443.04,1,"","","c"],["r","2026-03",25,"Receitas de Serviços a Identificar","Sem cliente",443.04,1,"","","k"],["r","2026-03",25,"Receitas de Serviços a Identificar","Sem cliente",1303.95,1,"","","c"],["r","2026-03",25,"Receitas de Serviços a Identificar","Sem cliente",1303.95,1,"","","k"],["r","2026-03",26,"Rendimentos de Aplicações","Sem cliente",0.14,1,"","","c"],["r","2026-03",26,"Rendimentos de Aplicações","Sem cliente",0.14,1,"","","k"],["r","2026-03",26,"Receita de Serviços - Plano Diamante","LETICIA BATISTA DE MORAES",75,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","LETICIA BATISTA DE MORAES",75,1,"","","k"],["r","2026-03",26,"Suplementos","ZILDA MARIA MAIA DE CARVALHO",75,1,"","","c"],["r","2026-04",30,"Suplementos","ZILDA MARIA MAIA DE CARVALHO",75,1,"","","k"],["r","2026-03",26,"Receitas de Serviços a Identificar","Sem cliente",479.8,1,"","","c"],["r","2026-03",26,"Receitas de Serviços a Identificar","Sem cliente",479.8,1,"","","k"],["r","2026-03",26,"Receitas de Serviços a Identificar","Sem cliente",654.92,1,"","","c"],["r","2026-03",26,"Receitas de Serviços a Identificar","Sem cliente",654.92,1,"","","k"],["r","2026-03",26,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",625,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",625,2,"","","k"],["r","2026-03",27,"Rendimentos de Aplicações","Sem cliente",0.01,1,"","","c"],["r","2026-03",27,"Rendimentos de Aplicações","Sem cliente",0.01,1,"","","k"],["r","2026-03",27,"Receitas de Serviços a Identificar","Sem cliente",607.78,1,"","","c"],["r","2026-03",27,"Receitas de Serviços a Identificar","Sem cliente",607.78,1,"","","k"],["r","2026-03",30,"Receita de Serviços - Plano Prata","ZILDA MARIA MAIA DE CARVALHO",5000,1,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","ZILDA MARIA MAIA DE CARVALHO",5000,1,"","","k"],["r","2026-03",30,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",500,1,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",500,1,"","","k"],["r","2026-03",30,"Receitas de Serviços a Identificar","Sem cliente",193.08,1,"","","c"],["r","2026-03",30,"Receitas de Serviços a Identificar","Sem cliente",193.08,1,"","","k"],["r","2026-03",30,"Receitas de Serviços a Identificar","Sem cliente",389.2,1,"","","c"],["r","2026-03",30,"Receitas de Serviços a Identificar","Sem cliente",389.2,1,"","","k"],["r","2026-03",30,"Receitas de Serviços a Identificar","Sem cliente",435.03,1,"","","c"],["r","2026-03",30,"Receitas de Serviços a Identificar","Sem cliente",435.03,1,"","","k"],["r","2026-03",30,"Receitas de Serviços a Identificar","Sem cliente",2243.92,1,"","","c"],["r","2026-03",30,"Receitas de Serviços a Identificar","Sem cliente",2243.92,1,"","","k"],["r","2026-03",30,"Receitas de Serviços a Identificar","Sem cliente",3914.61,1,"","","c"],["r","2026-03",30,"Receitas de Serviços a Identificar","Sem cliente",3914.61,1,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Prata","JOERLAINE DA SILVA OLIVEIRA ELIZEU",840,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","JOERLAINE DA SILVA OLIVEIRA ELIZEU",840,1,"","","k"],["r","2026-03",31,"Receitas de Serviços a Identificar","SHEILA MARIA NEGRI PONTES",3696,1,"","","c"],["r","2026-03",31,"Receitas de Serviços a Identificar","SHEILA MARIA NEGRI PONTES",3696,1,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Prata","MARILZA DE AGUIAR DIAS",4274,1,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","MARILZA DE AGUIAR DIAS",4274,1,"","","k"],["r","2026-03",31,"Receitas de Serviços a Identificar","Sem cliente",581.94,1,"","","c"],["r","2026-03",31,"Receitas de Serviços a Identificar","Sem cliente",581.94,1,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","IRINEIA SOUZA PEREIRA SAAR",9680.17,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","IRINEIA SOUZA PEREIRA SAAR",9680.17,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Prata","DORIETE DE SOUZA",1200,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","DORIETE DE SOUZA",1200,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Prata","SAYONARIA LOPES EVANGELISTA",8045,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","SAYONARIA LOPES EVANGELISTA",8045,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Prata","MARLY MARIA ANDRADE DE LAIA",9342,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","MARLY MARIA ANDRADE DE LAIA",9342,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Prata","ÉRICA RODRIGUES LIMA BOECHAT",9050,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","ÉRICA RODRIGUES LIMA BOECHAT",9050,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","MERIELY RUFINO VAZ MUTZ",12450,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","MERIELY RUFINO VAZ MUTZ",12450,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",4403,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",4403,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","MAYKE CORREIA DE SOUZA",6920,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","MAYKE CORREIA DE SOUZA",6920,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","LETICIA BATISTA DE MORAES",14955,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","LETICIA BATISTA DE MORAES",14955,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Prata","ADELSON ANDRE BAECE STREY",3362,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","ADELSON ANDRE BAECE STREY",3362,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Prata","VALDETE APARECIDA FERREIRA HERMISDOLFE",11199,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","VALDETE APARECIDA FERREIRA HERMISDOLFE",11199,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Prata","ELIEZER MOURA DE ASSIS",7600.87,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","ELIEZER MOURA DE ASSIS",7600.87,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Prata","SALETTE DE ALMEIDA SANTANA",9264,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","SALETTE DE ALMEIDA SANTANA",9264,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Prata","MARIA LEUZINA DE AGUIAR DIAS",185,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","MARIA LEUZINA DE AGUIAR DIAS",185,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","NEILA MARIA DE REZENDE SILVA",4697.61,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","NEILA MARIA DE REZENDE SILVA",4697.61,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Prata","JULIMAR MARTINS FANTI",8200,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","JULIMAR MARTINS FANTI",8200,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Prata","TAIANE STREY VERONEZE ANDRE",12228,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","TAIANE STREY VERONEZE ANDRE",12228,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",6014.17,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",6014.17,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Platina","LEILA DA SILVA DE SOUZA COELHO",6351.4,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Platina","LEILA DA SILVA DE SOUZA COELHO",6351.4,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","ADRIANA MOSCONI PAGANI",4800,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","ADRIANA MOSCONI PAGANI",4800,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","FÁBIA INACIO DE SOUZA BLESSON",5733.17,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","FÁBIA INACIO DE SOUZA BLESSON",5733.17,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","ALAETI BRISQUE POEYS",4133.17,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","ALAETI BRISQUE POEYS",4133.17,2,"","","k"],["r","2026-03",31,"Injetaveis","HAYANE SILVA VALARDAO",2500,2,"","","c"],["r","2026-03",31,"Injetaveis","HAYANE SILVA VALARDAO",2500,2,"","","k"],["r","2026-03",31,"Implantes","THAIZ LIMA ROCHA DA SILVA",4630,2,"","","c"],["r","2026-03",31,"Implantes","THAIZ LIMA ROCHA DA SILVA",4630,2,"","","k"],["r","2026-03",31,"Injetaveis","ANTONIO PEREIRA DE ARAUJO",1170,2,"","","c"],["r","2026-03",31,"Injetaveis","ANTONIO PEREIRA DE ARAUJO",1170,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Prata","JOERLAINE DA SILVA OLIVEIRA ELIZEU",10632,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","JOERLAINE DA SILVA OLIVEIRA ELIZEU",10632,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","ALEX MARCHIOLI STEFANON",12750,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","ALEX MARCHIOLI STEFANON",12750,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","EDILAINE MARCIA MARCIANO DE SOUZA",12965,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","EDILAINE MARCIA MARCIANO DE SOUZA",12965,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Prata","MARIA CRISTINA VIEIRA TEODORO",6842.7,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","MARIA CRISTINA VIEIRA TEODORO",6842.7,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Prata","ALANA CAROLINA ELIZEU CERQUEIRA DE CASTRO",16050,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","ALANA CAROLINA ELIZEU CERQUEIRA DE CASTRO",16050,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","FERNANDA RAQUEL TEIXEIRA CHIPOLESC",3625,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","FERNANDA RAQUEL TEIXEIRA CHIPOLESC",3625,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","LAUDENICIA ALVES DE OLIVEIRA ZAROWNY",900,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","LAUDENICIA ALVES DE OLIVEIRA ZAROWNY",900,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","LEIDIANA FERREIRA RODRIGUES",2300,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","LEIDIANA FERREIRA RODRIGUES",2300,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","WARLLEM FERREIRA COSTA",6040,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","WARLLEM FERREIRA COSTA",6040,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Prata","LETICIA RENATA RODRIGUES SOUZA PIONTI",12493.99,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","LETICIA RENATA RODRIGUES SOUZA PIONTI",12493.99,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Prata","RODRIGO SOARES SIQUEIRA",5980,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","RODRIGO SOARES SIQUEIRA",5980,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","CARLA GESIANE CARLASARTE DE SOUZA VIAL",7243.44,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","CARLA GESIANE CARLASARTE DE SOUZA VIAL",7243.44,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","THAÍS DAMASCENA DE PAULO HONORATO",3400,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","THAÍS DAMASCENA DE PAULO HONORATO",3400,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","EVERALDO DE SOUZA VELTEN SANTIAGO",2100,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","EVERALDO DE SOUZA VELTEN SANTIAGO",2100,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","STEPHANIE SOLE BARABANI",4800,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","STEPHANIE SOLE BARABANI",4800,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","SEBASTIÃO SATURINO FILHO",6500,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","SEBASTIÃO SATURINO FILHO",6500,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","BETANIA KINACIA DE SOUZA SATURNINO",4922,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","BETANIA KINACIA DE SOUZA SATURNINO",4922,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Protocolo Body Reset","ANA LÚCIA COLOMBEKI SALDANHA",964,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Protocolo Body Reset","ANA LÚCIA COLOMBEKI SALDANHA",964,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Alquimia Ouro","TELMA DOMINGOS DA SILVA",1710.11,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Alquimia Ouro","TELMA DOMINGOS DA SILVA",1710.11,2,"","","k"],["r","2026-03",31,"Injetaveis","ITELVINA FERNANDA DE OLIVEIRA VERLY",1400,2,"","","c"],["r","2026-03",31,"Injetaveis","ITELVINA FERNANDA DE OLIVEIRA VERLY",1400,2,"","","k"],["r","2026-03",31,"Injetaveis","LUDIMILA MATIAS CARDOSO PAGANI",468,2,"","","c"],["r","2026-03",31,"Injetaveis","LUDIMILA MATIAS CARDOSO PAGANI",468,2,"","","k"],["r","2026-03",31,"Injetaveis","MARIA ALICE RODRIGUES DE JESUS",2570,2,"","","c"],["r","2026-03",31,"Injetaveis","MARIA ALICE RODRIGUES DE JESUS",2570,2,"","","k"],["r","2026-03",31,"Injetaveis","KAMILA QUADRAS CASTILHO",1050,2,"","","c"],["r","2026-03",31,"Injetaveis","KAMILA QUADRAS CASTILHO",1050,2,"","","k"],["r","2026-03",31,"Injetaveis","MAGDA CRISTINA ANGELO DE OLIVEIRA",500,2,"","","c"],["r","2026-03",31,"Injetaveis","MAGDA CRISTINA ANGELO DE OLIVEIRA",500,2,"","","k"],["r","2026-03",31,"Injetaveis","RAFAEL CARDOSO DE SOUZA",500,2,"","","c"],["r","2026-03",31,"Injetaveis","RAFAEL CARDOSO DE SOUZA",500,2,"","","k"],["r","2026-03",31,"Injetaveis","LIETE VOLPONI FORTUNA",1125,2,"","","c"],["r","2026-03",31,"Injetaveis","LIETE VOLPONI FORTUNA",1125,2,"","","k"],["r","2026-03",31,"Injetaveis","LEDIANA NEIVA ANACLETO OLIVEIRA",4965,2,"","","c"],["r","2026-03",31,"Injetaveis","LEDIANA NEIVA ANACLETO OLIVEIRA",4965,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","ESTER DE ALMEIDA SANTANA",3900,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","ESTER DE ALMEIDA SANTANA",3900,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","FABRÍCIO RODRIGUES LINHARES",3578,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","FABRÍCIO RODRIGUES LINHARES",3578,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Prata","MARLY MARIA ANDRADE DE LAIA",4246,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","MARLY MARIA ANDRADE DE LAIA",4246,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","ANA PAULA COELHO PORTES MATTOS",2300,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","ANA PAULA COELHO PORTES MATTOS",2300,2,"","","k"],["r","2026-04",1,"Receitas de Serviços a Identificar","Sem cliente",145.65,1,"","","c"],["r","2026-04",1,"Receitas de Serviços a Identificar","Sem cliente",145.65,1,"","","k"],["r","2026-04",1,"Rendimentos de Aplicações","Sem cliente",0.26,1,"","","c"],["r","2026-04",1,"Rendimentos de Aplicações","Sem cliente",0.26,1,"","","k"],["r","2026-04",1,"Consulta","ÉRICA RODRIGUES LIMA BOECHAT",68,1,"","","c"],["r","2026-04",30,"Consulta","ÉRICA RODRIGUES LIMA BOECHAT",68,1,"","","k"],["r","2026-04",1,"Receitas de Serviços a Identificar","Sem cliente",2818.58,1,"","","c"],["r","2026-04",1,"Receitas de Serviços a Identificar","Sem cliente",2818.58,1,"","","k"],["r","2026-04",1,"Receitas de Serviços a Identificar","Sem cliente",1218.29,1,"","","c"],["r","2026-04",1,"Receitas de Serviços a Identificar","Sem cliente",1218.29,1,"","","k"],["r","2026-04",1,"Receitas de Serviços a Identificar","Sem cliente",2698.55,1,"","","c"],["r","2026-04",1,"Receitas de Serviços a Identificar","Sem cliente",2698.55,1,"","","k"],["r","2026-04",1,"Implantes","Tomadores Diversos",3900,2,"","","c"],["r","2026-04",1,"Implantes","Tomadores Diversos",3900,2,"","","k"],["r","2026-04",2,"Rendimentos de Aplicações","Sem cliente",0.04,1,"","","c"],["r","2026-04",2,"Rendimentos de Aplicações","Sem cliente",0.04,1,"","","k"],["r","2026-04",2,"Receita de Serviços - Plano Bronze","Sem cliente",9,1,"","","c"],["r","2026-04",2,"Receita de Serviços - Plano Bronze","Sem cliente",9,1,"","","k"],["r","2026-04",2,"Suplementos","NEUZA FERNANDES MARTINS",377,1,"","","c"],["r","2026-04",30,"Suplementos","NEUZA FERNANDES MARTINS",377,1,"","","k"],["r","2026-04",2,"Suplementos","NEUZA FERNANDES MARTINS",50,1,"","","c"],["r","2026-04",30,"Suplementos","NEUZA FERNANDES MARTINS",50,1,"","","k"],["r","2026-04",2,"Teste Nutrigenetico","ZILDA MARIA MAIA DE CARVALHO",3900,1,"","","c"],["r","2026-04",30,"Teste Nutrigenetico","ZILDA MARIA MAIA DE CARVALHO",3900,1,"","","k"],["r","2026-04",2,"Receitas de Serviços a Identificar","Sem cliente",345.6,1,"","","c"],["r","2026-04",2,"Receitas de Serviços a Identificar","Sem cliente",345.6,1,"","","k"],["r","2026-04",2,"Receitas de Serviços a Identificar","Sem cliente",1855.91,1,"","","c"],["r","2026-04",2,"Receitas de Serviços a Identificar","Sem cliente",1855.91,1,"","","k"],["r","2026-04",2,"Receitas de Serviços a Identificar","Sem cliente",882,1,"","","c"],["r","2026-04",2,"Receitas de Serviços a Identificar","Sem cliente",882,1,"","","k"],["r","2026-04",6,"Receitas de Serviços a Identificar","Sem cliente",2935.4,1,"","","c"],["r","2026-04",6,"Receitas de Serviços a Identificar","Sem cliente",2935.4,1,"","","k"],["r","2026-04",6,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",500,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",500,1,"","","k"],["r","2026-04",6,"Receitas de Serviços a Identificar","SANDRA VIEIRA FARIA",630,1,"","","c"],["r","2026-04",6,"Receitas de Serviços a Identificar","SANDRA VIEIRA FARIA",630,1,"","","k"],["r","2026-04",6,"Receitas de Serviços a Identificar","Sem cliente",941.83,1,"","","c"],["r","2026-04",6,"Receitas de Serviços a Identificar","Sem cliente",941.83,1,"","","k"],["r","2026-04",6,"Receitas de Serviços a Identificar","Sem cliente",547.05,1,"","","c"],["r","2026-04",6,"Receitas de Serviços a Identificar","Sem cliente",547.05,1,"","","k"],["r","2026-04",6,"Receitas de Serviços a Identificar","Sem cliente",2190.13,1,"","","c"],["r","2026-04",6,"Receitas de Serviços a Identificar","Sem cliente",2190.13,1,"","","k"],["r","2026-04",6,"Receitas de Serviços a Identificar","Sem cliente",4630.42,1,"","","c"],["r","2026-04",6,"Receitas de Serviços a Identificar","Sem cliente",4630.42,1,"","","k"],["r","2026-04",6,"Receitas de Serviços a Identificar","Sem cliente",14985.03,1,"","","c"],["r","2026-04",6,"Receitas de Serviços a Identificar","Sem cliente",14985.03,1,"","","k"],["r","2026-04",7,"Suplementos","ROSIANE ALMEIDA COSTA BELING",75,1,"","","c"],["r","2026-04",30,"Suplementos","ROSIANE ALMEIDA COSTA BELING",75,1,"","","k"],["r","2026-04",7,"Rendimentos de Aplicações","Sem cliente",0.12,1,"","","c"],["r","2026-04",7,"Rendimentos de Aplicações","Sem cliente",0.12,1,"","","k"],["r","2026-04",7,"Injetaveis","MARIA LEUZINA DE AGUIAR DIAS",390,1,"","","c"],["r","2026-04",30,"Injetaveis","MARIA LEUZINA DE AGUIAR DIAS",390,1,"","","k"],["r","2026-04",7,"Receitas de Serviços a Identificar","Sem cliente",542.82,1,"","","c"],["r","2026-04",7,"Receitas de Serviços a Identificar","Sem cliente",542.82,1,"","","k"],["r","2026-04",7,"Receitas de Serviços a Identificar","Sem cliente",2117.55,1,"","","c"],["r","2026-04",7,"Receitas de Serviços a Identificar","Sem cliente",2117.55,1,"","","k"],["r","2026-04",8,"Receitas de Serviços a Identificar","Sem cliente",366.7,1,"","","c"],["r","2026-04",8,"Receitas de Serviços a Identificar","Sem cliente",366.7,1,"","","k"],["r","2026-04",8,"Receitas de Serviços a Identificar","Sem cliente",466.44,1,"","","c"],["r","2026-04",8,"Receitas de Serviços a Identificar","Sem cliente",466.44,1,"","","k"],["r","2026-04",8,"Receitas de Serviços a Identificar","Sem cliente",2238.86,1,"","","c"],["r","2026-04",8,"Receitas de Serviços a Identificar","Sem cliente",2238.86,1,"","","k"],["r","2026-04",8,"Receitas de Serviços a Identificar","Sem cliente",1154.76,1,"","","c"],["r","2026-04",8,"Receitas de Serviços a Identificar","Sem cliente",1154.76,1,"","","k"],["r","2026-04",9,"Receitas de Serviços a Identificar","Sem cliente",503.43,1,"","","c"],["r","2026-04",9,"Receitas de Serviços a Identificar","Sem cliente",503.43,1,"","","k"],["r","2026-04",9,"Receitas de Serviços a Identificar","Sem cliente",1916.63,1,"","","c"],["r","2026-04",9,"Receitas de Serviços a Identificar","Sem cliente",1916.63,1,"","","k"],["r","2026-04",10,"Suplementos","DORIETE DE SOUZA",75,1,"","","c"],["r","2026-04",30,"Suplementos","DORIETE DE SOUZA",75,1,"","","k"],["r","2026-04",10,"Receitas de Serviços a Identificar","ISABELA CRISTINA FANTI",7880,1,"","","c"],["r","2026-04",10,"Receitas de Serviços a Identificar","ISABELA CRISTINA FANTI",7880,1,"","","k"],["r","2026-04",10,"Receita de Serviços - Plano Prata","ISABELA CRISTINA FANTI",8520,1,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","ISABELA CRISTINA FANTI",8520,1,"","","k"],["r","2026-04",10,"Receita de Serviços - Plano Bronze","DELMA LUCIA MENDES DA CUNHA",2100,1,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","DELMA LUCIA MENDES DA CUNHA",2100,1,"","","k"],["r","2026-04",10,"Receitas de Serviços a Identificar","Sem cliente",728.25,1,"","","c"],["r","2026-04",10,"Receitas de Serviços a Identificar","Sem cliente",728.25,1,"","","k"],["r","2026-04",10,"Receitas de Serviços a Identificar","Sem cliente",388,1,"","","c"],["r","2026-04",10,"Receitas de Serviços a Identificar","Sem cliente",388,1,"","","k"],["r","2026-04",10,"Receitas de Serviços a Identificar","Sem cliente",2499.35,1,"","","c"],["r","2026-04",10,"Receitas de Serviços a Identificar","Sem cliente",2499.35,1,"","","k"],["r","2026-04",10,"Receitas de Serviços a Identificar","Sem cliente",3876.57,1,"","","c"],["r","2026-04",10,"Receitas de Serviços a Identificar","Sem cliente",3876.57,1,"","","k"],["r","2026-04",10,"Receitas de Serviços a Identificar","Sem cliente",2966.88,1,"","","c"],["r","2026-04",10,"Receitas de Serviços a Identificar","Sem cliente",2966.88,1,"","","k"],["r","2026-04",13,"Receitas de Serviços a Identificar","Sem cliente",582.6,1,"","","c"],["r","2026-04",13,"Receitas de Serviços a Identificar","Sem cliente",582.6,1,"","","k"],["r","2026-04",13,"Receitas de Serviços a Identificar","Sem cliente",144.03,1,"","","c"],["r","2026-04",13,"Receitas de Serviços a Identificar","Sem cliente",144.03,1,"","","k"],["r","2026-04",13,"Receitas de Serviços a Identificar","Sem cliente",837.84,1,"","","c"],["r","2026-04",13,"Receitas de Serviços a Identificar","Sem cliente",837.84,1,"","","k"],["r","2026-04",13,"Receitas de Serviços a Identificar","Sem cliente",4606.2,1,"","","c"],["r","2026-04",13,"Receitas de Serviços a Identificar","Sem cliente",4606.2,1,"","","k"],["r","2026-04",13,"Receitas de Serviços a Identificar","Sem cliente",1517.13,1,"","","c"],["r","2026-04",13,"Receitas de Serviços a Identificar","Sem cliente",1517.13,1,"","","k"],["r","2026-04",14,"Suplementos","MARLY MARIA ANDRADE DE LAIA",75,1,"","","c"],["r","2026-04",30,"Suplementos","MARLY MARIA ANDRADE DE LAIA",75,1,"","","k"],["r","2026-04",14,"Rendimentos de Aplicações","Sem cliente",0.02,1,"","","c"],["r","2026-04",14,"Rendimentos de Aplicações","Sem cliente",0.02,1,"","","k"],["r","2026-04",14,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",500,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",500,1,"","","k"],["r","2026-04",15,"Receitas de Serviços a Identificar","Sem cliente",251.21,1,"","","c"],["r","2026-04",15,"Receitas de Serviços a Identificar","Sem cliente",251.21,1,"","","k"],["r","2026-04",15,"Receita de Serviços - Plano Diamante","EDILAINE MARCIA MARCIANO DE SOUZA",395,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","EDILAINE MARCIA MARCIANO DE SOUZA",395,1,"","","k"],["r","2026-04",15,"Receita de Serviços - Plano Prata","TALITA FABIELLE PEREIRA DA SILVA BITTENCOURT",2040,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","TALITA FABIELLE PEREIRA DA SILVA BITTENCOURT",2040,1,"","","k"],["r","2026-04",15,"Receitas de Serviços a Identificar","Sem cliente",2593.92,1,"","","c"],["r","2026-04",15,"Receitas de Serviços a Identificar","Sem cliente",2593.92,1,"","","k"],["r","2026-04",15,"Suplementos","BRISA DANIELLE FURTADO CARDOSO",350,2,"","","c"],["r","2026-04",30,"Suplementos","BRISA DANIELLE FURTADO CARDOSO",350,2,"","","k"],["r","2026-04",16,"Rendimentos de Aplicações","Sem cliente",0.03,1,"","","c"],["r","2026-04",16,"Rendimentos de Aplicações","Sem cliente",0.03,1,"","","k"],["r","2026-04",16,"Receitas de Serviços a Identificar","ISABELA CRISTINA FANTI",320,1,"","","c"],["r","2026-04",16,"Receitas de Serviços a Identificar","ISABELA CRISTINA FANTI",320,1,"","","k"],["r","2026-04",16,"Receitas de Serviços a Identificar","Sem cliente",465.98,1,"","","c"],["r","2026-04",16,"Receitas de Serviços a Identificar","Sem cliente",465.98,1,"","","k"],["r","2026-04",16,"Receitas de Serviços a Identificar","Sem cliente",384.08,1,"","","c"],["r","2026-04",16,"Receitas de Serviços a Identificar","Sem cliente",384.08,1,"","","k"],["r","2026-04",16,"Receitas de Serviços a Identificar","Sem cliente",1985.1,1,"","","c"],["r","2026-04",16,"Receitas de Serviços a Identificar","Sem cliente",1985.1,1,"","","k"],["r","2026-04",16,"Suplementos","MONICA DE OLIVEIRA SILVA FERNANDES",700,2,"","","c"],["r","2026-04",30,"Suplementos","MONICA DE OLIVEIRA SILVA FERNANDES",700,2,"","","k"],["r","2026-04",17,"Rendimentos de Aplicações","Sem cliente",0.02,1,"","","c"],["r","2026-04",17,"Rendimentos de Aplicações","Sem cliente",0.02,1,"","","k"],["r","2026-04",17,"Receitas de Serviços a Identificar","Sem cliente",2058.08,1,"","","c"],["r","2026-04",17,"Receitas de Serviços a Identificar","Sem cliente",2058.08,1,"","","k"],["r","2026-04",17,"Receitas de Serviços a Identificar","Sem cliente",1128.76,1,"","","c"],["r","2026-04",17,"Receitas de Serviços a Identificar","Sem cliente",1128.76,1,"","","k"],["r","2026-04",20,"Receitas de Serviços a Identificar","Sem cliente",2087.1,1,"","","c"],["r","2026-04",20,"Receitas de Serviços a Identificar","Sem cliente",2087.1,1,"","","k"],["r","2026-04",20,"Receitas de Serviços a Identificar","Sem cliente",1002.07,1,"","","c"],["r","2026-04",20,"Receitas de Serviços a Identificar","Sem cliente",1002.07,1,"","","k"],["r","2026-04",20,"Receitas de Serviços a Identificar","Sem cliente",926.4,1,"","","c"],["r","2026-04",20,"Receitas de Serviços a Identificar","Sem cliente",926.4,1,"","","k"],["r","2026-04",20,"Receitas de Serviços a Identificar","Sem cliente",1841.77,1,"","","c"],["r","2026-04",20,"Receitas de Serviços a Identificar","Sem cliente",1841.77,1,"","","k"],["r","2026-04",20,"Receitas de Serviços a Identificar","Sem cliente",2837.73,1,"","","c"],["r","2026-04",20,"Receitas de Serviços a Identificar","Sem cliente",2837.73,1,"","","k"],["r","2026-04",22,"Receitas de Serviços a Identificar","Sem cliente",456.14,1,"","","c"],["r","2026-04",22,"Receitas de Serviços a Identificar","Sem cliente",456.14,1,"","","k"],["r","2026-04",22,"Receitas de Serviços a Identificar","Sem cliente",1800,1,"","","c"],["r","2026-04",22,"Receitas de Serviços a Identificar","Sem cliente",1800,1,"","","k"],["r","2026-04",22,"Receitas de Serviços a Identificar","MARIA DAS GRAÇAS NEVES CALIARI",185,1,"","","c"],["r","2026-04",22,"Receitas de Serviços a Identificar","MARIA DAS GRAÇAS NEVES CALIARI",185,1,"","","k"],["r","2026-04",22,"Consulta","MARIA DAS GRAÇAS NEVES CALIARI",650,1,"","","c"],["r","2026-04",30,"Consulta","MARIA DAS GRAÇAS NEVES CALIARI",650,1,"","","k"],["r","2026-04",22,"Receitas de Serviços a Identificar","Sem cliente",388.4,1,"","","c"],["r","2026-04",22,"Receitas de Serviços a Identificar","Sem cliente",388.4,1,"","","k"],["r","2026-04",22,"Receitas de Serviços a Identificar","Sem cliente",3537.67,1,"","","c"],["r","2026-04",22,"Receitas de Serviços a Identificar","Sem cliente",3537.67,1,"","","k"],["r","2026-04",22,"Receitas de Serviços a Identificar","Sem cliente",821.79,1,"","","c"],["r","2026-04",22,"Receitas de Serviços a Identificar","Sem cliente",821.79,1,"","","k"],["r","2026-04",22,"Receitas de Serviços a Identificar","Sem cliente",480.1,1,"","","c"],["r","2026-04",22,"Receitas de Serviços a Identificar","Sem cliente",480.1,1,"","","k"],["r","2026-04",22,"Receitas de Serviços a Identificar","Sem cliente",1042.2,1,"","","c"],["r","2026-04",22,"Receitas de Serviços a Identificar","Sem cliente",1042.2,1,"","","k"],["r","2026-04",23,"Rendimentos de Aplicações","Sem cliente",0.44,1,"","","c"],["r","2026-04",23,"Rendimentos de Aplicações","Sem cliente",0.44,1,"","","k"],["r","2026-04",23,"Receitas de Serviços a Identificar","Sem cliente",65,1,"","","c"],["r","2026-04",23,"Receitas de Serviços a Identificar","Sem cliente",65,1,"","","k"],["r","2026-04",23,"Receitas de Serviços a Identificar","Sem cliente",1200,1,"","","c"],["r","2026-04",23,"Receitas de Serviços a Identificar","Sem cliente",1200,1,"","","k"],["r","2026-04",23,"Receitas de Serviços a Identificar","Sem cliente",3810.3,1,"","","c"],["r","2026-04",23,"Receitas de Serviços a Identificar","Sem cliente",3810.3,1,"","","k"],["r","2026-04",23,"Receitas de Serviços a Identificar","Sem cliente",928.23,1,"","","c"],["r","2026-04",23,"Receitas de Serviços a Identificar","Sem cliente",928.23,1,"","","k"],["r","2026-04",23,"Receitas de Serviços a Identificar","Sem cliente",4585.47,1,"","","c"],["r","2026-04",23,"Receitas de Serviços a Identificar","Sem cliente",4585.47,1,"","","k"],["r","2026-04",23,"Receitas de Serviços a Identificar","Sem cliente",1116.43,1,"","","c"],["r","2026-04",23,"Receitas de Serviços a Identificar","Sem cliente",1116.43,1,"","","k"],["r","2026-04",25,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",625,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",625,2,"","","k"],["r","2026-04",27,"Receita de Serviços - Plano Bronze","FERNANDA APARECIDA DE ALMEIDA",2975,1,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","FERNANDA APARECIDA DE ALMEIDA",2975,1,"","","k"],["r","2026-04",27,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",1000,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",1000,1,"","","k"],["r","2026-04",27,"Receitas de Serviços a Identificar","Sem cliente",608.75,1,"","","c"],["r","2026-04",27,"Receitas de Serviços a Identificar","Sem cliente",608.75,1,"","","k"],["r","2026-04",27,"Receitas de Serviços a Identificar","Sem cliente",1087.58,1,"","","c"],["r","2026-04",27,"Receitas de Serviços a Identificar","Sem cliente",1087.58,1,"","","k"],["r","2026-04",27,"Receitas de Serviços a Identificar","Sem cliente",193.08,1,"","","c"],["r","2026-04",27,"Receitas de Serviços a Identificar","Sem cliente",193.08,1,"","","k"],["r","2026-04",27,"Receitas de Serviços a Identificar","Sem cliente",2170.59,1,"","","c"],["r","2026-04",27,"Receitas de Serviços a Identificar","Sem cliente",2170.59,1,"","","k"],["r","2026-04",27,"Receitas de Serviços a Identificar","Sem cliente",581.94,1,"","","c"],["r","2026-04",27,"Receitas de Serviços a Identificar","Sem cliente",581.94,1,"","","k"],["r","2026-04",28,"Suplementos","ANA LÚCIA COLOMBEKI SALDANHA",185,1,"","","c"],["r","2026-04",30,"Suplementos","ANA LÚCIA COLOMBEKI SALDANHA",185,1,"","","k"],["r","2026-04",28,"Receita de Serviços - Protocolo Body Reset","ANA LÚCIA COLOMBEKI SALDANHA",2472,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Protocolo Body Reset","ANA LÚCIA COLOMBEKI SALDANHA",2472,1,"","","k"],["r","2026-04",28,"Consulta","ANA LÚCIA COLOMBEKI SALDANHA",650,1,"","","c"],["r","2026-04",30,"Consulta","ANA LÚCIA COLOMBEKI SALDANHA",650,1,"","","k"],["r","2026-04",28,"Receitas de Serviços a Identificar","Sem cliente",1621.2,1,"","","c"],["r","2026-04",28,"Receitas de Serviços a Identificar","Sem cliente",1621.2,1,"","","k"],["r","2026-04",28,"Receitas de Serviços a Identificar","Sem cliente",435.03,1,"","","c"],["r","2026-04",28,"Receitas de Serviços a Identificar","Sem cliente",435.03,1,"","","k"],["r","2026-04",29,"Receitas de Serviços a Identificar","Sem cliente",3289.56,1,"","","c"],["r","2026-04",29,"Receitas de Serviços a Identificar","Sem cliente",3289.56,1,"","","k"],["r","2026-04",29,"Injetaveis","LAUDIANA DANIEL TEIXEIRA FREITAS",390,1,"","","c"],["r","2026-04",30,"Injetaveis","LAUDIANA DANIEL TEIXEIRA FREITAS",390,1,"","","k"],["r","2026-04",29,"Receitas de Serviços a Identificar","Sem cliente",4138.68,1,"","","c"],["r","2026-04",29,"Receitas de Serviços a Identificar","Sem cliente",4138.68,1,"","","k"],["r","2026-04",29,"Receitas de Serviços a Identificar","Sem cliente",1355.02,1,"","","c"],["r","2026-04",29,"Receitas de Serviços a Identificar","Sem cliente",1355.02,1,"","","k"],["r","2026-04",30,"Suplementos","BRISA DANIELLE FURTADO CARDOSO",75,1,"","","c"],["r","2026-04",30,"Suplementos","BRISA DANIELLE FURTADO CARDOSO",75,1,"","","k"],["r","2026-04",30,"Suplementos","TAIANE STREY VERONEZE ANDRE",75,1,"","","c"],["r","2026-04",30,"Suplementos","TAIANE STREY VERONEZE ANDRE",75,1,"","","k"],["r","2026-04",30,"Adicional de Tizerpatida","JULIMAR MARTINS FANTI",1200,1,"","","c"],["r","2026-04",30,"Adicional de Tizerpatida","JULIMAR MARTINS FANTI",1200,1,"","","k"],["r","2026-04",30,"Receitas de Serviços a Identificar","Sem cliente",911.74,1,"","","c"],["r","2026-04",30,"Receitas de Serviços a Identificar","Sem cliente",911.74,1,"","","k"],["r","2026-04",30,"Receitas de Serviços a Identificar","Sem cliente",1771.36,1,"","","c"],["r","2026-04",30,"Receitas de Serviços a Identificar","Sem cliente",1771.36,1,"","","k"],["r","2026-04",30,"Consulta","FLAVYANNE PAULO MORETT AGUIAR",500,2,"","","c"],["r","2026-04",30,"Consulta","FLAVYANNE PAULO MORETT AGUIAR",500,2,"","","k"],["r","2026-04",30,"Consulta","IRINEIA SOUZA PEREIRA SAAR",500,2,"","","c"],["r","2026-04",30,"Consulta","IRINEIA SOUZA PEREIRA SAAR",500,2,"","","k"],["r","2026-04",30,"Consulta","REINALDO ERMELINDO DE ARAUJO",500,2,"","","c"],["r","2026-04",30,"Consulta","REINALDO ERMELINDO DE ARAUJO",500,2,"","","k"],["r","2026-04",30,"Suplementos","ZILDA MARIA MAIA DE CARVALHO",140,2,"","","c"],["r","2026-04",30,"Suplementos","ZILDA MARIA MAIA DE CARVALHO",140,2,"","","k"],["r","2026-04",30,"Suplementos","MAYKE CORREIA DE SOUZA",197.5,2,"","","c"],["r","2026-04",30,"Suplementos","MAYKE CORREIA DE SOUZA",197.5,2,"","","k"],["r","2026-04",30,"Receita de Serviços - Protocolo Body Reset","NATALIA PEREIRA MARTINS SILVA",397,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Protocolo Body Reset","NATALIA PEREIRA MARTINS SILVA",397,2,"","","k"],["r","2026-04",30,"Receita de Serviços - Plano Prata","MARILZA DE AGUIAR DIAS",1581.25,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","MARILZA DE AGUIAR DIAS",1581.25,2,"","","k"],["r","2026-04",30,"Adicional de Tizerpatida","ÉRICA RODRIGUES LIMA BOECHAT",3068,2,"","","c"],["r","2026-04",30,"Adicional de Tizerpatida","ÉRICA RODRIGUES LIMA BOECHAT",3068,2,"","","k"],["r","2026-04",30,"Receita de Serviços - Plano Diamante","NAIR DA SILVA LOPES",7000,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Diamante","NAIR DA SILVA LOPES",7000,2,"","","k"],["r","2026-04",30,"Adicional de Tizerpatida","DORIETE DE SOUZA",1872,2,"","","c"],["r","2026-04",30,"Adicional de Tizerpatida","DORIETE DE SOUZA",1872,2,"","","k"],["r","2026-04",30,"Adicional de Tizerpatida","ORLANDA ALVES SALVADOR",200,2,"","","c"],["r","2026-04",30,"Adicional de Tizerpatida","ORLANDA ALVES SALVADOR",200,2,"","","k"],["r","2026-04",30,"Adicional de Tizerpatida","VALDETE APARECIDA FERREIRA HERMISDOLFE",518.67,2,"","","c"],["r","2026-04",30,"Adicional de Tizerpatida","VALDETE APARECIDA FERREIRA HERMISDOLFE",518.67,2,"","","k"],["r","2026-04",30,"Injetaveis","RAFAEL CARDOSO DE SOUZA",490,2,"","","c"],["r","2026-04",30,"Injetaveis","RAFAEL CARDOSO DE SOUZA",490,2,"","","k"],["r","2026-04",30,"Receita de Serviços - Plano Diamante","ANTONIO PEREIRA DE ARAUJO",6050,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Diamante","ANTONIO PEREIRA DE ARAUJO",6050,2,"","","k"],["r","2026-04",30,"Adicional de Tizerpatida","ADELSON ANDRE BAECE STREY",1200,2,"","","c"],["r","2026-04",30,"Adicional de Tizerpatida","ADELSON ANDRE BAECE STREY",1200,2,"","","k"],["r","2026-04",30,"Injetaveis","MAYARA RIBEIRO SIMOES FORTUNA",1500,2,"","","c"],["r","2026-04",30,"Injetaveis","MAYARA RIBEIRO SIMOES FORTUNA",1500,2,"","","k"],["r","2026-04",30,"Receita de Serviços - Plano Diamante","MONICA DE OLIVEIRA SILVA FERNANDES",19750,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Diamante","MONICA DE OLIVEIRA SILVA FERNANDES",19750,2,"","","k"],["r","2026-04",30,"Receita de Serviços - Plano Prata","TALITA FABIELLE PEREIRA DA SILVA BITTENCOURT",5580.66,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","TALITA FABIELLE PEREIRA DA SILVA BITTENCOURT",5580.66,2,"","","k"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","DELMA LUCIA MENDES DA CUNHA",1000,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","DELMA LUCIA MENDES DA CUNHA",1000,2,"","","k"],["r","2026-05",4,"Adicional de Tizerpatida","BETANIA KINACIA DE SOUZA SATURNINO",1800,1,"","","c"],["r","2026-05",4,"Adicional de Tizerpatida","BETANIA KINACIA DE SOUZA SATURNINO",1800,1,"","","k"],["r","2026-05",4,"Consulta","MARLY MARIA ANDRADE DE LAIA",500,1,"","","c"],["r","2026-04",30,"Consulta","MARLY MARIA ANDRADE DE LAIA",500,1,"","","k"],["r","2026-05",4,"Adicional de Tizerpatida","TAIANE STREY VERONEZE ANDRE",300,1,"","","c"],["r","2026-05",4,"Adicional de Tizerpatida","TAIANE STREY VERONEZE ANDRE",300,1,"","","k"],["r","2026-05",4,"Receitas de Serviços a Identificar","Sem cliente",1903.43,1,"","","c"],["r","2026-05",4,"Receitas de Serviços a Identificar","Sem cliente",1903.43,1,"","","k"],["r","2026-05",4,"Receitas de Serviços a Identificar","Sem cliente",3159.48,1,"","","c"],["r","2026-05",4,"Receitas de Serviços a Identificar","Sem cliente",3159.48,1,"","","k"],["r","2026-05",4,"Receitas de Serviços a Identificar","Sem cliente",3055.03,1,"","","c"],["r","2026-05",4,"Receitas de Serviços a Identificar","Sem cliente",3055.03,1,"","","k"],["r","2026-05",4,"Receitas de Serviços a Identificar","Sem cliente",4970.45,1,"","","c"],["r","2026-05",4,"Receitas de Serviços a Identificar","Sem cliente",4970.45,1,"","","k"],["r","2026-05",4,"Receitas de Serviços a Identificar","Sem cliente",6232.18,1,"","","c"],["r","2026-05",4,"Receitas de Serviços a Identificar","Sem cliente",6232.18,1,"","","k"],["r","2026-05",4,"Rendimentos de Aplicações","Sem cliente",0.16,1,"","","c"],["r","2026-05",4,"Rendimentos de Aplicações","Sem cliente",0.16,1,"","","k"],["r","2026-05",4,"Suplementos","ORLANDA ALVES SALVADOR",76,2,"","","c"],["r","2026-05",4,"Suplementos","ORLANDA ALVES SALVADOR",76,2,"","","k"],["r","2026-05",4,"Suplementos","DORLI MARTINS DA SILVA",550,2,"","","c"],["r","2026-05",4,"Suplementos","DORLI MARTINS DA SILVA",550,2,"","","k"],["r","2026-05",4,"Suplementos","HIGLEST ALVES DE LA SALLE",200,2,"","","c"],["r","2026-05",4,"Suplementos","HIGLEST ALVES DE LA SALLE",200,2,"","","k"],["r","2026-05",4,"Adicional de Tizerpatida","TAIANE STREY VERONEZE ANDRE",300,2,"","","c"],["r","2026-05",4,"Adicional de Tizerpatida","TAIANE STREY VERONEZE ANDRE",300,2,"","","k"],["r","2026-05",4,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",500,2,"","","c"],["r","2026-05",4,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",500,2,"","","k"],["r","2026-05",5,"Receitas de Serviços a Identificar","Sem cliente",1177.62,1,"","","c"],["r","2026-05",5,"Receitas de Serviços a Identificar","Sem cliente",1177.62,1,"","","k"],["r","2026-05",5,"Receitas de Serviços a Identificar","Sem cliente",132.89,1,"","","c"],["r","2026-05",5,"Receitas de Serviços a Identificar","Sem cliente",132.89,1,"","","k"],["r","2026-05",5,"Receitas de Serviços a Identificar","Sem cliente",4537.69,1,"","","c"],["r","2026-05",5,"Receitas de Serviços a Identificar","Sem cliente",4537.69,1,"","","k"],["r","2026-05",5,"Suplementos","HIGLEST ALVES DE LA SALLE",10,1,"","","c"],["r","2026-05",4,"Suplementos","HIGLEST ALVES DE LA SALLE",10,1,"","","k"],["r","2026-05",5,"Receitas de Serviços a Identificar","Sem cliente",5000,1,"","","c"],["r","2026-05",5,"Receitas de Serviços a Identificar","Sem cliente",5000,1,"","","k"],["r","2026-05",5,"Receita de Serviços - Plano Prata","MARILZA DE AGUIAR DIAS",1581.25,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","MARILZA DE AGUIAR DIAS",1581.25,2,"","","k"],["r","2026-05",5,"Suplementos","VALDETE APARECIDA FERREIRA HERMISDOLFE",135,2,"","","c"],["r","2026-05",4,"Suplementos","VALDETE APARECIDA FERREIRA HERMISDOLFE",135,2,"","","k"],["r","2026-05",5,"Suplementos","MERIELY RUFINO VAZ MUTZ",135,2,"","","c"],["r","2026-05",5,"Suplementos","MERIELY RUFINO VAZ MUTZ",135,2,"","","k"],["r","2026-05",5,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",1000,2,"","","c"],["r","2026-05",5,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",1000,2,"","","k"],["r","2026-05",5,"Receita de Serviços - Plano Prata","ZILDA MARIA MAIA DE CARVALHO",5000,2,"","","c"],["r","2026-05",5,"Receita de Serviços - Plano Prata","ZILDA MARIA MAIA DE CARVALHO",5000,2,"","","k"],["r","2026-05",6,"Consulta","Cristina Siqueira Bragança",650,1,"","","c"],["r","2026-05",6,"Consulta","Cristina Siqueira Bragança",650,1,"","","k"],["r","2026-05",6,"Adicional de Tizerpatida","MARILZA DE AGUIAR DIAS",1404,1,"","","c"],["r","2026-05",6,"Adicional de Tizerpatida","MARILZA DE AGUIAR DIAS",1404,1,"","","k"],["r","2026-05",6,"Receitas de Serviços a Identificar","Sem cliente",368.25,1,"","","c"],["r","2026-05",6,"Receitas de Serviços a Identificar","Sem cliente",368.25,1,"","","k"],["r","2026-05",6,"Receitas de Serviços a Identificar","Sem cliente",547.05,1,"","","c"],["r","2026-05",6,"Receitas de Serviços a Identificar","Sem cliente",547.05,1,"","","k"],["r","2026-05",6,"Receitas de Serviços a Identificar","Sem cliente",984.4,1,"","","c"],["r","2026-05",6,"Receitas de Serviços a Identificar","Sem cliente",984.4,1,"","","k"],["r","2026-05",6,"Receitas de Serviços a Identificar","Sem cliente",1256.97,1,"","","c"],["r","2026-05",6,"Receitas de Serviços a Identificar","Sem cliente",1256.97,1,"","","k"],["r","2026-05",6,"Receitas de Serviços a Identificar","Sem cliente",193.98,1,"","","c"],["r","2026-05",6,"Receitas de Serviços a Identificar","Sem cliente",193.98,1,"","","k"],["r","2026-05",6,"Suplementos","MARIA DA PENHA MOURA ROSA",75,2,"","","c"],["r","2026-05",6,"Suplementos","MARIA DA PENHA MOURA ROSA",75,2,"","","k"],["r","2026-05",6,"Suplementos","ESTER DE ALMEIDA SANTANA",185,2,"","","c"],["r","2026-05",6,"Suplementos","ESTER DE ALMEIDA SANTANA",185,2,"","","k"],["r","2026-05",6,"Adicional de Tizerpatida","ESTER DE ALMEIDA SANTANA",380,2,"","","c"],["r","2026-05",6,"Adicional de Tizerpatida","ESTER DE ALMEIDA SANTANA",380,2,"","","k"],["r","2026-05",7,"Receita de Serviços - Plano Bronze","ALEX MARCHIOLI STEFANON",3900,1,"","","c"],["r","2026-05",7,"Receita de Serviços - Plano Bronze","ALEX MARCHIOLI STEFANON",3900,1,"","","k"],["r","2026-05",7,"Receitas de Serviços a Identificar","Sem cliente",542.82,1,"","","c"],["r","2026-05",7,"Receitas de Serviços a Identificar","Sem cliente",542.82,1,"","","k"],["r","2026-05",7,"Receitas de Serviços a Identificar","Sem cliente",2117.55,1,"","","c"],["r","2026-05",7,"Receitas de Serviços a Identificar","Sem cliente",2117.55,1,"","","k"],["r","2026-05",7,"Rendimentos de Aplicações","Sem cliente",0.02,1,"","","c"],["r","2026-05",7,"Rendimentos de Aplicações","Sem cliente",0.02,1,"","","k"],["r","2026-05",7,"Receitas de Serviços a Identificar","Sem cliente",460,1,"","","c"],["r","2026-05",7,"Receitas de Serviços a Identificar","Sem cliente",460,1,"","","k"],["r","2026-05",7,"Receitas de Serviços a Identificar","MAULY MARTINS DA SILVA",550,1,"","","c"],["r","2026-05",7,"Receitas de Serviços a Identificar","MAULY MARTINS DA SILVA",550,1,"","","k"],["r","2026-05",7,"Suplementos","MAULY MARTINS DA SILVA",185,1,"","","c"],["r","2026-05",7,"Suplementos","MAULY MARTINS DA SILVA",185,1,"","","k"],["r","2026-05",8,"Receitas de Serviços a Identificar","Sem cliente",366.7,1,"","","c"],["r","2026-05",8,"Receitas de Serviços a Identificar","Sem cliente",366.7,1,"","","k"],["r","2026-05",8,"Receitas de Serviços a Identificar","Sem cliente",1154.76,1,"","","c"],["r","2026-05",8,"Receitas de Serviços a Identificar","Sem cliente",1154.76,1,"","","k"],["r","2026-05",8,"Receitas de Serviços a Identificar","Sem cliente",2238.86,1,"","","c"],["r","2026-05",8,"Receitas de Serviços a Identificar","Sem cliente",2238.86,1,"","","k"],["r","2026-05",8,"Receitas de Serviços a Identificar","Sem cliente",2330,1,"","","c"],["r","2026-05",8,"Receitas de Serviços a Identificar","Sem cliente",2330,1,"","","k"],["r","2026-05",8,"Implantes","NUBIA SILVA AMARAL STOHEL",3900,1,"","","c"],["r","2026-05",8,"Implantes","NUBIA SILVA AMARAL STOHEL",3900,1,"","","k"],["r","2026-05",8,"Suplementos","JADER JESUS SILVA",75,2,"","","c"],["r","2026-05",8,"Suplementos","JADER JESUS SILVA",75,2,"","","k"],["r","2026-05",8,"Receita de Serviços - Plano Bronze","ÉRICA RODRIGUES LIMA BOECHAT",1274,2,"","","c"],["r","2026-05",8,"Receita de Serviços - Plano Bronze","ÉRICA RODRIGUES LIMA BOECHAT",1274,2,"","","k"],["r","2026-05",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",2330,2,"","","c"],["r","2026-05",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",2330,2,"","","k"],["r","2026-05",8,"Implantes","NUBIA SILVA AMARAL STOHEL",3900,2,"","","c"],["r","2026-05",8,"Implantes","NUBIA SILVA AMARAL STOHEL",3900,2,"","","k"],["r","2026-05",8,"Implantes","ÉRICA RODRIGUES LIMA BOECHAT",4500,2,"","","c"],["r","2026-05",8,"Implantes","ÉRICA RODRIGUES LIMA BOECHAT",4500,2,"","","k"],["r","2026-05",11,"Consulta","Lúcia Sodré Moreira",650,1,"","","c"],["r","2026-05",11,"Consulta","Lúcia Sodré Moreira",650,1,"","","k"],["r","2026-05",11,"Consulta","MARIA DAS GRAÇAS RODRIGUES COELHO",500,1,"","","c"],["r","2026-05",11,"Consulta","MARIA DAS GRAÇAS RODRIGUES COELHO",500,1,"","","k"],["r","2026-05",11,"Receitas de Serviços a Identificar","Sem cliente",649.25,1,"","","c"],["r","2026-05",11,"Receitas de Serviços a Identificar","Sem cliente",649.25,1,"","","k"],["r","2026-05",11,"Receitas de Serviços a Identificar","Sem cliente",3716.64,1,"","","c"],["r","2026-05",11,"Receitas de Serviços a Identificar","Sem cliente",3716.64,1,"","","k"],["r","2026-05",11,"Receitas de Serviços a Identificar","Sem cliente",3465.58,1,"","","c"],["r","2026-05",11,"Receitas de Serviços a Identificar","Sem cliente",3465.58,1,"","","k"],["r","2026-05",11,"Receitas de Serviços a Identificar","Sem cliente",677.67,1,"","","c"],["r","2026-05",11,"Receitas de Serviços a Identificar","Sem cliente",677.67,1,"","","k"],["r","2026-05",11,"Receitas de Serviços a Identificar","Sem cliente",2699.68,1,"","","c"],["r","2026-05",11,"Receitas de Serviços a Identificar","Sem cliente",2699.68,1,"","","k"],["r","2026-05",11,"Receitas de Serviços a Identificar","KEILA SOARES RODRIGUES MONTEIRO",1460,1,"","","c"],["r","2026-05",11,"Receitas de Serviços a Identificar","KEILA SOARES RODRIGUES MONTEIRO",1460,1,"","","k"],["r","2026-05",11,"Receitas de Serviços a Identificar","MARIA DAS GRAÇAS NEVES CALIARI",2690,1,"","","c"],["r","2026-05",11,"Receitas de Serviços a Identificar","MARIA DAS GRAÇAS NEVES CALIARI",2690,1,"","","k"],["r","2026-05",11,"Receitas de Serviços a Identificar","KEILA SOARES RODRIGUES MONTEIRO",4000,1,"","","c"],["r","2026-05",11,"Receitas de Serviços a Identificar","KEILA SOARES RODRIGUES MONTEIRO",4000,1,"","","k"],["r","2026-05",11,"Receitas de Serviços a Identificar","MARIA DAS GRAÇAS NEVES CALIARI",6910,1,"","","c"],["r","2026-05",11,"Receitas de Serviços a Identificar","MARIA DAS GRAÇAS NEVES CALIARI",6910,1,"","","k"],["r","2026-05",11,"Suplementos","MARIA DAS GRAÇAS NEVES CALIARI",210,2,"","","c"],["r","2026-05",11,"Suplementos","MARIA DAS GRAÇAS NEVES CALIARI",210,2,"","","k"],["r","2026-05",11,"Receita de Serviços - Plano Prata","MARIA DAS GRAÇAS NEVES CALIARI",9600,2,"","","c"],["r","2026-05",11,"Receita de Serviços - Plano Prata","MARIA DAS GRAÇAS NEVES CALIARI",9600,2,"","","k"],["r","2026-05",11,"Receita de Serviços - Plano Bronze","KEILA SOARES RODRIGUES MONTEIRO",5460,2,"","","c"],["r","2026-05",11,"Receita de Serviços - Plano Bronze","KEILA SOARES RODRIGUES MONTEIRO",5460,2,"","","k"],["r","2026-05",11,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",1000,2,"","","c"],["r","2026-05",11,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",1000,2,"","","k"],["r","2026-05",12,"Receitas de Serviços a Identificar","Sem cliente",582.6,1,"","","c"],["r","2026-05",12,"Receitas de Serviços a Identificar","Sem cliente",582.6,1,"","","k"],["r","2026-05",12,"Receitas de Serviços a Identificar","Sem cliente",984.4,1,"","","c"],["r","2026-05",12,"Receitas de Serviços a Identificar","Sem cliente",984.4,1,"","","k"],["r","2026-05",12,"Receitas de Serviços a Identificar","Sem cliente",2228.3,1,"","","c"],["r","2026-05",12,"Receitas de Serviços a Identificar","Sem cliente",2228.3,1,"","","k"],["r","2026-05",12,"Receitas de Serviços a Identificar","Sem cliente",133.85,1,"","","c"],["r","2026-05",12,"Receitas de Serviços a Identificar","Sem cliente",133.85,1,"","","k"],["r","2026-05",13,"Suplementos","ÉRICA RODRIGUES LIMA BOECHAT",75,1,"","","c"],["r","2026-05",13,"Suplementos","ÉRICA RODRIGUES LIMA BOECHAT",75,1,"","","k"],["r","2026-05",13,"Receitas de Serviços a Identificar","Sem cliente",417.06,1,"","","c"],["r","2026-05",13,"Receitas de Serviços a Identificar","Sem cliente",417.06,1,"","","k"],["r","2026-05",13,"Receitas de Serviços a Identificar","Sem cliente",144.03,1,"","","c"],["r","2026-05",13,"Receitas de Serviços a Identificar","Sem cliente",144.03,1,"","","k"],["r","2026-05",13,"Rendimentos de Aplicações","Sem cliente",0.08,1,"","","c"],["r","2026-05",13,"Rendimentos de Aplicações","Sem cliente",0.08,1,"","","k"],["r","2026-05",13,"Suplementos","ZILDA MARIA MAIA DE CARVALHO",75,2,"","","c"],["r","2026-05",13,"Suplementos","ZILDA MARIA MAIA DE CARVALHO",75,2,"","","k"],["r","2026-05",13,"Suplementos","ANDREA RODRIGUES FERNANDES",50,2,"","","c"],["r","2026-05",13,"Suplementos","ANDREA RODRIGUES FERNANDES",50,2,"","","k"],["r","2026-05",15,"Receitas de Serviços a Identificar","Sem cliente",291,1,"","","c"],["r","2026-05",15,"Receitas de Serviços a Identificar","Sem cliente",291,1,"","","k"],["r","2026-05",15,"Receitas de Serviços a Identificar","Sem cliente",3709.42,1,"","","c"],["r","2026-05",15,"Receitas de Serviços a Identificar","Sem cliente",3709.42,1,"","","k"],["r","2026-05",15,"Receitas de Serviços a Identificar","Sem cliente",75,1,"","","c"],["r","2026-05",15,"Receitas de Serviços a Identificar","Sem cliente",75,1,"","","k"],["r","2026-05",18,"Receitas de Serviços a Identificar","Sem cliente",4732.93,1,"","","c"],["r","2026-05",18,"Receitas de Serviços a Identificar","Sem cliente",4732.93,1,"","","k"],["r","2026-05",18,"Receitas de Serviços a Identificar","Sem cliente",384.08,1,"","","c"],["r","2026-05",18,"Receitas de Serviços a Identificar","Sem cliente",384.08,1,"","","k"],["r","2026-05",18,"Receitas de Serviços a Identificar","Sem cliente",2955,1,"","","c"],["r","2026-05",18,"Receitas de Serviços a Identificar","Sem cliente",2955,1,"","","k"],["r","2026-05",18,"Receitas de Serviços a Identificar","Sem cliente",1000,1,"","","c"],["r","2026-05",18,"Receitas de Serviços a Identificar","Sem cliente",1000,1,"","","k"],["r","2026-05",18,"Suplementos","DORLI MARTINS DA SILVA",75,2,"","","c"],["r","2026-05",18,"Suplementos","DORLI MARTINS DA SILVA",75,2,"","","k"],["r","2026-05",18,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",1000,2,"","","c"],["r","2026-05",18,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",1000,2,"","","k"],["r","2026-05",19,"Suplementos","EDILAINE MARCIA MARCIANO DE SOUZA",75,1,"","","c"],["r","2026-05",20,"Suplementos","EDILAINE MARCIA MARCIANO DE SOUZA",75,1,"","","k"],["r","2026-05",19,"Receitas de Serviços a Identificar","Sem cliente",351.12,1,"","","c"],["r","2026-05",19,"Receitas de Serviços a Identificar","Sem cliente",351.12,1,"","","k"],["r","2026-05",19,"Receitas de Serviços a Identificar","Sem cliente",926.4,1,"","","c"],["r","2026-05",19,"Receitas de Serviços a Identificar","Sem cliente",926.4,1,"","","k"],["r","2026-05",19,"Receitas de Serviços a Identificar","Sem cliente",966.57,1,"","","c"],["r","2026-05",19,"Receitas de Serviços a Identificar","Sem cliente",966.57,1,"","","k"],["r","2026-05",19,"Rendimentos de Aplicações","Sem cliente",0.01,1,"","","c"],["r","2026-05",19,"Rendimentos de Aplicações","Sem cliente",0.01,1,"","","k"],["r","2026-05",20,"Receitas de Serviços a Identificar","Sem cliente",421.8,1,"","","c"],["r","2026-05",20,"Receitas de Serviços a Identificar","Sem cliente",421.8,1,"","","k"],["r","2026-05",20,"Receitas de Serviços a Identificar","Sem cliente",1223.46,1,"","","c"],["r","2026-05",20,"Receitas de Serviços a Identificar","Sem cliente",1223.46,1,"","","k"],["r","2026-05",20,"Receitas de Serviços a Identificar","Sem cliente",314.41,1,"","","c"],["r","2026-05",20,"Receitas de Serviços a Identificar","Sem cliente",314.41,1,"","","k"],["r","2026-05",20,"Receitas de Serviços a Identificar","Sem cliente",368.56,1,"","","c"],["r","2026-05",20,"Receitas de Serviços a Identificar","Sem cliente",368.56,1,"","","k"],["r","2026-05",20,"Rendimentos de Aplicações","Sem cliente",0.08,1,"","","c"],["r","2026-05",20,"Rendimentos de Aplicações","Sem cliente",0.08,1,"","","k"],["r","2026-05",21,"Receitas de Serviços a Identificar","Sem cliente",456.14,1,"","","c"],["r","2026-05",21,"Receitas de Serviços a Identificar","Sem cliente",456.14,1,"","","k"],["r","2026-05",21,"Receitas de Serviços a Identificar","Sem cliente",821.79,1,"","","c"],["r","2026-05",21,"Receitas de Serviços a Identificar","Sem cliente",821.79,1,"","","k"],["r","2026-05",21,"Receitas de Serviços a Identificar","Sem cliente",846.04,1,"","","c"],["r","2026-05",21,"Receitas de Serviços a Identificar","Sem cliente",846.04,1,"","","k"],["r","2026-05",21,"Suplementos","ANTONIO PEREIRA DE ARAUJO",75,2,"","","c"],["r","2026-05",21,"Suplementos","ANTONIO PEREIRA DE ARAUJO",75,2,"","","k"],["r","2026-05",21,"Receita de Serviços - Plano Diamante","ANTONIO PEREIRA DE ARAUJO",1380,2,"","","c"],["r","2026-05",21,"Receita de Serviços - Plano Diamante","ANTONIO PEREIRA DE ARAUJO",1380,2,"","","k"],["r","2026-05",22,"Receitas de Serviços a Identificar","Sem cliente",388.4,1,"","","c"],["r","2026-05",22,"Receitas de Serviços a Identificar","Sem cliente",388.4,1,"","","k"],["r","2026-05",22,"Receitas de Serviços a Identificar","Sem cliente",480.1,1,"","","c"],["r","2026-05",22,"Receitas de Serviços a Identificar","Sem cliente",480.1,1,"","","k"],["r","2026-05",22,"Receitas de Serviços a Identificar","Sem cliente",870.09,1,"","","c"],["r","2026-05",22,"Receitas de Serviços a Identificar","Sem cliente",870.09,1,"","","k"],["r","2026-05",22,"Receitas de Serviços a Identificar","Sem cliente",1262.6,1,"","","c"],["r","2026-05",22,"Receitas de Serviços a Identificar","Sem cliente",1262.6,1,"","","k"],["r","2026-05",22,"Receitas de Serviços a Identificar","Sem cliente",1432.3,1,"","","c"],["r","2026-05",22,"Receitas de Serviços a Identificar","Sem cliente",1432.3,1,"","","k"],["r","2026-05",22,"Receitas de Serviços a Identificar","Sem cliente",50,1,"","","c"],["r","2026-05",22,"Receitas de Serviços a Identificar","Sem cliente",50,1,"","","k"],["r","2026-05",25,"Receitas de Serviços a Identificar","Sem cliente",479.8,1,"","","c"],["r","2026-05",25,"Receitas de Serviços a Identificar","Sem cliente",479.8,1,"","","k"],["r","2026-05",25,"Receitas de Serviços a Identificar","Sem cliente",608.75,1,"","","c"],["r","2026-05",25,"Receitas de Serviços a Identificar","Sem cliente",608.75,1,"","","k"],["r","2026-05",25,"Receitas de Serviços a Identificar","Sem cliente",581.94,1,"","","c"],["r","2026-05",25,"Receitas de Serviços a Identificar","Sem cliente",581.94,1,"","","k"],["r","2026-05",25,"Receitas de Serviços a Identificar","Sem cliente",1473.09,1,"","","c"],["r","2026-05",25,"Receitas de Serviços a Identificar","Sem cliente",1473.09,1,"","","k"],["r","2026-05",25,"Receitas de Serviços a Identificar","ISABELA CRISTINA FANTI",2808,1,"","","c"],["r","2026-05",25,"Receitas de Serviços a Identificar","ISABELA CRISTINA FANTI",2808,1,"","","k"],["r","2026-05",25,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",625,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",625,2,"","","k"],["r","2026-05",25,"Adicional de Tizerpatida","ISABELA CRISTINA FANTI",2808,2,"","","c"],["r","2026-05",25,"Adicional de Tizerpatida","ISABELA CRISTINA FANTI",2808,2,"","","k"],["r","2026-05",26,"Receitas de Serviços a Identificar","Sem cliente",607.78,1,"","","c"],["r","2026-05",26,"Receitas de Serviços a Identificar","Sem cliente",607.78,1,"","","k"],["r","2026-05",26,"Suplementos","CRISTIANE CANDIDA DA SILVA",75,1,"","","c"],["r","2026-05",26,"Suplementos","CRISTIANE CANDIDA DA SILVA",75,1,"","","k"],["r","2026-05",26,"Receitas de Serviços a Identificar","Sem cliente",650,1,"","","c"],["r","2026-05",26,"Receitas de Serviços a Identificar","Sem cliente",650,1,"","","k"],["r","2026-05",26,"Receitas de Serviços a Identificar","Sem cliente",5613,1,"","","c"],["r","2026-05",26,"Receitas de Serviços a Identificar","Sem cliente",5613,1,"","","k"],["r","2026-05",26,"Suplementos","SEBASTIÃO SATURINO FILHO",270,2,"","","c"],["r","2026-05",26,"Suplementos","SEBASTIÃO SATURINO FILHO",270,2,"","","k"],["r","2026-05",26,"Receita de Serviços - Plano Prata","MAYKE CORREIA DE SOUZA",2806.5,2,"","","c"],["r","2026-05",26,"Receita de Serviços - Plano Prata","MAYKE CORREIA DE SOUZA",2806.5,2,"","","k"],["r","2026-05",26,"Receita de Serviços - Plano Prata","LETICIA BATISTA DE MORAES",2806.5,2,"","","c"],["r","2026-05",26,"Receita de Serviços - Plano Prata","LETICIA BATISTA DE MORAES",2806.5,2,"","","k"],["r","2026-05",27,"Receitas de Serviços a Identificar","Sem cliente",386.16,1,"","","c"],["r","2026-05",27,"Receitas de Serviços a Identificar","Sem cliente",386.16,1,"","","k"],["r","2026-05",27,"Receitas de Serviços a Identificar","Sem cliente",476.82,1,"","","c"],["r","2026-05",27,"Receitas de Serviços a Identificar","Sem cliente",476.82,1,"","","k"],["r","2026-05",27,"Receitas de Serviços a Identificar","Sem cliente",2170.59,1,"","","c"],["r","2026-05",27,"Receitas de Serviços a Identificar","Sem cliente",2170.59,1,"","","k"],["r","2026-05",27,"Receitas de Serviços a Identificar","Sem cliente",1707.5,1,"","","c"],["r","2026-05",27,"Receitas de Serviços a Identificar","Sem cliente",1707.5,1,"","","k"],["r","2026-05",27,"Receitas de Serviços a Identificar","Sem cliente",4700,1,"","","c"],["r","2026-05",27,"Receitas de Serviços a Identificar","Sem cliente",4700,1,"","","k"],["r","2026-05",28,"Receitas de Serviços a Identificar","Sem cliente",1256.89,1,"","","c"],["r","2026-05",28,"Receitas de Serviços a Identificar","Sem cliente",1256.89,1,"","","k"],["r","2026-05",28,"Receitas de Serviços a Identificar","Sem cliente",1621.2,1,"","","c"],["r","2026-05",28,"Receitas de Serviços a Identificar","Sem cliente",1621.2,1,"","","k"],["r","2026-05",28,"Receitas de Serviços a Identificar","Sem cliente",1800,1,"","","c"],["r","2026-05",28,"Receitas de Serviços a Identificar","Sem cliente",1800,1,"","","k"],["r","2026-05",28,"Receita de Serviços - Plano Bronze","MARLY MARIA ANDRADE DE LAIA",1800,2,"","","c"],["r","2026-05",28,"Receita de Serviços - Plano Bronze","MARLY MARIA ANDRADE DE LAIA",1800,2,"","","k"],["r","2026-05",29,"Receitas de Serviços a Identificar","Sem cliente",984.4,1,"","","c"],["r","2026-05",29,"Receitas de Serviços a Identificar","Sem cliente",984.4,1,"","","k"],["r","2026-05",29,"Receitas de Serviços a Identificar","Sem cliente",2586.2,1,"","","c"],["r","2026-05",29,"Receitas de Serviços a Identificar","Sem cliente",2586.2,1,"","","k"],["r","2026-05",29,"Rendimentos de Aplicações","Sem cliente",0.06,1,"","","c"],["r","2026-05",29,"Rendimentos de Aplicações","Sem cliente",0.06,1,"","","k"],["r","2026-05",30,"Suplementos","ZILDA MARIA MAIA DE CARVALHO",140,2,"","","c"],["r","2026-04",30,"Suplementos","ZILDA MARIA MAIA DE CARVALHO",140,2,"","","k"],["r","2026-05",30,"Suplementos","MAYKE CORREIA DE SOUZA",197.5,2,"","","c"],["r","2026-04",30,"Suplementos","MAYKE CORREIA DE SOUZA",197.5,2,"","","k"],["r","2026-05",30,"Receita de Serviços - Plano Diamante","BETANIA KINACIA DE SOUZA SATURNINO",2164.67,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Diamante","BETANIA KINACIA DE SOUZA SATURNINO",2164.67,2,"","","k"],["r","2026-05",30,"Receita de Serviços - Protocolo Body Reset","NATALIA PEREIRA MARTINS SILVA",397,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Protocolo Body Reset","NATALIA PEREIRA MARTINS SILVA",397,2,"","","k"],["r","2026-05",30,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",305,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",305,2,"","","k"],["r","2026-05",30,"Adicional de Tizerpatida","JOERLAINE DA SILVA OLIVEIRA ELIZEU",508,2,"","","c"],["r","2026-04",30,"Adicional de Tizerpatida","JOERLAINE DA SILVA OLIVEIRA ELIZEU",508,2,"","","k"],["r","2026-05",30,"Adicional de Tizerpatida","ORLANDA ALVES SALVADOR",200,2,"","","c"],["r","2026-04",30,"Adicional de Tizerpatida","ORLANDA ALVES SALVADOR",200,2,"","","k"],["r","2026-05",30,"Adicional de Tizerpatida","VALDETE APARECIDA FERREIRA HERMISDOLFE",518.67,2,"","","c"],["r","2026-04",30,"Adicional de Tizerpatida","VALDETE APARECIDA FERREIRA HERMISDOLFE",518.67,2,"","","k"],["r","2026-05",30,"Injetaveis","JADER JESUS SILVA",708.75,2,"","","c"],["r","2026-04",30,"Injetaveis","JADER JESUS SILVA",708.75,2,"","","k"],["r","2026-05",30,"Receita de Serviços - Plano Bronze","SOLANGE RODRIGUES DE SOUZA PIMENTA",517.2,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SOLANGE RODRIGUES DE SOUZA PIMENTA",517.2,2,"","","k"],["r","2026-05",30,"Receita de Serviços - Plano Bronze","TALITA FABIELLE PEREIRA DA SILVA BITTENCOURT",1460,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","TALITA FABIELLE PEREIRA DA SILVA BITTENCOURT",1460,2,"","","k"],["r","2026-05",30,"Receita de Serviços - Plano Prata","ANA LÚCIA COLOMBEKI SALDANHA",1262.2,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","ANA LÚCIA COLOMBEKI SALDANHA",1262.2,2,"","","k"],["r","2026-05",30,"Implantes","LETICIA RENATA RODRIGUES SOUZA PIONTI",300,2,"","","c"],["r","2026-04",30,"Implantes","LETICIA RENATA RODRIGUES SOUZA PIONTI",300,2,"","","k"],["r","2026-05",30,"Teste Nutrigenetico","EDILAINE MARCIA MARCIANO DE SOUZA",975,2,"","","c"],["r","2026-04",30,"Teste Nutrigenetico","EDILAINE MARCIA MARCIANO DE SOUZA",975,2,"","","k"],["r","2026-05",30,"Receita de Serviços - Plano Prata","MARIA DA PENHA MOURA ROSA",1593.8,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","MARIA DA PENHA MOURA ROSA",1593.8,2,"","","k"],["r","2026-06",5,"Adicional de Tizerpatida","MARILZA DE AGUIAR DIAS",1404,2,"","","c"],["r","2026-05",6,"Adicional de Tizerpatida","MARILZA DE AGUIAR DIAS",1404,2,"","","k"],["r","2026-06",6,"Implantes","ESTER DE ALMEIDA SANTANA",666.67,2,"","","c"],["r","2026-05",6,"Implantes","ESTER DE ALMEIDA SANTANA",666.67,2,"","","k"],["r","2026-06",6,"Adicional de Tizerpatida","ESTER DE ALMEIDA SANTANA",500,2,"","","c"],["r","2026-05",6,"Adicional de Tizerpatida","ESTER DE ALMEIDA SANTANA",500,2,"","","k"],["r","2026-06",6,"Adicional de Tizerpatida","ANA PAULA COELHO PORTES MATTOS",643.5,2,"","","c"],["r","2026-05",6,"Adicional de Tizerpatida","ANA PAULA COELHO PORTES MATTOS",643.5,2,"","","k"],["r","2026-06",7,"Implantes","NARLA MARQUES",881.67,2,"","","c"],["r","2026-05",7,"Implantes","NARLA MARQUES",881.67,2,"","","k"],["r","2026-06",8,"Receita de Serviços - Plano Bronze","ÉRICA RODRIGUES LIMA BOECHAT",3600,2,"","","c"],["r","2026-05",8,"Receita de Serviços - Plano Bronze","ÉRICA RODRIGUES LIMA BOECHAT",3600,2,"","","k"],["r","2026-06",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",690,2,"","","c"],["r","2026-05",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",690,2,"","","k"],["r","2026-06",8,"Implantes","NUBIA SILVA AMARAL STOHEL",200,2,"","","c"],["r","2026-05",8,"Implantes","NUBIA SILVA AMARAL STOHEL",200,2,"","","k"],["r","2026-06",22,"Consulta","Débora Eliziário de Oliveira",600,0,"","","c"],["r","2026-05",22,"Consulta","Débora Eliziário de Oliveira",600,0,"","","k"],["r","2026-06",22,"Consulta","Débora Eliziário de Oliveira",50,0,"","","c"],["r","2026-05",22,"Consulta","Débora Eliziário de Oliveira",50,0,"","","k"],["r","2026-06",24,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",625,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",625,0,"","","k"],["r","2026-06",25,"Adicional de Tizerpatida","MARIA DA PENHA MOURA ROSA",234,0,"","","c"],["r","2026-05",25,"Adicional de Tizerpatida","MARIA DA PENHA MOURA ROSA",234,0,"","","k"],["r","2026-06",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",4700,0,"","","c"],["r","2026-05",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",4700,0,"","","k"],["r","2026-06",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",1000,0,"","","c"],["r","2026-05",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",1000,0,"","","k"],["r","2026-06",29,"Receita de Serviços - Plano Prata","MARILZA DE AGUIAR DIAS",1581.25,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","MARILZA DE AGUIAR DIAS",1581.25,0,"","","k"],["r","2026-06",30,"Suplementos","ZILDA MARIA MAIA DE CARVALHO",140,0,"","","c"],["r","2026-04",30,"Suplementos","ZILDA MARIA MAIA DE CARVALHO",140,0,"","","k"],["r","2026-06",30,"Receita de Serviços - Plano Diamante","BETANIA KINACIA DE SOUZA SATURNINO",2164.67,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Diamante","BETANIA KINACIA DE SOUZA SATURNINO",2164.67,0,"","","k"],["r","2026-06",30,"Receita de Serviços - Protocolo Body Reset","NATALIA PEREIRA MARTINS SILVA",397,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Protocolo Body Reset","NATALIA PEREIRA MARTINS SILVA",397,0,"","","k"],["r","2026-06",30,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",305,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",305,0,"","","k"],["r","2026-06",30,"Adicional de Tizerpatida","JOERLAINE DA SILVA OLIVEIRA ELIZEU",508,0,"","","c"],["r","2026-04",30,"Adicional de Tizerpatida","JOERLAINE DA SILVA OLIVEIRA ELIZEU",508,0,"","","k"],["r","2026-06",30,"Adicional de Tizerpatida","ORLANDA ALVES SALVADOR",200,0,"","","c"],["r","2026-04",30,"Adicional de Tizerpatida","ORLANDA ALVES SALVADOR",200,0,"","","k"],["r","2026-06",30,"Adicional de Tizerpatida","VALDETE APARECIDA FERREIRA HERMISDOLFE",518.66,0,"","","c"],["r","2026-04",30,"Adicional de Tizerpatida","VALDETE APARECIDA FERREIRA HERMISDOLFE",518.66,0,"","","k"],["r","2026-06",30,"Injetaveis","JADER JESUS SILVA",708.75,0,"","","c"],["r","2026-04",30,"Injetaveis","JADER JESUS SILVA",708.75,0,"","","k"],["r","2026-06",30,"Receita de Serviços - Plano Bronze","SOLANGE RODRIGUES DE SOUZA PIMENTA",517.2,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SOLANGE RODRIGUES DE SOUZA PIMENTA",517.2,0,"","","k"],["r","2026-06",30,"Receita de Serviços - Plano Bronze","TALITA FABIELLE PEREIRA DA SILVA BITTENCOURT",1460,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","TALITA FABIELLE PEREIRA DA SILVA BITTENCOURT",1460,0,"","","k"],["r","2026-06",30,"Receita de Serviços - Plano Prata","ANA LÚCIA COLOMBEKI SALDANHA",1262.2,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","ANA LÚCIA COLOMBEKI SALDANHA",1262.2,0,"","","k"],["r","2026-06",30,"Implantes","LETICIA RENATA RODRIGUES SOUZA PIONTI",300,0,"","","c"],["r","2026-04",30,"Implantes","LETICIA RENATA RODRIGUES SOUZA PIONTI",300,0,"","","k"],["r","2026-06",30,"Adicional de Tizerpatida","THAÍS DAMASCENA DE PAULO HONORATO",400,0,"","","c"],["r","2026-04",30,"Adicional de Tizerpatida","THAÍS DAMASCENA DE PAULO HONORATO",400,0,"","","k"],["r","2026-06",30,"Teste Nutrigenetico","EDILAINE MARCIA MARCIANO DE SOUZA",975,0,"","","c"],["r","2026-04",30,"Teste Nutrigenetico","EDILAINE MARCIA MARCIANO DE SOUZA",975,0,"","","k"],["r","2026-06",30,"Receita de Serviços - Plano Prata","MARIA DA PENHA MOURA ROSA",1593.8,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","MARIA DA PENHA MOURA ROSA",1593.8,0,"","","k"],["r","2026-07",6,"Implantes","ESTER DE ALMEIDA SANTANA",666.67,0,"","","c"],["r","2026-05",6,"Implantes","ESTER DE ALMEIDA SANTANA",666.67,0,"","","k"],["r","2026-07",6,"Adicional de Tizerpatida","ESTER DE ALMEIDA SANTANA",500,0,"","","c"],["r","2026-05",6,"Adicional de Tizerpatida","ESTER DE ALMEIDA SANTANA",500,0,"","","k"],["r","2026-07",6,"Adicional de Tizerpatida","ANA PAULA COELHO PORTES MATTOS",643.5,0,"","","c"],["r","2026-05",6,"Adicional de Tizerpatida","ANA PAULA COELHO PORTES MATTOS",643.5,0,"","","k"],["r","2026-07",7,"Implantes","NARLA MARQUES",881.67,0,"","","c"],["r","2026-05",7,"Implantes","NARLA MARQUES",881.67,0,"","","k"],["r","2026-07",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",690,0,"","","c"],["r","2026-05",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",690,0,"","","k"],["r","2026-07",8,"Implantes","NUBIA SILVA AMARAL STOHEL",200,0,"","","c"],["r","2026-05",8,"Implantes","NUBIA SILVA AMARAL STOHEL",200,0,"","","k"],["r","2026-07",18,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",300,0,"","","c"],["r","2026-05",18,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",300,0,"","","k"],["r","2026-07",24,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",625,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",625,0,"","","k"],["r","2026-07",25,"Adicional de Tizerpatida","MARIA DA PENHA MOURA ROSA",234,0,"","","c"],["r","2026-05",25,"Adicional de Tizerpatida","MARIA DA PENHA MOURA ROSA",234,0,"","","k"],["r","2026-07",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",1200,0,"","","c"],["r","2026-05",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",1200,0,"","","k"],["r","2026-07",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",544,0,"","","c"],["r","2026-05",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",544,0,"","","k"],["r","2026-07",29,"Receita de Serviços - Plano Prata","MARILZA DE AGUIAR DIAS",1581.25,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","MARILZA DE AGUIAR DIAS",1581.25,0,"","","k"],["r","2026-07",30,"Receita de Serviços - Plano Diamante","BETANIA KINACIA DE SOUZA SATURNINO",2164.67,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Diamante","BETANIA KINACIA DE SOUZA SATURNINO",2164.67,0,"","","k"],["r","2026-07",30,"Receita de Serviços - Protocolo Body Reset","NATALIA PEREIRA MARTINS SILVA",397,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Protocolo Body Reset","NATALIA PEREIRA MARTINS SILVA",397,0,"","","k"],["r","2026-07",30,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",305,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",305,0,"","","k"],["r","2026-07",30,"Adicional de Tizerpatida","JOERLAINE DA SILVA OLIVEIRA ELIZEU",508,0,"","","c"],["r","2026-04",30,"Adicional de Tizerpatida","JOERLAINE DA SILVA OLIVEIRA ELIZEU",508,0,"","","k"],["r","2026-07",30,"Injetaveis","JADER JESUS SILVA",708.75,0,"","","c"],["r","2026-04",30,"Injetaveis","JADER JESUS SILVA",708.75,0,"","","k"],["r","2026-07",30,"Receita de Serviços - Plano Bronze","SOLANGE RODRIGUES DE SOUZA PIMENTA",517.2,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SOLANGE RODRIGUES DE SOUZA PIMENTA",517.2,0,"","","k"],["r","2026-07",30,"Receita de Serviços - Plano Bronze","TALITA FABIELLE PEREIRA DA SILVA BITTENCOURT",1460,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","TALITA FABIELLE PEREIRA DA SILVA BITTENCOURT",1460,0,"","","k"],["r","2026-07",30,"Receita de Serviços - Plano Prata","ANA LÚCIA COLOMBEKI SALDANHA",1262.2,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","ANA LÚCIA COLOMBEKI SALDANHA",1262.2,0,"","","k"],["r","2026-07",30,"Implantes","LETICIA RENATA RODRIGUES SOUZA PIONTI",300,0,"","","c"],["r","2026-04",30,"Implantes","LETICIA RENATA RODRIGUES SOUZA PIONTI",300,0,"","","k"],["r","2026-07",30,"Adicional de Tizerpatida","THAÍS DAMASCENA DE PAULO HONORATO",400,0,"","","c"],["r","2026-04",30,"Adicional de Tizerpatida","THAÍS DAMASCENA DE PAULO HONORATO",400,0,"","","k"],["r","2026-07",30,"Teste Nutrigenetico","EDILAINE MARCIA MARCIANO DE SOUZA",975,0,"","","c"],["r","2026-04",30,"Teste Nutrigenetico","EDILAINE MARCIA MARCIANO DE SOUZA",975,0,"","","k"],["r","2026-07",30,"Receita de Serviços - Plano Prata","MARIA DA PENHA MOURA ROSA",1593.8,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","MARIA DA PENHA MOURA ROSA",1593.8,0,"","","k"],["r","2026-08",6,"Implantes","ESTER DE ALMEIDA SANTANA",666.67,0,"","","c"],["r","2026-05",6,"Implantes","ESTER DE ALMEIDA SANTANA",666.67,0,"","","k"],["r","2026-08",6,"Adicional de Tizerpatida","ESTER DE ALMEIDA SANTANA",500,0,"","","c"],["r","2026-05",6,"Adicional de Tizerpatida","ESTER DE ALMEIDA SANTANA",500,0,"","","k"],["r","2026-08",6,"Adicional de Tizerpatida","ANA PAULA COELHO PORTES MATTOS",643.5,0,"","","c"],["r","2026-05",6,"Adicional de Tizerpatida","ANA PAULA COELHO PORTES MATTOS",643.5,0,"","","k"],["r","2026-08",7,"Implantes","NARLA MARQUES",881.67,0,"","","c"],["r","2026-05",7,"Implantes","NARLA MARQUES",881.67,0,"","","k"],["r","2026-08",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",690,0,"","","c"],["r","2026-05",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",690,0,"","","k"],["r","2026-08",8,"Implantes","NUBIA SILVA AMARAL STOHEL",200,0,"","","c"],["r","2026-05",8,"Implantes","NUBIA SILVA AMARAL STOHEL",200,0,"","","k"],["r","2026-08",18,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",300,0,"","","c"],["r","2026-05",18,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",300,0,"","","k"],["r","2026-08",23,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",625,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",625,0,"","","k"],["r","2026-08",25,"Adicional de Tizerpatida","MARIA DA PENHA MOURA ROSA",234,0,"","","c"],["r","2026-05",25,"Adicional de Tizerpatida","MARIA DA PENHA MOURA ROSA",234,0,"","","k"],["r","2026-08",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",1200,0,"","","c"],["r","2026-05",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",1200,0,"","","k"],["r","2026-08",28,"Receita de Serviços - Plano Prata","MARILZA DE AGUIAR DIAS",1581.25,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","MARILZA DE AGUIAR DIAS",1581.25,0,"","","k"],["r","2026-08",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",544,0,"","","c"],["r","2026-05",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",544,0,"","","k"],["r","2026-08",30,"Receita de Serviços - Plano Diamante","BETANIA KINACIA DE SOUZA SATURNINO",2164.67,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Diamante","BETANIA KINACIA DE SOUZA SATURNINO",2164.67,0,"","","k"],["r","2026-08",30,"Receita de Serviços - Protocolo Body Reset","NATALIA PEREIRA MARTINS SILVA",397,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Protocolo Body Reset","NATALIA PEREIRA MARTINS SILVA",397,0,"","","k"],["r","2026-08",30,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",305,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",305,0,"","","k"],["r","2026-08",30,"Adicional de Tizerpatida","JOERLAINE DA SILVA OLIVEIRA ELIZEU",508,0,"","","c"],["r","2026-04",30,"Adicional de Tizerpatida","JOERLAINE DA SILVA OLIVEIRA ELIZEU",508,0,"","","k"],["r","2026-08",30,"Injetaveis","JADER JESUS SILVA",708.75,0,"","","c"],["r","2026-04",30,"Injetaveis","JADER JESUS SILVA",708.75,0,"","","k"],["r","2026-08",30,"Receita de Serviços - Plano Bronze","SOLANGE RODRIGUES DE SOUZA PIMENTA",517.2,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SOLANGE RODRIGUES DE SOUZA PIMENTA",517.2,0,"","","k"],["r","2026-08",30,"Receita de Serviços - Plano Bronze","TALITA FABIELLE PEREIRA DA SILVA BITTENCOURT",1460,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","TALITA FABIELLE PEREIRA DA SILVA BITTENCOURT",1460,0,"","","k"],["r","2026-08",30,"Receita de Serviços - Plano Prata","ANA LÚCIA COLOMBEKI SALDANHA",1262.2,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","ANA LÚCIA COLOMBEKI SALDANHA",1262.2,0,"","","k"],["r","2026-08",30,"Teste Nutrigenetico","EDILAINE MARCIA MARCIANO DE SOUZA",975,0,"","","c"],["r","2026-04",30,"Teste Nutrigenetico","EDILAINE MARCIA MARCIANO DE SOUZA",975,0,"","","k"],["r","2026-08",30,"Receita de Serviços - Plano Prata","MARIA DA PENHA MOURA ROSA",1593.8,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","MARIA DA PENHA MOURA ROSA",1593.8,0,"","","k"],["r","2026-09",6,"Implantes","ESTER DE ALMEIDA SANTANA",666.67,0,"","","c"],["r","2026-05",6,"Implantes","ESTER DE ALMEIDA SANTANA",666.67,0,"","","k"],["r","2026-09",6,"Adicional de Tizerpatida","ESTER DE ALMEIDA SANTANA",500,0,"","","c"],["r","2026-05",6,"Adicional de Tizerpatida","ESTER DE ALMEIDA SANTANA",500,0,"","","k"],["r","2026-09",6,"Adicional de Tizerpatida","ANA PAULA COELHO PORTES MATTOS",643.5,0,"","","c"],["r","2026-05",6,"Adicional de Tizerpatida","ANA PAULA COELHO PORTES MATTOS",643.5,0,"","","k"],["r","2026-09",7,"Implantes","NARLA MARQUES",881.67,0,"","","c"],["r","2026-05",7,"Implantes","NARLA MARQUES",881.67,0,"","","k"],["r","2026-09",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",690,0,"","","c"],["r","2026-05",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",690,0,"","","k"],["r","2026-09",22,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",625,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",625,0,"","","k"],["r","2026-09",25,"Adicional de Tizerpatida","MARIA DA PENHA MOURA ROSA",234,0,"","","c"],["r","2026-05",25,"Adicional de Tizerpatida","MARIA DA PENHA MOURA ROSA",234,0,"","","k"],["r","2026-09",27,"Receita de Serviços - Plano Prata","MARILZA DE AGUIAR DIAS",1581.25,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","MARILZA DE AGUIAR DIAS",1581.25,0,"","","k"],["r","2026-09",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",1200,0,"","","c"],["r","2026-05",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",1200,0,"","","k"],["r","2026-09",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",544,0,"","","c"],["r","2026-05",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",544,0,"","","k"],["r","2026-09",30,"Receita de Serviços - Plano Diamante","BETANIA KINACIA DE SOUZA SATURNINO",2164.65,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Diamante","BETANIA KINACIA DE SOUZA SATURNINO",2164.65,0,"","","k"],["r","2026-09",30,"Receita de Serviços - Protocolo Body Reset","NATALIA PEREIRA MARTINS SILVA",397,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Protocolo Body Reset","NATALIA PEREIRA MARTINS SILVA",397,0,"","","k"],["r","2026-09",30,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",305,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",305,0,"","","k"],["r","2026-09",30,"Adicional de Tizerpatida","JOERLAINE DA SILVA OLIVEIRA ELIZEU",508,0,"","","c"],["r","2026-04",30,"Adicional de Tizerpatida","JOERLAINE DA SILVA OLIVEIRA ELIZEU",508,0,"","","k"],["r","2026-09",30,"Receita de Serviços - Plano Bronze","SOLANGE RODRIGUES DE SOUZA PIMENTA",517.2,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SOLANGE RODRIGUES DE SOUZA PIMENTA",517.2,0,"","","k"],["r","2026-09",30,"Receita de Serviços - Plano Prata","ANA LÚCIA COLOMBEKI SALDANHA",1262.2,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","ANA LÚCIA COLOMBEKI SALDANHA",1262.2,0,"","","k"],["r","2026-09",30,"Receita de Serviços - Plano Prata","MARIA DA PENHA MOURA ROSA",1593.8,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","MARIA DA PENHA MOURA ROSA",1593.8,0,"","","k"],["r","2026-10",6,"Implantes","ESTER DE ALMEIDA SANTANA",666.67,0,"","","c"],["r","2026-05",6,"Implantes","ESTER DE ALMEIDA SANTANA",666.67,0,"","","k"],["r","2026-10",6,"Adicional de Tizerpatida","ESTER DE ALMEIDA SANTANA",500,0,"","","c"],["r","2026-05",6,"Adicional de Tizerpatida","ESTER DE ALMEIDA SANTANA",500,0,"","","k"],["r","2026-10",7,"Implantes","NARLA MARQUES",881.67,0,"","","c"],["r","2026-05",7,"Implantes","NARLA MARQUES",881.67,0,"","","k"],["r","2026-10",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",690,0,"","","c"],["r","2026-05",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",690,0,"","","k"],["r","2026-10",22,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",625,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",625,0,"","","k"],["r","2026-10",25,"Adicional de Tizerpatida","MARIA DA PENHA MOURA ROSA",234,0,"","","c"],["r","2026-05",25,"Adicional de Tizerpatida","MARIA DA PENHA MOURA ROSA",234,0,"","","k"],["r","2026-10",27,"Receita de Serviços - Plano Prata","MARILZA DE AGUIAR DIAS",1581.25,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","MARILZA DE AGUIAR DIAS",1581.25,0,"","","k"],["r","2026-10",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",1200,0,"","","c"],["r","2026-05",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",1200,0,"","","k"],["r","2026-10",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",544,0,"","","c"],["r","2026-05",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",544,0,"","","k"],["r","2026-10",30,"Receita de Serviços - Protocolo Body Reset","NATALIA PEREIRA MARTINS SILVA",397,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Protocolo Body Reset","NATALIA PEREIRA MARTINS SILVA",397,0,"","","k"],["r","2026-10",30,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",305,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",305,0,"","","k"],["r","2026-10",30,"Receita de Serviços - Plano Bronze","SOLANGE RODRIGUES DE SOUZA PIMENTA",517.2,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SOLANGE RODRIGUES DE SOUZA PIMENTA",517.2,0,"","","k"],["r","2026-10",30,"Receita de Serviços - Plano Prata","ANA LÚCIA COLOMBEKI SALDANHA",1262.2,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","ANA LÚCIA COLOMBEKI SALDANHA",1262.2,0,"","","k"],["r","2026-10",30,"Receita de Serviços - Plano Prata","MARIA DA PENHA MOURA ROSA",1593.8,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","MARIA DA PENHA MOURA ROSA",1593.8,0,"","","k"],["r","2026-11",6,"Implantes","ESTER DE ALMEIDA SANTANA",666.65,0,"","","c"],["r","2026-05",6,"Implantes","ESTER DE ALMEIDA SANTANA",666.65,0,"","","k"],["r","2026-11",6,"Adicional de Tizerpatida","ESTER DE ALMEIDA SANTANA",500,0,"","","c"],["r","2026-05",6,"Adicional de Tizerpatida","ESTER DE ALMEIDA SANTANA",500,0,"","","k"],["r","2026-11",7,"Implantes","NARLA MARQUES",881.65,0,"","","c"],["r","2026-05",7,"Implantes","NARLA MARQUES",881.65,0,"","","k"],["r","2026-11",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",690,0,"","","c"],["r","2026-05",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",690,0,"","","k"],["r","2026-11",25,"Adicional de Tizerpatida","MARIA DA PENHA MOURA ROSA",234,0,"","","c"],["r","2026-05",25,"Adicional de Tizerpatida","MARIA DA PENHA MOURA ROSA",234,0,"","","k"],["r","2026-11",26,"Receita de Serviços - Plano Prata","MARILZA DE AGUIAR DIAS",1581.25,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","MARILZA DE AGUIAR DIAS",1581.25,0,"","","k"],["r","2026-11",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",1200,0,"","","c"],["r","2026-05",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",1200,0,"","","k"],["r","2026-11",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",544,0,"","","c"],["r","2026-05",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",544,0,"","","k"],["r","2026-11",30,"Receita de Serviços - Protocolo Body Reset","NATALIA PEREIRA MARTINS SILVA",397,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Protocolo Body Reset","NATALIA PEREIRA MARTINS SILVA",397,0,"","","k"],["r","2026-11",30,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",305,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",305,0,"","","k"],["r","2026-11",30,"Receita de Serviços - Plano Bronze","SOLANGE RODRIGUES DE SOUZA PIMENTA",517.2,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SOLANGE RODRIGUES DE SOUZA PIMENTA",517.2,0,"","","k"],["r","2026-11",30,"Receita de Serviços - Plano Prata","ANA LÚCIA COLOMBEKI SALDANHA",1262.2,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","ANA LÚCIA COLOMBEKI SALDANHA",1262.2,0,"","","k"],["r","2026-11",30,"Receita de Serviços - Plano Prata","MARIA DA PENHA MOURA ROSA",1593.8,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","MARIA DA PENHA MOURA ROSA",1593.8,0,"","","k"],["r","2026-12",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",690,0,"","","c"],["r","2026-05",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",690,0,"","","k"],["r","2026-12",25,"Adicional de Tizerpatida","MARIA DA PENHA MOURA ROSA",234,0,"","","c"],["r","2026-05",25,"Adicional de Tizerpatida","MARIA DA PENHA MOURA ROSA",234,0,"","","k"],["r","2026-12",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",1200,0,"","","c"],["r","2026-05",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",1200,0,"","","k"],["r","2026-12",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",544,0,"","","c"],["r","2026-05",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",544,0,"","","k"],["r","2026-12",30,"Receita de Serviços - Protocolo Body Reset","NATALIA PEREIRA MARTINS SILVA",397,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Protocolo Body Reset","NATALIA PEREIRA MARTINS SILVA",397,0,"","","k"],["r","2026-12",30,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",305,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",305,0,"","","k"],["r","2026-12",30,"Receita de Serviços - Plano Bronze","SOLANGE RODRIGUES DE SOUZA PIMENTA",517.2,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SOLANGE RODRIGUES DE SOUZA PIMENTA",517.2,0,"","","k"],["r","2026-12",30,"Receita de Serviços - Plano Prata","ANA LÚCIA COLOMBEKI SALDANHA",1262.2,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","ANA LÚCIA COLOMBEKI SALDANHA",1262.2,0,"","","k"],["r","2026-12",30,"Receita de Serviços - Plano Prata","MARIA DA PENHA MOURA ROSA",1593.8,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","MARIA DA PENHA MOURA ROSA",1593.8,0,"","","k"],["r","2027-01",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",690,0,"","","c"],["r","2026-05",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",690,0,"","","k"],["r","2027-01",25,"Adicional de Tizerpatida","MARIA DA PENHA MOURA ROSA",234,0,"","","c"],["r","2026-05",25,"Adicional de Tizerpatida","MARIA DA PENHA MOURA ROSA",234,0,"","","k"],["r","2027-01",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",1200,0,"","","c"],["r","2026-05",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",1200,0,"","","k"],["r","2027-01",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",544,0,"","","c"],["r","2026-05",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",544,0,"","","k"],["r","2027-01",30,"Receita de Serviços - Protocolo Body Reset","NATALIA PEREIRA MARTINS SILVA",397,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Protocolo Body Reset","NATALIA PEREIRA MARTINS SILVA",397,0,"","","k"],["r","2027-01",30,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",305,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",305,0,"","","k"],["r","2027-01",30,"Receita de Serviços - Plano Bronze","SOLANGE RODRIGUES DE SOUZA PIMENTA",517.2,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SOLANGE RODRIGUES DE SOUZA PIMENTA",517.2,0,"","","k"],["r","2027-01",30,"Receita de Serviços - Plano Prata","ANA LÚCIA COLOMBEKI SALDANHA",1262.2,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","ANA LÚCIA COLOMBEKI SALDANHA",1262.2,0,"","","k"],["r","2027-01",30,"Receita de Serviços - Plano Prata","MARIA DA PENHA MOURA ROSA",1593.8,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","MARIA DA PENHA MOURA ROSA",1593.8,0,"","","k"],["r","2027-02",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",690,0,"","","c"],["r","2026-05",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",690,0,"","","k"],["r","2027-02",25,"Adicional de Tizerpatida","MARIA DA PENHA MOURA ROSA",234,0,"","","c"],["r","2026-05",25,"Adicional de Tizerpatida","MARIA DA PENHA MOURA ROSA",234,0,"","","k"],["r","2027-02",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",1200,0,"","","c"],["r","2026-05",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",1200,0,"","","k"],["r","2027-02",28,"Receita de Serviços - Plano Bronze","SOLANGE RODRIGUES DE SOUZA PIMENTA",517.2,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SOLANGE RODRIGUES DE SOUZA PIMENTA",517.2,0,"","","k"],["r","2027-02",28,"Receita de Serviços - Plano Prata","ANA LÚCIA COLOMBEKI SALDANHA",1262.2,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","ANA LÚCIA COLOMBEKI SALDANHA",1262.2,0,"","","k"],["r","2027-02",28,"Receita de Serviços - Plano Prata","MARIA DA PENHA MOURA ROSA",1593.8,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","MARIA DA PENHA MOURA ROSA",1593.8,0,"","","k"],["r","2027-02",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",544,0,"","","c"],["r","2026-05",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",544,0,"","","k"],["r","2027-03",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",690,0,"","","c"],["r","2026-05",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",690,0,"","","k"],["r","2027-03",25,"Adicional de Tizerpatida","MARIA DA PENHA MOURA ROSA",234,0,"","","c"],["r","2026-05",25,"Adicional de Tizerpatida","MARIA DA PENHA MOURA ROSA",234,0,"","","k"],["r","2027-03",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",1200,0,"","","c"],["r","2026-05",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",1200,0,"","","k"],["r","2027-03",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",544,0,"","","c"],["r","2026-05",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",544,0,"","","k"],["r","2027-04",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",1200,0,"","","c"],["r","2026-05",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",1200,0,"","","k"],["r","2027-04",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",544,0,"","","c"],["r","2026-05",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",544,0,"","","k"],["d","2026-01",2,"Despesas Diversas (Cartão)","",2295.41,1,"Sem cliente","","c"],["d","2026-01",2,"Despesas Diversas (Cartão)","",2295.41,1,"Sem cliente","","k"],["d","2026-01",2,"Tarifas Bancárias","",30.85,1,"Sem cliente","","c"],["d","2026-01",2,"Tarifas Bancárias","",30.85,1,"Sem cliente","","k"],["d","2026-01",5,"Marketing e Publicidade","",2100,1,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","c"],["d","2026-01",5,"Marketing e Publicidade","",2100,1,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","k"],["d","2026-01",5,"Lanches e Refeições","",25,1,"Sem cliente","","c"],["d","2026-01",5,"Lanches e Refeições","",25,1,"Sem cliente","","k"],["d","2026-01",5,"Serviços de Pessoa Jurídica","",2067,1,"PARCELAMOS TUDO PONTOCOM","","c"],["d","2026-01",5,"Serviços de Pessoa Jurídica","",2067,1,"PARCELAMOS TUDO PONTOCOM","","k"],["d","2026-01",7,"Telefonia Móvel","",35,1,"TELEFONICA BRASIL S.A","","c"],["d","2026-01",7,"Telefonia Móvel","",35,1,"TELEFONICA BRASIL S.A","","k"],["d","2026-01",7,"Honorários Contábeis","",190,1,"DELOGO & SAINTS CONTABILIDADE LTDA","","c"],["d","2026-01",7,"Honorários Contábeis","",190,1,"DELOGO & SAINTS CONTABILIDADE LTDA","","k"],["d","2026-01",7,"Despesas a identificar","",825,1,"Sem cliente","","c"],["d","2026-01",7,"Despesas a identificar","",825,1,"Sem cliente","","k"],["d","2026-01",7,"Despesas a identificar","",750,1,"Sem cliente","","c"],["d","2026-01",7,"Despesas a identificar","",750,1,"Sem cliente","","k"],["d","2026-01",7,"Despesas a identificar","",5345.21,1,"Sem cliente","","c"],["d","2026-01",7,"Despesas a identificar","",5345.21,1,"Sem cliente","","k"],["d","2026-01",9,"Coleta de Resíduos Ambientais","",144,1,"Sem cliente","","c"],["d","2026-01",9,"Coleta de Resíduos Ambientais","",144,1,"Sem cliente","","k"],["d","2026-01",9,"Telefonia e Internet","",114.9,1,"Sem cliente","","c"],["d","2026-01",9,"Telefonia e Internet","",114.9,1,"Sem cliente","","k"],["d","2026-01",9,"Telefonia e Internet","",99.9,1,"Sem cliente","","c"],["d","2026-01",9,"Telefonia e Internet","",99.9,1,"Sem cliente","","k"],["d","2026-01",12,"Honorários Contábeis","",1085,1,"DELOGO & SAINTS CONTABILIDADE LTDA","","c"],["d","2026-01",12,"Honorários Contábeis","",1085,1,"DELOGO & SAINTS CONTABILIDADE LTDA","","k"],["d","2026-01",12,"Honorários Contábeis","",1085,1,"DELOGO & SAINTS CONTABILIDADE LTDA","","c"],["d","2026-01",12,"Honorários Contábeis","",1085,1,"DELOGO & SAINTS CONTABILIDADE LTDA","","k"],["d","2026-01",12,"Serviços e Materiais de Limpeza e de Higiene","",480,1,"BARUC DETETIZACAO","","c"],["d","2026-01",12,"Serviços e Materiais de Limpeza e de Higiene","",480,1,"BARUC DETETIZACAO","","k"],["d","2026-01",12,"Despesas a identificar","",50,1,"Sem cliente","","c"],["d","2026-01",12,"Despesas a identificar","",50,1,"Sem cliente","","k"],["d","2026-01",12,"Serviços de Pessoa Jurídica","",650,1,"Sem cliente","","c"],["d","2026-01",12,"Serviços de Pessoa Jurídica","",650,1,"Sem cliente","","k"],["d","2026-01",12,"Despesas a identificar","",720,1,"Sem cliente","","c"],["d","2026-01",12,"Despesas a identificar","",720,1,"Sem cliente","","k"],["d","2026-01",12,"ISS","",30629.31,1,"Sem cliente","","c"],["d","2026-01",12,"ISS","",30629.31,1,"Sem cliente","","k"],["d","2026-01",13,"Telefonia e Internet","",43,1,"TELEFONICA BRASIL S.A","","c"],["d","2026-01",13,"Telefonia e Internet","",43,1,"TELEFONICA BRASIL S.A","","k"],["d","2026-01",13,"Telefonia e Internet","",22.92,1,"TELEFONICA BRASIL S.A","","c"],["d","2026-01",13,"Telefonia e Internet","",22.92,1,"TELEFONICA BRASIL S.A","","k"],["d","2026-01",13,"Telefonia e Internet","",22.92,1,"TELEFONICA BRASIL S.A","","c"],["d","2026-01",13,"Telefonia e Internet","",22.92,1,"TELEFONICA BRASIL S.A","","k"],["d","2026-01",14,"Insumos e Materiais Clínicos","",7500,1,"BIO MEDS PHARMACEUTICA LTDA","","c"],["d","2026-01",14,"Insumos e Materiais Clínicos","",7500,1,"BIO MEDS PHARMACEUTICA LTDA","","k"],["d","2026-01",14,"Despesas a identificar","",79,1,"Sem cliente","","c"],["d","2026-01",14,"Despesas a identificar","",79,1,"Sem cliente","","k"],["d","2026-01",15,"Energia Elétrica","",680.71,1,"EDP ESPIRITO SANTO","","c"],["d","2026-01",15,"Energia Elétrica","",680.71,1,"EDP ESPIRITO SANTO","","k"],["d","2026-01",16,"Despesas a identificar","",880,1,"Sem cliente","","c"],["d","2026-01",16,"Despesas a identificar","",880,1,"Sem cliente","","k"],["d","2026-01",19,"Despesas a identificar","",315,1,"Sem cliente","","c"],["d","2026-01",19,"Despesas a identificar","",315,1,"Sem cliente","","k"],["d","2026-01",19,"Materiais de Escritório","",53,1,"DANILO DE SOUSA ANDRADE 09175677733","","c"],["d","2026-01",19,"Materiais de Escritório","",53,1,"DANILO DE SOUSA ANDRADE 09175677733","","k"],["d","2026-01",20,"FGTS e Multa de FGTS","",671.75,1,"Sem cliente","","c"],["d","2026-01",20,"FGTS e Multa de FGTS","",671.75,1,"Sem cliente","","k"],["d","2026-01",20,"FGTS e Multa de FGTS","",517.92,1,"Sem cliente","","c"],["d","2026-01",20,"FGTS e Multa de FGTS","",517.92,1,"Sem cliente","","k"],["d","2026-01",20,"FGTS e Multa de FGTS","",86.31,1,"Sem cliente","","c"],["d","2026-01",20,"FGTS e Multa de FGTS","",86.31,1,"Sem cliente","","k"],["d","2026-01",20,"INSS sobre Salários - GPS","",2953.74,1,"Sem cliente","","c"],["d","2026-01",20,"INSS sobre Salários - GPS","",2953.74,1,"Sem cliente","","k"],["d","2026-01",22,"Despesas a identificar","",200,1,"Sem cliente","","c"],["d","2026-01",22,"Despesas a identificar","",200,1,"Sem cliente","","k"],["d","2026-01",22,"Materiais de Escritório","",53.7,1,"Sem cliente","","c"],["d","2026-01",22,"Materiais de Escritório","",53.7,1,"Sem cliente","","k"],["d","2026-01",22,"Materiais de Escritório","",21.9,1,"Sem cliente","","c"],["d","2026-01",22,"Materiais de Escritório","",21.9,1,"Sem cliente","","k"],["d","2026-01",22,"Lanches e Refeições","",20,1,"Sem cliente","","c"],["d","2026-01",22,"Lanches e Refeições","",20,1,"Sem cliente","","k"],["d","2026-01",22,"Pis/Cofins","",27949.26,1,"Sem cliente","","c"],["d","2026-01",22,"Pis/Cofins","",27949.26,1,"Sem cliente","","k"],["d","2026-01",22,"INSS sobre Salários - GPS","",4057.82,1,"Sem cliente","","c"],["d","2026-01",22,"INSS sobre Salários - GPS","",4057.82,1,"Sem cliente","","k"],["d","2026-01",26,"IRPJ E CSLL","",42976.93,1,"Sem cliente","","c"],["d","2026-01",26,"IRPJ E CSLL","",42976.93,1,"Sem cliente","","k"],["d","2026-01",26,"Mentorias, Cursos e Treinamentos","",13000,1,"O MEDICO EMPRESARIO LTDA","","c"],["d","2026-01",26,"Mentorias, Cursos e Treinamentos","",13000,1,"O MEDICO EMPRESARIO LTDA","","k"],["d","2026-01",27,"Marketing e Publicidade","",2000,1,"RADIO SAO FRANCISCO LTDA","","c"],["d","2026-01",27,"Marketing e Publicidade","",2000,1,"RADIO SAO FRANCISCO LTDA","","k"],["d","2026-01",29,"Telefonia e Internet","",35.88,1,"Sem cliente","","c"],["d","2026-01",29,"Telefonia e Internet","",35.88,1,"Sem cliente","","k"],["d","2026-02",2,"Salários","",3626.71,1,"Sem cliente","","c"],["d","2026-02",2,"Salários","",3626.71,1,"Sem cliente","","k"],["d","2026-02",2,"Salários","",2660,1,"Sem cliente","","c"],["d","2026-02",2,"Salários","",2660,1,"Sem cliente","","k"],["d","2026-02",2,"Salários","",2299.32,1,"Sem cliente","","c"],["d","2026-02",2,"Salários","",2299.32,1,"Sem cliente","","k"],["d","2026-02",2,"Despesas Diversas (Cartão)","",1892.78,1,"Sem cliente","","c"],["d","2026-02",2,"Despesas Diversas (Cartão)","",1892.78,1,"Sem cliente","","k"],["d","2026-02",2,"Salários","",6345.59,1,"Sem cliente","","c"],["d","2026-02",2,"Salários","",6345.59,1,"Sem cliente","","k"],["d","2026-02",2,"Insumos e Materiais Clínicos","",1060.64,1,"HEALTH TECH FARMACIA DE MANIPULACAO LTDA","","c"],["d","2026-02",2,"Insumos e Materiais Clínicos","",1060.64,1,"HEALTH TECH FARMACIA DE MANIPULACAO LTDA","","k"],["d","2026-02",2,"Salários","",1280,1,"Sem cliente","","c"],["d","2026-02",2,"Salários","",1280,1,"Sem cliente","","k"],["d","2026-02",2,"Despesas a identificar","",171,1,"Sem cliente","","c"],["d","2026-02",2,"Despesas a identificar","",171,1,"Sem cliente","","k"],["d","2026-02",2,"Tarifas Bancárias","",30.85,1,"Sem cliente","","c"],["d","2026-02",2,"Tarifas Bancárias","",30.85,1,"Sem cliente","","k"],["d","2026-02",3,"Marketing e Publicidade","",2000,1,"RADIO SAO FRANCISCO LTDA","","c"],["d","2026-02",3,"Marketing e Publicidade","",2000,1,"RADIO SAO FRANCISCO LTDA","","k"],["d","2026-02",4,"Insumos e Materiais Clínicos","",902.25,2,"BIO MEDS PHARMACEUTICA LTDA","","c"],["d","2026-02",4,"Insumos e Materiais Clínicos","",902.25,2,"BIO MEDS PHARMACEUTICA LTDA","","k"],["d","2026-02",5,"Honorários Contábeis","",1156.3,1,"DELOGO & SAINTS CONTABILIDADE LTDA","","c"],["d","2026-02",5,"Honorários Contábeis","",1156.3,1,"DELOGO & SAINTS CONTABILIDADE LTDA","","k"],["d","2026-02",5,"Software / Licença de Uso","",650,1,"Sem cliente","","c"],["d","2026-02",5,"Software / Licença de Uso","",650,1,"Sem cliente","","k"],["d","2026-02",5,"Mentorias, Cursos e Treinamentos","",330.75,1,"SEGEX UVV ON","","c"],["d","2026-02",5,"Mentorias, Cursos e Treinamentos","",330.75,1,"SEGEX UVV ON","","k"],["d","2026-02",5,"INSS sobre Salários - GPS","",2955.54,1,"Sem cliente","","c"],["d","2026-02",5,"INSS sobre Salários - GPS","",2955.54,1,"Sem cliente","","k"],["d","2026-02",5,"FGTS e Multa de FGTS","",519.57,1,"Sem cliente","","c"],["d","2026-02",5,"FGTS e Multa de FGTS","",519.57,1,"Sem cliente","","k"],["d","2026-02",6,"Marketing e Publicidade","",2100,1,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","c"],["d","2026-02",6,"Marketing e Publicidade","",2100,1,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","k"],["d","2026-02",9,"ISS","",2040,1,"Sem cliente","","c"],["d","2026-02",9,"ISS","",2040,1,"Sem cliente","","k"],["d","2026-02",9,"Despesas a identificar","",20606.83,1,"Sem cliente","","c"],["d","2026-02",9,"Despesas a identificar","",20606.83,1,"Sem cliente","","k"],["d","2026-02",10,"ISS","",206.07,1,"Sem cliente","","c"],["d","2026-02",10,"ISS","",206.07,1,"Sem cliente","","k"],["d","2026-02",11,"Insumos e Materiais Clínicos","",7140,2,"ELMECO SERVICOS FARMACEUTICOS E TREINAMENTO PROFISSIONAL LTDA","","c"],["d","2026-02",11,"Insumos e Materiais Clínicos","",7140,2,"ELMECO SERVICOS FARMACEUTICOS E TREINAMENTO PROFISSIONAL LTDA","","k"],["d","2026-02",12,"Materiais de Escritório","",5,1,"REIS & SOUZA LIMITADA","","c"],["d","2026-02",12,"Materiais de Escritório","",5,1,"REIS & SOUZA LIMITADA","","k"],["d","2026-02",13,"Telefonia e Internet","",117.3,1,"BIZZ INTERNET LTDA","","c"],["d","2026-02",13,"Telefonia e Internet","",117.3,1,"BIZZ INTERNET LTDA","","k"],["d","2026-02",13,"Coleta de Resíduos Ambientais","",140.64,1,"RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP","","c"],["d","2026-02",10,"Coleta de Resíduos Ambientais","",140.64,1,"RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP","","k"],["d","2026-02",13,"Telefonia e Internet","",99.9,1,"BIZZ INTERNET LTDA","","c"],["d","2026-02",13,"Telefonia e Internet","",99.9,1,"BIZZ INTERNET LTDA","","k"],["d","2026-02",18,"Energia Elétrica","",735.14,1,"EDP ESPIRITO SANTO","","c"],["d","2026-02",18,"Energia Elétrica","",735.14,1,"EDP ESPIRITO SANTO","","k"],["d","2026-02",18,"Marketing e Publicidade","",1500,1,"Sem cliente","","c"],["d","2026-02",18,"Marketing e Publicidade","",1500,1,"Sem cliente","","k"],["d","2026-02",19,"Honorários Consultoria","",2500,1,"WOLF MENTOR'S SERVICOS DE APOIO ADMINISTRATIVO LTDA","","c"],["d","2026-02",19,"Honorários Consultoria","",2500,1,"WOLF MENTOR'S SERVICOS DE APOIO ADMINISTRATIVO LTDA","","k"],["d","2026-02",19,"Telefonia Móvel","",36.74,1,"TELEFONICA BRASIL S.A","","c"],["d","2026-02",19,"Telefonia Móvel","",36.74,1,"TELEFONICA BRASIL S.A","","k"],["d","2026-02",20,"Software / Licença de Uso","",917.64,2,"CONTAAZUL SOFTWARE LTDA","","c"],["d","2026-02",20,"Software / Licença de Uso","",917.64,2,"CONTAAZUL SOFTWARE LTDA","","k"],["d","2026-02",23,"Software / Licença de Uso","",601.25,1,"BIONEXO S.A","","c"],["d","2026-02",23,"Software / Licença de Uso","",601.25,1,"BIONEXO S.A","","k"],["d","2026-02",23,"Despesas a identificar","",2150,1,"Sem cliente","","c"],["d","2026-02",23,"Despesas a identificar","",2150,1,"Sem cliente","","k"],["d","2026-02",26,"Mentorias, Cursos e Treinamentos","",13000,1,"O MEDICO EMPRESARIO LTDA","","c"],["d","2026-02",26,"Mentorias, Cursos e Treinamentos","",13000,1,"O MEDICO EMPRESARIO LTDA","","k"],["d","2026-02",28,"Software / Licença de Uso","",599.9,2,"CLOUDIA TECNOLOGIA EM SOFTWARE LTDA","","c"],["d","2026-02",28,"Software / Licença de Uso","",599.9,2,"CLOUDIA TECNOLOGIA EM SOFTWARE LTDA","","k"],["d","2026-03",2,"Despesas Diversas (Cartão)","",1069.96,1,"Sem cliente","","c"],["d","2026-03",2,"Despesas Diversas (Cartão)","",1069.96,1,"Sem cliente","","k"],["d","2026-03",2,"Tarifas Bancárias","",30.85,1,"Sem cliente","","c"],["d","2026-03",2,"Tarifas Bancárias","",30.85,1,"Sem cliente","","k"],["d","2026-03",3,"Retiradas para Sócios","",20000,1,"Sem cliente","","c"],["d","2026-03",3,"Retiradas para Sócios","",20000,1,"Sem cliente","","k"],["d","2026-03",3,"Salários","",4604.02,1,"Sem cliente","","c"],["d","2026-03",3,"Salários","",4604.02,1,"Sem cliente","","k"],["d","2026-03",3,"Salários","",4400,1,"Sem cliente","","c"],["d","2026-03",3,"Salários","",4400,1,"Sem cliente","","k"],["d","2026-03",3,"Salários","",3781.71,1,"Sem cliente","","c"],["d","2026-03",3,"Salários","",3781.71,1,"Sem cliente","","k"],["d","2026-03",3,"Salários","",2299.32,1,"Sem cliente","","c"],["d","2026-03",3,"Salários","",2299.32,1,"Sem cliente","","k"],["d","2026-03",3,"Telefonia e Internet","",44.89,1,"TELEFONICA BRASIL S.A","","c"],["d","2026-03",3,"Telefonia e Internet","",44.89,1,"TELEFONICA BRASIL S.A","","k"],["d","2026-03",3,"Telefonia e Internet","",43,1,"TELEFONICA BRASIL S.A","","c"],["d","2026-03",3,"Telefonia e Internet","",43,1,"TELEFONICA BRASIL S.A","","k"],["d","2026-03",3,"Salários","",980,1,"Sem cliente","","c"],["d","2026-03",3,"Salários","",980,1,"Sem cliente","","k"],["d","2026-03",3,"Honorários Contábeis","",1156.3,1,"DELOGO & SAINTS CONTABILIDADE LTDA","","c"],["d","2026-02",27,"Honorários Contábeis","",1156.3,1,"DELOGO & SAINTS CONTABILIDADE LTDA","","k"],["d","2026-03",4,"Materiais de Escritório","",100,1,"EXTINSAN EXTINTORES LTDA","","c"],["d","2026-03",2,"Materiais de Escritório","",100,1,"EXTINSAN EXTINTORES LTDA","","k"],["d","2026-03",4,"Marketing e Publicidade","",2000,1,"RADIO SAO FRANCISCO LTDA","","c"],["d","2026-03",4,"Marketing e Publicidade","",2000,1,"RADIO SAO FRANCISCO LTDA","","k"],["d","2026-03",4,"Salários","",1500,1,"Sem cliente","","c"],["d","2026-03",4,"Salários","",1500,1,"Sem cliente","","k"],["d","2026-03",4,"Coleta de Resíduos Ambientais","",125.28,1,"RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP","","c"],["d","2026-03",4,"Coleta de Resíduos Ambientais","",125.28,1,"RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP","","k"],["d","2026-03",4,"Seguros","",61.29,1,"PORTO SEGURO COMPANHIA DE SEGUROS GERAIS","","c"],["d","2026-03",4,"Seguros","",61.29,1,"PORTO SEGURO COMPANHIA DE SEGUROS GERAIS","","k"],["d","2026-03",4,"Plano de Saúde Colaboradores","",260,1,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","c"],["d","2026-03",26,"Plano de Saúde Colaboradores","",260,1,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","k"],["d","2026-03",5,"Plano de Saúde Colaboradores","",499.09,1,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","c"],["d","2026-03",5,"Plano de Saúde Colaboradores","",499.09,1,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","k"],["d","2026-03",6,"Marketing e Publicidade","",2100,1,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","c"],["d","2026-03",6,"Marketing e Publicidade","",2100,1,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","k"],["d","2026-03",6,"Mentorias, Cursos e Treinamentos","",449.96,1,"SEGEX UVV ON","","c"],["d","2026-03",6,"Mentorias, Cursos e Treinamentos","",449.96,1,"SEGEX UVV ON","","k"],["d","2026-03",6,"Telefonia e Internet","",114.9,1,"BIZZ INTERNET LTDA","","c"],["d","2026-03",6,"Telefonia e Internet","",114.9,1,"BIZZ INTERNET LTDA","","k"],["d","2026-03",6,"Telefonia e Internet","",99.9,1,"BIZZ INTERNET LTDA","","c"],["d","2026-03",6,"Telefonia e Internet","",99.9,1,"BIZZ INTERNET LTDA","","k"],["d","2026-03",9,"Insumos e Materiais Clínicos","",6116.25,1,"BIO MEDS PHARMACEUTICA LTDA","","c"],["d","2026-03",12,"Insumos e Materiais Clínicos","",6116.25,1,"BIO MEDS PHARMACEUTICA LTDA","","k"],["d","2026-03",10,"Despesas Diversas (Cartão)","",11039.45,1,"Sem cliente","","c"],["d","2026-03",10,"Despesas Diversas (Cartão)","",11039.45,1,"Sem cliente","","k"],["d","2026-03",10,"ISS","",5.22,2,"RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP","","c"],["d","2026-02",10,"ISS","",5.22,2,"RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP","","k"],["d","2026-03",11,"Insumos e Materiais Clínicos","",14300.04,2,"TOKARSKI COMERCIO INDUSTRIA LTDA","","c"],["d","2026-03",11,"Insumos e Materiais Clínicos","",14300.04,2,"TOKARSKI COMERCIO INDUSTRIA LTDA","","k"],["d","2026-03",11,"Coleta de Resíduos Ambientais","",126.72,2,"RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP","","c"],["d","2026-03",11,"Coleta de Resíduos Ambientais","",126.72,2,"RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP","","k"],["d","2026-03",12,"Materiais de Escritório","",98,1,"REIS & SOUZA LIMITADA","","c"],["d","2026-03",12,"Materiais de Escritório","",98,1,"REIS & SOUZA LIMITADA","","k"],["d","2026-03",12,"Insumos e Materiais Clínicos","",18528.75,2,"BIO MEDS PHARMACEUTICA LTDA","","c"],["d","2026-03",12,"Insumos e Materiais Clínicos","",18528.75,2,"BIO MEDS PHARMACEUTICA LTDA","","k"],["d","2026-03",13,"FGTS e Multa de FGTS","",519.57,1,"Sem cliente","","c"],["d","2026-03",13,"FGTS e Multa de FGTS","",519.57,1,"Sem cliente","","k"],["d","2026-03",13,"INSS sobre Salários - GPS","",2876.6,1,"Sem cliente","","c"],["d","2026-03",13,"INSS sobre Salários - GPS","",2876.6,1,"Sem cliente","","k"],["d","2026-03",13,"Pis/Cofins","",199.83,1,"Sem cliente","","c"],["d","2026-03",13,"Pis/Cofins","",199.83,1,"Sem cliente","","k"],["d","2026-03",13,"Despesas Diversas (Cartão)","",582.6,1,"Sem cliente","","c"],["d","2026-03",13,"Despesas Diversas (Cartão)","",582.6,1,"Sem cliente","","k"],["d","2026-03",13,"Despesas Diversas (Cartão)","",10192.32,1,"Sem cliente","","c"],["d","2026-03",13,"Despesas Diversas (Cartão)","",10192.32,1,"Sem cliente","","k"],["d","2026-03",15,"Retiradas para Sócios","",9000.4,1,"Sem cliente","","c"],["d","2026-03",15,"Retiradas para Sócios","",9000.4,1,"Sem cliente","","k"],["d","2026-03",16,"Despesas a identificar","",240,1,"Sem cliente","","c"],["d","2026-03",16,"Despesas a identificar","",240,1,"Sem cliente","","k"],["d","2026-03",16,"Salários","",150,1,"Sem cliente","","c"],["d","2026-03",16,"Salários","",150,1,"Sem cliente","","k"],["d","2026-03",16,"Despesas a identificar","",100,1,"Sem cliente","","c"],["d","2026-03",16,"Despesas a identificar","",100,1,"Sem cliente","","k"],["d","2026-03",16,"Materiais de Escritório","",232.27,1,"Sem cliente","","c"],["d","2026-03",16,"Materiais de Escritório","",232.27,1,"Sem cliente","","k"],["d","2026-03",16,"Mentorias, Cursos e Treinamentos","",9540,1,"Sem cliente","","c"],["d","2026-03",16,"Mentorias, Cursos e Treinamentos","",9540,1,"Sem cliente","","k"],["d","2026-03",16,"Despesas a identificar","",8640,1,"Sem cliente","","c"],["d","2026-03",16,"Despesas a identificar","",8640,1,"Sem cliente","","k"],["d","2026-03",17,"Energia Elétrica","",718,1,"EDP ESPIRITO SANTO","","c"],["d","2026-03",17,"Energia Elétrica","",718,1,"EDP ESPIRITO SANTO","","k"],["d","2026-03",17,"Serviços de Pessoa Jurídica","",350,1,"Sem cliente","","c"],["d","2026-03",17,"Serviços de Pessoa Jurídica","",350,1,"Sem cliente","","k"],["d","2026-03",18,"Honorários Contábeis","",220,1,"Sem cliente","","c"],["d","2026-03",18,"Honorários Contábeis","",220,1,"Sem cliente","","k"],["d","2026-03",18,"Despesas a identificar","",30,1,"Sem cliente","","c"],["d","2026-03",18,"Despesas a identificar","",30,1,"Sem cliente","","k"],["d","2026-03",18,"Despesas a identificar","",190,1,"Sem cliente","","c"],["d","2026-03",18,"Despesas a identificar","",190,1,"Sem cliente","","k"],["d","2026-03",18,"Despesas a identificar","",400,1,"Sem cliente","","c"],["d","2026-03",18,"Despesas a identificar","",400,1,"Sem cliente","","k"],["d","2026-03",19,"Serviços de Pessoa Jurídica","",91,2,"NICKSCELL COMERCIO E SERVICOS LTDA","","c"],["d","2026-03",19,"Serviços de Pessoa Jurídica","",91,2,"NICKSCELL COMERCIO E SERVICOS LTDA","","k"],["d","2026-03",20,"Despesas a identificar","",820,1,"Sem cliente","","c"],["d","2026-03",20,"Despesas a identificar","",820,1,"Sem cliente","","k"],["d","2026-03",20,"Honorários Consultoria","",2500,1,"WOLF MENTOR'S SERVICOS DE APOIO ADMINISTRATIVO LTDA","","c"],["d","2026-03",17,"Honorários Consultoria","",2500,1,"WOLF MENTOR'S SERVICOS DE APOIO ADMINISTRATIVO LTDA","","k"],["d","2026-03",23,"Insumos e Materiais Clínicos","",3727.5,1,"FLUKKA FARMA","","c"],["d","2026-03",23,"Insumos e Materiais Clínicos","",3727.5,1,"FLUKKA FARMA","","k"],["d","2026-03",23,"Despesas a identificar","",2102.5,1,"Sem cliente","","c"],["d","2026-03",23,"Despesas a identificar","",2102.5,1,"Sem cliente","","k"],["d","2026-03",23,"Despesas a identificar","",60,1,"Sem cliente","","c"],["d","2026-03",23,"Despesas a identificar","",60,1,"Sem cliente","","k"],["d","2026-03",23,"Telefonia e Internet","",35.7,1,"TELEFONICA BRASIL S.A","","c"],["d","2026-03",23,"Telefonia e Internet","",35.7,1,"TELEFONICA BRASIL S.A","","k"],["d","2026-03",23,"Mentorias, Cursos e Treinamentos","",13000,1,"O MEDICO EMPRESARIO LTDA","","c"],["d","2026-03",23,"Mentorias, Cursos e Treinamentos","",13000,1,"O MEDICO EMPRESARIO LTDA","","k"],["d","2026-03",24,"Despesas a identificar","",1500,1,"Sem cliente","","c"],["d","2026-03",24,"Despesas a identificar","",1500,1,"Sem cliente","","k"],["d","2026-03",24,"Retiradas para Sócios","",750,1,"Sem cliente","","c"],["d","2026-03",24,"Retiradas para Sócios","",750,1,"Sem cliente","","k"],["d","2026-03",24,"Despesas Diversas (Cartão)","",38625.88,1,"Sem cliente","","c"],["d","2026-03",24,"Despesas Diversas (Cartão)","",38625.88,1,"Sem cliente","","k"],["d","2026-03",24,"Despesas Diversas (Cartão)","",5000,1,"Sem cliente","","c"],["d","2026-03",24,"Despesas Diversas (Cartão)","",5000,1,"Sem cliente","","k"],["d","2026-03",24,"Serviços de Pessoa Jurídica","",60,2,"37.901.199 VAGNER LISBOA RIBEIRO","","c"],["d","2026-03",24,"Serviços de Pessoa Jurídica","",60,2,"37.901.199 VAGNER LISBOA RIBEIRO","","k"],["d","2026-03",26,"Lanches e Refeições","",284,1,"DON PAGANOTTO LTDA","","c"],["d","2026-03",26,"Lanches e Refeições","",284,1,"DON PAGANOTTO LTDA","","k"],["d","2026-03",26,"Despesas a identificar","",200,1,"Sem cliente","","c"],["d","2026-03",26,"Despesas a identificar","",200,1,"Sem cliente","","k"],["d","2026-03",26,"Despesas a identificar","",800,1,"Sem cliente","","c"],["d","2026-03",26,"Despesas a identificar","",800,1,"Sem cliente","","k"],["d","2026-03",26,"Materiais de Escritório","",160,1,"BARRACOPY COMUNICACAO VISUAL LTDA","","c"],["d","2026-03",26,"Materiais de Escritório","",160,1,"BARRACOPY COMUNICACAO VISUAL LTDA","","k"],["d","2026-03",26,"Despesas a identificar","",2192.5,1,"Sem cliente","","c"],["d","2026-03",26,"Despesas a identificar","",2192.5,1,"Sem cliente","","k"],["d","2026-03",26,"Pis/Cofins","",56.61,1,"Sem cliente","","c"],["d","2026-03",26,"Pis/Cofins","",56.61,1,"Sem cliente","","k"],["d","2026-03",26,"Marketing e Publicidade","",1500,1,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","c"],["d","2026-04",7,"Marketing e Publicidade","",1500,1,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","k"],["d","2026-03",27,"Materiais de Escritório","",115,1,"Sem cliente","","c"],["d","2026-03",27,"Materiais de Escritório","",115,1,"Sem cliente","","k"],["d","2026-03",27,"Despesas a identificar","",15,1,"Sem cliente","","c"],["d","2026-03",27,"Despesas a identificar","",15,1,"Sem cliente","","k"],["d","2026-03",28,"Software / Licença de Uso","",399.9,2,"CLOUDIA TECNOLOGIA EM SOFTWARE LTDA","","c"],["d","2026-03",28,"Software / Licença de Uso","",399.9,2,"CLOUDIA TECNOLOGIA EM SOFTWARE LTDA","","k"],["d","2026-03",30,"Telefonia e Internet","",21.56,1,"TELEFONICA BRASIL S.A","","c"],["d","2026-03",30,"Telefonia e Internet","",21.56,1,"TELEFONICA BRASIL S.A","","k"],["d","2026-03",30,"Serviços de Pessoa Jurídica","",70,1,"Sem cliente","","c"],["d","2026-03",30,"Serviços de Pessoa Jurídica","",70,1,"Sem cliente","","k"],["d","2026-03",30,"Materiais de Escritório","",230,1,"ARTCOPIAS","","c"],["d","2026-03",30,"Materiais de Escritório","",230,1,"ARTCOPIAS","","k"],["d","2026-03",30,"Marketing e Publicidade","",1500,1,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","c"],["d","2026-04",7,"Marketing e Publicidade","",1500,1,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","k"],["d","2026-03",30,"Materiais de Escritório","",1600,2,"BARRACOPY COMUNICACAO VISUAL LTDA","","c"],["d","2026-03",30,"Materiais de Escritório","",1600,2,"BARRACOPY COMUNICACAO VISUAL LTDA","","k"],["d","2026-03",30,"Insumos e Materiais Clínicos","",12500.8,2,"BIOS FARMACEUTICA LTDA","","c"],["d","2026-03",30,"Insumos e Materiais Clínicos","",12500.8,2,"BIOS FARMACEUTICA LTDA","","k"],["d","2026-03",31,"Despesas a identificar","",825,1,"Sem cliente","","c"],["d","2026-03",31,"Despesas a identificar","",825,1,"Sem cliente","","k"],["d","2026-03",31,"Pró-labore","",15000,1,"Sem cliente","","c"],["d","2026-03",31,"Pró-labore","",15000,1,"Sem cliente","","k"],["d","2026-04",1,"Tarifas Bancárias","",30.85,1,"Sem cliente","","c"],["d","2026-04",1,"Tarifas Bancárias","",30.85,1,"Sem cliente","","k"],["d","2026-04",1,"Salários","",4261,1,"Sem cliente","","c"],["d","2026-04",1,"Salários","",4261,1,"Sem cliente","","k"],["d","2026-04",1,"Salários","",3746.76,1,"Sem cliente","","c"],["d","2026-04",1,"Salários","",3746.76,1,"Sem cliente","","k"],["d","2026-04",1,"Salários","",3710,1,"Sem cliente","","c"],["d","2026-04",1,"Salários","",3710,1,"Sem cliente","","k"],["d","2026-04",1,"Despesas Diversas (Cartão)","",3265.71,1,"Sem cliente","","c"],["d","2026-04",1,"Despesas Diversas (Cartão)","",3265.71,1,"Sem cliente","","k"],["d","2026-04",1,"Salários","",2820,1,"Sem cliente","","c"],["d","2026-04",1,"Salários","",2820,1,"Sem cliente","","k"],["d","2026-04",1,"Salários","",2800,1,"Sem cliente","","c"],["d","2026-04",1,"Salários","",2800,1,"Sem cliente","","k"],["d","2026-04",1,"Retiradas para Sócios","",14444.75,1,"Sem cliente","","c"],["d","2026-04",1,"Retiradas para Sócios","",14444.75,1,"Sem cliente","","k"],["d","2026-04",1,"Plano de Saúde Colaboradores","",260,1,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","c"],["d","2026-02",26,"Plano de Saúde Colaboradores","",260,1,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","k"],["d","2026-04",1,"Despesas Pessoais dos Sócios","",8640,2,"KAMILLA PIMENTEL DERMATOLOGIA LTDA","","c"],["d","2026-04",1,"Despesas Pessoais dos Sócios","",8640,2,"KAMILLA PIMENTEL DERMATOLOGIA LTDA","","k"],["d","2026-04",2,"Salários","",2299.32,1,"Sem cliente","","c"],["d","2026-04",2,"Salários","",2299.32,1,"Sem cliente","","k"],["d","2026-04",2,"Salários","",1800,1,"Sem cliente","","c"],["d","2026-04",2,"Salários","",1800,1,"Sem cliente","","k"],["d","2026-04",2,"Materiais de Escritório","",7.1,1,"Sem cliente","","c"],["d","2026-04",2,"Materiais de Escritório","",7.1,1,"Sem cliente","","k"],["d","2026-04",2,"Despesas a identificar","",1800,1,"Sem cliente","","c"],["d","2026-04",2,"Despesas a identificar","",1800,1,"Sem cliente","","k"],["d","2026-04",2,"Salários","",1190,1,"Sem cliente","","c"],["d","2026-04",2,"Salários","",1190,1,"Sem cliente","","k"],["d","2026-04",2,"Despesas a identificar","",575.3,1,"Sem cliente","","c"],["d","2026-04",2,"Despesas a identificar","",575.3,1,"Sem cliente","","k"],["d","2026-04",2,"Lanches e Refeições","",155,1,"Sem cliente","","c"],["d","2026-04",2,"Lanches e Refeições","",155,1,"Sem cliente","","k"],["d","2026-04",2,"Marketing e Publicidade","",81.89,2,"GOOGLE BRASIL INTERNET LTDA.","","c"],["d","2026-04",2,"Marketing e Publicidade","",81.89,2,"GOOGLE BRASIL INTERNET LTDA.","","k"],["d","2026-04",6,"Insumos e Materiais Clínicos","",3000.3,1,"Sem cliente","","c"],["d","2026-04",6,"Insumos e Materiais Clínicos","",3000.3,1,"Sem cliente","","k"],["d","2026-04",6,"Honorários Contábeis","",1156.3,1,"DELOGO & SAINTS CONTABILIDADE LTDA","","c"],["d","2026-03",27,"Honorários Contábeis","",1156.3,1,"DELOGO & SAINTS CONTABILIDADE LTDA","","k"],["d","2026-04",6,"Mentorias, Cursos e Treinamentos","",330.75,1,"SEGEX UVV ON","","c"],["d","2026-04",6,"Mentorias, Cursos e Treinamentos","",330.75,1,"SEGEX UVV ON","","k"],["d","2026-04",6,"Honorários Contábeis","",300,1,"DELOGO & SAINTS CONTABILIDADE LTDA","","c"],["d","2026-04",6,"Honorários Contábeis","",300,1,"DELOGO & SAINTS CONTABILIDADE LTDA","","k"],["d","2026-04",6,"Despesas Diversas (Cartão)","",364.91,1,"Sem cliente","","c"],["d","2026-04",6,"Despesas Diversas (Cartão)","",364.91,1,"Sem cliente","","k"],["d","2026-04",6,"Marketing e Publicidade","",2100,1,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","c"],["d","2026-04",7,"Marketing e Publicidade","",2100,1,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","k"],["d","2026-04",7,"Marketing e Publicidade","",2000,1,"RADIO SAO FRANCISCO LTDA","","c"],["d","2026-04",4,"Marketing e Publicidade","",2000,1,"RADIO SAO FRANCISCO LTDA","","k"],["d","2026-04",7,"BPO Financeiro","",2400,1,"Sem cliente","","c"],["d","2026-04",7,"BPO Financeiro","",2400,1,"Sem cliente","","k"],["d","2026-04",7,"Plano de Saúde Colaboradores","",260,1,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","c"],["d","2026-04",28,"Plano de Saúde Colaboradores","",260,1,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","k"],["d","2026-04",7,"Coleta de Resíduos Ambientais","",3.36,1,"RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP","","c"],["d","2026-04",7,"Coleta de Resíduos Ambientais","",3.36,1,"RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP","","k"],["d","2026-04",7,"Coleta de Resíduos Ambientais","",118.08,1,"RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP","","c"],["d","2026-04",9,"Coleta de Resíduos Ambientais","",118.08,1,"RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP","","k"],["d","2026-04",7,"ISS","",5.28,1,"RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP","","c"],["d","2026-03",11,"ISS","",5.28,1,"RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP","","k"],["d","2026-04",7,"Despesas a identificar","",200,1,"Sem cliente","","c"],["d","2026-04",7,"Despesas a identificar","",200,1,"Sem cliente","","k"],["d","2026-04",7,"Despesas a identificar","",2591.5,1,"Sem cliente","","c"],["d","2026-04",7,"Despesas a identificar","",2591.5,1,"Sem cliente","","k"],["d","2026-04",8,"Serviços e Materiais de Limpeza e de Higiene","",320,1,"Sem cliente","","c"],["d","2026-04",8,"Serviços e Materiais de Limpeza e de Higiene","",320,1,"Sem cliente","","k"],["d","2026-04",8,"ISS","",17979.15,1,"Sem cliente","","c"],["d","2026-04",8,"ISS","",17979.15,1,"Sem cliente","","k"],["d","2026-04",9,"Despesas a identificar","",540,1,"Sem cliente","","c"],["d","2026-04",9,"Despesas a identificar","",540,1,"Sem cliente","","k"],["d","2026-04",9,"Despesas a identificar","",150.99,1,"Sem cliente","","c"],["d","2026-04",9,"Despesas a identificar","",150.99,1,"Sem cliente","","k"],["d","2026-04",14,"Retiradas para Sócios","",14100,1,"ANNA PAULA FERNANDES MARTINS","","c"],["d","2026-04",14,"Retiradas para Sócios","",14100,1,"ANNA PAULA FERNANDES MARTINS","","k"],["d","2026-04",14,"Telefonia e Internet","",99.9,1,"BIZZ INTERNET LTDA","","c"],["d","2026-04",6,"Telefonia e Internet","",99.9,1,"BIZZ INTERNET LTDA","","k"],["d","2026-04",14,"Telefonia e Internet","",117.34,1,"BIZZ INTERNET LTDA","","c"],["d","2026-04",6,"Telefonia e Internet","",117.34,1,"BIZZ INTERNET LTDA","","k"],["d","2026-04",14,"Salários","",1500,1,"Sem cliente","","c"],["d","2026-04",14,"Salários","",1500,1,"Sem cliente","","k"],["d","2026-04",14,"Retiradas para Sócios","",14100,1,"Sem cliente","","c"],["d","2026-04",14,"Retiradas para Sócios","",14100,1,"Sem cliente","","k"],["d","2026-04",14,"Coleta de Resíduos Ambientais","",96,2,"RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP","","c"],["d","2026-04",14,"Coleta de Resíduos Ambientais","",96,2,"RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP","","k"],["d","2026-04",16,"Honorários Consultoria","",2500,1,"WOLF MENTOR'S SERVICOS DE APOIO ADMINISTRATIVO LTDA","","c"],["d","2026-04",24,"Honorários Consultoria","",2500,1,"WOLF MENTOR'S SERVICOS DE APOIO ADMINISTRATIVO LTDA","","k"],["d","2026-04",16,"Despesas a identificar","",948,1,"Sem cliente","","c"],["d","2026-04",16,"Despesas a identificar","",948,1,"Sem cliente","","k"],["d","2026-04",17,"Honorários Contábeis","",1200,1,"DELOGO & SAINTS CONTABILIDADE LTDA","","c"],["d","2026-04",17,"Honorários Contábeis","",1200,1,"DELOGO & SAINTS CONTABILIDADE LTDA","","k"],["d","2026-04",22,"Viagens e Representações","",92.4,1,"JUAN CARLOS SOSA","","c"],["d","2026-04",22,"Viagens e Representações","",92.4,1,"JUAN CARLOS SOSA","","k"],["d","2026-04",22,"Energia Elétrica","",745.04,1,"EDP ESPIRITO SANTO","","c"],["d","2026-04",22,"Energia Elétrica","",745.04,1,"EDP ESPIRITO SANTO","","k"],["d","2026-04",22,"Salários","",705,1,"Sem cliente","","c"],["d","2026-04",22,"Salários","",705,1,"Sem cliente","","k"],["d","2026-04",22,"Serviços e Materiais de Limpeza e de Higiene","",655,1,"Sem cliente","","c"],["d","2026-04",22,"Serviços e Materiais de Limpeza e de Higiene","",655,1,"Sem cliente","","k"],["d","2026-04",22,"Serviços de Pessoa Jurídica","",88,1,"NICKSCELL COMERCIO E SERVICOS LTDA","","c"],["d","2026-04",22,"Serviços de Pessoa Jurídica","",88,1,"NICKSCELL COMERCIO E SERVICOS LTDA","","k"],["d","2026-04",22,"Telefonia e Internet","",49.43,1,"TELEFONICA BRASIL S.A","","c"],["d","2026-04",22,"Telefonia e Internet","",49.43,1,"TELEFONICA BRASIL S.A","","k"],["d","2026-04",22,"Telefonia e Internet","",41.76,1,"TELEFONICA BRASIL S.A","","c"],["d","2026-04",22,"Telefonia e Internet","",41.76,1,"TELEFONICA BRASIL S.A","","k"],["d","2026-04",23,"IRPJ E CSLL","",11216.09,1,"RECEITA FEDERAL","","c"],["d","2026-04",23,"IRPJ E CSLL","",11216.09,1,"RECEITA FEDERAL","","k"],["d","2026-04",23,"Pis/Cofins","",16405.95,1,"RECEITA FEDERAL","","c"],["d","2026-04",23,"Pis/Cofins","",16405.95,1,"RECEITA FEDERAL","","k"],["d","2026-04",23,"FGTS e Multa de FGTS","",548.22,1,"CEF MATRIZ","","c"],["d","2026-04",23,"FGTS e Multa de FGTS","",548.22,1,"CEF MATRIZ","","k"],["d","2026-04",23,"INSS sobre Salários - GPS","",2895.53,1,"Sem cliente","","c"],["d","2026-04",23,"INSS sobre Salários - GPS","",2895.53,1,"Sem cliente","","k"],["d","2026-04",27,"Mentorias, Cursos e Treinamentos","",13000,1,"O MEDICO EMPRESARIO LTDA","","c"],["d","2026-04",27,"Mentorias, Cursos e Treinamentos","",13000,1,"O MEDICO EMPRESARIO LTDA","","k"],["d","2026-04",29,"Software / Licença de Uso","",399.9,1,"CLOUDIA TECNOLOGIA EM SOFTWARE LTDA","","c"],["d","2026-04",29,"Software / Licença de Uso","",399.9,1,"CLOUDIA TECNOLOGIA EM SOFTWARE LTDA","","k"],["d","2026-04",30,"Serviços e Materiais de Limpeza e de Higiene","",390,1,"Sem cliente","","c"],["d","2026-04",30,"Serviços e Materiais de Limpeza e de Higiene","",390,1,"Sem cliente","","k"],["d","2026-04",30,"Software / Licença de Uso","",399.9,2,"CLOUDIA TECNOLOGIA EM SOFTWARE LTDA","","c"],["d","2026-04",30,"Software / Licença de Uso","",399.9,2,"CLOUDIA TECNOLOGIA EM SOFTWARE LTDA","","k"],["d","2026-04",30,"Insumos e Materiais Clínicos","",2691,2,"BIOMA4ME ANALISES CLINICAS S.A.","","c"],["d","2026-04",30,"Insumos e Materiais Clínicos","",2691,2,"BIOMA4ME ANALISES CLINICAS S.A.","","k"],["d","2026-05",2,"Marketing e Publicidade","",2638.5,2,"GOOGLE BRASIL INTERNET LTDA.","","c"],["d","2026-05",2,"Marketing e Publicidade","",2638.5,2,"GOOGLE BRASIL INTERNET LTDA.","","k"],["d","2026-05",4,"Retiradas para Sócios","",21318.51,1,"Sem cliente","","c"],["d","2026-05",4,"Retiradas para Sócios","",21318.51,1,"Sem cliente","","k"],["d","2026-05",4,"Tarifas Bancárias","",30.85,1,"Sem cliente","","c"],["d","2026-05",4,"Tarifas Bancárias","",30.85,1,"Sem cliente","","k"],["d","2026-05",4,"Salários","",2570,1,"Sem cliente","","c"],["d","2026-05",4,"Salários","",2570,1,"Sem cliente","","k"],["d","2026-05",4,"Despesas Diversas (Cartão)","",34274.37,1,"Sem cliente","","c"],["d","2026-05",4,"Despesas Diversas (Cartão)","",34274.37,1,"Sem cliente","","k"],["d","2026-05",4,"Salários","",4950,1,"Sem cliente","","c"],["d","2026-05",4,"Salários","",4950,1,"Sem cliente","","k"],["d","2026-05",4,"Salários","",3626.71,1,"Sem cliente","","c"],["d","2026-05",4,"Salários","",3626.71,1,"Sem cliente","","k"],["d","2026-05",4,"Salários","",1500,1,"Sem cliente","","c"],["d","2026-05",4,"Salários","",1500,1,"Sem cliente","","k"],["d","2026-05",4,"Despesas Diversas (Cartão)","",1224,1,"Sem cliente","","c"],["d","2026-05",4,"Despesas Diversas (Cartão)","",1224,1,"Sem cliente","","k"],["d","2026-05",4,"Marketing e Publicidade","",2600,2,"64.659.216 KETELLY ALVES GOULARTE","","c"],["d","2026-05",4,"Marketing e Publicidade","",2600,2,"64.659.216 KETELLY ALVES GOULARTE","","k"],["d","2026-05",5,"Despesas Diversas (Cartão)","",2300,1,"Sem cliente","","c"],["d","2026-05",5,"Despesas Diversas (Cartão)","",2300,1,"Sem cliente","","k"],["d","2026-05",5,"Salários","",3150,1,"Sem cliente","","c"],["d","2026-05",5,"Salários","",3150,1,"Sem cliente","","k"],["d","2026-05",5,"Salários","",2299.32,1,"Sem cliente","","c"],["d","2026-05",5,"Salários","",2299.32,1,"Sem cliente","","k"],["d","2026-05",6,"Mentorias, Cursos e Treinamentos","",449.96,1,"SEGEX UVV ON","","c"],["d","2026-05",6,"Mentorias, Cursos e Treinamentos","",449.96,1,"SEGEX UVV ON","","k"],["d","2026-05",7,"BPO Financeiro","",2400,1,"ALIADACONT CONTABILIDADE","","c"],["d","2026-05",7,"BPO Financeiro","",2400,1,"ALIADACONT CONTABILIDADE","","k"],["d","2026-05",7,"Honorários Contábeis","",1156.3,1,"DELOGO & SAINTS CONTABILIDADE LTDA","","c"],["d","2026-05",7,"Honorários Contábeis","",1156.3,1,"DELOGO & SAINTS CONTABILIDADE LTDA","","k"],["d","2026-05",7,"Honorários Contábeis","",300,1,"DELOGO & SAINTS CONTABILIDADE LTDA","","c"],["d","2026-05",7,"Honorários Contábeis","",300,1,"DELOGO & SAINTS CONTABILIDADE LTDA","","k"],["d","2026-05",7,"Plano de Saúde Colaboradores","",260,1,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","c"],["d","2026-05",4,"Plano de Saúde Colaboradores","",260,1,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","k"],["d","2026-05",7,"Telefonia e Internet","",114.9,1,"BIZZ INTERNET LTDA","","c"],["d","2026-05",6,"Telefonia e Internet","",114.9,1,"BIZZ INTERNET LTDA","","k"],["d","2026-05",7,"Telefonia e Internet","",99.9,1,"BIZZ INTERNET LTDA","","c"],["d","2026-05",6,"Telefonia e Internet","",99.9,1,"BIZZ INTERNET LTDA","","k"],["d","2026-05",7,"Marketing e Publicidade","",1875,1,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","c"],["d","2026-05",6,"Marketing e Publicidade","",1875,1,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","k"],["d","2026-05",7,"Insumos e Materiais Clínicos","",2521.26,1,"BIOMA4ME ANALISES CLINICAS S.A.","","c"],["d","2026-05",7,"Insumos e Materiais Clínicos","",2521.26,1,"BIOMA4ME ANALISES CLINICAS S.A.","","k"],["d","2026-05",7,"Insumos e Materiais Clínicos","",41.4,1,"BIOMA4ME ANALISES CLINICAS S.A.","","c"],["d","2026-04",30,"Insumos e Materiais Clínicos","",41.4,1,"BIOMA4ME ANALISES CLINICAS S.A.","","k"],["d","2026-05",7,"Insumos e Materiais Clínicos","",27.6,1,"BIOMA4ME ANALISES CLINICAS S.A.","","c"],["d","2026-04",30,"Insumos e Materiais Clínicos","",27.6,1,"BIOMA4ME ANALISES CLINICAS S.A.","","k"],["d","2026-05",7,"BPO Financeiro","",2400,1,"Sem cliente","","c"],["d","2026-05",7,"BPO Financeiro","",2400,1,"Sem cliente","","k"],["d","2026-05",8,"Troco","",26,1,"ERICA RODRIGUES DE LIMA","","c"],["d","2026-05",8,"Troco","",26,1,"ERICA RODRIGUES DE LIMA","","k"],["d","2026-05",8,"ISS","",4.92,2,"RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP","","c"],["d","2026-04",9,"ISS","",4.92,2,"RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP","","k"],["d","2026-05",8,"ISS","",4,2,"RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP","","c"],["d","2026-04",14,"ISS","",4,2,"RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP","","k"],["d","2026-05",11,"ISS","",486.47,1,"PREFEITURA MUNICIPAL DE BARRA DE SAO FRANCISCO","","c"],["d","2026-05",11,"ISS","",486.47,1,"PREFEITURA MUNICIPAL DE BARRA DE SAO FRANCISCO","","k"],["d","2026-05",11,"Salários","",3713.91,1,"HEMILLY LACERDA BARBOSA","","c"],["d","2026-05",11,"Salários","",3713.91,1,"HEMILLY LACERDA BARBOSA","","k"],["d","2026-05",11,"ISS","",8226.92,1,"PREFEITURA MUNICIPAL DE BARRA DE SAO FRANCISCO","","c"],["d","2026-05",11,"ISS","",8226.92,1,"PREFEITURA MUNICIPAL DE BARRA DE SAO FRANCISCO","","k"],["d","2026-05",11,"Marketing e Publicidade","",2000,1,"RADIO SAO FRANCISCO LTDA","","c"],["d","2026-05",4,"Marketing e Publicidade","",2000,1,"RADIO SAO FRANCISCO LTDA","","k"],["d","2026-05",11,"Coleta de Resíduos Ambientais","",118.08,1,"RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP","","c"],["d","2026-05",11,"Coleta de Resíduos Ambientais","",118.08,1,"RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP","","k"],["d","2026-05",11,"Insumos e Materiais Clínicos","",151.3,2,"BIO MEDS PHARMACEUTICA LTDA","","c"],["d","2026-05",11,"Insumos e Materiais Clínicos","",151.3,2,"BIO MEDS PHARMACEUTICA LTDA","","k"],["d","2026-05",12,"Tarifas Bancárias","",133.85,1,"Sem cliente","","c"],["d","2026-05",12,"Tarifas Bancárias","",133.85,1,"Sem cliente","","k"],["d","2026-05",12,"Insumos e Materiais Clínicos","",2405.4,2,"BIO MEDS PHARMACEUTICA LTDA","","c"],["d","2026-05",12,"Insumos e Materiais Clínicos","",2405.4,2,"BIO MEDS PHARMACEUTICA LTDA","","k"],["d","2026-05",13,"Serviços e Materiais de Limpeza e de Higiene","",412,1,"SIDIANARA RODRIGUES DE SOUZA","","c"],["d","2026-05",13,"Serviços e Materiais de Limpeza e de Higiene","",412,1,"SIDIANARA RODRIGUES DE SOUZA","","k"],["d","2026-05",13,"INSS sobre Pró-labore - GPS","",2876.6,1,"RECEITA FEDERAL","","c"],["d","2026-05",13,"INSS sobre Pró-labore - GPS","",2876.6,1,"RECEITA FEDERAL","","k"],["d","2026-05",13,"Serviços de Pessoa Jurídica","",55,1,"AGILIZA MEDICINA E SEGURANCA DO TRABALHO LTDA","","c"],["d","2026-05",13,"Serviços de Pessoa Jurídica","",55,1,"AGILIZA MEDICINA E SEGURANCA DO TRABALHO LTDA","","k"],["d","2026-05",13,"Marketing e Publicidade","",1500,1,"VANESSA CORDOVAL DE BARROS","","c"],["d","2026-05",13,"Marketing e Publicidade","",1500,1,"VANESSA CORDOVAL DE BARROS","","k"],["d","2026-05",13,"Tarifas Bancárias","",144.03,1,"Sem cliente","","c"],["d","2026-05",13,"Tarifas Bancárias","",144.03,1,"Sem cliente","","k"],["d","2026-05",13,"Tarifas Bancárias","",417.06,1,"Sem cliente","","c"],["d","2026-05",13,"Tarifas Bancárias","",417.06,1,"Sem cliente","","k"],["d","2026-05",13,"Serviços e Materiais de Limpeza e de Higiene","",412,1,"Sem cliente","","c"],["d","2026-05",13,"Serviços e Materiais de Limpeza e de Higiene","",412,1,"Sem cliente","","k"],["d","2026-05",13,"INSS sobre Salários - GPS","",2876.6,1,"Sem cliente","","c"],["d","2026-05",13,"INSS sobre Salários - GPS","",2876.6,1,"Sem cliente","","k"],["d","2026-05",13,"Coleta de Resíduos Ambientais","",138.3,2,"RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP","","c"],["d","2026-05",13,"Coleta de Resíduos Ambientais","",138.3,2,"RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP","","k"],["d","2026-05",15,"Salários","",3709.42,1,"Sem cliente","","c"],["d","2026-05",15,"Salários","",3709.42,1,"Sem cliente","","k"],["d","2026-05",15,"Tarifas Bancárias","",291,1,"Sem cliente","","c"],["d","2026-05",15,"Tarifas Bancárias","",291,1,"Sem cliente","","k"],["d","2026-05",18,"Salários","",4732.93,1,"Sem cliente","","c"],["d","2026-05",18,"Salários","",4732.93,1,"Sem cliente","","k"],["d","2026-05",18,"Salários","",2955,1,"Sem cliente","","c"],["d","2026-05",18,"Salários","",2955,1,"Sem cliente","","k"],["d","2026-05",18,"Tarifas Bancárias","",384.08,1,"Sem cliente","","c"],["d","2026-05",18,"Tarifas Bancárias","",384.08,1,"Sem cliente","","k"],["d","2026-05",19,"Salários","",926.4,1,"Sem cliente","","c"],["d","2026-05",19,"Salários","",926.4,1,"Sem cliente","","k"],["d","2026-05",19,"Tarifas Bancárias","",351.12,1,"Sem cliente","","c"],["d","2026-05",19,"Tarifas Bancárias","",351.12,1,"Sem cliente","","k"],["d","2026-05",19,"Salários","",966.57,1,"Sem cliente","","c"],["d","2026-05",19,"Salários","",966.57,1,"Sem cliente","","k"],["d","2026-05",19,"ISS","",272,1,"PREFEITURA MUNICIPAL DE BARRA DE SAO FRANCISCO","","c"],["d","2026-05",19,"ISS","",272,1,"PREFEITURA MUNICIPAL DE BARRA DE SAO FRANCISCO","","k"],["d","2026-05",20,"Tarifas Bancárias","",368.56,1,"Sem cliente","","c"],["d","2026-05",20,"Tarifas Bancárias","",368.56,1,"Sem cliente","","k"],["d","2026-05",20,"Tarifas Bancárias","",314.41,1,"Sem cliente","","c"],["d","2026-05",20,"Tarifas Bancárias","",314.41,1,"Sem cliente","","k"],["d","2026-05",20,"Honorários Consultoria","",2500,1,"WOLF MENTOR'S SERVICOS DE APOIO ADMINISTRATIVO LTDA","","c"],["d","2026-05",20,"Honorários Consultoria","",2500,1,"WOLF MENTOR'S SERVICOS DE APOIO ADMINISTRATIVO LTDA","","k"],["d","2026-05",21,"Telefonia e Internet","",49,1,"TELEFONICA BRASIL S.A","","c"],["d","2026-05",21,"Telefonia e Internet","",49,1,"TELEFONICA BRASIL S.A","","k"],["d","2026-05",21,"Insumos e Materiais Clínicos","",46.89,1,"PIX Marketplace","","c"],["d","2026-05",21,"Insumos e Materiais Clínicos","",46.89,1,"PIX Marketplace","","k"],["d","2026-05",21,"IRRF","",7947.55,1,"RECEITA FEDERAL","","c"],["d","2026-05",21,"IRRF","",7947.55,1,"RECEITA FEDERAL","","k"],["d","2026-05",21,"Telefonia e Internet","",41.87,1,"TELEFONICA BRASIL S.A","","c"],["d","2026-05",21,"Telefonia e Internet","",41.87,1,"TELEFONICA BRASIL S.A","","k"],["d","2026-05",21,"Energia Elétrica","",546.33,1,"28.152.650/0001-71","","c"],["d","2026-05",21,"Energia Elétrica","",546.33,1,"28.152.650/0001-71","","k"],["d","2026-05",21,"Pis/Cofins","",7947.55,1,"RECEITA FEDERAL","","c"],["d","2026-05",21,"Pis/Cofins","",7947.55,1,"RECEITA FEDERAL","","k"],["d","2026-05",21,"Salários","",846.04,1,"Sem cliente","","c"],["d","2026-05",21,"Salários","",846.04,1,"Sem cliente","","k"],["d","2026-05",21,"Salários","",821.79,1,"Sem cliente","","c"],["d","2026-05",21,"Salários","",821.79,1,"Sem cliente","","k"],["d","2026-05",21,"Despesas a identificar","",46.89,1,"Sem cliente","","c"],["d","2026-05",21,"Despesas a identificar","",46.89,1,"Sem cliente","","k"],["d","2026-05",21,"Telefonia e Internet","",49,1,"TELEFONICA BRASIL S.A","","c"],["d","2026-05",21,"Telefonia e Internet","",49,1,"TELEFONICA BRASIL S.A","","k"],["d","2026-05",22,"Salários","",1432.3,1,"Sem cliente","","c"],["d","2026-05",22,"Salários","",1432.3,1,"Sem cliente","","k"],["d","2026-05",22,"Salários","",1262.6,1,"Sem cliente","","c"],["d","2026-05",22,"Salários","",1262.6,1,"Sem cliente","","k"],["d","2026-05",22,"Salários","",870.09,1,"Sem cliente","","c"],["d","2026-05",22,"Salários","",870.09,1,"Sem cliente","","k"],["d","2026-05",22,"Tarifas Bancárias","",480.1,1,"Sem cliente","","c"],["d","2026-05",22,"Tarifas Bancárias","",480.1,1,"Sem cliente","","k"],["d","2026-05",25,"Salários","",1473.09,1,"Sem cliente","","c"],["d","2026-05",25,"Salários","",1473.09,1,"Sem cliente","","k"],["d","2026-05",28,"Despesas a identificar","",184.75,1,"O MEDICO EMPRESARIO LTDA","","c"],["d","2026-05",28,"Despesas a identificar","",184.75,1,"O MEDICO EMPRESARIO LTDA","","k"],["d","2026-05",28,"FGTS e Multa de FGTS","",1448.01,1,"Sem cliente","","c"],["d","2026-05",28,"FGTS e Multa de FGTS","",1448.01,1,"Sem cliente","","k"],["d","2026-05",28,"FGTS e Multa de FGTS","",548.22,2,"CEF MATRIZ","","c"],["d","2026-04",23,"FGTS e Multa de FGTS","",548.22,2,"CEF MATRIZ","","k"],["d","2026-05",29,"Exames Médicos","",600,1,"Sem cliente","","c"],["d","2026-05",29,"Exames Médicos","",600,1,"Sem cliente","","k"],["d","2026-06",5,"Marketing e Publicidade","",2000,2,"RADIO SAO FRANCISCO LTDA","","c"],["d","2026-06",4,"Marketing e Publicidade","",2000,2,"RADIO SAO FRANCISCO LTDA","","k"],["d","2026-06",5,"Plano de Saúde Colaboradores","",260,2,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","c"],["d","2026-06",4,"Plano de Saúde Colaboradores","",260,2,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","k"],["d","2026-06",6,"Marketing e Publicidade","",2100,2,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","c"],["d","2026-06",6,"Marketing e Publicidade","",2100,2,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","k"],["d","2026-06",6,"Telefonia e Internet","",114.9,2,"BIZZ INTERNET LTDA","","c"],["d","2026-06",6,"Telefonia e Internet","",114.9,2,"BIZZ INTERNET LTDA","","k"],["d","2026-06",6,"Telefonia e Internet","",99.9,2,"BIZZ INTERNET LTDA","","c"],["d","2026-06",6,"Telefonia e Internet","",99.9,2,"BIZZ INTERNET LTDA","","k"],["d","2026-06",10,"Coleta de Resíduos Ambientais","",5.76,0,"RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP","","c"],["d","2026-05",13,"Coleta de Resíduos Ambientais","",5.76,0,"RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP","","k"],["d","2026-07",5,"Marketing e Publicidade","",2000,0,"RADIO SAO FRANCISCO LTDA","","c"],["d","2026-07",4,"Marketing e Publicidade","",2000,0,"RADIO SAO FRANCISCO LTDA","","k"],["d","2026-07",5,"Plano de Saúde Colaboradores","",260,0,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","c"],["d","2026-07",4,"Plano de Saúde Colaboradores","",260,0,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","k"],["d","2026-07",6,"Marketing e Publicidade","",2100,0,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","c"],["d","2026-07",6,"Marketing e Publicidade","",2100,0,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","k"],["d","2026-07",6,"Telefonia e Internet","",114.9,0,"BIZZ INTERNET LTDA","","c"],["d","2026-07",6,"Telefonia e Internet","",114.9,0,"BIZZ INTERNET LTDA","","k"],["d","2026-07",6,"Telefonia e Internet","",99.9,0,"BIZZ INTERNET LTDA","","c"],["d","2026-07",6,"Telefonia e Internet","",99.9,0,"BIZZ INTERNET LTDA","","k"],["d","2026-08",5,"Marketing e Publicidade","",2000,0,"RADIO SAO FRANCISCO LTDA","","c"],["d","2026-08",4,"Marketing e Publicidade","",2000,0,"RADIO SAO FRANCISCO LTDA","","k"],["d","2026-08",5,"Plano de Saúde Colaboradores","",260,0,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","c"],["d","2026-08",4,"Plano de Saúde Colaboradores","",260,0,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","k"],["d","2026-08",6,"Marketing e Publicidade","",2100,0,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","c"],["d","2026-08",6,"Marketing e Publicidade","",2100,0,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","k"],["d","2026-08",6,"Telefonia e Internet","",114.9,0,"BIZZ INTERNET LTDA","","c"],["d","2026-08",6,"Telefonia e Internet","",114.9,0,"BIZZ INTERNET LTDA","","k"],["d","2026-08",6,"Telefonia e Internet","",99.9,0,"BIZZ INTERNET LTDA","","c"],["d","2026-08",6,"Telefonia e Internet","",99.9,0,"BIZZ INTERNET LTDA","","k"],["d","2026-09",5,"Marketing e Publicidade","",2000,0,"RADIO SAO FRANCISCO LTDA","","c"],["d","2026-09",4,"Marketing e Publicidade","",2000,0,"RADIO SAO FRANCISCO LTDA","","k"],["d","2026-09",5,"Plano de Saúde Colaboradores","",260,0,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","c"],["d","2026-09",4,"Plano de Saúde Colaboradores","",260,0,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","k"],["d","2026-09",6,"Marketing e Publicidade","",2100,0,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","c"],["d","2026-09",6,"Marketing e Publicidade","",2100,0,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","k"],["d","2026-09",6,"Telefonia e Internet","",114.9,0,"BIZZ INTERNET LTDA","","c"],["d","2026-09",6,"Telefonia e Internet","",114.9,0,"BIZZ INTERNET LTDA","","k"],["d","2026-09",6,"Telefonia e Internet","",99.9,0,"BIZZ INTERNET LTDA","","c"],["d","2026-09",6,"Telefonia e Internet","",99.9,0,"BIZZ INTERNET LTDA","","k"],["d","2026-10",5,"Marketing e Publicidade","",2000,0,"RADIO SAO FRANCISCO LTDA","","c"],["d","2026-10",4,"Marketing e Publicidade","",2000,0,"RADIO SAO FRANCISCO LTDA","","k"],["d","2026-10",5,"Plano de Saúde Colaboradores","",260,0,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","c"],["d","2026-10",4,"Plano de Saúde Colaboradores","",260,0,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","k"],["d","2026-10",6,"Marketing e Publicidade","",2100,0,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","c"],["d","2026-10",6,"Marketing e Publicidade","",2100,0,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","k"],["d","2026-10",6,"Telefonia e Internet","",114.9,0,"BIZZ INTERNET LTDA","","c"],["d","2026-10",6,"Telefonia e Internet","",114.9,0,"BIZZ INTERNET LTDA","","k"],["d","2026-10",6,"Telefonia e Internet","",99.9,0,"BIZZ INTERNET LTDA","","c"],["d","2026-10",6,"Telefonia e Internet","",99.9,0,"BIZZ INTERNET LTDA","","k"],["d","2026-11",5,"Marketing e Publicidade","",2000,0,"RADIO SAO FRANCISCO LTDA","","c"],["d","2026-11",4,"Marketing e Publicidade","",2000,0,"RADIO SAO FRANCISCO LTDA","","k"],["d","2026-11",5,"Plano de Saúde Colaboradores","",260,0,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","c"],["d","2026-11",4,"Plano de Saúde Colaboradores","",260,0,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","k"],["d","2026-11",6,"Marketing e Publicidade","",2100,0,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","c"],["d","2026-11",6,"Marketing e Publicidade","",2100,0,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","k"],["d","2026-11",6,"Telefonia e Internet","",114.9,0,"BIZZ INTERNET LTDA","","c"],["d","2026-11",6,"Telefonia e Internet","",114.9,0,"BIZZ INTERNET LTDA","","k"],["d","2026-11",6,"Telefonia e Internet","",99.9,0,"BIZZ INTERNET LTDA","","c"],["d","2026-11",6,"Telefonia e Internet","",99.9,0,"BIZZ INTERNET LTDA","","k"],["d","2026-12",5,"Marketing e Publicidade","",2000,0,"RADIO SAO FRANCISCO LTDA","","c"],["d","2026-12",4,"Marketing e Publicidade","",2000,0,"RADIO SAO FRANCISCO LTDA","","k"],["d","2026-12",5,"Plano de Saúde Colaboradores","",260,0,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","c"],["d","2026-12",4,"Plano de Saúde Colaboradores","",260,0,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","k"],["d","2026-12",6,"Marketing e Publicidade","",2100,0,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","c"],["d","2026-12",6,"Marketing e Publicidade","",2100,0,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","k"],["d","2026-12",6,"Telefonia e Internet","",114.9,0,"BIZZ INTERNET LTDA","","c"],["d","2026-12",6,"Telefonia e Internet","",114.9,0,"BIZZ INTERNET LTDA","","k"],["d","2026-12",6,"Telefonia e Internet","",99.9,0,"BIZZ INTERNET LTDA","","c"],["d","2026-12",6,"Telefonia e Internet","",99.9,0,"BIZZ INTERNET LTDA","","k"]];
+const ALL_TX = [["r","2026-01",2,"Rendimentos de Aplicações","Sem cliente",0.06,1,"","","c"],["r","2026-01",2,"Rendimentos de Aplicações","Sem cliente",0.06,1,"","","k"],["r","2026-01",2,"Receitas de Serviços a Identificar","Sem cliente",216.05,1,"","","c"],["r","2026-01",2,"Receitas de Serviços a Identificar","Sem cliente",216.05,1,"","","k"],["r","2026-01",2,"Receitas de Serviços a Identificar","Sem cliente",145.65,1,"","","c"],["r","2026-01",2,"Receitas de Serviços a Identificar","Sem cliente",145.65,1,"","","k"],["r","2026-01",2,"Receitas de Serviços a Identificar","Sem cliente",345.6,1,"","","c"],["r","2026-01",2,"Receitas de Serviços a Identificar","Sem cliente",345.6,1,"","","k"],["r","2026-01",2,"Receitas de Serviços a Identificar","Sem cliente",1967.8,1,"","","c"],["r","2026-01",2,"Receitas de Serviços a Identificar","Sem cliente",1967.8,1,"","","k"],["r","2026-01",2,"Receitas de Serviços a Identificar","Sem cliente",7887.67,1,"","","c"],["r","2026-01",2,"Receitas de Serviços a Identificar","Sem cliente",7887.67,1,"","","k"],["r","2026-01",5,"Receitas de Serviços a Identificar","Sem cliente",2000,1,"","","c"],["r","2026-01",5,"Receitas de Serviços a Identificar","Sem cliente",2000,1,"","","k"],["r","2026-01",5,"Receitas a Identificar","Sem cliente",260,1,"","","c"],["r","2026-01",5,"Receitas a Identificar","Sem cliente",260,1,"","","k"],["r","2026-01",5,"Receitas de Serviços a Identificar","FLAVYANNE PAULO MORETT AGUIAR",500,1,"","","c"],["r","2026-01",5,"Receitas de Serviços a Identificar","FLAVYANNE PAULO MORETT AGUIAR",500,1,"","","k"],["r","2026-01",5,"Receitas de Serviços a Identificar","Sem cliente",1000,1,"","","c"],["r","2026-01",5,"Receitas de Serviços a Identificar","Sem cliente",1000,1,"","","k"],["r","2026-01",5,"Receitas de Serviços a Identificar","SIMONE ALVES DE SÁ GOMES ASSIS",1021.37,1,"","","c"],["r","2026-01",5,"Receitas de Serviços a Identificar","SIMONE ALVES DE SÁ GOMES ASSIS",1021.37,1,"","","k"],["r","2026-01",5,"Receitas de Serviços a Identificar","Sem cliente",1177.62,1,"","","c"],["r","2026-01",5,"Receitas de Serviços a Identificar","Sem cliente",1177.62,1,"","","k"],["r","2026-01",5,"Receitas de Serviços a Identificar","Sem cliente",1672.08,1,"","","c"],["r","2026-01",5,"Receitas de Serviços a Identificar","Sem cliente",1672.08,1,"","","k"],["r","2026-01",5,"Receitas de Serviços a Identificar","Sem cliente",1740.96,1,"","","c"],["r","2026-01",5,"Receitas de Serviços a Identificar","Sem cliente",1740.96,1,"","","k"],["r","2026-01",5,"Receitas de Serviços a Identificar","Sem cliente",2404.87,1,"","","c"],["r","2026-01",5,"Receitas de Serviços a Identificar","Sem cliente",2404.87,1,"","","k"],["r","2026-01",5,"Receitas de Serviços a Identificar","Sem cliente",4630.48,1,"","","c"],["r","2026-01",5,"Receitas de Serviços a Identificar","Sem cliente",4630.48,1,"","","k"],["r","2026-01",5,"Receitas de Serviços a Identificar","Sem cliente",6924.37,1,"","","c"],["r","2026-01",5,"Receitas de Serviços a Identificar","Sem cliente",6924.37,1,"","","k"],["r","2026-01",5,"Suplementos","LEILA DA SILVA DE SOUZA COELHO",75,2,"","","c"],["r","2026-04",30,"Suplementos","LEILA DA SILVA DE SOUZA COELHO",75,2,"","","k"],["r","2026-01",5,"Suplementos","KAIKE PIOL",75,2,"","","c"],["r","2026-04",30,"Suplementos","KAIKE PIOL",75,2,"","","k"],["r","2026-01",6,"Receita de Serviços - Plano Prata","SIMONE ALVES DE SÁ GOMES ASSIS",1500,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","SIMONE ALVES DE SÁ GOMES ASSIS",1500,1,"","","k"],["r","2026-01",6,"Receitas de Serviços a Identificar","Sem cliente",1178.63,1,"","","c"],["r","2026-01",6,"Receitas de Serviços a Identificar","Sem cliente",1178.63,1,"","","k"],["r","2026-01",6,"Receitas de Serviços a Identificar","Sem cliente",368.25,1,"","","c"],["r","2026-01",6,"Receitas de Serviços a Identificar","Sem cliente",368.25,1,"","","k"],["r","2026-01",6,"Receitas de Serviços a Identificar","Sem cliente",193.98,1,"","","c"],["r","2026-01",6,"Receitas de Serviços a Identificar","Sem cliente",193.98,1,"","","k"],["r","2026-01",6,"Suplementos","ANA PAULA COELHO PORTES MATTOS",75,2,"","","c"],["r","2026-04",30,"Suplementos","ANA PAULA COELHO PORTES MATTOS",75,2,"","","k"],["r","2026-01",7,"Suplementos","NOEME PEDROSA DE SOUZA SATURNINO",270,1,"","","c"],["r","2026-04",30,"Suplementos","NOEME PEDROSA DE SOUZA SATURNINO",270,1,"","","k"],["r","2026-01",7,"Suplementos","KEILA SOARES RODRIGUES MONTEIRO",75,1,"","","c"],["r","2026-04",30,"Suplementos","KEILA SOARES RODRIGUES MONTEIRO",75,1,"","","k"],["r","2026-01",7,"Receitas de Serviços a Identificar","HAYANE SILVA VALARDAO",1500,1,"","","c"],["r","2026-01",7,"Receitas de Serviços a Identificar","HAYANE SILVA VALARDAO",1500,1,"","","k"],["r","2026-01",7,"Receitas de Serviços a Identificar","Sem cliente",3042.7,1,"","","c"],["r","2026-01",7,"Receitas de Serviços a Identificar","Sem cliente",3042.7,1,"","","k"],["r","2026-01",7,"Receitas de Serviços a Identificar","Sem cliente",1682.31,1,"","","c"],["r","2026-01",7,"Receitas de Serviços a Identificar","Sem cliente",1682.31,1,"","","k"],["r","2026-01",7,"Receitas de Serviços a Identificar","Sem cliente",300.32,1,"","","c"],["r","2026-01",7,"Receitas de Serviços a Identificar","Sem cliente",300.32,1,"","","k"],["r","2026-01",8,"Receita de Serviços - Plano Prata","SIMONE ALVES DE SÁ GOMES ASSIS",1178.63,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","SIMONE ALVES DE SÁ GOMES ASSIS",1178.63,1,"","","k"],["r","2026-01",8,"Receitas de Serviços a Identificar","Sem cliente",3666,1,"","","c"],["r","2026-01",8,"Receitas de Serviços a Identificar","Sem cliente",3666,1,"","","k"],["r","2026-01",8,"Receitas de Serviços a Identificar","Sem cliente",1761.19,1,"","","c"],["r","2026-01",8,"Receitas de Serviços a Identificar","Sem cliente",1761.19,1,"","","k"],["r","2026-01",8,"Receitas de Serviços a Identificar","Sem cliente",2275.11,1,"","","c"],["r","2026-01",8,"Receitas de Serviços a Identificar","Sem cliente",2275.11,1,"","","k"],["r","2026-01",8,"Suplementos","LAYLA TEIXEIRA BARBOSA COSTA",135,2,"","","c"],["r","2026-04",30,"Suplementos","LAYLA TEIXEIRA BARBOSA COSTA",135,2,"","","k"],["r","2026-01",9,"Rendimentos de Aplicações","Sem cliente",0.03,1,"","","c"],["r","2026-01",9,"Rendimentos de Aplicações","Sem cliente",0.03,1,"","","k"],["r","2026-01",9,"Receitas de Serviços a Identificar","Sem cliente",503.43,1,"","","c"],["r","2026-01",9,"Receitas de Serviços a Identificar","Sem cliente",503.43,1,"","","k"],["r","2026-01",9,"Receitas de Serviços a Identificar","Sem cliente",992.1,1,"","","c"],["r","2026-01",9,"Receitas de Serviços a Identificar","Sem cliente",992.1,1,"","","k"],["r","2026-01",12,"Suplementos","EDUARDA CORREA PILKER",75,1,"","","c"],["r","2026-04",30,"Suplementos","EDUARDA CORREA PILKER",75,1,"","","k"],["r","2026-01",12,"Consulta","DORIETE DE SOUZA",500,1,"","","c"],["r","2026-04",30,"Consulta","DORIETE DE SOUZA",500,1,"","","k"],["r","2026-01",12,"Rendimentos de Aplicações","Sem cliente",0.18,1,"","","c"],["r","2026-01",12,"Rendimentos de Aplicações","Sem cliente",0.18,1,"","","k"],["r","2026-01",12,"Receitas de Serviços a Identificar","Sem cliente",500,1,"","","c"],["r","2026-01",12,"Receitas de Serviços a Identificar","Sem cliente",500,1,"","","k"],["r","2026-01",12,"Receita de Serviços - Plano Prata","CRISTIANE CANDIDA DA SILVA",4350,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","CRISTIANE CANDIDA DA SILVA",4350,1,"","","k"],["r","2026-01",12,"Receita de Serviços - Plano Prata","TALITA FABIELLE PEREIRA DA SILVA BITTENCOURT",6000,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","TALITA FABIELLE PEREIRA DA SILVA BITTENCOURT",6000,1,"","","k"],["r","2026-01",12,"Descontos financeiros obtidos","Sem cliente",1085,1,"","","c"],["r","2026-01",12,"Descontos financeiros obtidos","Sem cliente",1085,1,"","","k"],["r","2026-01",12,"Receitas de Serviços a Identificar","Sem cliente",1000.22,1,"","","c"],["r","2026-01",12,"Receitas de Serviços a Identificar","Sem cliente",1000.22,1,"","","k"],["r","2026-01",12,"Receitas de Serviços a Identificar","Sem cliente",249.5,1,"","","c"],["r","2026-01",12,"Receitas de Serviços a Identificar","Sem cliente",249.5,1,"","","k"],["r","2026-01",12,"Receitas de Serviços a Identificar","Sem cliente",376.32,1,"","","c"],["r","2026-01",12,"Receitas de Serviços a Identificar","Sem cliente",376.32,1,"","","k"],["r","2026-01",12,"Receitas de Serviços a Identificar","Sem cliente",448.64,1,"","","c"],["r","2026-01",12,"Receitas de Serviços a Identificar","Sem cliente",448.64,1,"","","k"],["r","2026-01",12,"Receitas de Serviços a Identificar","Sem cliente",4777.33,1,"","","c"],["r","2026-01",12,"Receitas de Serviços a Identificar","Sem cliente",4777.33,1,"","","k"],["r","2026-01",13,"Rendimentos de Aplicações","Sem cliente",0.01,1,"","","c"],["r","2026-01",13,"Rendimentos de Aplicações","Sem cliente",0.01,1,"","","k"],["r","2026-01",13,"Receitas de Serviços a Identificar","Sem cliente",494.88,1,"","","c"],["r","2026-01",13,"Receitas de Serviços a Identificar","Sem cliente",494.88,1,"","","k"],["r","2026-01",13,"Receitas de Serviços a Identificar","Sem cliente",490.21,1,"","","c"],["r","2026-01",13,"Receitas de Serviços a Identificar","Sem cliente",490.21,1,"","","k"],["r","2026-01",13,"Receitas de Serviços a Identificar","Sem cliente",417.06,1,"","","c"],["r","2026-01",13,"Receitas de Serviços a Identificar","Sem cliente",417.06,1,"","","k"],["r","2026-01",13,"Receitas de Serviços a Identificar","Sem cliente",847.24,1,"","","c"],["r","2026-01",13,"Receitas de Serviços a Identificar","Sem cliente",847.24,1,"","","k"],["r","2026-01",13,"Suplementos","NAZARETH ALVES DE ARAÚJO",185,2,"","","c"],["r","2026-04",30,"Suplementos","NAZARETH ALVES DE ARAÚJO",185,2,"","","k"],["r","2026-01",14,"Rendimentos de Aplicações","Sem cliente",0.58,1,"","","c"],["r","2026-01",14,"Rendimentos de Aplicações","Sem cliente",0.58,1,"","","k"],["r","2026-01",14,"Receitas de Serviços a Identificar","Sem cliente",1400,1,"","","c"],["r","2026-01",14,"Receitas de Serviços a Identificar","Sem cliente",1400,1,"","","k"],["r","2026-01",14,"Receitas de Serviços a Identificar","Sem cliente",623.29,1,"","","c"],["r","2026-01",14,"Receitas de Serviços a Identificar","Sem cliente",623.29,1,"","","k"],["r","2026-01",15,"Rendimentos de Aplicações","Sem cliente",0.03,1,"","","c"],["r","2026-01",15,"Rendimentos de Aplicações","Sem cliente",0.03,1,"","","k"],["r","2026-01",15,"Receitas de Serviços a Identificar","Sem cliente",251.21,1,"","","c"],["r","2026-01",15,"Receitas de Serviços a Identificar","Sem cliente",251.21,1,"","","k"],["r","2026-01",15,"Receitas de Serviços a Identificar","Sem cliente",1347.71,1,"","","c"],["r","2026-01",15,"Receitas de Serviços a Identificar","Sem cliente",1347.71,1,"","","k"],["r","2026-01",16,"Suplementos","RODRIGO SOARES SIQUEIRA",75,1,"","","c"],["r","2026-04",30,"Suplementos","RODRIGO SOARES SIQUEIRA",75,1,"","","k"],["r","2026-01",16,"Suplementos","JULIMAR MARTINS FANTI",75,1,"","","c"],["r","2026-04",30,"Suplementos","JULIMAR MARTINS FANTI",75,1,"","","k"],["r","2026-01",16,"Receita de Serviços - Plano Prata","ELIEZER MOURA DE ASSIS",1741,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","ELIEZER MOURA DE ASSIS",1741,1,"","","k"],["r","2026-01",16,"Receita de Serviços - Plano Bronze","ORLANDA ALVES SALVADOR",3800,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","ORLANDA ALVES SALVADOR",3800,1,"","","k"],["r","2026-01",16,"Receitas de Serviços a Identificar","Sem cliente",465.98,1,"","","c"],["r","2026-01",16,"Receitas de Serviços a Identificar","Sem cliente",465.98,1,"","","k"],["r","2026-01",16,"Receitas de Serviços a Identificar","Sem cliente",1220.43,1,"","","c"],["r","2026-01",16,"Receitas de Serviços a Identificar","Sem cliente",1220.43,1,"","","k"],["r","2026-01",16,"Receitas de Serviços a Identificar","Sem cliente",384.08,1,"","","c"],["r","2026-01",16,"Receitas de Serviços a Identificar","Sem cliente",384.08,1,"","","k"],["r","2026-01",19,"Suplementos","TELMELITA SAAR ORECCHIO",75,1,"","","c"],["r","2026-04",30,"Suplementos","TELMELITA SAAR ORECCHIO",75,1,"","","k"],["r","2026-01",19,"Consulta","JOERLAINE DA SILVA OLIVEIRA ELIZEU",700,1,"","","c"],["r","2026-04",30,"Consulta","JOERLAINE DA SILVA OLIVEIRA ELIZEU",700,1,"","","k"],["r","2026-01",19,"Receitas de Serviços a Identificar","ELIENE PEREIRA SOBRINHO",500,1,"","","c"],["r","2026-01",19,"Receitas de Serviços a Identificar","ELIENE PEREIRA SOBRINHO",500,1,"","","k"],["r","2026-01",19,"Receitas de Serviços a Identificar","Sem cliente",1133.17,1,"","","c"],["r","2026-01",19,"Receitas de Serviços a Identificar","Sem cliente",1133.17,1,"","","k"],["r","2026-01",19,"Receita de Serviços - Plano Bronze","FERNANDA RAQUEL TEIXEIRA CHIPOLESC",2165,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","FERNANDA RAQUEL TEIXEIRA CHIPOLESC",2165,1,"","","k"],["r","2026-01",19,"Suplementos","FERNANDA RAQUEL TEIXEIRA CHIPOLESC",135,1,"","","c"],["r","2026-04",30,"Suplementos","FERNANDA RAQUEL TEIXEIRA CHIPOLESC",135,1,"","","k"],["r","2026-01",19,"Receita de Serviços - Plano Bronze","NUBIA SILVA AMARAL STOHEL",2400,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","NUBIA SILVA AMARAL STOHEL",2400,1,"","","k"],["r","2026-01",19,"Receitas de Serviços a Identificar","Sem cliente",2680.25,1,"","","c"],["r","2026-01",19,"Receitas de Serviços a Identificar","Sem cliente",2680.25,1,"","","k"],["r","2026-01",19,"Receitas de Serviços a Identificar","Sem cliente",4983.81,1,"","","c"],["r","2026-01",19,"Receitas de Serviços a Identificar","Sem cliente",4983.81,1,"","","k"],["r","2026-01",19,"Receitas de Serviços a Identificar","Sem cliente",2169.27,1,"","","c"],["r","2026-01",19,"Receitas de Serviços a Identificar","Sem cliente",2169.27,1,"","","k"],["r","2026-01",19,"Receitas de Serviços a Identificar","Sem cliente",6994.02,1,"","","c"],["r","2026-01",19,"Receitas de Serviços a Identificar","Sem cliente",6994.02,1,"","","k"],["r","2026-01",19,"Suplementos","JADER JESUS SILVA",150,2,"","","c"],["r","2026-04",30,"Suplementos","JADER JESUS SILVA",150,2,"","","k"],["r","2026-01",20,"Suplementos","CRISTIANE CANDIDA DA SILVA",210,1,"","","c"],["r","2026-04",30,"Suplementos","CRISTIANE CANDIDA DA SILVA",210,1,"","","k"],["r","2026-01",20,"Rendimentos de Aplicações","Sem cliente",0.11,1,"","","c"],["r","2026-01",20,"Rendimentos de Aplicações","Sem cliente",0.11,1,"","","k"],["r","2026-01",20,"Receita de Serviços - Plano Bronze","LAUDENICIA ALVES DE OLIVEIRA ZAROWNY",1656,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","LAUDENICIA ALVES DE OLIVEIRA ZAROWNY",1656,1,"","","k"],["r","2026-01",20,"Receitas de Serviços a Identificar","Sem cliente",1251.57,1,"","","c"],["r","2026-01",20,"Receitas de Serviços a Identificar","Sem cliente",1251.57,1,"","","k"],["r","2026-01",20,"Receitas de Serviços a Identificar","Sem cliente",2087.1,1,"","","c"],["r","2026-01",20,"Receitas de Serviços a Identificar","Sem cliente",2087.1,1,"","","k"],["r","2026-01",20,"Receitas de Serviços a Identificar","Sem cliente",132.89,1,"","","c"],["r","2026-01",20,"Receitas de Serviços a Identificar","Sem cliente",132.89,1,"","","k"],["r","2026-01",20,"Receitas de Serviços a Identificar","Sem cliente",368.56,1,"","","c"],["r","2026-01",20,"Receitas de Serviços a Identificar","Sem cliente",368.56,1,"","","k"],["r","2026-01",21,"Consulta","MERIELY RUFINO VAZ MUTZ",500,1,"","","c"],["r","2026-04",30,"Consulta","MERIELY RUFINO VAZ MUTZ",500,1,"","","k"],["r","2026-01",21,"Receitas de Serviços a Identificar","LETICIA RENATA RODRIGUES SOUZA PIONTI",2000,1,"","","c"],["r","2026-01",21,"Receitas de Serviços a Identificar","LETICIA RENATA RODRIGUES SOUZA PIONTI",2000,1,"","","k"],["r","2026-01",21,"Receitas de Serviços a Identificar","Sem cliente",4500,1,"","","c"],["r","2026-01",21,"Receitas de Serviços a Identificar","Sem cliente",4500,1,"","","k"],["r","2026-01",21,"Receitas de Serviços a Identificar","Sem cliente",659.44,1,"","","c"],["r","2026-01",21,"Receitas de Serviços a Identificar","Sem cliente",659.44,1,"","","k"],["r","2026-01",21,"Receitas de Serviços a Identificar","Sem cliente",1809.53,1,"","","c"],["r","2026-01",21,"Receitas de Serviços a Identificar","Sem cliente",1809.53,1,"","","k"],["r","2026-01",21,"Receitas de Serviços a Identificar","Sem cliente",1725.49,1,"","","c"],["r","2026-01",21,"Receitas de Serviços a Identificar","Sem cliente",1725.49,1,"","","k"],["r","2026-01",21,"Receitas de Serviços a Identificar","Sem cliente",821.79,1,"","","c"],["r","2026-01",21,"Receitas de Serviços a Identificar","Sem cliente",821.79,1,"","","k"],["r","2026-01",21,"Receitas de Serviços a Identificar","Sem cliente",239.1,1,"","","c"],["r","2026-01",21,"Receitas de Serviços a Identificar","Sem cliente",239.1,1,"","","k"],["r","2026-01",21,"Receitas de Serviços a Identificar","Sem cliente",842.65,1,"","","c"],["r","2026-01",21,"Receitas de Serviços a Identificar","Sem cliente",842.65,1,"","","k"],["r","2026-01",21,"Receitas de Serviços a Identificar","Sem cliente",1821.54,1,"","","c"],["r","2026-01",21,"Receitas de Serviços a Identificar","Sem cliente",1821.54,1,"","","k"],["r","2026-01",21,"Receitas de Serviços a Identificar","Sem cliente",1544.16,1,"","","c"],["r","2026-01",21,"Receitas de Serviços a Identificar","Sem cliente",1544.16,1,"","","k"],["r","2026-01",21,"Suplementos","HAYANE SILVA VALARDAO",135,2,"","","c"],["r","2026-04",30,"Suplementos","HAYANE SILVA VALARDAO",135,2,"","","k"],["r","2026-01",22,"Consulta","ALEX MARCHIOLI STEFANON",500,1,"","","c"],["r","2026-04",30,"Consulta","ALEX MARCHIOLI STEFANON",500,1,"","","k"],["r","2026-01",22,"Receitas de Serviços a Identificar","Sem cliente",1495,1,"","","c"],["r","2026-01",22,"Receitas de Serviços a Identificar","Sem cliente",1495,1,"","","k"],["r","2026-01",22,"Receitas de Serviços a Identificar","Sem cliente",356.47,1,"","","c"],["r","2026-01",22,"Receitas de Serviços a Identificar","Sem cliente",356.47,1,"","","k"],["r","2026-01",22,"Receitas de Serviços a Identificar","Sem cliente",316.78,1,"","","c"],["r","2026-01",22,"Receitas de Serviços a Identificar","Sem cliente",316.78,1,"","","k"],["r","2026-01",22,"Receitas de Serviços a Identificar","Sem cliente",673.18,1,"","","c"],["r","2026-01",22,"Receitas de Serviços a Identificar","Sem cliente",673.18,1,"","","k"],["r","2026-01",22,"Receitas de Serviços a Identificar","Sem cliente",759.48,1,"","","c"],["r","2026-01",22,"Receitas de Serviços a Identificar","Sem cliente",759.48,1,"","","k"],["r","2026-01",23,"Suplementos","KEILA SOARES RODRIGUES MONTEIRO",395,1,"","","c"],["r","2026-04",30,"Suplementos","KEILA SOARES RODRIGUES MONTEIRO",395,1,"","","k"],["r","2026-01",23,"Receita de Serviços - Plano Prata","KEILA SOARES RODRIGUES MONTEIRO",1500,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","KEILA SOARES RODRIGUES MONTEIRO",1500,1,"","","k"],["r","2026-01",23,"Receita de Serviços - Plano Bronze","LUCIMAR MARCHIOLI STEFANON",3500,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","LUCIMAR MARCHIOLI STEFANON",3500,1,"","","k"],["r","2026-01",23,"Receitas de Serviços a Identificar","Sem cliente",1267.56,1,"","","c"],["r","2026-01",23,"Receitas de Serviços a Identificar","Sem cliente",1267.56,1,"","","k"],["r","2026-01",23,"Receitas de Serviços a Identificar","Sem cliente",1621.01,1,"","","c"],["r","2026-01",23,"Receitas de Serviços a Identificar","Sem cliente",1621.01,1,"","","k"],["r","2026-01",26,"Consulta","ROSIANE ALMEIDA COSTA BELING",500,1,"","","c"],["r","2026-04",30,"Consulta","ROSIANE ALMEIDA COSTA BELING",500,1,"","","k"],["r","2026-01",26,"Rendimentos de Aplicações","Sem cliente",0.67,1,"","","c"],["r","2026-01",26,"Rendimentos de Aplicações","Sem cliente",0.67,1,"","","k"],["r","2026-01",26,"Receita de Serviços - Plano Prata","LETICIA RENATA RODRIGUES SOUZA PIONTI",2865,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","LETICIA RENATA RODRIGUES SOUZA PIONTI",2865,1,"","","k"],["r","2026-01",26,"Suplementos","LETICIA RENATA RODRIGUES SOUZA PIONTI",135,1,"","","c"],["r","2026-04",30,"Suplementos","LETICIA RENATA RODRIGUES SOUZA PIONTI",135,1,"","","k"],["r","2026-01",26,"Receita de Serviços - Plano Bronze","ELIZABETH DE REZENDE ALMEIDA",6100,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","ELIZABETH DE REZENDE ALMEIDA",6100,1,"","","k"],["r","2026-01",26,"Receitas de Serviços a Identificar","Sem cliente",479.8,1,"","","c"],["r","2026-01",26,"Receitas de Serviços a Identificar","Sem cliente",479.8,1,"","","k"],["r","2026-01",26,"Receitas de Serviços a Identificar","Sem cliente",1682.31,1,"","","c"],["r","2026-01",26,"Receitas de Serviços a Identificar","Sem cliente",1682.31,1,"","","k"],["r","2026-01",26,"Receitas de Serviços a Identificar","Sem cliente",581.94,1,"","","c"],["r","2026-01",26,"Receitas de Serviços a Identificar","Sem cliente",581.94,1,"","","k"],["r","2026-01",26,"Receitas de Serviços a Identificar","Sem cliente",1551.5,1,"","","c"],["r","2026-01",26,"Receitas de Serviços a Identificar","Sem cliente",1551.5,1,"","","k"],["r","2026-01",26,"Consulta","SAYONARIA LOPES EVANGELISTA",500,2,"","","c"],["r","2026-04",30,"Consulta","SAYONARIA LOPES EVANGELISTA",500,2,"","","k"],["r","2026-01",27,"Receitas de Serviços a Identificar","Sem cliente",75,1,"","","c"],["r","2026-01",27,"Receitas de Serviços a Identificar","Sem cliente",75,1,"","","k"],["r","2026-01",27,"Injetaveis","WALAS FERNANDES VITAL",1200,1,"","","c"],["r","2026-03",31,"Injetaveis","WALAS FERNANDES VITAL",1200,1,"","","k"],["r","2026-01",27,"Receita de Serviços - Plano Bronze","LAUDENICIA ALVES DE OLIVEIRA ZAROWNY",1500,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","LAUDENICIA ALVES DE OLIVEIRA ZAROWNY",1500,1,"","","k"],["r","2026-01",27,"Receita de Serviços - Plano Prata","DORIETE DE SOUZA",8100,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","DORIETE DE SOUZA",8100,1,"","","k"],["r","2026-01",27,"Receita de Serviços - Plano Prata","JOERLAINE DA SILVA OLIVEIRA ELIZEU",2488,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","JOERLAINE DA SILVA OLIVEIRA ELIZEU",2488,1,"","","k"],["r","2026-01",27,"Receitas de Serviços a Identificar","Sem cliente",2200,1,"","","c"],["r","2026-01",27,"Receitas de Serviços a Identificar","Sem cliente",2200,1,"","","k"],["r","2026-01",27,"Receitas de Serviços a Identificar","Sem cliente",1458.45,1,"","","c"],["r","2026-01",27,"Receitas de Serviços a Identificar","Sem cliente",1458.45,1,"","","k"],["r","2026-01",27,"Receitas de Serviços a Identificar","Sem cliente",236.1,1,"","","c"],["r","2026-01",27,"Receitas de Serviços a Identificar","Sem cliente",236.1,1,"","","k"],["r","2026-01",27,"Receitas de Serviços a Identificar","Sem cliente",2203.86,1,"","","c"],["r","2026-01",27,"Receitas de Serviços a Identificar","Sem cliente",2203.86,1,"","","k"],["r","2026-01",28,"Receitas de Serviços a Identificar","Sem cliente",1000,1,"","","c"],["r","2026-01",28,"Receitas de Serviços a Identificar","Sem cliente",1000,1,"","","k"],["r","2026-01",28,"Injetaveis","MAGDA CRISTINA ANGELO DE OLIVEIRA",900,1,"","","c"],["r","2026-03",31,"Injetaveis","MAGDA CRISTINA ANGELO DE OLIVEIRA",900,1,"","","k"],["r","2026-01",28,"Receitas de Serviços a Identificar","Sem cliente",682.52,1,"","","c"],["r","2026-01",28,"Receitas de Serviços a Identificar","Sem cliente",682.52,1,"","","k"],["r","2026-01",28,"Receitas de Serviços a Identificar","Sem cliente",435.03,1,"","","c"],["r","2026-01",28,"Receitas de Serviços a Identificar","Sem cliente",435.03,1,"","","k"],["r","2026-01",29,"Receitas de Serviços a Identificar","Sem cliente",389.2,1,"","","c"],["r","2026-01",29,"Receitas de Serviços a Identificar","Sem cliente",389.2,1,"","","k"],["r","2026-01",29,"Receitas de Serviços a Identificar","Sem cliente",622.72,1,"","","c"],["r","2026-01",29,"Receitas de Serviços a Identificar","Sem cliente",622.72,1,"","","k"],["r","2026-01",29,"Receitas de Serviços a Identificar","Sem cliente",1744.02,1,"","","c"],["r","2026-01",29,"Receitas de Serviços a Identificar","Sem cliente",1744.02,1,"","","k"],["r","2026-01",30,"Receita de Serviços - Plano Prata","MARIA LEUZINA DE AGUIAR DIAS",815,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","MARIA LEUZINA DE AGUIAR DIAS",815,1,"","","k"],["r","2026-01",30,"Suplementos","MARIA LEUZINA DE AGUIAR DIAS",185,1,"","","c"],["r","2026-04",30,"Suplementos","MARIA LEUZINA DE AGUIAR DIAS",185,1,"","","k"],["r","2026-01",30,"Receitas de Serviços a Identificar","SHEILA MARIA NEGRI PONTES",4096,1,"","","c"],["r","2026-01",30,"Receitas de Serviços a Identificar","SHEILA MARIA NEGRI PONTES",4096,1,"","","k"],["r","2026-01",30,"Receitas de Serviços a Identificar","Sem cliente",581.94,1,"","","c"],["r","2026-01",30,"Receitas de Serviços a Identificar","Sem cliente",581.94,1,"","","k"],["r","2026-01",30,"Receitas de Serviços a Identificar","Sem cliente",274.99,1,"","","c"],["r","2026-01",30,"Receitas de Serviços a Identificar","Sem cliente",274.99,1,"","","k"],["r","2026-02",2,"Rendimentos de Aplicações","Sem cliente",0.36,1,"","","c"],["r","2026-02",2,"Rendimentos de Aplicações","Sem cliente",0.36,1,"","","k"],["r","2026-02",2,"Receita de Serviços - Plano Diamante","ALEX MARCHIOLI STEFANON",3183.17,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","ALEX MARCHIOLI STEFANON",3183.17,1,"","","k"],["r","2026-02",2,"Receitas de Serviços a Identificar","Sem cliente",216.05,1,"","","c"],["r","2026-02",2,"Receitas de Serviços a Identificar","Sem cliente",216.05,1,"","","k"],["r","2026-02",2,"Receitas de Serviços a Identificar","Sem cliente",145.65,1,"","","c"],["r","2026-02",2,"Receitas de Serviços a Identificar","Sem cliente",145.65,1,"","","k"],["r","2026-02",2,"Receitas de Serviços a Identificar","Sem cliente",966.34,1,"","","c"],["r","2026-02",2,"Receitas de Serviços a Identificar","Sem cliente",966.34,1,"","","k"],["r","2026-02",2,"Receitas de Serviços a Identificar","Sem cliente",1421.47,1,"","","c"],["r","2026-02",2,"Receitas de Serviços a Identificar","Sem cliente",1421.47,1,"","","k"],["r","2026-02",2,"Receitas de Serviços a Identificar","Sem cliente",3700.52,1,"","","c"],["r","2026-02",2,"Receitas de Serviços a Identificar","Sem cliente",3700.52,1,"","","k"],["r","2026-02",2,"Receitas de Serviços a Identificar","Sem cliente",6119.12,1,"","","c"],["r","2026-02",2,"Receitas de Serviços a Identificar","Sem cliente",6119.12,1,"","","k"],["r","2026-02",3,"Receitas de Serviços a Identificar","SANDRA VIEIRA FARIA",430,1,"","","c"],["r","2026-02",3,"Receitas de Serviços a Identificar","SANDRA VIEIRA FARIA",430,1,"","","k"],["r","2026-02",3,"Receita de Serviços - Plano Bronze","LAUDENICIA ALVES DE OLIVEIRA ZAROWNY",600,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","LAUDENICIA ALVES DE OLIVEIRA ZAROWNY",600,1,"","","k"],["r","2026-02",3,"Receita de Serviços - Plano Bronze","EVERALDO DE SOUZA VELTEN SANTIAGO",900,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","EVERALDO DE SOUZA VELTEN SANTIAGO",900,1,"","","k"],["r","2026-02",3,"Receitas de Serviços a Identificar","Sem cliente",1672.08,1,"","","c"],["r","2026-02",3,"Receitas de Serviços a Identificar","Sem cliente",1672.08,1,"","","k"],["r","2026-02",3,"Receitas de Serviços a Identificar","Sem cliente",1186.39,1,"","","c"],["r","2026-02",3,"Receitas de Serviços a Identificar","Sem cliente",1186.39,1,"","","k"],["r","2026-02",3,"Receitas de Serviços a Identificar","Sem cliente",2088.69,1,"","","c"],["r","2026-02",3,"Receitas de Serviços a Identificar","Sem cliente",2088.69,1,"","","k"],["r","2026-02",4,"Receitas de Serviços a Identificar","Sem cliente",1177.62,1,"","","c"],["r","2026-02",4,"Receitas de Serviços a Identificar","Sem cliente",1177.62,1,"","","k"],["r","2026-02",4,"Receitas de Serviços a Identificar","Sem cliente",1740.96,1,"","","c"],["r","2026-02",4,"Receitas de Serviços a Identificar","Sem cliente",1740.96,1,"","","k"],["r","2026-02",4,"Receitas de Serviços a Identificar","Sem cliente",3584.81,1,"","","c"],["r","2026-02",4,"Receitas de Serviços a Identificar","Sem cliente",3584.81,1,"","","k"],["r","2026-02",4,"Receitas de Serviços a Identificar","Sem cliente",1920.99,1,"","","c"],["r","2026-02",4,"Receitas de Serviços a Identificar","Sem cliente",1920.99,1,"","","k"],["r","2026-02",5,"Rendimentos de Aplicações","Sem cliente",0.18,1,"","","c"],["r","2026-02",5,"Rendimentos de Aplicações","Sem cliente",0.18,1,"","","k"],["r","2026-02",5,"Receita de Serviços - Plano Bronze","BETANIA KINACIA DE SOUZA SATURNINO",1200,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","BETANIA KINACIA DE SOUZA SATURNINO",1200,1,"","","k"],["r","2026-02",5,"Receitas de Serviços a Identificar","Sem cliente",368.25,1,"","","c"],["r","2026-02",5,"Receitas de Serviços a Identificar","Sem cliente",368.25,1,"","","k"],["r","2026-02",5,"Receitas de Serviços a Identificar","Sem cliente",193.98,1,"","","c"],["r","2026-02",5,"Receitas de Serviços a Identificar","Sem cliente",193.98,1,"","","k"],["r","2026-02",5,"Receitas de Serviços a Identificar","Sem cliente",547.09,1,"","","c"],["r","2026-02",5,"Receitas de Serviços a Identificar","Sem cliente",547.09,1,"","","k"],["r","2026-02",5,"Receitas de Serviços a Identificar","Sem cliente",1256.97,1,"","","c"],["r","2026-02",5,"Receitas de Serviços a Identificar","Sem cliente",1256.97,1,"","","k"],["r","2026-02",6,"Rendimentos de Aplicações","Sem cliente",0.02,1,"","","c"],["r","2026-02",6,"Rendimentos de Aplicações","Sem cliente",0.02,1,"","","k"],["r","2026-02",6,"Receita de Serviços - Plano Bronze","LAUDENICIA ALVES DE OLIVEIRA ZAROWNY",1900,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","LAUDENICIA ALVES DE OLIVEIRA ZAROWNY",1900,1,"","","k"],["r","2026-02",6,"Receitas de Serviços a Identificar","Sem cliente",615.8,1,"","","c"],["r","2026-02",6,"Receitas de Serviços a Identificar","Sem cliente",615.8,1,"","","k"],["r","2026-02",6,"Receitas de Serviços a Identificar","Sem cliente",365.52,1,"","","c"],["r","2026-02",6,"Receitas de Serviços a Identificar","Sem cliente",365.52,1,"","","k"],["r","2026-02",9,"Rendimentos de Aplicações","Sem cliente",0.03,1,"","","c"],["r","2026-02",9,"Rendimentos de Aplicações","Sem cliente",0.03,1,"","","k"],["r","2026-02",9,"Injetaveis","SOLANGE RODRIGUES DE SOUZA PIMENTA",135,1,"","","c"],["r","2026-03",31,"Injetaveis","SOLANGE RODRIGUES DE SOUZA PIMENTA",135,1,"","","k"],["r","2026-02",9,"Receitas de Serviços a Identificar","Sem cliente",1500,1,"","","c"],["r","2026-02",9,"Receitas de Serviços a Identificar","Sem cliente",1500,1,"","","k"],["r","2026-02",9,"Receitas de Serviços a Identificar","Sem cliente",728.25,1,"","","c"],["r","2026-02",9,"Receitas de Serviços a Identificar","Sem cliente",728.25,1,"","","k"],["r","2026-02",9,"Receitas de Serviços a Identificar","Sem cliente",2391.46,1,"","","c"],["r","2026-02",9,"Receitas de Serviços a Identificar","Sem cliente",2391.46,1,"","","k"],["r","2026-02",9,"Receitas de Serviços a Identificar","Sem cliente",5304.42,1,"","","c"],["r","2026-02",9,"Receitas de Serviços a Identificar","Sem cliente",5304.42,1,"","","k"],["r","2026-02",10,"Receita de Serviço - alquimia Prata","MARCELO PARANHO",935,1,"","","c"],["r","2026-03",31,"Receita de Serviço - alquimia Prata","MARCELO PARANHO",935,1,"","","k"],["r","2026-02",10,"Receitas de Serviços a Identificar","Sem cliente",242.48,1,"","","c"],["r","2026-02",10,"Receitas de Serviços a Identificar","Sem cliente",242.48,1,"","","k"],["r","2026-02",10,"Receitas de Serviços a Identificar","Sem cliente",448.64,1,"","","c"],["r","2026-02",10,"Receitas de Serviços a Identificar","Sem cliente",448.64,1,"","","k"],["r","2026-02",10,"Receitas de Serviços a Identificar","Sem cliente",1810.45,1,"","","c"],["r","2026-02",10,"Receitas de Serviços a Identificar","Sem cliente",1810.45,1,"","","k"],["r","2026-02",10,"Consulta","ÉRICA RODRIGUES LIMA BOECHAT",582,2,"","","c"],["r","2026-04",30,"Consulta","ÉRICA RODRIGUES LIMA BOECHAT",582,2,"","","k"],["r","2026-02",11,"Receitas de Serviços a Identificar","SHEILA MARIA NEGRI PONTES",550,1,"","","c"],["r","2026-02",11,"Receitas de Serviços a Identificar","SHEILA MARIA NEGRI PONTES",550,1,"","","k"],["r","2026-02",11,"Receita de Serviço - alquimia Prata","MARCELO PARANHO",1000,1,"","","c"],["r","2026-03",31,"Receita de Serviço - alquimia Prata","MARCELO PARANHO",1000,1,"","","k"],["r","2026-02",11,"Injetaveis","LEDIANA NEIVA ANACLETO OLIVEIRA",1108,1,"","","c"],["r","2026-03",31,"Injetaveis","LEDIANA NEIVA ANACLETO OLIVEIRA",1108,1,"","","k"],["r","2026-02",11,"Suplementos","LEDIANA NEIVA ANACLETO OLIVEIRA",75,1,"","","c"],["r","2026-04",30,"Suplementos","LEDIANA NEIVA ANACLETO OLIVEIRA",75,1,"","","k"],["r","2026-02",11,"Receita de Serviços - Plano Diamante","MERIELY RUFINO VAZ MUTZ",4175,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","MERIELY RUFINO VAZ MUTZ",4175,1,"","","k"],["r","2026-02",11,"Receitas de Serviços a Identificar","Sem cliente",582.6,1,"","","c"],["r","2026-02",11,"Receitas de Serviços a Identificar","Sem cliente",582.6,1,"","","k"],["r","2026-02",11,"Receitas de Serviços a Identificar","Sem cliente",133.85,1,"","","c"],["r","2026-02",11,"Receitas de Serviços a Identificar","Sem cliente",133.85,1,"","","k"],["r","2026-02",11,"Suplementos","JOSÉ ESTHEVAN PIRES DA CUNHA",135,2,"","","c"],["r","2026-04",30,"Suplementos","JOSÉ ESTHEVAN PIRES DA CUNHA",135,2,"","","k"],["r","2026-02",12,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",25,1,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",25,1,"","","k"],["r","2026-02",12,"Consulta","MAYKE CORREIA DE SOUZA",650,1,"","","c"],["r","2026-04",30,"Consulta","MAYKE CORREIA DE SOUZA",650,1,"","","k"],["r","2026-02",12,"Receita de Serviços - Plano Diamante","MAYKE CORREIA DE SOUZA",650,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","MAYKE CORREIA DE SOUZA",650,1,"","","k"],["r","2026-02",12,"Receitas de Serviços a Identificar","Sem cliente",233.33,1,"","","c"],["r","2026-02",12,"Receitas de Serviços a Identificar","Sem cliente",233.33,1,"","","k"],["r","2026-02",12,"Receitas de Serviços a Identificar","Sem cliente",417.06,1,"","","c"],["r","2026-02",12,"Receitas de Serviços a Identificar","Sem cliente",417.06,1,"","","k"],["r","2026-02",12,"Receitas de Serviços a Identificar","Sem cliente",847.24,1,"","","c"],["r","2026-02",12,"Receitas de Serviços a Identificar","Sem cliente",847.24,1,"","","k"],["r","2026-02",12,"Consulta","LETICIA BATISTA DE MORAES",650,2,"","","c"],["r","2026-04",30,"Consulta","LETICIA BATISTA DE MORAES",650,2,"","","k"],["r","2026-02",13,"Consulta","EDILAINE MARCIA MARCIANO DE SOUZA",650,1,"","","c"],["r","2026-04",30,"Consulta","EDILAINE MARCIA MARCIANO DE SOUZA",650,1,"","","k"],["r","2026-02",13,"Receitas de Serviços a Identificar","ADMIR CUSTÓDIO DE ALMEIDA JÚNIOR",140,1,"","","c"],["r","2026-02",13,"Receitas de Serviços a Identificar","ADMIR CUSTÓDIO DE ALMEIDA JÚNIOR",140,1,"","","k"],["r","2026-02",13,"Receita de Serviços - Plano Prata","CRISTIANE CANDIDA DA SILVA",4350,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","CRISTIANE CANDIDA DA SILVA",4350,1,"","","k"],["r","2026-02",13,"Receitas de Serviços a Identificar","Sem cliente",509.25,1,"","","c"],["r","2026-02",13,"Receitas de Serviços a Identificar","Sem cliente",509.25,1,"","","k"],["r","2026-02",13,"Suplementos","NAZARETH ALVES DE ARAÚJO",75,2,"","","c"],["r","2026-04",30,"Suplementos","NAZARETH ALVES DE ARAÚJO",75,2,"","","k"],["r","2026-02",18,"Consulta","DIVALDO GOMES DE SOUZA FILHO",650,1,"","","c"],["r","2026-04",30,"Consulta","DIVALDO GOMES DE SOUZA FILHO",650,1,"","","k"],["r","2026-02",18,"Consulta","VALDETE APARECIDA FERREIRA HERMISDOLFE",650,1,"","","c"],["r","2026-04",30,"Consulta","VALDETE APARECIDA FERREIRA HERMISDOLFE",650,1,"","","k"],["r","2026-02",18,"Receita de Serviços - Alquimia Ouro","TELMA DOMINGOS DA SILVA",300,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Alquimia Ouro","TELMA DOMINGOS DA SILVA",300,1,"","","k"],["r","2026-02",18,"Receita de Serviços - Plano Bronze","STEPHANIE SOLE BARABANI",1610,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","STEPHANIE SOLE BARABANI",1610,1,"","","k"],["r","2026-02",18,"Receitas de Serviços a Identificar","Sem cliente",3146.23,1,"","","c"],["r","2026-02",18,"Receitas de Serviços a Identificar","Sem cliente",3146.23,1,"","","k"],["r","2026-02",18,"Receitas de Serviços a Identificar","Sem cliente",251.21,1,"","","c"],["r","2026-02",18,"Receitas de Serviços a Identificar","Sem cliente",251.21,1,"","","k"],["r","2026-02",18,"Receitas de Serviços a Identificar","Sem cliente",73.83,1,"","","c"],["r","2026-02",18,"Receitas de Serviços a Identificar","Sem cliente",73.83,1,"","","k"],["r","2026-02",18,"Receitas de Serviços a Identificar","Sem cliente",384.08,1,"","","c"],["r","2026-02",18,"Receitas de Serviços a Identificar","Sem cliente",384.08,1,"","","k"],["r","2026-02",18,"Receitas de Serviços a Identificar","Sem cliente",2879.49,1,"","","c"],["r","2026-02",18,"Receitas de Serviços a Identificar","Sem cliente",2879.49,1,"","","k"],["r","2026-02",18,"Receitas de Serviços a Identificar","Sem cliente",10808.37,1,"","","c"],["r","2026-02",18,"Receitas de Serviços a Identificar","Sem cliente",10808.37,1,"","","k"],["r","2026-02",19,"Consulta","FABRÍCIO RODRIGUES LINHARES",650,1,"","","c"],["r","2026-04",30,"Consulta","FABRÍCIO RODRIGUES LINHARES",650,1,"","","k"],["r","2026-02",19,"Rendimentos de Aplicações","Sem cliente",0.21,1,"","","c"],["r","2026-02",19,"Rendimentos de Aplicações","Sem cliente",0.21,1,"","","k"],["r","2026-02",19,"Receitas de Serviços a Identificar","NOEME PEDROSA DE SOUZA SATURNINO",270,1,"","","c"],["r","2026-02",19,"Receitas de Serviços a Identificar","NOEME PEDROSA DE SOUZA SATURNINO",270,1,"","","k"],["r","2026-02",19,"Receitas de Serviços a Identificar","Sem cliente",1251.57,1,"","","c"],["r","2026-02",19,"Receitas de Serviços a Identificar","Sem cliente",1251.57,1,"","","k"],["r","2026-02",19,"Receitas de Serviços a Identificar","Sem cliente",2087.1,1,"","","c"],["r","2026-02",19,"Receitas de Serviços a Identificar","Sem cliente",2087.1,1,"","","k"],["r","2026-02",19,"Receitas de Serviços a Identificar","Sem cliente",314.42,1,"","","c"],["r","2026-02",19,"Receitas de Serviços a Identificar","Sem cliente",314.42,1,"","","k"],["r","2026-02",19,"Receitas de Serviços a Identificar","Sem cliente",368.56,1,"","","c"],["r","2026-02",19,"Receitas de Serviços a Identificar","Sem cliente",368.56,1,"","","k"],["r","2026-02",19,"Receitas de Serviços a Identificar","Sem cliente",3937.6,1,"","","c"],["r","2026-02",19,"Receitas de Serviços a Identificar","Sem cliente",3937.6,1,"","","k"],["r","2026-02",20,"Receitas de Serviços a Identificar","Sem cliente",659.44,1,"","","c"],["r","2026-02",20,"Receitas de Serviços a Identificar","Sem cliente",659.44,1,"","","k"],["r","2026-02",20,"Receitas de Serviços a Identificar","Sem cliente",1725.49,1,"","","c"],["r","2026-02",20,"Receitas de Serviços a Identificar","Sem cliente",1725.49,1,"","","k"],["r","2026-02",20,"Receitas de Serviços a Identificar","Sem cliente",821.79,1,"","","c"],["r","2026-02",20,"Receitas de Serviços a Identificar","Sem cliente",821.79,1,"","","k"],["r","2026-02",20,"Receitas de Serviços a Identificar","Sem cliente",282.73,1,"","","c"],["r","2026-02",20,"Receitas de Serviços a Identificar","Sem cliente",282.73,1,"","","k"],["r","2026-02",20,"Receitas de Serviços a Identificar","Sem cliente",1544.16,1,"","","c"],["r","2026-02",20,"Receitas de Serviços a Identificar","Sem cliente",1544.16,1,"","","k"],["r","2026-02",20,"Receitas de Serviços a Identificar","Sem cliente",2930.31,1,"","","c"],["r","2026-02",20,"Receitas de Serviços a Identificar","Sem cliente",2930.31,1,"","","k"],["r","2026-02",23,"Injetaveis","FERNANDA APARECIDA DE ALMEIDA",1747.9,1,"","","c"],["r","2026-03",31,"Injetaveis","FERNANDA APARECIDA DE ALMEIDA",1747.9,1,"","","k"],["r","2026-02",23,"Receitas de Serviços a Identificar","SHEILA MARIA NEGRI PONTES",3696,1,"","","c"],["r","2026-02",23,"Receitas de Serviços a Identificar","SHEILA MARIA NEGRI PONTES",3696,1,"","","k"],["r","2026-02",23,"Receita de Serviços - Plano Prata","ISABELA CRISTINA FANTI",7880,1,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","ISABELA CRISTINA FANTI",7880,1,"","","k"],["r","2026-02",23,"Injetaveis","ISABELA CRISTINA FANTI",900,1,"","","c"],["r","2026-03",31,"Injetaveis","ISABELA CRISTINA FANTI",900,1,"","","k"],["r","2026-02",23,"Suplementos","ISABELA CRISTINA FANTI",320,1,"","","c"],["r","2026-04",30,"Suplementos","ISABELA CRISTINA FANTI",320,1,"","","k"],["r","2026-02",23,"Receitas de Serviços a Identificar","Sem cliente",356.47,1,"","","c"],["r","2026-02",23,"Receitas de Serviços a Identificar","Sem cliente",356.47,1,"","","k"],["r","2026-02",23,"Receitas de Serviços a Identificar","Sem cliente",316.78,1,"","","c"],["r","2026-02",23,"Receitas de Serviços a Identificar","Sem cliente",316.78,1,"","","k"],["r","2026-02",23,"Receitas de Serviços a Identificar","Sem cliente",673.18,1,"","","c"],["r","2026-02",23,"Receitas de Serviços a Identificar","Sem cliente",673.18,1,"","","k"],["r","2026-02",23,"Receitas de Serviços a Identificar","Sem cliente",3103.5,1,"","","c"],["r","2026-02",23,"Receitas de Serviços a Identificar","Sem cliente",3103.5,1,"","","k"],["r","2026-02",23,"Receitas de Serviços a Identificar","Sem cliente",3366.29,1,"","","c"],["r","2026-02",23,"Receitas de Serviços a Identificar","Sem cliente",3366.29,1,"","","k"],["r","2026-02",23,"Suplementos","MARLETE ALVARES CABRAL",50,2,"","","c"],["r","2026-04",30,"Suplementos","MARLETE ALVARES CABRAL",50,2,"","","k"],["r","2026-02",24,"Receita de Serviços - Plano Diamante","MAYKE CORREIA DE SOUZA",5000,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","MAYKE CORREIA DE SOUZA",5000,1,"","","k"],["r","2026-02",24,"Receitas de Serviços a Identificar","Sem cliente",479.8,1,"","","c"],["r","2026-02",24,"Receitas de Serviços a Identificar","Sem cliente",479.8,1,"","","k"],["r","2026-02",24,"Receitas de Serviços a Identificar","Sem cliente",836.74,1,"","","c"],["r","2026-02",24,"Receitas de Serviços a Identificar","Sem cliente",836.74,1,"","","k"],["r","2026-02",24,"Receitas de Serviços a Identificar","Sem cliente",581.94,1,"","","c"],["r","2026-02",24,"Receitas de Serviços a Identificar","Sem cliente",581.94,1,"","","k"],["r","2026-02",25,"Receita de Serviços - Plano Prata","SALETTE DE ALMEIDA SANTANA",150,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","SALETTE DE ALMEIDA SANTANA",150,1,"","","k"],["r","2026-02",25,"Suplementos","SALETTE DE ALMEIDA SANTANA",135,1,"","","c"],["r","2026-04",30,"Suplementos","SALETTE DE ALMEIDA SANTANA",135,1,"","","k"],["r","2026-02",25,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",600,1,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",600,1,"","","k"],["r","2026-02",25,"Receitas de Serviços a Identificar","Sem cliente",1108.46,1,"","","c"],["r","2026-02",25,"Receitas de Serviços a Identificar","Sem cliente",1108.46,1,"","","k"],["r","2026-02",26,"Receita de Serviços - Plano Diamante","MAYKE CORREIA DE SOUZA",2460,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","MAYKE CORREIA DE SOUZA",2460,1,"","","k"],["r","2026-02",26,"Receita de Serviços - Plano Bronze","TELMELITA SAAR ORECCHIO",3900,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","TELMELITA SAAR ORECCHIO",3900,1,"","","k"],["r","2026-02",26,"Receitas de Serviços a Identificar","Sem cliente",1698.25,1,"","","c"],["r","2026-02",26,"Receitas de Serviços a Identificar","Sem cliente",1698.25,1,"","","k"],["r","2026-02",26,"Receitas de Serviços a Identificar","Sem cliente",193.08,1,"","","c"],["r","2026-02",26,"Receitas de Serviços a Identificar","Sem cliente",193.08,1,"","","k"],["r","2026-02",26,"Receitas de Serviços a Identificar","Sem cliente",3143.61,1,"","","c"],["r","2026-02",26,"Receitas de Serviços a Identificar","Sem cliente",3143.61,1,"","","k"],["r","2026-02",26,"Receitas de Serviços a Identificar","Sem cliente",236.1,1,"","","c"],["r","2026-02",26,"Receitas de Serviços a Identificar","Sem cliente",236.1,1,"","","k"],["r","2026-02",27,"Receita de Serviços - Plano Prata","MARIA LEUZINA DE AGUIAR DIAS",4600,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","MARIA LEUZINA DE AGUIAR DIAS",4600,1,"","","k"],["r","2026-02",27,"Receitas de Serviços a Identificar","Sem cliente",435.03,1,"","","c"],["r","2026-02",27,"Receitas de Serviços a Identificar","Sem cliente",435.03,1,"","","k"],["r","2026-02",27,"Receitas de Serviços a Identificar","Sem cliente",1621.2,1,"","","c"],["r","2026-02",27,"Receitas de Serviços a Identificar","Sem cliente",1621.2,1,"","","k"],["r","2026-03",2,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",400,1,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",400,1,"","","k"],["r","2026-03",2,"Receitas de Serviços a Identificar","SANDRA VIEIRA FARIA",430,1,"","","c"],["r","2026-03",2,"Receitas de Serviços a Identificar","SANDRA VIEIRA FARIA",430,1,"","","k"],["r","2026-03",2,"Receita de Serviços - Plano Diamante","EDILAINE MARCIA MARCIANO DE SOUZA",3340,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","EDILAINE MARCIA MARCIANO DE SOUZA",3340,1,"","","k"],["r","2026-03",2,"Receitas de Serviços a Identificar","Sem cliente",145.65,1,"","","c"],["r","2026-03",2,"Receitas de Serviços a Identificar","Sem cliente",145.65,1,"","","k"],["r","2026-03",2,"Receitas de Serviços a Identificar","Sem cliente",216.05,1,"","","c"],["r","2026-03",2,"Receitas de Serviços a Identificar","Sem cliente",216.05,1,"","","k"],["r","2026-03",2,"Receitas de Serviços a Identificar","Sem cliente",389.2,1,"","","c"],["r","2026-03",2,"Receitas de Serviços a Identificar","Sem cliente",389.2,1,"","","k"],["r","2026-03",2,"Receitas de Serviços a Identificar","Sem cliente",622.72,1,"","","c"],["r","2026-03",2,"Receitas de Serviços a Identificar","Sem cliente",622.72,1,"","","k"],["r","2026-03",2,"Receitas de Serviços a Identificar","Sem cliente",1744.02,1,"","","c"],["r","2026-03",2,"Receitas de Serviços a Identificar","Sem cliente",1744.02,1,"","","k"],["r","2026-03",2,"Receitas de Serviços a Identificar","Sem cliente",2800.14,1,"","","c"],["r","2026-03",2,"Receitas de Serviços a Identificar","Sem cliente",2800.14,1,"","","k"],["r","2026-03",3,"Suplementos","ÉRICA RODRIGUES LIMA BOECHAT",75,1,"","","c"],["r","2026-04",30,"Suplementos","ÉRICA RODRIGUES LIMA BOECHAT",75,1,"","","k"],["r","2026-03",3,"Rendimentos de Aplicações","Sem cliente",5.48,1,"","","c"],["r","2026-03",3,"Rendimentos de Aplicações","Sem cliente",5.48,1,"","","k"],["r","2026-03",3,"Receitas de Serviços a Identificar","Sem cliente",1159.11,1,"","","c"],["r","2026-03",3,"Receitas de Serviços a Identificar","Sem cliente",1159.11,1,"","","k"],["r","2026-03",3,"Receitas de Serviços a Identificar","Sem cliente",1855.91,1,"","","c"],["r","2026-03",3,"Receitas de Serviços a Identificar","Sem cliente",1855.91,1,"","","k"],["r","2026-03",3,"Receitas de Serviços a Identificar","Sem cliente",345.6,1,"","","c"],["r","2026-03",3,"Receitas de Serviços a Identificar","Sem cliente",345.6,1,"","","k"],["r","2026-03",4,"Rendimentos de Aplicações","Sem cliente",0.12,1,"","","c"],["r","2026-03",4,"Rendimentos de Aplicações","Sem cliente",0.12,1,"","","k"],["r","2026-03",4,"Receitas de Serviços a Identificar","ANA LÚCIA COLOMBEKI SALDANHA",650,1,"","","c"],["r","2026-03",4,"Receitas de Serviços a Identificar","ANA LÚCIA COLOMBEKI SALDANHA",650,1,"","","k"],["r","2026-03",4,"Receitas de Serviços a Identificar","Sem cliente",1173.42,1,"","","c"],["r","2026-03",4,"Receitas de Serviços a Identificar","Sem cliente",1173.42,1,"","","k"],["r","2026-03",4,"Receitas de Serviços a Identificar","Sem cliente",620.74,1,"","","c"],["r","2026-03",4,"Receitas de Serviços a Identificar","Sem cliente",620.74,1,"","","k"],["r","2026-03",4,"Receitas de Serviços a Identificar","Sem cliente",809.76,1,"","","c"],["r","2026-03",4,"Receitas de Serviços a Identificar","Sem cliente",809.76,1,"","","k"],["r","2026-03",4,"Receitas de Serviços a Identificar","Sem cliente",4151.32,1,"","","c"],["r","2026-03",4,"Receitas de Serviços a Identificar","Sem cliente",4151.32,1,"","","k"],["r","2026-03",5,"Receita de Serviços - Plano Prata","ZILDA MARIA MAIA DE CARVALHO",4500,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","ZILDA MARIA MAIA DE CARVALHO",4500,1,"","","k"],["r","2026-03",5,"Receitas de Serviços a Identificar","Sem cliente",1873.2,1,"","","c"],["r","2026-03",5,"Receitas de Serviços a Identificar","Sem cliente",1873.2,1,"","","k"],["r","2026-03",5,"Receitas de Serviços a Identificar","Sem cliente",652.58,1,"","","c"],["r","2026-03",5,"Receitas de Serviços a Identificar","Sem cliente",652.58,1,"","","k"],["r","2026-03",5,"Receitas de Serviços a Identificar","Sem cliente",1181.28,1,"","","c"],["r","2026-03",5,"Receitas de Serviços a Identificar","Sem cliente",1181.28,1,"","","k"],["r","2026-03",5,"Receitas de Serviços a Identificar","Sem cliente",1186.39,1,"","","c"],["r","2026-03",5,"Receitas de Serviços a Identificar","Sem cliente",1186.39,1,"","","k"],["r","2026-03",5,"Receitas de Serviços a Identificar","Sem cliente",2088.69,1,"","","c"],["r","2026-03",5,"Receitas de Serviços a Identificar","Sem cliente",2088.69,1,"","","k"],["r","2026-04",30,"Receita de Serviços - Plano Diamante","BETANIA KINACIA DE SOUZA SATURNINO",2164.67,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Diamante","BETANIA KINACIA DE SOUZA SATURNINO",2164.67,2,"","","k"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",280,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",280,2,"","","k"],["r","2026-03",6,"Receita de Serviços - Plano Prata","ADELSON ANDRE BAECE STREY",210,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","ADELSON ANDRE BAECE STREY",210,1,"","","k"],["r","2026-03",6,"Receita de Serviços - Plano Prata","LETICIA RENATA RODRIGUES SOUZA PIONTI",2000,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","LETICIA RENATA RODRIGUES SOUZA PIONTI",2000,1,"","","k"],["r","2026-03",6,"Receita de Serviços - Plano Prata","VALDETE APARECIDA FERREIRA HERMISDOLFE",5000,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","VALDETE APARECIDA FERREIRA HERMISDOLFE",5000,1,"","","k"],["r","2026-03",6,"Receitas de Serviços a Identificar","Sem cliente",1177.62,1,"","","c"],["r","2026-03",6,"Receitas de Serviços a Identificar","Sem cliente",1177.62,1,"","","k"],["r","2026-03",6,"Receitas de Serviços a Identificar","Sem cliente",1740.96,1,"","","c"],["r","2026-03",6,"Receitas de Serviços a Identificar","Sem cliente",1740.96,1,"","","k"],["r","2026-03",6,"Receitas de Serviços a Identificar","Sem cliente",1920.99,1,"","","c"],["r","2026-03",6,"Receitas de Serviços a Identificar","Sem cliente",1920.99,1,"","","k"],["r","2026-03",6,"Receitas de Serviços a Identificar","Sem cliente",3584.81,1,"","","c"],["r","2026-03",6,"Receitas de Serviços a Identificar","Sem cliente",3584.81,1,"","","k"],["r","2026-03",7,"Receita de Serviços - Plano Bronze","ROSANGELA GOMES RIBEIRO FIUZA",3367,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","ROSANGELA GOMES RIBEIRO FIUZA",3367,2,"","","k"],["r","2026-05",30,"Adicional de Tizerpatida","THAÍS DAMASCENA DE PAULO HONORATO",400,2,"","","c"],["r","2026-04",30,"Adicional de Tizerpatida","THAÍS DAMASCENA DE PAULO HONORATO",400,2,"","","k"],["r","2026-03",9,"Consulta","MARILZA DE AGUIAR DIAS",650,1,"","","c"],["r","2026-04",30,"Consulta","MARILZA DE AGUIAR DIAS",650,1,"","","k"],["r","2026-03",9,"Rendimentos de Aplicações","Sem cliente",0.23,1,"","","c"],["r","2026-03",9,"Rendimentos de Aplicações","Sem cliente",0.23,1,"","","k"],["r","2026-03",9,"Receitas de Serviços a Identificar","Sem cliente",368.25,1,"","","c"],["r","2026-03",9,"Receitas de Serviços a Identificar","Sem cliente",368.25,1,"","","k"],["r","2026-03",9,"Receitas de Serviços a Identificar","Sem cliente",3011.86,1,"","","c"],["r","2026-03",9,"Receitas de Serviços a Identificar","Sem cliente",3011.86,1,"","","k"],["r","2026-03",9,"Receitas de Serviços a Identificar","Sem cliente",547.05,1,"","","c"],["r","2026-03",9,"Receitas de Serviços a Identificar","Sem cliente",547.05,1,"","","k"],["r","2026-03",9,"Receitas de Serviços a Identificar","Sem cliente",2117.6,1,"","","c"],["r","2026-03",9,"Receitas de Serviços a Identificar","Sem cliente",2117.6,1,"","","k"],["r","2026-03",9,"Receitas de Serviços a Identificar","Sem cliente",3018.1,1,"","","c"],["r","2026-03",9,"Receitas de Serviços a Identificar","Sem cliente",3018.1,1,"","","k"],["r","2026-03",9,"Suplementos","SAYONARIA LOPES EVANGELISTA",185,2,"","","c"],["r","2026-04",30,"Suplementos","SAYONARIA LOPES EVANGELISTA",185,2,"","","k"],["r","2026-03",10,"Consulta","NATALIA PEREIRA MARTINS SILVA",650,1,"","","c"],["r","2026-04",30,"Consulta","NATALIA PEREIRA MARTINS SILVA",650,1,"","","k"],["r","2026-03",10,"Receitas de Serviços a Identificar","Sem cliente",285,1,"","","c"],["r","2026-03",10,"Receitas de Serviços a Identificar","Sem cliente",285,1,"","","k"],["r","2026-03",10,"Injetaveis","ITELVINA FERNANDA DE OLIVEIRA VERLY",975,1,"","","c"],["r","2026-03",31,"Injetaveis","ITELVINA FERNANDA DE OLIVEIRA VERLY",975,1,"","","k"],["r","2026-03",10,"Receitas de Serviços a Identificar","Sem cliente",503.43,1,"","","c"],["r","2026-03",10,"Receitas de Serviços a Identificar","Sem cliente",503.43,1,"","","k"],["r","2026-03",10,"Suplementos","RODRIGO SOARES SIQUEIRA",60,2,"","","c"],["r","2026-04",30,"Suplementos","RODRIGO SOARES SIQUEIRA",60,2,"","","k"],["r","2026-03",11,"Receitas de Serviços a Identificar","Sem cliente",388,1,"","","c"],["r","2026-03",11,"Receitas de Serviços a Identificar","Sem cliente",388,1,"","","k"],["r","2026-03",11,"Receitas de Serviços a Identificar","Sem cliente",2966.88,1,"","","c"],["r","2026-03",11,"Receitas de Serviços a Identificar","Sem cliente",2966.88,1,"","","k"],["r","2026-03",12,"Suplementos","ISADORA DE VETE BOTELHO",75,1,"","","c"],["r","2026-04",30,"Suplementos","ISADORA DE VETE BOTELHO",75,1,"","","k"],["r","2026-03",12,"Receita de Serviços - Plano Prata","ADELSON ANDRE BAECE STREY",4128,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","ADELSON ANDRE BAECE STREY",4128,1,"","","k"],["r","2026-03",12,"Receitas de Serviços a Identificar","NOEME PEDROSA DE SOUZA SATURNINO",5100,1,"","","c"],["r","2026-03",12,"Receitas de Serviços a Identificar","NOEME PEDROSA DE SOUZA SATURNINO",5100,1,"","","k"],["r","2026-03",12,"Receitas de Serviços a Identificar","Sem cliente",448.64,1,"","","c"],["r","2026-03",12,"Receitas de Serviços a Identificar","Sem cliente",448.64,1,"","","k"],["r","2026-03",12,"Receitas de Serviços a Identificar","Sem cliente",2377.9,1,"","","c"],["r","2026-03",12,"Receitas de Serviços a Identificar","Sem cliente",2377.9,1,"","","k"],["r","2026-03",12,"Receitas de Serviços a Identificar","Sem cliente",242.48,1,"","","c"],["r","2026-03",12,"Receitas de Serviços a Identificar","Sem cliente",242.48,1,"","","k"],["r","2026-03",13,"Consulta","HIGLEST ALVES DE LA SALLE",650,1,"","","c"],["r","2026-04",30,"Consulta","HIGLEST ALVES DE LA SALLE",650,1,"","","k"],["r","2026-03",13,"Rendimentos de Aplicações","Sem cliente",1.25,1,"","","c"],["r","2026-03",13,"Rendimentos de Aplicações","Sem cliente",1.25,1,"","","k"],["r","2026-03",13,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",500,1,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",500,1,"","","k"],["r","2026-03",13,"Receitas de Serviços a Identificar","Sem cliente",582.6,1,"","","c"],["r","2026-03",13,"Receitas de Serviços a Identificar","Sem cliente",582.6,1,"","","k"],["r","2026-03",13,"Receitas de Serviços a Identificar","Sem cliente",133.85,1,"","","c"],["r","2026-03",13,"Receitas de Serviços a Identificar","Sem cliente",133.85,1,"","","k"],["r","2026-03",13,"Receitas de Serviços a Identificar","Sem cliente",498.23,1,"","","c"],["r","2026-03",13,"Receitas de Serviços a Identificar","Sem cliente",498.23,1,"","","k"],["r","2026-03",13,"Receitas de Serviços a Identificar","Sem cliente",2228.34,1,"","","c"],["r","2026-03",13,"Receitas de Serviços a Identificar","Sem cliente",2228.34,1,"","","k"],["r","2026-03",16,"Rendimentos de Aplicações","Sem cliente",0.03,1,"","","c"],["r","2026-03",16,"Rendimentos de Aplicações","Sem cliente",0.03,1,"","","k"],["r","2026-03",16,"Receitas de Serviços a Identificar","Sem cliente",251.21,1,"","","c"],["r","2026-03",16,"Receitas de Serviços a Identificar","Sem cliente",251.21,1,"","","k"],["r","2026-03",16,"Receitas de Serviços a Identificar","Sem cliente",233.33,1,"","","c"],["r","2026-03",16,"Receitas de Serviços a Identificar","Sem cliente",233.33,1,"","","k"],["r","2026-03",16,"Receitas de Serviços a Identificar","Sem cliente",417.06,1,"","","c"],["r","2026-03",16,"Receitas de Serviços a Identificar","Sem cliente",417.06,1,"","","k"],["r","2026-03",16,"Receitas de Serviços a Identificar","Sem cliente",3492.37,1,"","","c"],["r","2026-03",16,"Receitas de Serviços a Identificar","Sem cliente",3492.37,1,"","","k"],["r","2026-03",17,"Receita de Serviços - Plano Diamante","FABRÍCIO RODRIGUES LINHARES",1500,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","FABRÍCIO RODRIGUES LINHARES",1500,1,"","","k"],["r","2026-03",17,"Receitas de Serviços a Identificar","Sem cliente",1700,1,"","","c"],["r","2026-03",17,"Receitas de Serviços a Identificar","Sem cliente",1700,1,"","","k"],["r","2026-03",17,"Receita de Serviços - Plano Bronze","AMANTINO STEFANON",2700,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","AMANTINO STEFANON",2700,1,"","","k"],["r","2026-03",17,"Receita de Serviços - Protocolo Body Reset","ANA LÚCIA COLOMBEKI SALDANHA",3000,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Protocolo Body Reset","ANA LÚCIA COLOMBEKI SALDANHA",3000,1,"","","k"],["r","2026-03",17,"Receitas de Serviços a Identificar","Sem cliente",465.98,1,"","","c"],["r","2026-03",17,"Receitas de Serviços a Identificar","Sem cliente",465.98,1,"","","k"],["r","2026-03",17,"Receitas de Serviços a Identificar","Sem cliente",1220.43,1,"","","c"],["r","2026-03",17,"Receitas de Serviços a Identificar","Sem cliente",1220.43,1,"","","k"],["r","2026-03",17,"Receitas de Serviços a Identificar","Sem cliente",384.08,1,"","","c"],["r","2026-03",17,"Receitas de Serviços a Identificar","Sem cliente",384.08,1,"","","k"],["r","2026-03",18,"Receitas de Serviços a Identificar","Sem cliente",468,1,"","","c"],["r","2026-03",18,"Receitas de Serviços a Identificar","Sem cliente",468,1,"","","k"],["r","2026-03",18,"Injetaveis","SOLANGE RODRIGUES DE SOUZA PIMENTA",333,1,"","","c"],["r","2026-03",31,"Injetaveis","SOLANGE RODRIGUES DE SOUZA PIMENTA",333,1,"","","k"],["r","2026-03",18,"Receitas de Serviços a Identificar","Sem cliente",135,1,"","","c"],["r","2026-03",18,"Receitas de Serviços a Identificar","Sem cliente",135,1,"","","k"],["r","2026-03",18,"Receitas de Serviços a Identificar","Sem cliente",350.28,1,"","","c"],["r","2026-03",18,"Receitas de Serviços a Identificar","Sem cliente",350.28,1,"","","k"],["r","2026-03",18,"Receitas de Serviços a Identificar","Sem cliente",1608.47,1,"","","c"],["r","2026-03",18,"Receitas de Serviços a Identificar","Sem cliente",1608.47,1,"","","k"],["r","2026-03",19,"Receita de Serviços - Plano Diamante","MERIELY RUFINO VAZ MUTZ",75,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","MERIELY RUFINO VAZ MUTZ",75,1,"","","k"],["r","2026-03",19,"Receitas de Serviços a Identificar","Sem cliente",1368.09,1,"","","c"],["r","2026-03",19,"Receitas de Serviços a Identificar","Sem cliente",1368.09,1,"","","k"],["r","2026-03",19,"Receitas de Serviços a Identificar","Sem cliente",5606.07,1,"","","c"],["r","2026-03",19,"Receitas de Serviços a Identificar","Sem cliente",5606.07,1,"","","k"],["r","2026-03",19,"Receitas de Serviços a Identificar","Sem cliente",560.8,1,"","","c"],["r","2026-03",19,"Receitas de Serviços a Identificar","Sem cliente",560.8,1,"","","k"],["r","2026-03",20,"Adicional de Tizerpatida","WARLLEM FERREIRA COSTA",1540,1,"","","c"],["r","2026-04",30,"Adicional de Tizerpatida","WARLLEM FERREIRA COSTA",1540,1,"","","k"],["r","2026-03",20,"Receita de Serviços - Plano Prata","VALDETE APARECIDA FERREIRA HERMISDOLFE",75,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","VALDETE APARECIDA FERREIRA HERMISDOLFE",75,1,"","","k"],["r","2026-03",20,"Receita de Serviços - Plano Prata","HIGLEST ALVES DE LA SALLE",2690,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","HIGLEST ALVES DE LA SALLE",2690,1,"","","k"],["r","2026-03",20,"Receitas de Serviços a Identificar","Sem cliente",355.72,1,"","","c"],["r","2026-03",20,"Receitas de Serviços a Identificar","Sem cliente",355.72,1,"","","k"],["r","2026-03",20,"Receitas de Serviços a Identificar","Sem cliente",1037.67,1,"","","c"],["r","2026-03",20,"Receitas de Serviços a Identificar","Sem cliente",1037.67,1,"","","k"],["r","2026-03",20,"Receitas de Serviços a Identificar","Sem cliente",926.4,1,"","","c"],["r","2026-03",20,"Receitas de Serviços a Identificar","Sem cliente",926.4,1,"","","k"],["r","2026-03",20,"Receitas de Serviços a Identificar","Sem cliente",966.57,1,"","","c"],["r","2026-03",20,"Receitas de Serviços a Identificar","Sem cliente",966.57,1,"","","k"],["r","2026-03",20,"Receitas de Serviços a Identificar","Sem cliente",1655.56,1,"","","c"],["r","2026-03",20,"Receitas de Serviços a Identificar","Sem cliente",1655.56,1,"","","k"],["r","2026-03",23,"Rendimentos de Aplicações","Sem cliente",0.39,1,"","","c"],["r","2026-03",23,"Rendimentos de Aplicações","Sem cliente",0.39,1,"","","k"],["r","2026-03",23,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",500,1,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",500,1,"","","k"],["r","2026-03",23,"Receitas de Serviços a Identificar","Sem cliente",646.35,1,"","","c"],["r","2026-03",23,"Receitas de Serviços a Identificar","Sem cliente",646.35,1,"","","k"],["r","2026-03",23,"Receitas de Serviços a Identificar","Sem cliente",2543.25,1,"","","c"],["r","2026-03",23,"Receitas de Serviços a Identificar","Sem cliente",2543.25,1,"","","k"],["r","2026-03",23,"Receitas de Serviços a Identificar","Sem cliente",659.44,1,"","","c"],["r","2026-03",23,"Receitas de Serviços a Identificar","Sem cliente",659.44,1,"","","k"],["r","2026-03",23,"Receitas de Serviços a Identificar","Sem cliente",480.1,1,"","","c"],["r","2026-03",23,"Receitas de Serviços a Identificar","Sem cliente",480.1,1,"","","k"],["r","2026-03",23,"Receitas de Serviços a Identificar","Sem cliente",821.79,1,"","","c"],["r","2026-03",23,"Receitas de Serviços a Identificar","Sem cliente",821.79,1,"","","k"],["r","2026-03",23,"Receitas de Serviços a Identificar","Sem cliente",997.14,1,"","","c"],["r","2026-03",23,"Receitas de Serviços a Identificar","Sem cliente",997.14,1,"","","k"],["r","2026-03",23,"Receitas de Serviços a Identificar","Sem cliente",1410.77,1,"","","c"],["r","2026-03",23,"Receitas de Serviços a Identificar","Sem cliente",1410.77,1,"","","k"],["r","2026-03",23,"Receitas de Serviços a Identificar","Sem cliente",3852.07,1,"","","c"],["r","2026-03",23,"Receitas de Serviços a Identificar","Sem cliente",3852.07,1,"","","k"],["r","2026-03",24,"Injetaveis","ELIZABETH DE REZENDE ALMEIDA",680,1,"","","c"],["r","2026-04",30,"Injetaveis","ELIZABETH DE REZENDE ALMEIDA",680,1,"","","k"],["r","2026-03",24,"Rendimentos de Aplicações","Sem cliente",0.58,1,"","","c"],["r","2026-03",24,"Rendimentos de Aplicações","Sem cliente",0.58,1,"","","k"],["r","2026-03",24,"Injetaveis","LIETE VOLPONI FORTUNA",75,1,"","","c"],["r","2026-03",31,"Injetaveis","LIETE VOLPONI FORTUNA",75,1,"","","k"],["r","2026-03",24,"Receita de Serviços - Plano Bronze","ANA PAULA COELHO PORTES MATTOS",400,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","ANA PAULA COELHO PORTES MATTOS",400,1,"","","k"],["r","2026-03",24,"Receitas de Serviços a Identificar","LINDAURA RODRIGUES BARBOSA ASSIS",650,1,"","","c"],["r","2026-03",24,"Receitas de Serviços a Identificar","LINDAURA RODRIGUES BARBOSA ASSIS",650,1,"","","k"],["r","2026-03",24,"Receitas de Serviços a Identificar","Sem cliente",750,1,"","","c"],["r","2026-03",24,"Receitas de Serviços a Identificar","Sem cliente",750,1,"","","k"],["r","2026-03",24,"Receita de Serviços - Plano Bronze","TELMELITA SAAR ORECCHIO",4782,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","TELMELITA SAAR ORECCHIO",4782,1,"","","k"],["r","2026-03",24,"Receita de Serviços - Plano Prata","HIGLEST ALVES DE LA SALLE",6910,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","HIGLEST ALVES DE LA SALLE",6910,1,"","","k"],["r","2026-03",24,"Receitas de Serviços a Identificar","Sem cliente",3830.55,1,"","","c"],["r","2026-03",24,"Receitas de Serviços a Identificar","Sem cliente",3830.55,1,"","","k"],["r","2026-03",24,"Receitas de Serviços a Identificar","Sem cliente",1621.01,1,"","","c"],["r","2026-03",24,"Receitas de Serviços a Identificar","Sem cliente",1621.01,1,"","","k"],["r","2026-03",24,"Receitas de Serviços a Identificar","Sem cliente",2053.17,1,"","","c"],["r","2026-03",24,"Receitas de Serviços a Identificar","Sem cliente",2053.17,1,"","","k"],["r","2026-03",25,"Receita de Serviços - Plano Prata","KEILA SOARES RODRIGUES MONTEIRO",3500,1,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","KEILA SOARES RODRIGUES MONTEIRO",3500,1,"","","k"],["r","2026-03",25,"Receitas de Serviços a Identificar","Sem cliente",443.04,1,"","","c"],["r","2026-03",25,"Receitas de Serviços a Identificar","Sem cliente",443.04,1,"","","k"],["r","2026-03",25,"Receitas de Serviços a Identificar","Sem cliente",1303.95,1,"","","c"],["r","2026-03",25,"Receitas de Serviços a Identificar","Sem cliente",1303.95,1,"","","k"],["r","2026-03",26,"Rendimentos de Aplicações","Sem cliente",0.14,1,"","","c"],["r","2026-03",26,"Rendimentos de Aplicações","Sem cliente",0.14,1,"","","k"],["r","2026-03",26,"Receita de Serviços - Plano Diamante","LETICIA BATISTA DE MORAES",75,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","LETICIA BATISTA DE MORAES",75,1,"","","k"],["r","2026-03",26,"Suplementos","ZILDA MARIA MAIA DE CARVALHO",75,1,"","","c"],["r","2026-04",30,"Suplementos","ZILDA MARIA MAIA DE CARVALHO",75,1,"","","k"],["r","2026-03",26,"Receitas de Serviços a Identificar","Sem cliente",479.8,1,"","","c"],["r","2026-03",26,"Receitas de Serviços a Identificar","Sem cliente",479.8,1,"","","k"],["r","2026-03",26,"Receitas de Serviços a Identificar","Sem cliente",654.92,1,"","","c"],["r","2026-03",26,"Receitas de Serviços a Identificar","Sem cliente",654.92,1,"","","k"],["r","2026-03",26,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",625,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",625,2,"","","k"],["r","2026-03",27,"Rendimentos de Aplicações","Sem cliente",0.01,1,"","","c"],["r","2026-03",27,"Rendimentos de Aplicações","Sem cliente",0.01,1,"","","k"],["r","2026-03",27,"Receitas de Serviços a Identificar","Sem cliente",607.78,1,"","","c"],["r","2026-03",27,"Receitas de Serviços a Identificar","Sem cliente",607.78,1,"","","k"],["r","2026-03",30,"Receita de Serviços - Plano Prata","ZILDA MARIA MAIA DE CARVALHO",5000,1,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","ZILDA MARIA MAIA DE CARVALHO",5000,1,"","","k"],["r","2026-03",30,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",500,1,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",500,1,"","","k"],["r","2026-03",30,"Receitas de Serviços a Identificar","Sem cliente",193.08,1,"","","c"],["r","2026-03",30,"Receitas de Serviços a Identificar","Sem cliente",193.08,1,"","","k"],["r","2026-03",30,"Receitas de Serviços a Identificar","Sem cliente",389.2,1,"","","c"],["r","2026-03",30,"Receitas de Serviços a Identificar","Sem cliente",389.2,1,"","","k"],["r","2026-03",30,"Receitas de Serviços a Identificar","Sem cliente",435.03,1,"","","c"],["r","2026-03",30,"Receitas de Serviços a Identificar","Sem cliente",435.03,1,"","","k"],["r","2026-03",30,"Receitas de Serviços a Identificar","Sem cliente",2243.92,1,"","","c"],["r","2026-03",30,"Receitas de Serviços a Identificar","Sem cliente",2243.92,1,"","","k"],["r","2026-03",30,"Receitas de Serviços a Identificar","Sem cliente",3914.61,1,"","","c"],["r","2026-03",30,"Receitas de Serviços a Identificar","Sem cliente",3914.61,1,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Prata","JOERLAINE DA SILVA OLIVEIRA ELIZEU",840,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","JOERLAINE DA SILVA OLIVEIRA ELIZEU",840,1,"","","k"],["r","2026-03",31,"Receitas de Serviços a Identificar","SHEILA MARIA NEGRI PONTES",3696,1,"","","c"],["r","2026-03",31,"Receitas de Serviços a Identificar","SHEILA MARIA NEGRI PONTES",3696,1,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Prata","MARILZA DE AGUIAR DIAS",4274,1,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","MARILZA DE AGUIAR DIAS",4274,1,"","","k"],["r","2026-03",31,"Receitas de Serviços a Identificar","Sem cliente",581.94,1,"","","c"],["r","2026-03",31,"Receitas de Serviços a Identificar","Sem cliente",581.94,1,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","IRINEIA SOUZA PEREIRA SAAR",9680.17,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","IRINEIA SOUZA PEREIRA SAAR",9680.17,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Prata","DORIETE DE SOUZA",1200,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","DORIETE DE SOUZA",1200,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Prata","SAYONARIA LOPES EVANGELISTA",8045,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","SAYONARIA LOPES EVANGELISTA",8045,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Prata","MARLY MARIA ANDRADE DE LAIA",9342,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","MARLY MARIA ANDRADE DE LAIA",9342,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Prata","ÉRICA RODRIGUES LIMA BOECHAT",9050,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","ÉRICA RODRIGUES LIMA BOECHAT",9050,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","MERIELY RUFINO VAZ MUTZ",12450,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","MERIELY RUFINO VAZ MUTZ",12450,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",4403,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",4403,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","MAYKE CORREIA DE SOUZA",6920,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","MAYKE CORREIA DE SOUZA",6920,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","LETICIA BATISTA DE MORAES",14955,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","LETICIA BATISTA DE MORAES",14955,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Prata","ADELSON ANDRE BAECE STREY",3362,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","ADELSON ANDRE BAECE STREY",3362,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Prata","VALDETE APARECIDA FERREIRA HERMISDOLFE",11199,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","VALDETE APARECIDA FERREIRA HERMISDOLFE",11199,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Prata","ELIEZER MOURA DE ASSIS",7600.87,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","ELIEZER MOURA DE ASSIS",7600.87,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Prata","SALETTE DE ALMEIDA SANTANA",9264,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","SALETTE DE ALMEIDA SANTANA",9264,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Prata","MARIA LEUZINA DE AGUIAR DIAS",185,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","MARIA LEUZINA DE AGUIAR DIAS",185,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","NEILA MARIA DE REZENDE SILVA",4697.61,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","NEILA MARIA DE REZENDE SILVA",4697.61,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Prata","JULIMAR MARTINS FANTI",8200,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","JULIMAR MARTINS FANTI",8200,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Prata","TAIANE STREY VERONEZE ANDRE",12228,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","TAIANE STREY VERONEZE ANDRE",12228,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",6014.17,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",6014.17,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Platina","LEILA DA SILVA DE SOUZA COELHO",6351.4,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Platina","LEILA DA SILVA DE SOUZA COELHO",6351.4,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","ADRIANA MOSCONI PAGANI",4800,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","ADRIANA MOSCONI PAGANI",4800,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","FÁBIA INACIO DE SOUZA BLESSON",5733.17,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","FÁBIA INACIO DE SOUZA BLESSON",5733.17,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","ALAETI BRISQUE POEYS",4133.17,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","ALAETI BRISQUE POEYS",4133.17,2,"","","k"],["r","2026-03",31,"Injetaveis","HAYANE SILVA VALARDAO",2500,2,"","","c"],["r","2026-03",31,"Injetaveis","HAYANE SILVA VALARDAO",2500,2,"","","k"],["r","2026-03",31,"Implantes","THAIZ LIMA ROCHA DA SILVA",4630,2,"","","c"],["r","2026-03",31,"Implantes","THAIZ LIMA ROCHA DA SILVA",4630,2,"","","k"],["r","2026-03",31,"Injetaveis","ANTONIO PEREIRA DE ARAUJO",1170,2,"","","c"],["r","2026-03",31,"Injetaveis","ANTONIO PEREIRA DE ARAUJO",1170,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Prata","JOERLAINE DA SILVA OLIVEIRA ELIZEU",10632,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","JOERLAINE DA SILVA OLIVEIRA ELIZEU",10632,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","ALEX MARCHIOLI STEFANON",12750,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","ALEX MARCHIOLI STEFANON",12750,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","EDILAINE MARCIA MARCIANO DE SOUZA",12965,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","EDILAINE MARCIA MARCIANO DE SOUZA",12965,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Prata","MARIA CRISTINA VIEIRA TEODORO",6842.7,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","MARIA CRISTINA VIEIRA TEODORO",6842.7,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Prata","ALANA CAROLINA ELIZEU CERQUEIRA DE CASTRO",16050,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","ALANA CAROLINA ELIZEU CERQUEIRA DE CASTRO",16050,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","FERNANDA RAQUEL TEIXEIRA CHIPOLESC",3625,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","FERNANDA RAQUEL TEIXEIRA CHIPOLESC",3625,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","LAUDENICIA ALVES DE OLIVEIRA ZAROWNY",900,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","LAUDENICIA ALVES DE OLIVEIRA ZAROWNY",900,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","LEIDIANA FERREIRA RODRIGUES",2300,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","LEIDIANA FERREIRA RODRIGUES",2300,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","WARLLEM FERREIRA COSTA",6040,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","WARLLEM FERREIRA COSTA",6040,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Prata","LETICIA RENATA RODRIGUES SOUZA PIONTI",12493.99,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","LETICIA RENATA RODRIGUES SOUZA PIONTI",12493.99,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Prata","RODRIGO SOARES SIQUEIRA",5980,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","RODRIGO SOARES SIQUEIRA",5980,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","CARLA GESIANE CARLASARTE DE SOUZA VIAL",7243.44,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","CARLA GESIANE CARLASARTE DE SOUZA VIAL",7243.44,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","THAÍS DAMASCENA DE PAULO HONORATO",3400,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","THAÍS DAMASCENA DE PAULO HONORATO",3400,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","EVERALDO DE SOUZA VELTEN SANTIAGO",2100,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","EVERALDO DE SOUZA VELTEN SANTIAGO",2100,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","STEPHANIE SOLE BARABANI",4800,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","STEPHANIE SOLE BARABANI",4800,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","SEBASTIÃO SATURINO FILHO",6500,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","SEBASTIÃO SATURINO FILHO",6500,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","BETANIA KINACIA DE SOUZA SATURNINO",4922,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","BETANIA KINACIA DE SOUZA SATURNINO",4922,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Protocolo Body Reset","ANA LÚCIA COLOMBEKI SALDANHA",964,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Protocolo Body Reset","ANA LÚCIA COLOMBEKI SALDANHA",964,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Alquimia Ouro","TELMA DOMINGOS DA SILVA",1710.11,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Alquimia Ouro","TELMA DOMINGOS DA SILVA",1710.11,2,"","","k"],["r","2026-03",31,"Injetaveis","ITELVINA FERNANDA DE OLIVEIRA VERLY",1400,2,"","","c"],["r","2026-03",31,"Injetaveis","ITELVINA FERNANDA DE OLIVEIRA VERLY",1400,2,"","","k"],["r","2026-03",31,"Injetaveis","LUDIMILA MATIAS CARDOSO PAGANI",468,2,"","","c"],["r","2026-03",31,"Injetaveis","LUDIMILA MATIAS CARDOSO PAGANI",468,2,"","","k"],["r","2026-03",31,"Injetaveis","MARIA ALICE RODRIGUES DE JESUS",2570,2,"","","c"],["r","2026-03",31,"Injetaveis","MARIA ALICE RODRIGUES DE JESUS",2570,2,"","","k"],["r","2026-03",31,"Injetaveis","KAMILA QUADRAS CASTILHO",1050,2,"","","c"],["r","2026-03",31,"Injetaveis","KAMILA QUADRAS CASTILHO",1050,2,"","","k"],["r","2026-03",31,"Injetaveis","MAGDA CRISTINA ANGELO DE OLIVEIRA",500,2,"","","c"],["r","2026-03",31,"Injetaveis","MAGDA CRISTINA ANGELO DE OLIVEIRA",500,2,"","","k"],["r","2026-03",31,"Injetaveis","RAFAEL CARDOSO DE SOUZA",500,2,"","","c"],["r","2026-03",31,"Injetaveis","RAFAEL CARDOSO DE SOUZA",500,2,"","","k"],["r","2026-03",31,"Injetaveis","LIETE VOLPONI FORTUNA",1125,2,"","","c"],["r","2026-03",31,"Injetaveis","LIETE VOLPONI FORTUNA",1125,2,"","","k"],["r","2026-03",31,"Injetaveis","LEDIANA NEIVA ANACLETO OLIVEIRA",4965,2,"","","c"],["r","2026-03",31,"Injetaveis","LEDIANA NEIVA ANACLETO OLIVEIRA",4965,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","ESTER DE ALMEIDA SANTANA",3900,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","ESTER DE ALMEIDA SANTANA",3900,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","FABRÍCIO RODRIGUES LINHARES",3578,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","FABRÍCIO RODRIGUES LINHARES",3578,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Prata","MARLY MARIA ANDRADE DE LAIA",4246,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","MARLY MARIA ANDRADE DE LAIA",4246,2,"","","k"],["r","2026-03",31,"Receita de Serviços - Plano Bronze","ANA PAULA COELHO PORTES MATTOS",2300,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","ANA PAULA COELHO PORTES MATTOS",2300,2,"","","k"],["r","2026-04",1,"Receitas de Serviços a Identificar","Sem cliente",145.65,1,"","","c"],["r","2026-04",1,"Receitas de Serviços a Identificar","Sem cliente",145.65,1,"","","k"],["r","2026-04",1,"Rendimentos de Aplicações","Sem cliente",0.26,1,"","","c"],["r","2026-04",1,"Rendimentos de Aplicações","Sem cliente",0.26,1,"","","k"],["r","2026-04",1,"Consulta","ÉRICA RODRIGUES LIMA BOECHAT",68,1,"","","c"],["r","2026-04",30,"Consulta","ÉRICA RODRIGUES LIMA BOECHAT",68,1,"","","k"],["r","2026-04",1,"Receitas de Serviços a Identificar","Sem cliente",2818.58,1,"","","c"],["r","2026-04",1,"Receitas de Serviços a Identificar","Sem cliente",2818.58,1,"","","k"],["r","2026-04",1,"Receitas de Serviços a Identificar","Sem cliente",1218.29,1,"","","c"],["r","2026-04",1,"Receitas de Serviços a Identificar","Sem cliente",1218.29,1,"","","k"],["r","2026-04",1,"Receitas de Serviços a Identificar","Sem cliente",2698.55,1,"","","c"],["r","2026-04",1,"Receitas de Serviços a Identificar","Sem cliente",2698.55,1,"","","k"],["r","2026-04",1,"Implantes","Tomadores Diversos",3900,2,"","","c"],["r","2026-04",1,"Implantes","Tomadores Diversos",3900,2,"","","k"],["r","2026-04",2,"Rendimentos de Aplicações","Sem cliente",0.04,1,"","","c"],["r","2026-04",2,"Rendimentos de Aplicações","Sem cliente",0.04,1,"","","k"],["r","2026-04",2,"Receita de Serviços - Plano Bronze","Sem cliente",9,1,"","","c"],["r","2026-04",2,"Receita de Serviços - Plano Bronze","Sem cliente",9,1,"","","k"],["r","2026-04",2,"Suplementos","NEUZA FERNANDES MARTINS",377,1,"","","c"],["r","2026-04",30,"Suplementos","NEUZA FERNANDES MARTINS",377,1,"","","k"],["r","2026-04",2,"Suplementos","NEUZA FERNANDES MARTINS",50,1,"","","c"],["r","2026-04",30,"Suplementos","NEUZA FERNANDES MARTINS",50,1,"","","k"],["r","2026-04",2,"Teste Nutrigenetico","ZILDA MARIA MAIA DE CARVALHO",3900,1,"","","c"],["r","2026-04",30,"Teste Nutrigenetico","ZILDA MARIA MAIA DE CARVALHO",3900,1,"","","k"],["r","2026-04",2,"Receitas de Serviços a Identificar","Sem cliente",345.6,1,"","","c"],["r","2026-04",2,"Receitas de Serviços a Identificar","Sem cliente",345.6,1,"","","k"],["r","2026-04",2,"Receitas de Serviços a Identificar","Sem cliente",1855.91,1,"","","c"],["r","2026-04",2,"Receitas de Serviços a Identificar","Sem cliente",1855.91,1,"","","k"],["r","2026-04",2,"Receitas de Serviços a Identificar","Sem cliente",882,1,"","","c"],["r","2026-04",2,"Receitas de Serviços a Identificar","Sem cliente",882,1,"","","k"],["r","2026-04",6,"Receitas de Serviços a Identificar","Sem cliente",2935.4,1,"","","c"],["r","2026-04",6,"Receitas de Serviços a Identificar","Sem cliente",2935.4,1,"","","k"],["r","2026-04",6,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",500,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",500,1,"","","k"],["r","2026-04",6,"Receitas de Serviços a Identificar","SANDRA VIEIRA FARIA",630,1,"","","c"],["r","2026-04",6,"Receitas de Serviços a Identificar","SANDRA VIEIRA FARIA",630,1,"","","k"],["r","2026-04",6,"Receitas de Serviços a Identificar","Sem cliente",941.83,1,"","","c"],["r","2026-04",6,"Receitas de Serviços a Identificar","Sem cliente",941.83,1,"","","k"],["r","2026-04",6,"Receitas de Serviços a Identificar","Sem cliente",547.05,1,"","","c"],["r","2026-04",6,"Receitas de Serviços a Identificar","Sem cliente",547.05,1,"","","k"],["r","2026-04",6,"Receitas de Serviços a Identificar","Sem cliente",2190.13,1,"","","c"],["r","2026-04",6,"Receitas de Serviços a Identificar","Sem cliente",2190.13,1,"","","k"],["r","2026-04",6,"Receitas de Serviços a Identificar","Sem cliente",4630.42,1,"","","c"],["r","2026-04",6,"Receitas de Serviços a Identificar","Sem cliente",4630.42,1,"","","k"],["r","2026-04",6,"Receitas de Serviços a Identificar","Sem cliente",14985.03,1,"","","c"],["r","2026-04",6,"Receitas de Serviços a Identificar","Sem cliente",14985.03,1,"","","k"],["r","2026-04",7,"Suplementos","ROSIANE ALMEIDA COSTA BELING",75,1,"","","c"],["r","2026-04",30,"Suplementos","ROSIANE ALMEIDA COSTA BELING",75,1,"","","k"],["r","2026-04",7,"Rendimentos de Aplicações","Sem cliente",0.12,1,"","","c"],["r","2026-04",7,"Rendimentos de Aplicações","Sem cliente",0.12,1,"","","k"],["r","2026-04",7,"Injetaveis","MARIA LEUZINA DE AGUIAR DIAS",390,1,"","","c"],["r","2026-04",30,"Injetaveis","MARIA LEUZINA DE AGUIAR DIAS",390,1,"","","k"],["r","2026-04",7,"Receitas de Serviços a Identificar","Sem cliente",542.82,1,"","","c"],["r","2026-04",7,"Receitas de Serviços a Identificar","Sem cliente",542.82,1,"","","k"],["r","2026-04",7,"Receitas de Serviços a Identificar","Sem cliente",2117.55,1,"","","c"],["r","2026-04",7,"Receitas de Serviços a Identificar","Sem cliente",2117.55,1,"","","k"],["r","2026-04",8,"Receitas de Serviços a Identificar","Sem cliente",366.7,1,"","","c"],["r","2026-04",8,"Receitas de Serviços a Identificar","Sem cliente",366.7,1,"","","k"],["r","2026-04",8,"Receitas de Serviços a Identificar","Sem cliente",466.44,1,"","","c"],["r","2026-04",8,"Receitas de Serviços a Identificar","Sem cliente",466.44,1,"","","k"],["r","2026-04",8,"Receitas de Serviços a Identificar","Sem cliente",2238.86,1,"","","c"],["r","2026-04",8,"Receitas de Serviços a Identificar","Sem cliente",2238.86,1,"","","k"],["r","2026-04",8,"Receitas de Serviços a Identificar","Sem cliente",1154.76,1,"","","c"],["r","2026-04",8,"Receitas de Serviços a Identificar","Sem cliente",1154.76,1,"","","k"],["r","2026-04",9,"Receitas de Serviços a Identificar","Sem cliente",503.43,1,"","","c"],["r","2026-04",9,"Receitas de Serviços a Identificar","Sem cliente",503.43,1,"","","k"],["r","2026-04",9,"Receitas de Serviços a Identificar","Sem cliente",1916.63,1,"","","c"],["r","2026-04",9,"Receitas de Serviços a Identificar","Sem cliente",1916.63,1,"","","k"],["r","2026-04",10,"Suplementos","DORIETE DE SOUZA",75,1,"","","c"],["r","2026-04",30,"Suplementos","DORIETE DE SOUZA",75,1,"","","k"],["r","2026-04",10,"Receitas de Serviços a Identificar","ISABELA CRISTINA FANTI",7880,1,"","","c"],["r","2026-04",10,"Receitas de Serviços a Identificar","ISABELA CRISTINA FANTI",7880,1,"","","k"],["r","2026-04",10,"Receita de Serviços - Plano Prata","ISABELA CRISTINA FANTI",8520,1,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","ISABELA CRISTINA FANTI",8520,1,"","","k"],["r","2026-04",10,"Receita de Serviços - Plano Bronze","DELMA LUCIA MENDES DA CUNHA",2100,1,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","DELMA LUCIA MENDES DA CUNHA",2100,1,"","","k"],["r","2026-04",10,"Receitas de Serviços a Identificar","Sem cliente",728.25,1,"","","c"],["r","2026-04",10,"Receitas de Serviços a Identificar","Sem cliente",728.25,1,"","","k"],["r","2026-04",10,"Receitas de Serviços a Identificar","Sem cliente",388,1,"","","c"],["r","2026-04",10,"Receitas de Serviços a Identificar","Sem cliente",388,1,"","","k"],["r","2026-04",10,"Receitas de Serviços a Identificar","Sem cliente",2499.35,1,"","","c"],["r","2026-04",10,"Receitas de Serviços a Identificar","Sem cliente",2499.35,1,"","","k"],["r","2026-04",10,"Receitas de Serviços a Identificar","Sem cliente",3876.57,1,"","","c"],["r","2026-04",10,"Receitas de Serviços a Identificar","Sem cliente",3876.57,1,"","","k"],["r","2026-04",10,"Receitas de Serviços a Identificar","Sem cliente",2966.88,1,"","","c"],["r","2026-04",10,"Receitas de Serviços a Identificar","Sem cliente",2966.88,1,"","","k"],["r","2026-04",13,"Receitas de Serviços a Identificar","Sem cliente",582.6,1,"","","c"],["r","2026-04",13,"Receitas de Serviços a Identificar","Sem cliente",582.6,1,"","","k"],["r","2026-04",13,"Receitas de Serviços a Identificar","Sem cliente",144.03,1,"","","c"],["r","2026-04",13,"Receitas de Serviços a Identificar","Sem cliente",144.03,1,"","","k"],["r","2026-04",13,"Receitas de Serviços a Identificar","Sem cliente",837.84,1,"","","c"],["r","2026-04",13,"Receitas de Serviços a Identificar","Sem cliente",837.84,1,"","","k"],["r","2026-04",13,"Receitas de Serviços a Identificar","Sem cliente",4606.2,1,"","","c"],["r","2026-04",13,"Receitas de Serviços a Identificar","Sem cliente",4606.2,1,"","","k"],["r","2026-04",13,"Receitas de Serviços a Identificar","Sem cliente",1517.13,1,"","","c"],["r","2026-04",13,"Receitas de Serviços a Identificar","Sem cliente",1517.13,1,"","","k"],["r","2026-04",14,"Suplementos","MARLY MARIA ANDRADE DE LAIA",75,1,"","","c"],["r","2026-04",30,"Suplementos","MARLY MARIA ANDRADE DE LAIA",75,1,"","","k"],["r","2026-04",14,"Rendimentos de Aplicações","Sem cliente",0.02,1,"","","c"],["r","2026-04",14,"Rendimentos de Aplicações","Sem cliente",0.02,1,"","","k"],["r","2026-04",14,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",500,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",500,1,"","","k"],["r","2026-04",15,"Receitas de Serviços a Identificar","Sem cliente",251.21,1,"","","c"],["r","2026-04",15,"Receitas de Serviços a Identificar","Sem cliente",251.21,1,"","","k"],["r","2026-04",15,"Receita de Serviços - Plano Diamante","EDILAINE MARCIA MARCIANO DE SOUZA",395,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Diamante","EDILAINE MARCIA MARCIANO DE SOUZA",395,1,"","","k"],["r","2026-04",15,"Receita de Serviços - Plano Prata","TALITA FABIELLE PEREIRA DA SILVA BITTENCOURT",2040,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","TALITA FABIELLE PEREIRA DA SILVA BITTENCOURT",2040,1,"","","k"],["r","2026-04",15,"Receitas de Serviços a Identificar","Sem cliente",2593.92,1,"","","c"],["r","2026-04",15,"Receitas de Serviços a Identificar","Sem cliente",2593.92,1,"","","k"],["r","2026-04",15,"Suplementos","BRISA DANIELLE FURTADO CARDOSO",350,2,"","","c"],["r","2026-04",30,"Suplementos","BRISA DANIELLE FURTADO CARDOSO",350,2,"","","k"],["r","2026-04",16,"Rendimentos de Aplicações","Sem cliente",0.03,1,"","","c"],["r","2026-04",16,"Rendimentos de Aplicações","Sem cliente",0.03,1,"","","k"],["r","2026-04",16,"Receitas de Serviços a Identificar","ISABELA CRISTINA FANTI",320,1,"","","c"],["r","2026-04",16,"Receitas de Serviços a Identificar","ISABELA CRISTINA FANTI",320,1,"","","k"],["r","2026-04",16,"Receitas de Serviços a Identificar","Sem cliente",465.98,1,"","","c"],["r","2026-04",16,"Receitas de Serviços a Identificar","Sem cliente",465.98,1,"","","k"],["r","2026-04",16,"Receitas de Serviços a Identificar","Sem cliente",384.08,1,"","","c"],["r","2026-04",16,"Receitas de Serviços a Identificar","Sem cliente",384.08,1,"","","k"],["r","2026-04",16,"Receitas de Serviços a Identificar","Sem cliente",1985.1,1,"","","c"],["r","2026-04",16,"Receitas de Serviços a Identificar","Sem cliente",1985.1,1,"","","k"],["r","2026-04",16,"Suplementos","MONICA DE OLIVEIRA SILVA FERNANDES",700,2,"","","c"],["r","2026-04",30,"Suplementos","MONICA DE OLIVEIRA SILVA FERNANDES",700,2,"","","k"],["r","2026-04",17,"Rendimentos de Aplicações","Sem cliente",0.02,1,"","","c"],["r","2026-04",17,"Rendimentos de Aplicações","Sem cliente",0.02,1,"","","k"],["r","2026-04",17,"Receitas de Serviços a Identificar","Sem cliente",2058.08,1,"","","c"],["r","2026-04",17,"Receitas de Serviços a Identificar","Sem cliente",2058.08,1,"","","k"],["r","2026-04",17,"Receitas de Serviços a Identificar","Sem cliente",1128.76,1,"","","c"],["r","2026-04",17,"Receitas de Serviços a Identificar","Sem cliente",1128.76,1,"","","k"],["r","2026-04",20,"Receitas de Serviços a Identificar","Sem cliente",2087.1,1,"","","c"],["r","2026-04",20,"Receitas de Serviços a Identificar","Sem cliente",2087.1,1,"","","k"],["r","2026-04",20,"Receitas de Serviços a Identificar","Sem cliente",1002.07,1,"","","c"],["r","2026-04",20,"Receitas de Serviços a Identificar","Sem cliente",1002.07,1,"","","k"],["r","2026-04",20,"Receitas de Serviços a Identificar","Sem cliente",926.4,1,"","","c"],["r","2026-04",20,"Receitas de Serviços a Identificar","Sem cliente",926.4,1,"","","k"],["r","2026-04",20,"Receitas de Serviços a Identificar","Sem cliente",1841.77,1,"","","c"],["r","2026-04",20,"Receitas de Serviços a Identificar","Sem cliente",1841.77,1,"","","k"],["r","2026-04",20,"Receitas de Serviços a Identificar","Sem cliente",2837.73,1,"","","c"],["r","2026-04",20,"Receitas de Serviços a Identificar","Sem cliente",2837.73,1,"","","k"],["r","2026-04",22,"Receitas de Serviços a Identificar","Sem cliente",456.14,1,"","","c"],["r","2026-04",22,"Receitas de Serviços a Identificar","Sem cliente",456.14,1,"","","k"],["r","2026-04",22,"Receitas de Serviços a Identificar","Sem cliente",1800,1,"","","c"],["r","2026-04",22,"Receitas de Serviços a Identificar","Sem cliente",1800,1,"","","k"],["r","2026-04",22,"Receitas de Serviços a Identificar","MARIA DAS GRAÇAS NEVES CALIARI",185,1,"","","c"],["r","2026-04",22,"Receitas de Serviços a Identificar","MARIA DAS GRAÇAS NEVES CALIARI",185,1,"","","k"],["r","2026-04",22,"Consulta","MARIA DAS GRAÇAS NEVES CALIARI",650,1,"","","c"],["r","2026-04",30,"Consulta","MARIA DAS GRAÇAS NEVES CALIARI",650,1,"","","k"],["r","2026-04",22,"Receitas de Serviços a Identificar","Sem cliente",388.4,1,"","","c"],["r","2026-04",22,"Receitas de Serviços a Identificar","Sem cliente",388.4,1,"","","k"],["r","2026-04",22,"Receitas de Serviços a Identificar","Sem cliente",3537.67,1,"","","c"],["r","2026-04",22,"Receitas de Serviços a Identificar","Sem cliente",3537.67,1,"","","k"],["r","2026-04",22,"Receitas de Serviços a Identificar","Sem cliente",821.79,1,"","","c"],["r","2026-04",22,"Receitas de Serviços a Identificar","Sem cliente",821.79,1,"","","k"],["r","2026-04",22,"Receitas de Serviços a Identificar","Sem cliente",480.1,1,"","","c"],["r","2026-04",22,"Receitas de Serviços a Identificar","Sem cliente",480.1,1,"","","k"],["r","2026-04",22,"Receitas de Serviços a Identificar","Sem cliente",1042.2,1,"","","c"],["r","2026-04",22,"Receitas de Serviços a Identificar","Sem cliente",1042.2,1,"","","k"],["r","2026-04",23,"Rendimentos de Aplicações","Sem cliente",0.44,1,"","","c"],["r","2026-04",23,"Rendimentos de Aplicações","Sem cliente",0.44,1,"","","k"],["r","2026-04",23,"Receitas de Serviços a Identificar","Sem cliente",65,1,"","","c"],["r","2026-04",23,"Receitas de Serviços a Identificar","Sem cliente",65,1,"","","k"],["r","2026-04",23,"Receitas de Serviços a Identificar","Sem cliente",1200,1,"","","c"],["r","2026-04",23,"Receitas de Serviços a Identificar","Sem cliente",1200,1,"","","k"],["r","2026-04",23,"Receitas de Serviços a Identificar","Sem cliente",3810.3,1,"","","c"],["r","2026-04",23,"Receitas de Serviços a Identificar","Sem cliente",3810.3,1,"","","k"],["r","2026-04",23,"Receitas de Serviços a Identificar","Sem cliente",928.23,1,"","","c"],["r","2026-04",23,"Receitas de Serviços a Identificar","Sem cliente",928.23,1,"","","k"],["r","2026-04",23,"Receitas de Serviços a Identificar","Sem cliente",4585.47,1,"","","c"],["r","2026-04",23,"Receitas de Serviços a Identificar","Sem cliente",4585.47,1,"","","k"],["r","2026-04",23,"Receitas de Serviços a Identificar","Sem cliente",1116.43,1,"","","c"],["r","2026-04",23,"Receitas de Serviços a Identificar","Sem cliente",1116.43,1,"","","k"],["r","2026-04",25,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",625,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",625,2,"","","k"],["r","2026-04",27,"Receita de Serviços - Plano Bronze","FERNANDA APARECIDA DE ALMEIDA",2975,1,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","FERNANDA APARECIDA DE ALMEIDA",2975,1,"","","k"],["r","2026-04",27,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",1000,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",1000,1,"","","k"],["r","2026-04",27,"Receitas de Serviços a Identificar","Sem cliente",608.75,1,"","","c"],["r","2026-04",27,"Receitas de Serviços a Identificar","Sem cliente",608.75,1,"","","k"],["r","2026-04",27,"Receitas de Serviços a Identificar","Sem cliente",1087.58,1,"","","c"],["r","2026-04",27,"Receitas de Serviços a Identificar","Sem cliente",1087.58,1,"","","k"],["r","2026-04",27,"Receitas de Serviços a Identificar","Sem cliente",193.08,1,"","","c"],["r","2026-04",27,"Receitas de Serviços a Identificar","Sem cliente",193.08,1,"","","k"],["r","2026-04",27,"Receitas de Serviços a Identificar","Sem cliente",2170.59,1,"","","c"],["r","2026-04",27,"Receitas de Serviços a Identificar","Sem cliente",2170.59,1,"","","k"],["r","2026-04",27,"Receitas de Serviços a Identificar","Sem cliente",581.94,1,"","","c"],["r","2026-04",27,"Receitas de Serviços a Identificar","Sem cliente",581.94,1,"","","k"],["r","2026-04",28,"Suplementos","ANA LÚCIA COLOMBEKI SALDANHA",185,1,"","","c"],["r","2026-04",30,"Suplementos","ANA LÚCIA COLOMBEKI SALDANHA",185,1,"","","k"],["r","2026-04",28,"Receita de Serviços - Protocolo Body Reset","ANA LÚCIA COLOMBEKI SALDANHA",2472,1,"","","c"],["r","2026-03",31,"Receita de Serviços - Protocolo Body Reset","ANA LÚCIA COLOMBEKI SALDANHA",2472,1,"","","k"],["r","2026-04",28,"Consulta","ANA LÚCIA COLOMBEKI SALDANHA",650,1,"","","c"],["r","2026-04",30,"Consulta","ANA LÚCIA COLOMBEKI SALDANHA",650,1,"","","k"],["r","2026-04",28,"Receitas de Serviços a Identificar","Sem cliente",1621.2,1,"","","c"],["r","2026-04",28,"Receitas de Serviços a Identificar","Sem cliente",1621.2,1,"","","k"],["r","2026-04",28,"Receitas de Serviços a Identificar","Sem cliente",435.03,1,"","","c"],["r","2026-04",28,"Receitas de Serviços a Identificar","Sem cliente",435.03,1,"","","k"],["r","2026-04",29,"Receitas de Serviços a Identificar","Sem cliente",3289.56,1,"","","c"],["r","2026-04",29,"Receitas de Serviços a Identificar","Sem cliente",3289.56,1,"","","k"],["r","2026-04",29,"Injetaveis","LAUDIANA DANIEL TEIXEIRA FREITAS",390,1,"","","c"],["r","2026-04",30,"Injetaveis","LAUDIANA DANIEL TEIXEIRA FREITAS",390,1,"","","k"],["r","2026-04",29,"Receitas de Serviços a Identificar","Sem cliente",4138.68,1,"","","c"],["r","2026-04",29,"Receitas de Serviços a Identificar","Sem cliente",4138.68,1,"","","k"],["r","2026-04",29,"Receitas de Serviços a Identificar","Sem cliente",1355.02,1,"","","c"],["r","2026-04",29,"Receitas de Serviços a Identificar","Sem cliente",1355.02,1,"","","k"],["r","2026-04",30,"Suplementos","BRISA DANIELLE FURTADO CARDOSO",75,1,"","","c"],["r","2026-04",30,"Suplementos","BRISA DANIELLE FURTADO CARDOSO",75,1,"","","k"],["r","2026-04",30,"Suplementos","TAIANE STREY VERONEZE ANDRE",75,1,"","","c"],["r","2026-04",30,"Suplementos","TAIANE STREY VERONEZE ANDRE",75,1,"","","k"],["r","2026-04",30,"Adicional de Tizerpatida","JULIMAR MARTINS FANTI",1200,1,"","","c"],["r","2026-04",30,"Adicional de Tizerpatida","JULIMAR MARTINS FANTI",1200,1,"","","k"],["r","2026-04",30,"Receitas de Serviços a Identificar","Sem cliente",911.74,1,"","","c"],["r","2026-04",30,"Receitas de Serviços a Identificar","Sem cliente",911.74,1,"","","k"],["r","2026-04",30,"Receitas de Serviços a Identificar","Sem cliente",1771.36,1,"","","c"],["r","2026-04",30,"Receitas de Serviços a Identificar","Sem cliente",1771.36,1,"","","k"],["r","2026-04",30,"Consulta","FLAVYANNE PAULO MORETT AGUIAR",500,2,"","","c"],["r","2026-04",30,"Consulta","FLAVYANNE PAULO MORETT AGUIAR",500,2,"","","k"],["r","2026-04",30,"Consulta","IRINEIA SOUZA PEREIRA SAAR",500,2,"","","c"],["r","2026-04",30,"Consulta","IRINEIA SOUZA PEREIRA SAAR",500,2,"","","k"],["r","2026-04",30,"Consulta","REINALDO ERMELINDO DE ARAUJO",500,2,"","","c"],["r","2026-04",30,"Consulta","REINALDO ERMELINDO DE ARAUJO",500,2,"","","k"],["r","2026-04",30,"Suplementos","ZILDA MARIA MAIA DE CARVALHO",140,2,"","","c"],["r","2026-04",30,"Suplementos","ZILDA MARIA MAIA DE CARVALHO",140,2,"","","k"],["r","2026-04",30,"Suplementos","MAYKE CORREIA DE SOUZA",197.5,2,"","","c"],["r","2026-04",30,"Suplementos","MAYKE CORREIA DE SOUZA",197.5,2,"","","k"],["r","2026-04",30,"Receita de Serviços - Protocolo Body Reset","NATALIA PEREIRA MARTINS SILVA",397,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Protocolo Body Reset","NATALIA PEREIRA MARTINS SILVA",397,2,"","","k"],["r","2026-04",30,"Receita de Serviços - Plano Prata","MARILZA DE AGUIAR DIAS",1581.25,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","MARILZA DE AGUIAR DIAS",1581.25,2,"","","k"],["r","2026-04",30,"Adicional de Tizerpatida","ÉRICA RODRIGUES LIMA BOECHAT",3068,2,"","","c"],["r","2026-04",30,"Adicional de Tizerpatida","ÉRICA RODRIGUES LIMA BOECHAT",3068,2,"","","k"],["r","2026-04",30,"Receita de Serviços - Plano Diamante","NAIR DA SILVA LOPES",7000,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Diamante","NAIR DA SILVA LOPES",7000,2,"","","k"],["r","2026-04",30,"Adicional de Tizerpatida","DORIETE DE SOUZA",1872,2,"","","c"],["r","2026-04",30,"Adicional de Tizerpatida","DORIETE DE SOUZA",1872,2,"","","k"],["r","2026-04",30,"Adicional de Tizerpatida","ORLANDA ALVES SALVADOR",200,2,"","","c"],["r","2026-04",30,"Adicional de Tizerpatida","ORLANDA ALVES SALVADOR",200,2,"","","k"],["r","2026-04",30,"Adicional de Tizerpatida","VALDETE APARECIDA FERREIRA HERMISDOLFE",518.67,2,"","","c"],["r","2026-04",30,"Adicional de Tizerpatida","VALDETE APARECIDA FERREIRA HERMISDOLFE",518.67,2,"","","k"],["r","2026-04",30,"Injetaveis","RAFAEL CARDOSO DE SOUZA",490,2,"","","c"],["r","2026-04",30,"Injetaveis","RAFAEL CARDOSO DE SOUZA",490,2,"","","k"],["r","2026-04",30,"Receita de Serviços - Plano Diamante","ANTONIO PEREIRA DE ARAUJO",6050,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Diamante","ANTONIO PEREIRA DE ARAUJO",6050,2,"","","k"],["r","2026-04",30,"Adicional de Tizerpatida","ADELSON ANDRE BAECE STREY",1200,2,"","","c"],["r","2026-04",30,"Adicional de Tizerpatida","ADELSON ANDRE BAECE STREY",1200,2,"","","k"],["r","2026-04",30,"Injetaveis","MAYARA RIBEIRO SIMOES FORTUNA",1500,2,"","","c"],["r","2026-04",30,"Injetaveis","MAYARA RIBEIRO SIMOES FORTUNA",1500,2,"","","k"],["r","2026-04",30,"Receita de Serviços - Plano Diamante","MONICA DE OLIVEIRA SILVA FERNANDES",19750,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Diamante","MONICA DE OLIVEIRA SILVA FERNANDES",19750,2,"","","k"],["r","2026-04",30,"Receita de Serviços - Plano Prata","TALITA FABIELLE PEREIRA DA SILVA BITTENCOURT",5580.66,2,"","","c"],["r","2026-03",31,"Receita de Serviços - Plano Prata","TALITA FABIELLE PEREIRA DA SILVA BITTENCOURT",5580.66,2,"","","k"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","DELMA LUCIA MENDES DA CUNHA",1000,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","DELMA LUCIA MENDES DA CUNHA",1000,2,"","","k"],["r","2026-05",4,"Adicional de Tizerpatida","BETANIA KINACIA DE SOUZA SATURNINO",1800,1,"","","c"],["r","2026-05",4,"Adicional de Tizerpatida","BETANIA KINACIA DE SOUZA SATURNINO",1800,1,"","","k"],["r","2026-05",4,"Consulta","MARLY MARIA ANDRADE DE LAIA",500,1,"","","c"],["r","2026-04",30,"Consulta","MARLY MARIA ANDRADE DE LAIA",500,1,"","","k"],["r","2026-05",4,"Adicional de Tizerpatida","TAIANE STREY VERONEZE ANDRE",300,1,"","","c"],["r","2026-05",4,"Adicional de Tizerpatida","TAIANE STREY VERONEZE ANDRE",300,1,"","","k"],["r","2026-05",4,"Receitas de Serviços a Identificar","Sem cliente",1903.43,1,"","","c"],["r","2026-05",4,"Receitas de Serviços a Identificar","Sem cliente",1903.43,1,"","","k"],["r","2026-05",4,"Receitas de Serviços a Identificar","Sem cliente",3159.48,1,"","","c"],["r","2026-05",4,"Receitas de Serviços a Identificar","Sem cliente",3159.48,1,"","","k"],["r","2026-05",4,"Receitas de Serviços a Identificar","Sem cliente",3055.03,1,"","","c"],["r","2026-05",4,"Receitas de Serviços a Identificar","Sem cliente",3055.03,1,"","","k"],["r","2026-05",4,"Receitas de Serviços a Identificar","Sem cliente",4970.45,1,"","","c"],["r","2026-05",4,"Receitas de Serviços a Identificar","Sem cliente",4970.45,1,"","","k"],["r","2026-05",4,"Receitas de Serviços a Identificar","Sem cliente",6232.18,1,"","","c"],["r","2026-05",4,"Receitas de Serviços a Identificar","Sem cliente",6232.18,1,"","","k"],["r","2026-05",4,"Rendimentos de Aplicações","Sem cliente",0.16,1,"","","c"],["r","2026-05",4,"Rendimentos de Aplicações","Sem cliente",0.16,1,"","","k"],["r","2026-05",4,"Suplementos","ORLANDA ALVES SALVADOR",76,2,"","","c"],["r","2026-05",4,"Suplementos","ORLANDA ALVES SALVADOR",76,2,"","","k"],["r","2026-05",4,"Suplementos","DORLI MARTINS DA SILVA",550,2,"","","c"],["r","2026-05",4,"Suplementos","DORLI MARTINS DA SILVA",550,2,"","","k"],["r","2026-05",4,"Suplementos","HIGLEST ALVES DE LA SALLE",200,2,"","","c"],["r","2026-05",4,"Suplementos","HIGLEST ALVES DE LA SALLE",200,2,"","","k"],["r","2026-05",4,"Adicional de Tizerpatida","TAIANE STREY VERONEZE ANDRE",300,2,"","","c"],["r","2026-05",4,"Adicional de Tizerpatida","TAIANE STREY VERONEZE ANDRE",300,2,"","","k"],["r","2026-05",4,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",500,2,"","","c"],["r","2026-05",4,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",500,2,"","","k"],["r","2026-05",5,"Receitas de Serviços a Identificar","Sem cliente",1177.62,1,"","","c"],["r","2026-05",5,"Receitas de Serviços a Identificar","Sem cliente",1177.62,1,"","","k"],["r","2026-05",5,"Receitas de Serviços a Identificar","Sem cliente",132.89,1,"","","c"],["r","2026-05",5,"Receitas de Serviços a Identificar","Sem cliente",132.89,1,"","","k"],["r","2026-05",5,"Receitas de Serviços a Identificar","Sem cliente",4537.69,1,"","","c"],["r","2026-05",5,"Receitas de Serviços a Identificar","Sem cliente",4537.69,1,"","","k"],["r","2026-05",5,"Suplementos","HIGLEST ALVES DE LA SALLE",10,1,"","","c"],["r","2026-05",4,"Suplementos","HIGLEST ALVES DE LA SALLE",10,1,"","","k"],["r","2026-05",5,"Receitas de Serviços a Identificar","Sem cliente",5000,1,"","","c"],["r","2026-05",5,"Receitas de Serviços a Identificar","Sem cliente",5000,1,"","","k"],["r","2026-05",5,"Receita de Serviços - Plano Prata","MARILZA DE AGUIAR DIAS",1581.25,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","MARILZA DE AGUIAR DIAS",1581.25,2,"","","k"],["r","2026-05",5,"Suplementos","VALDETE APARECIDA FERREIRA HERMISDOLFE",135,2,"","","c"],["r","2026-05",4,"Suplementos","VALDETE APARECIDA FERREIRA HERMISDOLFE",135,2,"","","k"],["r","2026-05",5,"Suplementos","MERIELY RUFINO VAZ MUTZ",135,2,"","","c"],["r","2026-05",5,"Suplementos","MERIELY RUFINO VAZ MUTZ",135,2,"","","k"],["r","2026-05",5,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",1000,2,"","","c"],["r","2026-05",5,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",1000,2,"","","k"],["r","2026-05",5,"Receita de Serviços - Plano Prata","ZILDA MARIA MAIA DE CARVALHO",5000,2,"","","c"],["r","2026-05",5,"Receita de Serviços - Plano Prata","ZILDA MARIA MAIA DE CARVALHO",5000,2,"","","k"],["r","2026-05",6,"Consulta","Cristina Siqueira Bragança",650,1,"","","c"],["r","2026-05",6,"Consulta","Cristina Siqueira Bragança",650,1,"","","k"],["r","2026-05",6,"Adicional de Tizerpatida","MARILZA DE AGUIAR DIAS",1404,1,"","","c"],["r","2026-05",6,"Adicional de Tizerpatida","MARILZA DE AGUIAR DIAS",1404,1,"","","k"],["r","2026-05",6,"Receitas de Serviços a Identificar","Sem cliente",368.25,1,"","","c"],["r","2026-05",6,"Receitas de Serviços a Identificar","Sem cliente",368.25,1,"","","k"],["r","2026-05",6,"Receitas de Serviços a Identificar","Sem cliente",547.05,1,"","","c"],["r","2026-05",6,"Receitas de Serviços a Identificar","Sem cliente",547.05,1,"","","k"],["r","2026-05",6,"Receitas de Serviços a Identificar","Sem cliente",984.4,1,"","","c"],["r","2026-05",6,"Receitas de Serviços a Identificar","Sem cliente",984.4,1,"","","k"],["r","2026-05",6,"Receitas de Serviços a Identificar","Sem cliente",1256.97,1,"","","c"],["r","2026-05",6,"Receitas de Serviços a Identificar","Sem cliente",1256.97,1,"","","k"],["r","2026-05",6,"Receitas de Serviços a Identificar","Sem cliente",193.98,1,"","","c"],["r","2026-05",6,"Receitas de Serviços a Identificar","Sem cliente",193.98,1,"","","k"],["r","2026-05",6,"Suplementos","MARIA DA PENHA MOURA ROSA",75,2,"","","c"],["r","2026-05",6,"Suplementos","MARIA DA PENHA MOURA ROSA",75,2,"","","k"],["r","2026-05",6,"Suplementos","ESTER DE ALMEIDA SANTANA",185,2,"","","c"],["r","2026-05",6,"Suplementos","ESTER DE ALMEIDA SANTANA",185,2,"","","k"],["r","2026-05",6,"Adicional de Tizerpatida","ESTER DE ALMEIDA SANTANA",380,2,"","","c"],["r","2026-05",6,"Adicional de Tizerpatida","ESTER DE ALMEIDA SANTANA",380,2,"","","k"],["r","2026-05",7,"Receita de Serviços - Plano Bronze","ALEX MARCHIOLI STEFANON",3900,1,"","","c"],["r","2026-05",7,"Receita de Serviços - Plano Bronze","ALEX MARCHIOLI STEFANON",3900,1,"","","k"],["r","2026-05",7,"Receitas de Serviços a Identificar","Sem cliente",542.82,1,"","","c"],["r","2026-05",7,"Receitas de Serviços a Identificar","Sem cliente",542.82,1,"","","k"],["r","2026-05",7,"Receitas de Serviços a Identificar","Sem cliente",2117.55,1,"","","c"],["r","2026-05",7,"Receitas de Serviços a Identificar","Sem cliente",2117.55,1,"","","k"],["r","2026-05",7,"Rendimentos de Aplicações","Sem cliente",0.02,1,"","","c"],["r","2026-05",7,"Rendimentos de Aplicações","Sem cliente",0.02,1,"","","k"],["r","2026-05",7,"Receitas de Serviços a Identificar","Sem cliente",460,1,"","","c"],["r","2026-05",7,"Receitas de Serviços a Identificar","Sem cliente",460,1,"","","k"],["r","2026-05",7,"Receitas de Serviços a Identificar","MAULY MARTINS DA SILVA",550,1,"","","c"],["r","2026-05",7,"Receitas de Serviços a Identificar","MAULY MARTINS DA SILVA",550,1,"","","k"],["r","2026-05",7,"Suplementos","MAULY MARTINS DA SILVA",185,1,"","","c"],["r","2026-05",7,"Suplementos","MAULY MARTINS DA SILVA",185,1,"","","k"],["r","2026-05",8,"Receitas de Serviços a Identificar","Sem cliente",366.7,1,"","","c"],["r","2026-05",8,"Receitas de Serviços a Identificar","Sem cliente",366.7,1,"","","k"],["r","2026-05",8,"Receitas de Serviços a Identificar","Sem cliente",1154.76,1,"","","c"],["r","2026-05",8,"Receitas de Serviços a Identificar","Sem cliente",1154.76,1,"","","k"],["r","2026-05",8,"Receitas de Serviços a Identificar","Sem cliente",2238.86,1,"","","c"],["r","2026-05",8,"Receitas de Serviços a Identificar","Sem cliente",2238.86,1,"","","k"],["r","2026-05",8,"Receitas de Serviços a Identificar","Sem cliente",2330,1,"","","c"],["r","2026-05",8,"Receitas de Serviços a Identificar","Sem cliente",2330,1,"","","k"],["r","2026-05",8,"Implantes","NUBIA SILVA AMARAL STOHEL",3900,1,"","","c"],["r","2026-05",8,"Implantes","NUBIA SILVA AMARAL STOHEL",3900,1,"","","k"],["r","2026-05",8,"Suplementos","JADER JESUS SILVA",75,2,"","","c"],["r","2026-05",8,"Suplementos","JADER JESUS SILVA",75,2,"","","k"],["r","2026-05",8,"Receita de Serviços - Plano Bronze","ÉRICA RODRIGUES LIMA BOECHAT",1274,2,"","","c"],["r","2026-05",8,"Receita de Serviços - Plano Bronze","ÉRICA RODRIGUES LIMA BOECHAT",1274,2,"","","k"],["r","2026-05",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",2330,2,"","","c"],["r","2026-05",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",2330,2,"","","k"],["r","2026-05",8,"Implantes","NUBIA SILVA AMARAL STOHEL",3900,2,"","","c"],["r","2026-05",8,"Implantes","NUBIA SILVA AMARAL STOHEL",3900,2,"","","k"],["r","2026-05",8,"Implantes","ÉRICA RODRIGUES LIMA BOECHAT",4500,2,"","","c"],["r","2026-05",8,"Implantes","ÉRICA RODRIGUES LIMA BOECHAT",4500,2,"","","k"],["r","2026-05",11,"Consulta","Lúcia Sodré Moreira",650,1,"","","c"],["r","2026-05",11,"Consulta","Lúcia Sodré Moreira",650,1,"","","k"],["r","2026-05",11,"Consulta","MARIA DAS GRAÇAS RODRIGUES COELHO",500,1,"","","c"],["r","2026-05",11,"Consulta","MARIA DAS GRAÇAS RODRIGUES COELHO",500,1,"","","k"],["r","2026-05",11,"Receitas de Serviços a Identificar","Sem cliente",649.25,1,"","","c"],["r","2026-05",11,"Receitas de Serviços a Identificar","Sem cliente",649.25,1,"","","k"],["r","2026-05",11,"Receitas de Serviços a Identificar","Sem cliente",3716.64,1,"","","c"],["r","2026-05",11,"Receitas de Serviços a Identificar","Sem cliente",3716.64,1,"","","k"],["r","2026-05",11,"Receitas de Serviços a Identificar","Sem cliente",3465.58,1,"","","c"],["r","2026-05",11,"Receitas de Serviços a Identificar","Sem cliente",3465.58,1,"","","k"],["r","2026-05",11,"Receitas de Serviços a Identificar","Sem cliente",677.67,1,"","","c"],["r","2026-05",11,"Receitas de Serviços a Identificar","Sem cliente",677.67,1,"","","k"],["r","2026-05",11,"Receitas de Serviços a Identificar","Sem cliente",2699.68,1,"","","c"],["r","2026-05",11,"Receitas de Serviços a Identificar","Sem cliente",2699.68,1,"","","k"],["r","2026-05",11,"Receitas de Serviços a Identificar","KEILA SOARES RODRIGUES MONTEIRO",1460,1,"","","c"],["r","2026-05",11,"Receitas de Serviços a Identificar","KEILA SOARES RODRIGUES MONTEIRO",1460,1,"","","k"],["r","2026-05",11,"Receitas de Serviços a Identificar","MARIA DAS GRAÇAS NEVES CALIARI",2690,1,"","","c"],["r","2026-05",11,"Receitas de Serviços a Identificar","MARIA DAS GRAÇAS NEVES CALIARI",2690,1,"","","k"],["r","2026-05",11,"Receitas de Serviços a Identificar","KEILA SOARES RODRIGUES MONTEIRO",4000,1,"","","c"],["r","2026-05",11,"Receitas de Serviços a Identificar","KEILA SOARES RODRIGUES MONTEIRO",4000,1,"","","k"],["r","2026-05",11,"Receitas de Serviços a Identificar","MARIA DAS GRAÇAS NEVES CALIARI",6910,1,"","","c"],["r","2026-05",11,"Receitas de Serviços a Identificar","MARIA DAS GRAÇAS NEVES CALIARI",6910,1,"","","k"],["r","2026-05",11,"Suplementos","MARIA DAS GRAÇAS NEVES CALIARI",210,2,"","","c"],["r","2026-05",11,"Suplementos","MARIA DAS GRAÇAS NEVES CALIARI",210,2,"","","k"],["r","2026-05",11,"Receita de Serviços - Plano Prata","MARIA DAS GRAÇAS NEVES CALIARI",9600,2,"","","c"],["r","2026-05",11,"Receita de Serviços - Plano Prata","MARIA DAS GRAÇAS NEVES CALIARI",9600,2,"","","k"],["r","2026-05",11,"Receita de Serviços - Plano Bronze","KEILA SOARES RODRIGUES MONTEIRO",5460,2,"","","c"],["r","2026-05",11,"Receita de Serviços - Plano Bronze","KEILA SOARES RODRIGUES MONTEIRO",5460,2,"","","k"],["r","2026-05",11,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",1000,2,"","","c"],["r","2026-05",11,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",1000,2,"","","k"],["r","2026-05",12,"Receitas de Serviços a Identificar","Sem cliente",582.6,1,"","","c"],["r","2026-05",12,"Receitas de Serviços a Identificar","Sem cliente",582.6,1,"","","k"],["r","2026-05",12,"Receitas de Serviços a Identificar","Sem cliente",984.4,1,"","","c"],["r","2026-05",12,"Receitas de Serviços a Identificar","Sem cliente",984.4,1,"","","k"],["r","2026-05",12,"Receitas de Serviços a Identificar","Sem cliente",2228.3,1,"","","c"],["r","2026-05",12,"Receitas de Serviços a Identificar","Sem cliente",2228.3,1,"","","k"],["r","2026-05",12,"Receitas de Serviços a Identificar","Sem cliente",133.85,1,"","","c"],["r","2026-05",12,"Receitas de Serviços a Identificar","Sem cliente",133.85,1,"","","k"],["r","2026-05",13,"Suplementos","ÉRICA RODRIGUES LIMA BOECHAT",75,1,"","","c"],["r","2026-05",13,"Suplementos","ÉRICA RODRIGUES LIMA BOECHAT",75,1,"","","k"],["r","2026-05",13,"Receitas de Serviços a Identificar","Sem cliente",417.06,1,"","","c"],["r","2026-05",13,"Receitas de Serviços a Identificar","Sem cliente",417.06,1,"","","k"],["r","2026-05",13,"Receitas de Serviços a Identificar","Sem cliente",144.03,1,"","","c"],["r","2026-05",13,"Receitas de Serviços a Identificar","Sem cliente",144.03,1,"","","k"],["r","2026-05",13,"Rendimentos de Aplicações","Sem cliente",0.08,1,"","","c"],["r","2026-05",13,"Rendimentos de Aplicações","Sem cliente",0.08,1,"","","k"],["r","2026-05",13,"Suplementos","ZILDA MARIA MAIA DE CARVALHO",75,2,"","","c"],["r","2026-05",13,"Suplementos","ZILDA MARIA MAIA DE CARVALHO",75,2,"","","k"],["r","2026-05",13,"Suplementos","ANDREA RODRIGUES FERNANDES",50,2,"","","c"],["r","2026-05",13,"Suplementos","ANDREA RODRIGUES FERNANDES",50,2,"","","k"],["r","2026-05",15,"Receitas de Serviços a Identificar","Sem cliente",291,1,"","","c"],["r","2026-05",15,"Receitas de Serviços a Identificar","Sem cliente",291,1,"","","k"],["r","2026-05",15,"Receitas de Serviços a Identificar","Sem cliente",3709.42,1,"","","c"],["r","2026-05",15,"Receitas de Serviços a Identificar","Sem cliente",3709.42,1,"","","k"],["r","2026-05",15,"Receitas de Serviços a Identificar","Sem cliente",75,1,"","","c"],["r","2026-05",15,"Receitas de Serviços a Identificar","Sem cliente",75,1,"","","k"],["r","2026-05",18,"Receitas de Serviços a Identificar","Sem cliente",4732.93,1,"","","c"],["r","2026-05",18,"Receitas de Serviços a Identificar","Sem cliente",4732.93,1,"","","k"],["r","2026-05",18,"Receitas de Serviços a Identificar","Sem cliente",384.08,1,"","","c"],["r","2026-05",18,"Receitas de Serviços a Identificar","Sem cliente",384.08,1,"","","k"],["r","2026-05",18,"Receitas de Serviços a Identificar","Sem cliente",2955,1,"","","c"],["r","2026-05",18,"Receitas de Serviços a Identificar","Sem cliente",2955,1,"","","k"],["r","2026-05",18,"Receitas de Serviços a Identificar","Sem cliente",1000,1,"","","c"],["r","2026-05",18,"Receitas de Serviços a Identificar","Sem cliente",1000,1,"","","k"],["r","2026-05",18,"Suplementos","DORLI MARTINS DA SILVA",75,2,"","","c"],["r","2026-05",18,"Suplementos","DORLI MARTINS DA SILVA",75,2,"","","k"],["r","2026-05",18,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",1000,2,"","","c"],["r","2026-05",18,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",1000,2,"","","k"],["r","2026-05",19,"Suplementos","EDILAINE MARCIA MARCIANO DE SOUZA",75,1,"","","c"],["r","2026-05",20,"Suplementos","EDILAINE MARCIA MARCIANO DE SOUZA",75,1,"","","k"],["r","2026-05",19,"Receitas de Serviços a Identificar","Sem cliente",351.12,1,"","","c"],["r","2026-05",19,"Receitas de Serviços a Identificar","Sem cliente",351.12,1,"","","k"],["r","2026-05",19,"Receitas de Serviços a Identificar","Sem cliente",926.4,1,"","","c"],["r","2026-05",19,"Receitas de Serviços a Identificar","Sem cliente",926.4,1,"","","k"],["r","2026-05",19,"Receitas de Serviços a Identificar","Sem cliente",966.57,1,"","","c"],["r","2026-05",19,"Receitas de Serviços a Identificar","Sem cliente",966.57,1,"","","k"],["r","2026-05",19,"Rendimentos de Aplicações","Sem cliente",0.01,1,"","","c"],["r","2026-05",19,"Rendimentos de Aplicações","Sem cliente",0.01,1,"","","k"],["r","2026-05",20,"Receitas de Serviços a Identificar","Sem cliente",421.8,1,"","","c"],["r","2026-05",20,"Receitas de Serviços a Identificar","Sem cliente",421.8,1,"","","k"],["r","2026-05",20,"Receitas de Serviços a Identificar","Sem cliente",1223.46,1,"","","c"],["r","2026-05",20,"Receitas de Serviços a Identificar","Sem cliente",1223.46,1,"","","k"],["r","2026-05",20,"Receitas de Serviços a Identificar","Sem cliente",314.41,1,"","","c"],["r","2026-05",20,"Receitas de Serviços a Identificar","Sem cliente",314.41,1,"","","k"],["r","2026-05",20,"Receitas de Serviços a Identificar","Sem cliente",368.56,1,"","","c"],["r","2026-05",20,"Receitas de Serviços a Identificar","Sem cliente",368.56,1,"","","k"],["r","2026-05",20,"Rendimentos de Aplicações","Sem cliente",0.08,1,"","","c"],["r","2026-05",20,"Rendimentos de Aplicações","Sem cliente",0.08,1,"","","k"],["r","2026-05",21,"Receitas de Serviços a Identificar","Sem cliente",456.14,1,"","","c"],["r","2026-05",21,"Receitas de Serviços a Identificar","Sem cliente",456.14,1,"","","k"],["r","2026-05",21,"Receitas de Serviços a Identificar","Sem cliente",821.79,1,"","","c"],["r","2026-05",21,"Receitas de Serviços a Identificar","Sem cliente",821.79,1,"","","k"],["r","2026-05",21,"Receitas de Serviços a Identificar","Sem cliente",846.04,1,"","","c"],["r","2026-05",21,"Receitas de Serviços a Identificar","Sem cliente",846.04,1,"","","k"],["r","2026-05",21,"Suplementos","ANTONIO PEREIRA DE ARAUJO",75,2,"","","c"],["r","2026-05",21,"Suplementos","ANTONIO PEREIRA DE ARAUJO",75,2,"","","k"],["r","2026-05",21,"Receita de Serviços - Plano Diamante","ANTONIO PEREIRA DE ARAUJO",1380,2,"","","c"],["r","2026-05",21,"Receita de Serviços - Plano Diamante","ANTONIO PEREIRA DE ARAUJO",1380,2,"","","k"],["r","2026-05",22,"Receitas de Serviços a Identificar","Sem cliente",388.4,1,"","","c"],["r","2026-05",22,"Receitas de Serviços a Identificar","Sem cliente",388.4,1,"","","k"],["r","2026-05",22,"Receitas de Serviços a Identificar","Sem cliente",480.1,1,"","","c"],["r","2026-05",22,"Receitas de Serviços a Identificar","Sem cliente",480.1,1,"","","k"],["r","2026-05",22,"Receitas de Serviços a Identificar","Sem cliente",870.09,1,"","","c"],["r","2026-05",22,"Receitas de Serviços a Identificar","Sem cliente",870.09,1,"","","k"],["r","2026-05",22,"Receitas de Serviços a Identificar","Sem cliente",1262.6,1,"","","c"],["r","2026-05",22,"Receitas de Serviços a Identificar","Sem cliente",1262.6,1,"","","k"],["r","2026-05",22,"Receitas de Serviços a Identificar","Sem cliente",1432.3,1,"","","c"],["r","2026-05",22,"Receitas de Serviços a Identificar","Sem cliente",1432.3,1,"","","k"],["r","2026-05",22,"Receitas de Serviços a Identificar","Sem cliente",50,1,"","","c"],["r","2026-05",22,"Receitas de Serviços a Identificar","Sem cliente",50,1,"","","k"],["r","2026-05",25,"Receitas de Serviços a Identificar","Sem cliente",479.8,1,"","","c"],["r","2026-05",25,"Receitas de Serviços a Identificar","Sem cliente",479.8,1,"","","k"],["r","2026-05",25,"Receitas de Serviços a Identificar","Sem cliente",608.75,1,"","","c"],["r","2026-05",25,"Receitas de Serviços a Identificar","Sem cliente",608.75,1,"","","k"],["r","2026-05",25,"Receitas de Serviços a Identificar","Sem cliente",581.94,1,"","","c"],["r","2026-05",25,"Receitas de Serviços a Identificar","Sem cliente",581.94,1,"","","k"],["r","2026-05",25,"Receitas de Serviços a Identificar","Sem cliente",1473.09,1,"","","c"],["r","2026-05",25,"Receitas de Serviços a Identificar","Sem cliente",1473.09,1,"","","k"],["r","2026-05",25,"Receitas de Serviços a Identificar","ISABELA CRISTINA FANTI",2808,1,"","","c"],["r","2026-05",25,"Receitas de Serviços a Identificar","ISABELA CRISTINA FANTI",2808,1,"","","k"],["r","2026-05",25,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",625,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",625,2,"","","k"],["r","2026-05",25,"Adicional de Tizerpatida","ISABELA CRISTINA FANTI",2808,2,"","","c"],["r","2026-05",25,"Adicional de Tizerpatida","ISABELA CRISTINA FANTI",2808,2,"","","k"],["r","2026-05",26,"Receitas de Serviços a Identificar","Sem cliente",607.78,1,"","","c"],["r","2026-05",26,"Receitas de Serviços a Identificar","Sem cliente",607.78,1,"","","k"],["r","2026-05",26,"Suplementos","CRISTIANE CANDIDA DA SILVA",75,1,"","","c"],["r","2026-05",26,"Suplementos","CRISTIANE CANDIDA DA SILVA",75,1,"","","k"],["r","2026-05",26,"Receitas de Serviços a Identificar","Sem cliente",650,1,"","","c"],["r","2026-05",26,"Receitas de Serviços a Identificar","Sem cliente",650,1,"","","k"],["r","2026-05",26,"Receitas de Serviços a Identificar","Sem cliente",5613,1,"","","c"],["r","2026-05",26,"Receitas de Serviços a Identificar","Sem cliente",5613,1,"","","k"],["r","2026-05",26,"Suplementos","SEBASTIÃO SATURINO FILHO",270,2,"","","c"],["r","2026-05",26,"Suplementos","SEBASTIÃO SATURINO FILHO",270,2,"","","k"],["r","2026-05",26,"Receita de Serviços - Plano Prata","MAYKE CORREIA DE SOUZA",2806.5,2,"","","c"],["r","2026-05",26,"Receita de Serviços - Plano Prata","MAYKE CORREIA DE SOUZA",2806.5,2,"","","k"],["r","2026-05",26,"Receita de Serviços - Plano Prata","LETICIA BATISTA DE MORAES",2806.5,2,"","","c"],["r","2026-05",26,"Receita de Serviços - Plano Prata","LETICIA BATISTA DE MORAES",2806.5,2,"","","k"],["r","2026-05",27,"Receitas de Serviços a Identificar","Sem cliente",386.16,1,"","","c"],["r","2026-05",27,"Receitas de Serviços a Identificar","Sem cliente",386.16,1,"","","k"],["r","2026-05",27,"Receitas de Serviços a Identificar","Sem cliente",476.82,1,"","","c"],["r","2026-05",27,"Receitas de Serviços a Identificar","Sem cliente",476.82,1,"","","k"],["r","2026-05",27,"Receitas de Serviços a Identificar","Sem cliente",2170.59,1,"","","c"],["r","2026-05",27,"Receitas de Serviços a Identificar","Sem cliente",2170.59,1,"","","k"],["r","2026-05",27,"Receitas de Serviços a Identificar","Sem cliente",1707.5,1,"","","c"],["r","2026-05",27,"Receitas de Serviços a Identificar","Sem cliente",1707.5,1,"","","k"],["r","2026-05",27,"Receitas de Serviços a Identificar","Sem cliente",4700,1,"","","c"],["r","2026-05",27,"Receitas de Serviços a Identificar","Sem cliente",4700,1,"","","k"],["r","2026-05",28,"Receitas de Serviços a Identificar","Sem cliente",1256.89,1,"","","c"],["r","2026-05",28,"Receitas de Serviços a Identificar","Sem cliente",1256.89,1,"","","k"],["r","2026-05",28,"Receitas de Serviços a Identificar","Sem cliente",1621.2,1,"","","c"],["r","2026-05",28,"Receitas de Serviços a Identificar","Sem cliente",1621.2,1,"","","k"],["r","2026-05",28,"Receitas de Serviços a Identificar","Sem cliente",1800,1,"","","c"],["r","2026-05",28,"Receitas de Serviços a Identificar","Sem cliente",1800,1,"","","k"],["r","2026-05",28,"Receita de Serviços - Plano Bronze","MARLY MARIA ANDRADE DE LAIA",1800,2,"","","c"],["r","2026-05",28,"Receita de Serviços - Plano Bronze","MARLY MARIA ANDRADE DE LAIA",1800,2,"","","k"],["r","2026-05",29,"Receitas de Serviços a Identificar","Sem cliente",984.4,1,"","","c"],["r","2026-05",29,"Receitas de Serviços a Identificar","Sem cliente",984.4,1,"","","k"],["r","2026-05",29,"Receitas de Serviços a Identificar","Sem cliente",2586.2,1,"","","c"],["r","2026-05",29,"Receitas de Serviços a Identificar","Sem cliente",2586.2,1,"","","k"],["r","2026-05",29,"Rendimentos de Aplicações","Sem cliente",0.06,1,"","","c"],["r","2026-05",29,"Rendimentos de Aplicações","Sem cliente",0.06,1,"","","k"],["r","2026-05",30,"Suplementos","ZILDA MARIA MAIA DE CARVALHO",140,2,"","","c"],["r","2026-04",30,"Suplementos","ZILDA MARIA MAIA DE CARVALHO",140,2,"","","k"],["r","2026-05",30,"Suplementos","MAYKE CORREIA DE SOUZA",197.5,2,"","","c"],["r","2026-04",30,"Suplementos","MAYKE CORREIA DE SOUZA",197.5,2,"","","k"],["r","2026-05",30,"Receita de Serviços - Plano Diamante","BETANIA KINACIA DE SOUZA SATURNINO",2164.67,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Diamante","BETANIA KINACIA DE SOUZA SATURNINO",2164.67,2,"","","k"],["r","2026-05",30,"Receita de Serviços - Protocolo Body Reset","NATALIA PEREIRA MARTINS SILVA",397,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Protocolo Body Reset","NATALIA PEREIRA MARTINS SILVA",397,2,"","","k"],["r","2026-05",30,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",305,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",305,2,"","","k"],["r","2026-05",30,"Adicional de Tizerpatida","JOERLAINE DA SILVA OLIVEIRA ELIZEU",508,2,"","","c"],["r","2026-04",30,"Adicional de Tizerpatida","JOERLAINE DA SILVA OLIVEIRA ELIZEU",508,2,"","","k"],["r","2026-05",30,"Adicional de Tizerpatida","ORLANDA ALVES SALVADOR",200,2,"","","c"],["r","2026-04",30,"Adicional de Tizerpatida","ORLANDA ALVES SALVADOR",200,2,"","","k"],["r","2026-05",30,"Adicional de Tizerpatida","VALDETE APARECIDA FERREIRA HERMISDOLFE",518.67,2,"","","c"],["r","2026-04",30,"Adicional de Tizerpatida","VALDETE APARECIDA FERREIRA HERMISDOLFE",518.67,2,"","","k"],["r","2026-05",30,"Injetaveis","JADER JESUS SILVA",708.75,2,"","","c"],["r","2026-04",30,"Injetaveis","JADER JESUS SILVA",708.75,2,"","","k"],["r","2026-05",30,"Receita de Serviços - Plano Bronze","SOLANGE RODRIGUES DE SOUZA PIMENTA",517.2,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SOLANGE RODRIGUES DE SOUZA PIMENTA",517.2,2,"","","k"],["r","2026-05",30,"Receita de Serviços - Plano Bronze","TALITA FABIELLE PEREIRA DA SILVA BITTENCOURT",1460,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","TALITA FABIELLE PEREIRA DA SILVA BITTENCOURT",1460,2,"","","k"],["r","2026-05",30,"Receita de Serviços - Plano Prata","ANA LÚCIA COLOMBEKI SALDANHA",1262.2,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","ANA LÚCIA COLOMBEKI SALDANHA",1262.2,2,"","","k"],["r","2026-05",30,"Implantes","LETICIA RENATA RODRIGUES SOUZA PIONTI",300,2,"","","c"],["r","2026-04",30,"Implantes","LETICIA RENATA RODRIGUES SOUZA PIONTI",300,2,"","","k"],["r","2026-05",30,"Teste Nutrigenetico","EDILAINE MARCIA MARCIANO DE SOUZA",975,2,"","","c"],["r","2026-04",30,"Teste Nutrigenetico","EDILAINE MARCIA MARCIANO DE SOUZA",975,2,"","","k"],["r","2026-05",30,"Receita de Serviços - Plano Prata","MARIA DA PENHA MOURA ROSA",1593.8,2,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","MARIA DA PENHA MOURA ROSA",1593.8,2,"","","k"],["r","2026-06",5,"Adicional de Tizerpatida","MARILZA DE AGUIAR DIAS",1404,2,"","","c"],["r","2026-05",6,"Adicional de Tizerpatida","MARILZA DE AGUIAR DIAS",1404,2,"","","k"],["r","2026-06",6,"Implantes","ESTER DE ALMEIDA SANTANA",666.67,2,"","","c"],["r","2026-05",6,"Implantes","ESTER DE ALMEIDA SANTANA",666.67,2,"","","k"],["r","2026-06",6,"Adicional de Tizerpatida","ESTER DE ALMEIDA SANTANA",500,2,"","","c"],["r","2026-05",6,"Adicional de Tizerpatida","ESTER DE ALMEIDA SANTANA",500,2,"","","k"],["r","2026-06",6,"Adicional de Tizerpatida","ANA PAULA COELHO PORTES MATTOS",643.5,2,"","","c"],["r","2026-05",6,"Adicional de Tizerpatida","ANA PAULA COELHO PORTES MATTOS",643.5,2,"","","k"],["r","2026-06",7,"Implantes","NARLA MARQUES",881.67,2,"","","c"],["r","2026-05",7,"Implantes","NARLA MARQUES",881.67,2,"","","k"],["r","2026-06",8,"Receita de Serviços - Plano Bronze","ÉRICA RODRIGUES LIMA BOECHAT",3600,2,"","","c"],["r","2026-05",8,"Receita de Serviços - Plano Bronze","ÉRICA RODRIGUES LIMA BOECHAT",3600,2,"","","k"],["r","2026-06",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",690,2,"","","c"],["r","2026-05",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",690,2,"","","k"],["r","2026-06",8,"Implantes","NUBIA SILVA AMARAL STOHEL",200,2,"","","c"],["r","2026-05",8,"Implantes","NUBIA SILVA AMARAL STOHEL",200,2,"","","k"],["r","2026-06",22,"Consulta","Débora Eliziário de Oliveira",600,0,"","","c"],["r","2026-05",22,"Consulta","Débora Eliziário de Oliveira",600,0,"","","k"],["r","2026-06",22,"Consulta","Débora Eliziário de Oliveira",50,0,"","","c"],["r","2026-05",22,"Consulta","Débora Eliziário de Oliveira",50,0,"","","k"],["r","2026-06",24,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",625,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",625,0,"","","k"],["r","2026-06",25,"Adicional de Tizerpatida","MARIA DA PENHA MOURA ROSA",234,0,"","","c"],["r","2026-05",25,"Adicional de Tizerpatida","MARIA DA PENHA MOURA ROSA",234,0,"","","k"],["r","2026-06",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",4700,0,"","","c"],["r","2026-05",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",4700,0,"","","k"],["r","2026-06",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",1000,0,"","","c"],["r","2026-05",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",1000,0,"","","k"],["r","2026-06",29,"Receita de Serviços - Plano Prata","MARILZA DE AGUIAR DIAS",1581.25,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","MARILZA DE AGUIAR DIAS",1581.25,0,"","","k"],["r","2026-06",30,"Suplementos","ZILDA MARIA MAIA DE CARVALHO",140,0,"","","c"],["r","2026-04",30,"Suplementos","ZILDA MARIA MAIA DE CARVALHO",140,0,"","","k"],["r","2026-06",30,"Receita de Serviços - Plano Diamante","BETANIA KINACIA DE SOUZA SATURNINO",2164.67,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Diamante","BETANIA KINACIA DE SOUZA SATURNINO",2164.67,0,"","","k"],["r","2026-06",30,"Receita de Serviços - Protocolo Body Reset","NATALIA PEREIRA MARTINS SILVA",397,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Protocolo Body Reset","NATALIA PEREIRA MARTINS SILVA",397,0,"","","k"],["r","2026-06",30,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",305,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",305,0,"","","k"],["r","2026-06",30,"Adicional de Tizerpatida","JOERLAINE DA SILVA OLIVEIRA ELIZEU",508,0,"","","c"],["r","2026-04",30,"Adicional de Tizerpatida","JOERLAINE DA SILVA OLIVEIRA ELIZEU",508,0,"","","k"],["r","2026-06",30,"Adicional de Tizerpatida","ORLANDA ALVES SALVADOR",200,0,"","","c"],["r","2026-04",30,"Adicional de Tizerpatida","ORLANDA ALVES SALVADOR",200,0,"","","k"],["r","2026-06",30,"Adicional de Tizerpatida","VALDETE APARECIDA FERREIRA HERMISDOLFE",518.66,0,"","","c"],["r","2026-04",30,"Adicional de Tizerpatida","VALDETE APARECIDA FERREIRA HERMISDOLFE",518.66,0,"","","k"],["r","2026-06",30,"Injetaveis","JADER JESUS SILVA",708.75,0,"","","c"],["r","2026-04",30,"Injetaveis","JADER JESUS SILVA",708.75,0,"","","k"],["r","2026-06",30,"Receita de Serviços - Plano Bronze","SOLANGE RODRIGUES DE SOUZA PIMENTA",517.2,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SOLANGE RODRIGUES DE SOUZA PIMENTA",517.2,0,"","","k"],["r","2026-06",30,"Receita de Serviços - Plano Bronze","TALITA FABIELLE PEREIRA DA SILVA BITTENCOURT",1460,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","TALITA FABIELLE PEREIRA DA SILVA BITTENCOURT",1460,0,"","","k"],["r","2026-06",30,"Receita de Serviços - Plano Prata","ANA LÚCIA COLOMBEKI SALDANHA",1262.2,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","ANA LÚCIA COLOMBEKI SALDANHA",1262.2,0,"","","k"],["r","2026-06",30,"Implantes","LETICIA RENATA RODRIGUES SOUZA PIONTI",300,0,"","","c"],["r","2026-04",30,"Implantes","LETICIA RENATA RODRIGUES SOUZA PIONTI",300,0,"","","k"],["r","2026-06",30,"Adicional de Tizerpatida","THAÍS DAMASCENA DE PAULO HONORATO",400,0,"","","c"],["r","2026-04",30,"Adicional de Tizerpatida","THAÍS DAMASCENA DE PAULO HONORATO",400,0,"","","k"],["r","2026-06",30,"Teste Nutrigenetico","EDILAINE MARCIA MARCIANO DE SOUZA",975,0,"","","c"],["r","2026-04",30,"Teste Nutrigenetico","EDILAINE MARCIA MARCIANO DE SOUZA",975,0,"","","k"],["r","2026-06",30,"Receita de Serviços - Plano Prata","MARIA DA PENHA MOURA ROSA",1593.8,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","MARIA DA PENHA MOURA ROSA",1593.8,0,"","","k"],["r","2026-07",6,"Implantes","ESTER DE ALMEIDA SANTANA",666.67,0,"","","c"],["r","2026-05",6,"Implantes","ESTER DE ALMEIDA SANTANA",666.67,0,"","","k"],["r","2026-07",6,"Adicional de Tizerpatida","ESTER DE ALMEIDA SANTANA",500,0,"","","c"],["r","2026-05",6,"Adicional de Tizerpatida","ESTER DE ALMEIDA SANTANA",500,0,"","","k"],["r","2026-07",6,"Adicional de Tizerpatida","ANA PAULA COELHO PORTES MATTOS",643.5,0,"","","c"],["r","2026-05",6,"Adicional de Tizerpatida","ANA PAULA COELHO PORTES MATTOS",643.5,0,"","","k"],["r","2026-07",7,"Implantes","NARLA MARQUES",881.67,0,"","","c"],["r","2026-05",7,"Implantes","NARLA MARQUES",881.67,0,"","","k"],["r","2026-07",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",690,0,"","","c"],["r","2026-05",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",690,0,"","","k"],["r","2026-07",8,"Implantes","NUBIA SILVA AMARAL STOHEL",200,0,"","","c"],["r","2026-05",8,"Implantes","NUBIA SILVA AMARAL STOHEL",200,0,"","","k"],["r","2026-07",18,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",300,0,"","","c"],["r","2026-05",18,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",300,0,"","","k"],["r","2026-07",24,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",625,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",625,0,"","","k"],["r","2026-07",25,"Adicional de Tizerpatida","MARIA DA PENHA MOURA ROSA",234,0,"","","c"],["r","2026-05",25,"Adicional de Tizerpatida","MARIA DA PENHA MOURA ROSA",234,0,"","","k"],["r","2026-07",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",1200,0,"","","c"],["r","2026-05",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",1200,0,"","","k"],["r","2026-07",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",544,0,"","","c"],["r","2026-05",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",544,0,"","","k"],["r","2026-07",29,"Receita de Serviços - Plano Prata","MARILZA DE AGUIAR DIAS",1581.25,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","MARILZA DE AGUIAR DIAS",1581.25,0,"","","k"],["r","2026-07",30,"Receita de Serviços - Plano Diamante","BETANIA KINACIA DE SOUZA SATURNINO",2164.67,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Diamante","BETANIA KINACIA DE SOUZA SATURNINO",2164.67,0,"","","k"],["r","2026-07",30,"Receita de Serviços - Protocolo Body Reset","NATALIA PEREIRA MARTINS SILVA",397,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Protocolo Body Reset","NATALIA PEREIRA MARTINS SILVA",397,0,"","","k"],["r","2026-07",30,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",305,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",305,0,"","","k"],["r","2026-07",30,"Adicional de Tizerpatida","JOERLAINE DA SILVA OLIVEIRA ELIZEU",508,0,"","","c"],["r","2026-04",30,"Adicional de Tizerpatida","JOERLAINE DA SILVA OLIVEIRA ELIZEU",508,0,"","","k"],["r","2026-07",30,"Injetaveis","JADER JESUS SILVA",708.75,0,"","","c"],["r","2026-04",30,"Injetaveis","JADER JESUS SILVA",708.75,0,"","","k"],["r","2026-07",30,"Receita de Serviços - Plano Bronze","SOLANGE RODRIGUES DE SOUZA PIMENTA",517.2,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SOLANGE RODRIGUES DE SOUZA PIMENTA",517.2,0,"","","k"],["r","2026-07",30,"Receita de Serviços - Plano Bronze","TALITA FABIELLE PEREIRA DA SILVA BITTENCOURT",1460,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","TALITA FABIELLE PEREIRA DA SILVA BITTENCOURT",1460,0,"","","k"],["r","2026-07",30,"Receita de Serviços - Plano Prata","ANA LÚCIA COLOMBEKI SALDANHA",1262.2,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","ANA LÚCIA COLOMBEKI SALDANHA",1262.2,0,"","","k"],["r","2026-07",30,"Implantes","LETICIA RENATA RODRIGUES SOUZA PIONTI",300,0,"","","c"],["r","2026-04",30,"Implantes","LETICIA RENATA RODRIGUES SOUZA PIONTI",300,0,"","","k"],["r","2026-07",30,"Adicional de Tizerpatida","THAÍS DAMASCENA DE PAULO HONORATO",400,0,"","","c"],["r","2026-04",30,"Adicional de Tizerpatida","THAÍS DAMASCENA DE PAULO HONORATO",400,0,"","","k"],["r","2026-07",30,"Teste Nutrigenetico","EDILAINE MARCIA MARCIANO DE SOUZA",975,0,"","","c"],["r","2026-04",30,"Teste Nutrigenetico","EDILAINE MARCIA MARCIANO DE SOUZA",975,0,"","","k"],["r","2026-07",30,"Receita de Serviços - Plano Prata","MARIA DA PENHA MOURA ROSA",1593.8,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","MARIA DA PENHA MOURA ROSA",1593.8,0,"","","k"],["r","2026-08",6,"Implantes","ESTER DE ALMEIDA SANTANA",666.67,0,"","","c"],["r","2026-05",6,"Implantes","ESTER DE ALMEIDA SANTANA",666.67,0,"","","k"],["r","2026-08",6,"Adicional de Tizerpatida","ESTER DE ALMEIDA SANTANA",500,0,"","","c"],["r","2026-05",6,"Adicional de Tizerpatida","ESTER DE ALMEIDA SANTANA",500,0,"","","k"],["r","2026-08",6,"Adicional de Tizerpatida","ANA PAULA COELHO PORTES MATTOS",643.5,0,"","","c"],["r","2026-05",6,"Adicional de Tizerpatida","ANA PAULA COELHO PORTES MATTOS",643.5,0,"","","k"],["r","2026-08",7,"Implantes","NARLA MARQUES",881.67,0,"","","c"],["r","2026-05",7,"Implantes","NARLA MARQUES",881.67,0,"","","k"],["r","2026-08",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",690,0,"","","c"],["r","2026-05",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",690,0,"","","k"],["r","2026-08",8,"Implantes","NUBIA SILVA AMARAL STOHEL",200,0,"","","c"],["r","2026-05",8,"Implantes","NUBIA SILVA AMARAL STOHEL",200,0,"","","k"],["r","2026-08",18,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",300,0,"","","c"],["r","2026-05",18,"Receita de Serviços - Plano Prata","ROSIANE ALMEIDA COSTA BELING",300,0,"","","k"],["r","2026-08",23,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",625,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",625,0,"","","k"],["r","2026-08",25,"Adicional de Tizerpatida","MARIA DA PENHA MOURA ROSA",234,0,"","","c"],["r","2026-05",25,"Adicional de Tizerpatida","MARIA DA PENHA MOURA ROSA",234,0,"","","k"],["r","2026-08",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",1200,0,"","","c"],["r","2026-05",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",1200,0,"","","k"],["r","2026-08",28,"Receita de Serviços - Plano Prata","MARILZA DE AGUIAR DIAS",1581.25,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","MARILZA DE AGUIAR DIAS",1581.25,0,"","","k"],["r","2026-08",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",544,0,"","","c"],["r","2026-05",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",544,0,"","","k"],["r","2026-08",30,"Receita de Serviços - Plano Diamante","BETANIA KINACIA DE SOUZA SATURNINO",2164.67,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Diamante","BETANIA KINACIA DE SOUZA SATURNINO",2164.67,0,"","","k"],["r","2026-08",30,"Receita de Serviços - Protocolo Body Reset","NATALIA PEREIRA MARTINS SILVA",397,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Protocolo Body Reset","NATALIA PEREIRA MARTINS SILVA",397,0,"","","k"],["r","2026-08",30,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",305,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",305,0,"","","k"],["r","2026-08",30,"Adicional de Tizerpatida","JOERLAINE DA SILVA OLIVEIRA ELIZEU",508,0,"","","c"],["r","2026-04",30,"Adicional de Tizerpatida","JOERLAINE DA SILVA OLIVEIRA ELIZEU",508,0,"","","k"],["r","2026-08",30,"Injetaveis","JADER JESUS SILVA",708.75,0,"","","c"],["r","2026-04",30,"Injetaveis","JADER JESUS SILVA",708.75,0,"","","k"],["r","2026-08",30,"Receita de Serviços - Plano Bronze","SOLANGE RODRIGUES DE SOUZA PIMENTA",517.2,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SOLANGE RODRIGUES DE SOUZA PIMENTA",517.2,0,"","","k"],["r","2026-08",30,"Receita de Serviços - Plano Bronze","TALITA FABIELLE PEREIRA DA SILVA BITTENCOURT",1460,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","TALITA FABIELLE PEREIRA DA SILVA BITTENCOURT",1460,0,"","","k"],["r","2026-08",30,"Receita de Serviços - Plano Prata","ANA LÚCIA COLOMBEKI SALDANHA",1262.2,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","ANA LÚCIA COLOMBEKI SALDANHA",1262.2,0,"","","k"],["r","2026-08",30,"Teste Nutrigenetico","EDILAINE MARCIA MARCIANO DE SOUZA",975,0,"","","c"],["r","2026-04",30,"Teste Nutrigenetico","EDILAINE MARCIA MARCIANO DE SOUZA",975,0,"","","k"],["r","2026-08",30,"Receita de Serviços - Plano Prata","MARIA DA PENHA MOURA ROSA",1593.8,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","MARIA DA PENHA MOURA ROSA",1593.8,0,"","","k"],["r","2026-09",6,"Implantes","ESTER DE ALMEIDA SANTANA",666.67,0,"","","c"],["r","2026-05",6,"Implantes","ESTER DE ALMEIDA SANTANA",666.67,0,"","","k"],["r","2026-09",6,"Adicional de Tizerpatida","ESTER DE ALMEIDA SANTANA",500,0,"","","c"],["r","2026-05",6,"Adicional de Tizerpatida","ESTER DE ALMEIDA SANTANA",500,0,"","","k"],["r","2026-09",6,"Adicional de Tizerpatida","ANA PAULA COELHO PORTES MATTOS",643.5,0,"","","c"],["r","2026-05",6,"Adicional de Tizerpatida","ANA PAULA COELHO PORTES MATTOS",643.5,0,"","","k"],["r","2026-09",7,"Implantes","NARLA MARQUES",881.67,0,"","","c"],["r","2026-05",7,"Implantes","NARLA MARQUES",881.67,0,"","","k"],["r","2026-09",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",690,0,"","","c"],["r","2026-05",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",690,0,"","","k"],["r","2026-09",22,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",625,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",625,0,"","","k"],["r","2026-09",25,"Adicional de Tizerpatida","MARIA DA PENHA MOURA ROSA",234,0,"","","c"],["r","2026-05",25,"Adicional de Tizerpatida","MARIA DA PENHA MOURA ROSA",234,0,"","","k"],["r","2026-09",27,"Receita de Serviços - Plano Prata","MARILZA DE AGUIAR DIAS",1581.25,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","MARILZA DE AGUIAR DIAS",1581.25,0,"","","k"],["r","2026-09",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",1200,0,"","","c"],["r","2026-05",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",1200,0,"","","k"],["r","2026-09",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",544,0,"","","c"],["r","2026-05",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",544,0,"","","k"],["r","2026-09",30,"Receita de Serviços - Plano Diamante","BETANIA KINACIA DE SOUZA SATURNINO",2164.65,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Diamante","BETANIA KINACIA DE SOUZA SATURNINO",2164.65,0,"","","k"],["r","2026-09",30,"Receita de Serviços - Protocolo Body Reset","NATALIA PEREIRA MARTINS SILVA",397,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Protocolo Body Reset","NATALIA PEREIRA MARTINS SILVA",397,0,"","","k"],["r","2026-09",30,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",305,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",305,0,"","","k"],["r","2026-09",30,"Adicional de Tizerpatida","JOERLAINE DA SILVA OLIVEIRA ELIZEU",508,0,"","","c"],["r","2026-04",30,"Adicional de Tizerpatida","JOERLAINE DA SILVA OLIVEIRA ELIZEU",508,0,"","","k"],["r","2026-09",30,"Receita de Serviços - Plano Bronze","SOLANGE RODRIGUES DE SOUZA PIMENTA",517.2,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SOLANGE RODRIGUES DE SOUZA PIMENTA",517.2,0,"","","k"],["r","2026-09",30,"Receita de Serviços - Plano Prata","ANA LÚCIA COLOMBEKI SALDANHA",1262.2,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","ANA LÚCIA COLOMBEKI SALDANHA",1262.2,0,"","","k"],["r","2026-09",30,"Receita de Serviços - Plano Prata","MARIA DA PENHA MOURA ROSA",1593.8,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","MARIA DA PENHA MOURA ROSA",1593.8,0,"","","k"],["r","2026-10",6,"Implantes","ESTER DE ALMEIDA SANTANA",666.67,0,"","","c"],["r","2026-05",6,"Implantes","ESTER DE ALMEIDA SANTANA",666.67,0,"","","k"],["r","2026-10",6,"Adicional de Tizerpatida","ESTER DE ALMEIDA SANTANA",500,0,"","","c"],["r","2026-05",6,"Adicional de Tizerpatida","ESTER DE ALMEIDA SANTANA",500,0,"","","k"],["r","2026-10",7,"Implantes","NARLA MARQUES",881.67,0,"","","c"],["r","2026-05",7,"Implantes","NARLA MARQUES",881.67,0,"","","k"],["r","2026-10",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",690,0,"","","c"],["r","2026-05",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",690,0,"","","k"],["r","2026-10",22,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",625,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","NAZARETH ALVES DE ARAÚJO",625,0,"","","k"],["r","2026-10",25,"Adicional de Tizerpatida","MARIA DA PENHA MOURA ROSA",234,0,"","","c"],["r","2026-05",25,"Adicional de Tizerpatida","MARIA DA PENHA MOURA ROSA",234,0,"","","k"],["r","2026-10",27,"Receita de Serviços - Plano Prata","MARILZA DE AGUIAR DIAS",1581.25,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","MARILZA DE AGUIAR DIAS",1581.25,0,"","","k"],["r","2026-10",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",1200,0,"","","c"],["r","2026-05",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",1200,0,"","","k"],["r","2026-10",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",544,0,"","","c"],["r","2026-05",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",544,0,"","","k"],["r","2026-10",30,"Receita de Serviços - Protocolo Body Reset","NATALIA PEREIRA MARTINS SILVA",397,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Protocolo Body Reset","NATALIA PEREIRA MARTINS SILVA",397,0,"","","k"],["r","2026-10",30,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",305,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",305,0,"","","k"],["r","2026-10",30,"Receita de Serviços - Plano Bronze","SOLANGE RODRIGUES DE SOUZA PIMENTA",517.2,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SOLANGE RODRIGUES DE SOUZA PIMENTA",517.2,0,"","","k"],["r","2026-10",30,"Receita de Serviços - Plano Prata","ANA LÚCIA COLOMBEKI SALDANHA",1262.2,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","ANA LÚCIA COLOMBEKI SALDANHA",1262.2,0,"","","k"],["r","2026-10",30,"Receita de Serviços - Plano Prata","MARIA DA PENHA MOURA ROSA",1593.8,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","MARIA DA PENHA MOURA ROSA",1593.8,0,"","","k"],["r","2026-11",6,"Implantes","ESTER DE ALMEIDA SANTANA",666.65,0,"","","c"],["r","2026-05",6,"Implantes","ESTER DE ALMEIDA SANTANA",666.65,0,"","","k"],["r","2026-11",6,"Adicional de Tizerpatida","ESTER DE ALMEIDA SANTANA",500,0,"","","c"],["r","2026-05",6,"Adicional de Tizerpatida","ESTER DE ALMEIDA SANTANA",500,0,"","","k"],["r","2026-11",7,"Implantes","NARLA MARQUES",881.65,0,"","","c"],["r","2026-05",7,"Implantes","NARLA MARQUES",881.65,0,"","","k"],["r","2026-11",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",690,0,"","","c"],["r","2026-05",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",690,0,"","","k"],["r","2026-11",25,"Adicional de Tizerpatida","MARIA DA PENHA MOURA ROSA",234,0,"","","c"],["r","2026-05",25,"Adicional de Tizerpatida","MARIA DA PENHA MOURA ROSA",234,0,"","","k"],["r","2026-11",26,"Receita de Serviços - Plano Prata","MARILZA DE AGUIAR DIAS",1581.25,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","MARILZA DE AGUIAR DIAS",1581.25,0,"","","k"],["r","2026-11",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",1200,0,"","","c"],["r","2026-05",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",1200,0,"","","k"],["r","2026-11",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",544,0,"","","c"],["r","2026-05",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",544,0,"","","k"],["r","2026-11",30,"Receita de Serviços - Protocolo Body Reset","NATALIA PEREIRA MARTINS SILVA",397,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Protocolo Body Reset","NATALIA PEREIRA MARTINS SILVA",397,0,"","","k"],["r","2026-11",30,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",305,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",305,0,"","","k"],["r","2026-11",30,"Receita de Serviços - Plano Bronze","SOLANGE RODRIGUES DE SOUZA PIMENTA",517.2,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SOLANGE RODRIGUES DE SOUZA PIMENTA",517.2,0,"","","k"],["r","2026-11",30,"Receita de Serviços - Plano Prata","ANA LÚCIA COLOMBEKI SALDANHA",1262.2,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","ANA LÚCIA COLOMBEKI SALDANHA",1262.2,0,"","","k"],["r","2026-11",30,"Receita de Serviços - Plano Prata","MARIA DA PENHA MOURA ROSA",1593.8,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","MARIA DA PENHA MOURA ROSA",1593.8,0,"","","k"],["r","2026-12",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",690,0,"","","c"],["r","2026-05",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",690,0,"","","k"],["r","2026-12",25,"Adicional de Tizerpatida","MARIA DA PENHA MOURA ROSA",234,0,"","","c"],["r","2026-05",25,"Adicional de Tizerpatida","MARIA DA PENHA MOURA ROSA",234,0,"","","k"],["r","2026-12",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",1200,0,"","","c"],["r","2026-05",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",1200,0,"","","k"],["r","2026-12",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",544,0,"","","c"],["r","2026-05",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",544,0,"","","k"],["r","2026-12",30,"Receita de Serviços - Protocolo Body Reset","NATALIA PEREIRA MARTINS SILVA",397,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Protocolo Body Reset","NATALIA PEREIRA MARTINS SILVA",397,0,"","","k"],["r","2026-12",30,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",305,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",305,0,"","","k"],["r","2026-12",30,"Receita de Serviços - Plano Bronze","SOLANGE RODRIGUES DE SOUZA PIMENTA",517.2,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SOLANGE RODRIGUES DE SOUZA PIMENTA",517.2,0,"","","k"],["r","2026-12",30,"Receita de Serviços - Plano Prata","ANA LÚCIA COLOMBEKI SALDANHA",1262.2,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","ANA LÚCIA COLOMBEKI SALDANHA",1262.2,0,"","","k"],["r","2026-12",30,"Receita de Serviços - Plano Prata","MARIA DA PENHA MOURA ROSA",1593.8,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","MARIA DA PENHA MOURA ROSA",1593.8,0,"","","k"],["r","2027-01",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",690,0,"","","c"],["r","2026-05",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",690,0,"","","k"],["r","2027-01",25,"Adicional de Tizerpatida","MARIA DA PENHA MOURA ROSA",234,0,"","","c"],["r","2026-05",25,"Adicional de Tizerpatida","MARIA DA PENHA MOURA ROSA",234,0,"","","k"],["r","2027-01",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",1200,0,"","","c"],["r","2026-05",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",1200,0,"","","k"],["r","2027-01",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",544,0,"","","c"],["r","2026-05",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",544,0,"","","k"],["r","2027-01",30,"Receita de Serviços - Protocolo Body Reset","NATALIA PEREIRA MARTINS SILVA",397,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Protocolo Body Reset","NATALIA PEREIRA MARTINS SILVA",397,0,"","","k"],["r","2027-01",30,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",305,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SIRLENE KISTER PELANDA",305,0,"","","k"],["r","2027-01",30,"Receita de Serviços - Plano Bronze","SOLANGE RODRIGUES DE SOUZA PIMENTA",517.2,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SOLANGE RODRIGUES DE SOUZA PIMENTA",517.2,0,"","","k"],["r","2027-01",30,"Receita de Serviços - Plano Prata","ANA LÚCIA COLOMBEKI SALDANHA",1262.2,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","ANA LÚCIA COLOMBEKI SALDANHA",1262.2,0,"","","k"],["r","2027-01",30,"Receita de Serviços - Plano Prata","MARIA DA PENHA MOURA ROSA",1593.8,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","MARIA DA PENHA MOURA ROSA",1593.8,0,"","","k"],["r","2027-02",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",690,0,"","","c"],["r","2026-05",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",690,0,"","","k"],["r","2027-02",25,"Adicional de Tizerpatida","MARIA DA PENHA MOURA ROSA",234,0,"","","c"],["r","2026-05",25,"Adicional de Tizerpatida","MARIA DA PENHA MOURA ROSA",234,0,"","","k"],["r","2027-02",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",1200,0,"","","c"],["r","2026-05",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",1200,0,"","","k"],["r","2027-02",28,"Receita de Serviços - Plano Bronze","SOLANGE RODRIGUES DE SOUZA PIMENTA",517.2,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Bronze","SOLANGE RODRIGUES DE SOUZA PIMENTA",517.2,0,"","","k"],["r","2027-02",28,"Receita de Serviços - Plano Prata","ANA LÚCIA COLOMBEKI SALDANHA",1262.2,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","ANA LÚCIA COLOMBEKI SALDANHA",1262.2,0,"","","k"],["r","2027-02",28,"Receita de Serviços - Plano Prata","MARIA DA PENHA MOURA ROSA",1593.8,0,"","","c"],["r","2026-04",30,"Receita de Serviços - Plano Prata","MARIA DA PENHA MOURA ROSA",1593.8,0,"","","k"],["r","2027-02",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",544,0,"","","c"],["r","2026-05",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",544,0,"","","k"],["r","2027-03",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",690,0,"","","c"],["r","2026-05",8,"Receita de Serviços - Plano Prata","NATALIA PEREIRA MARTINS SILVA",690,0,"","","k"],["r","2027-03",25,"Adicional de Tizerpatida","MARIA DA PENHA MOURA ROSA",234,0,"","","c"],["r","2026-05",25,"Adicional de Tizerpatida","MARIA DA PENHA MOURA ROSA",234,0,"","","k"],["r","2027-03",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",1200,0,"","","c"],["r","2026-05",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",1200,0,"","","k"],["r","2027-03",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",544,0,"","","c"],["r","2026-05",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",544,0,"","","k"],["r","2027-04",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",1200,0,"","","c"],["r","2026-05",27,"Receita de Serviços - Plano Prata","EDILAINE MARCIA MARCIANO DE SOUZA",1200,0,"","","k"],["r","2027-04",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",544,0,"","","c"],["r","2026-05",28,"Receita de Serviços - Plano Bronze","SAYONARIA LOPES EVANGELISTA",544,0,"","","k"],["d","2026-01",2,"Tarifas Bancárias","",30.85,1,"Sem cliente","","c"],["d","2026-01",2,"Tarifas Bancárias","",30.85,1,"Sem cliente","","k"],["d","2026-01",5,"Marketing e Publicidade","",2100,1,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","c"],["d","2026-01",5,"Marketing e Publicidade","",2100,1,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","k"],["d","2026-01",5,"Lanches e Refeições","",25,1,"Sem cliente","","c"],["d","2026-01",5,"Lanches e Refeições","",25,1,"Sem cliente","","k"],["d","2026-01",5,"Serviços de Pessoa Jurídica","",2067,1,"PARCELAMOS TUDO PONTOCOM","","c"],["d","2026-01",5,"Serviços de Pessoa Jurídica","",2067,1,"PARCELAMOS TUDO PONTOCOM","","k"],["d","2026-01",7,"Telefonia Móvel","",35,1,"TELEFONICA BRASIL S.A","","c"],["d","2026-01",7,"Telefonia Móvel","",35,1,"TELEFONICA BRASIL S.A","","k"],["d","2026-01",7,"Honorários Contábeis","",190,1,"DELOGO & SAINTS CONTABILIDADE LTDA","","c"],["d","2026-01",7,"Honorários Contábeis","",190,1,"DELOGO & SAINTS CONTABILIDADE LTDA","","k"],["d","2026-01",7,"Despesas a identificar","",825,1,"Sem cliente","","c"],["d","2026-01",7,"Despesas a identificar","",825,1,"Sem cliente","","k"],["d","2026-01",7,"Despesas a identificar","",750,1,"Sem cliente","","c"],["d","2026-01",7,"Despesas a identificar","",750,1,"Sem cliente","","k"],["d","2026-01",7,"Insumos e Materiais Clínicos","",1158.83,1,"Bios Farmacêutica","","c"],["d","2026-01",7,"Insumos e Materiais Clínicos","",1158.83,1,"Bios Farmacêutica","","k"],["d","2026-01",7,"Insumos e Materiais Clínicos","",1145,1,"Unikka Pharma","","c"],["d","2026-01",7,"Insumos e Materiais Clínicos","",1145,1,"Unikka Pharma","","k"],["d","2026-01",7,"Insumos e Materiais Clínicos","",598.67,1,"Grupo CMD","","c"],["d","2026-01",7,"Insumos e Materiais Clínicos","",598.67,1,"Grupo CMD","","k"],["d","2026-01",7,"Insumos e Materiais Clínicos","",424.07,1,"Central Farma","","c"],["d","2026-01",7,"Insumos e Materiais Clínicos","",424.07,1,"Central Farma","","k"],["d","2026-01",7,"Materiais de Escritório","",285.9,1,"Mercado Livre","","c"],["d","2026-01",7,"Materiais de Escritório","",285.9,1,"Mercado Livre","","k"],["d","2026-01",7,"Insumos e Materiais Clínicos","",243.07,1,"Central Farma","","c"],["d","2026-01",7,"Insumos e Materiais Clínicos","",243.07,1,"Central Farma","","k"],["d","2026-01",7,"Lanches e Refeições","",240.05,1,"Supermercado Cardoso","","c"],["d","2026-01",7,"Lanches e Refeições","",240.05,1,"Supermercado Cardoso","","k"],["d","2026-01",7,"Insumos e Materiais Clínicos","",229.45,1,"Central Farma","","c"],["d","2026-01",7,"Insumos e Materiais Clínicos","",229.45,1,"Central Farma","","k"],["d","2026-01",7,"Software / Licença de Uso","",219.98,1,"Web Diet","","c"],["d","2026-01",7,"Software / Licença de Uso","",219.98,1,"Web Diet","","k"],["d","2026-01",7,"Insumos e Materiais Clínicos","",162.3,1,"Cirúrgica Barra","","c"],["d","2026-01",7,"Insumos e Materiais Clínicos","",162.3,1,"Cirúrgica Barra","","k"],["d","2026-01",7,"Insumos e Materiais Clínicos","",158.5,1,"Magazine Med","","c"],["d","2026-01",7,"Insumos e Materiais Clínicos","",158.5,1,"Magazine Med","","k"],["d","2026-01",7,"Mentorias, Cursos e Treinamentos","",99,1,"Adapta","","c"],["d","2026-01",7,"Mentorias, Cursos e Treinamentos","",99,1,"Adapta","","k"],["d","2026-01",7,"Brindes para Clientes","",95.5,1,"O boticário","","c"],["d","2026-01",7,"Brindes para Clientes","",95.5,1,"O boticário","","k"],["d","2026-01",7,"Materiais de Escritório","",90,1,"Forte E-Commerce","","c"],["d","2026-01",7,"Materiais de Escritório","",90,1,"Forte E-Commerce","","k"],["d","2026-01",7,"Materiais de Escritório","",61,1,"Agro Veterinária","","c"],["d","2026-01",7,"Materiais de Escritório","",61,1,"Agro Veterinária","","k"],["d","2026-01",7,"Materiais de Escritório","",57.56,1,"Papelaria Renascer","","c"],["d","2026-01",7,"Materiais de Escritório","",57.56,1,"Papelaria Renascer","","k"],["d","2026-01",7,"Materiais de Escritório","",43.33,1,"Mercado Livre","","c"],["d","2026-01",7,"Materiais de Escritório","",43.33,1,"Mercado Livre","","k"],["d","2026-01",7,"Materiais de Escritório","",33,1,"Mercado Livre","","c"],["d","2026-01",7,"Materiais de Escritório","",33,1,"Mercado Livre","","k"],["d","2026-01",9,"Coleta de Resíduos Ambientais","",144,1,"Sem cliente","","c"],["d","2026-01",9,"Coleta de Resíduos Ambientais","",144,1,"Sem cliente","","k"],["d","2026-01",9,"Telefonia e Internet","",114.9,1,"Sem cliente","","c"],["d","2026-01",9,"Telefonia e Internet","",114.9,1,"Sem cliente","","k"],["d","2026-01",9,"Telefonia e Internet","",99.9,1,"Sem cliente","","c"],["d","2026-01",9,"Telefonia e Internet","",99.9,1,"Sem cliente","","k"],["d","2026-01",12,"Honorários Contábeis","",1085,1,"DELOGO & SAINTS CONTABILIDADE LTDA","","c"],["d","2026-01",12,"Honorários Contábeis","",1085,1,"DELOGO & SAINTS CONTABILIDADE LTDA","","k"],["d","2026-01",12,"Honorários Contábeis","",1085,1,"DELOGO & SAINTS CONTABILIDADE LTDA","","c"],["d","2026-01",12,"Honorários Contábeis","",1085,1,"DELOGO & SAINTS CONTABILIDADE LTDA","","k"],["d","2026-01",12,"Serviços e Materiais de Limpeza e de Higiene","",480,1,"BARUC DETETIZACAO","","c"],["d","2026-01",12,"Serviços e Materiais de Limpeza e de Higiene","",480,1,"BARUC DETETIZACAO","","k"],["d","2026-01",12,"Despesas a identificar","",50,1,"Sem cliente","","c"],["d","2026-01",12,"Despesas a identificar","",50,1,"Sem cliente","","k"],["d","2026-01",12,"Serviços de Pessoa Jurídica","",650,1,"Sem cliente","","c"],["d","2026-01",12,"Serviços de Pessoa Jurídica","",650,1,"Sem cliente","","k"],["d","2026-01",12,"Despesas a identificar","",720,1,"Sem cliente","","c"],["d","2026-01",12,"Despesas a identificar","",720,1,"Sem cliente","","k"],["d","2026-01",12,"ISS","",30629.31,1,"Sem cliente","","c"],["d","2026-01",12,"ISS","",30629.31,1,"Sem cliente","","k"],["d","2026-01",13,"Telefonia e Internet","",43,1,"TELEFONICA BRASIL S.A","","c"],["d","2026-01",13,"Telefonia e Internet","",43,1,"TELEFONICA BRASIL S.A","","k"],["d","2026-01",13,"Telefonia e Internet","",22.92,1,"TELEFONICA BRASIL S.A","","c"],["d","2026-01",13,"Telefonia e Internet","",22.92,1,"TELEFONICA BRASIL S.A","","k"],["d","2026-01",13,"Telefonia e Internet","",22.92,1,"TELEFONICA BRASIL S.A","","c"],["d","2026-01",13,"Telefonia e Internet","",22.92,1,"TELEFONICA BRASIL S.A","","k"],["d","2026-01",14,"Insumos e Materiais Clínicos","",7500,1,"BIO MEDS PHARMACEUTICA LTDA","","c"],["d","2026-01",14,"Insumos e Materiais Clínicos","",7500,1,"BIO MEDS PHARMACEUTICA LTDA","","k"],["d","2026-01",14,"Despesas a identificar","",79,1,"Sem cliente","","c"],["d","2026-01",14,"Despesas a identificar","",79,1,"Sem cliente","","k"],["d","2026-01",15,"Energia Elétrica","",680.71,1,"EDP ESPIRITO SANTO","","c"],["d","2026-01",15,"Energia Elétrica","",680.71,1,"EDP ESPIRITO SANTO","","k"],["d","2026-01",16,"Despesas a identificar","",880,1,"Sem cliente","","c"],["d","2026-01",16,"Despesas a identificar","",880,1,"Sem cliente","","k"],["d","2026-01",19,"Despesas a identificar","",315,1,"Sem cliente","","c"],["d","2026-01",19,"Despesas a identificar","",315,1,"Sem cliente","","k"],["d","2026-01",19,"Materiais de Escritório","",53,1,"DANILO DE SOUSA ANDRADE 09175677733","","c"],["d","2026-01",19,"Materiais de Escritório","",53,1,"DANILO DE SOUSA ANDRADE 09175677733","","k"],["d","2026-01",20,"FGTS e Multa de FGTS","",671.75,1,"Sem cliente","","c"],["d","2026-01",20,"FGTS e Multa de FGTS","",671.75,1,"Sem cliente","","k"],["d","2026-01",20,"FGTS e Multa de FGTS","",517.92,1,"Sem cliente","","c"],["d","2026-01",20,"FGTS e Multa de FGTS","",517.92,1,"Sem cliente","","k"],["d","2026-01",20,"FGTS e Multa de FGTS","",86.31,1,"Sem cliente","","c"],["d","2026-01",20,"FGTS e Multa de FGTS","",86.31,1,"Sem cliente","","k"],["d","2026-01",20,"INSS sobre Salários - GPS","",2953.74,1,"Sem cliente","","c"],["d","2026-01",20,"INSS sobre Salários - GPS","",2953.74,1,"Sem cliente","","k"],["d","2026-01",22,"Despesas a identificar","",200,1,"Sem cliente","","c"],["d","2026-01",22,"Despesas a identificar","",200,1,"Sem cliente","","k"],["d","2026-01",22,"Materiais de Escritório","",53.7,1,"Sem cliente","","c"],["d","2026-01",22,"Materiais de Escritório","",53.7,1,"Sem cliente","","k"],["d","2026-01",22,"Materiais de Escritório","",21.9,1,"Sem cliente","","c"],["d","2026-01",22,"Materiais de Escritório","",21.9,1,"Sem cliente","","k"],["d","2026-01",22,"Lanches e Refeições","",20,1,"Sem cliente","","c"],["d","2026-01",22,"Lanches e Refeições","",20,1,"Sem cliente","","k"],["d","2026-01",22,"Pis/Cofins","",27949.26,1,"Sem cliente","","c"],["d","2026-01",22,"Pis/Cofins","",27949.26,1,"Sem cliente","","k"],["d","2026-01",22,"INSS sobre Salários - GPS","",4057.82,1,"Sem cliente","","c"],["d","2026-01",22,"INSS sobre Salários - GPS","",4057.82,1,"Sem cliente","","k"],["d","2026-01",26,"IRPJ E CSLL","",42976.93,1,"Sem cliente","","c"],["d","2026-01",26,"IRPJ E CSLL","",42976.93,1,"Sem cliente","","k"],["d","2026-01",26,"Mentorias, Cursos e Treinamentos","",13000,1,"O MEDICO EMPRESARIO LTDA","","c"],["d","2026-01",26,"Mentorias, Cursos e Treinamentos","",13000,1,"O MEDICO EMPRESARIO LTDA","","k"],["d","2026-01",27,"Marketing e Publicidade","",2000,1,"RADIO SAO FRANCISCO LTDA","","c"],["d","2026-01",27,"Marketing e Publicidade","",2000,1,"RADIO SAO FRANCISCO LTDA","","k"],["d","2026-01",29,"Telefonia e Internet","",35.88,1,"Sem cliente","","c"],["d","2026-01",29,"Telefonia e Internet","",35.88,1,"Sem cliente","","k"],["d","2026-02",2,"Salários","",3626.71,1,"Sem cliente","","c"],["d","2026-02",2,"Salários","",3626.71,1,"Sem cliente","","k"],["d","2026-02",2,"Salários","",2660,1,"Sem cliente","","c"],["d","2026-02",2,"Salários","",2660,1,"Sem cliente","","k"],["d","2026-02",2,"Salários","",2299.32,1,"Sem cliente","","c"],["d","2026-02",2,"Salários","",2299.32,1,"Sem cliente","","k"],["d","2026-02",2,"Salários","",6345.59,1,"Sem cliente","","c"],["d","2026-02",2,"Salários","",6345.59,1,"Sem cliente","","k"],["d","2026-02",2,"Insumos e Materiais Clínicos","",1060.64,1,"HEALTH TECH FARMACIA DE MANIPULACAO LTDA","","c"],["d","2026-02",2,"Insumos e Materiais Clínicos","",1060.64,1,"HEALTH TECH FARMACIA DE MANIPULACAO LTDA","","k"],["d","2026-02",2,"Salários","",1280,1,"Sem cliente","","c"],["d","2026-02",2,"Salários","",1280,1,"Sem cliente","","k"],["d","2026-02",2,"Despesas a identificar","",171,1,"Sem cliente","","c"],["d","2026-02",2,"Despesas a identificar","",171,1,"Sem cliente","","k"],["d","2026-02",2,"Tarifas Bancárias","",30.85,1,"Sem cliente","","c"],["d","2026-02",2,"Tarifas Bancárias","",30.85,1,"Sem cliente","","k"],["d","2026-02",2,"Lanches e Refeições","",328.62,1,"SUPERMERCADO CARDOSO LTDA","","c"],["d","2026-02",2,"Lanches e Refeições","",328.62,1,"SUPERMERCADO CARDOSO LTDA","","k"],["d","2026-02",2,"Lanches e Refeições","",318.85,1,"Atacarejo de Alimentos São Francisco Ltda","","c"],["d","2026-02",2,"Lanches e Refeições","",318.85,1,"Atacarejo de Alimentos São Francisco Ltda","","k"],["d","2026-02",2,"Lanches e Refeições","",195,1,"COMERCIO DE BEBIDAS SCARABELI LTDA","","c"],["d","2026-02",2,"Lanches e Refeições","",195,1,"COMERCIO DE BEBIDAS SCARABELI LTDA","","k"],["d","2026-02",2,"Materiais de Escritório","",195,1,"CERIMONIAL ROSA LINDA LTDA ME","","c"],["d","2026-02",2,"Materiais de Escritório","",195,1,"CERIMONIAL ROSA LINDA LTDA ME","","k"],["d","2026-02",2,"Materiais de Escritório","",175,1,"CERIMONIAL ROSA LINDA LTDA ME","","c"],["d","2026-02",2,"Materiais de Escritório","",175,1,"CERIMONIAL ROSA LINDA LTDA ME","","k"],["d","2026-02",2,"Lanches e Refeições","",149.1,1,"Atacarejo de Alimentos São Francisco Ltda","","c"],["d","2026-02",2,"Lanches e Refeições","",149.1,1,"Atacarejo de Alimentos São Francisco Ltda","","k"],["d","2026-02",2,"Materiais de Escritório","",135.04,1,"Papelaria Rena","","c"],["d","2026-02",2,"Materiais de Escritório","",135.04,1,"Papelaria Rena","","k"],["d","2026-02",2,"Insumos e Materiais Clínicos","",120.49,1,"CIRURGICA BARRA LTDA","","c"],["d","2026-02",2,"Insumos e Materiais Clínicos","",120.49,1,"CIRURGICA BARRA LTDA","","k"],["d","2026-02",2,"Materiais de Escritório","",98,1,"FORTE EMBALAGENS LTDA","","c"],["d","2026-02",2,"Materiais de Escritório","",98,1,"FORTE EMBALAGENS LTDA","","k"],["d","2026-02",2,"Insumos e Materiais Clínicos","",83.27,1,"AREDES E AREDES LTDA","","c"],["d","2026-02",2,"Insumos e Materiais Clínicos","",83.27,1,"AREDES E AREDES LTDA","","k"],["d","2026-02",2,"Materiais de Escritório","",59.33,1,"Papelaria Rena","","c"],["d","2026-02",2,"Materiais de Escritório","",59.33,1,"Papelaria Rena","","k"],["d","2026-02",2,"Brindes para Clientes","",35.08,1,"O Boticário","","c"],["d","2026-02",2,"Brindes para Clientes","",35.08,1,"O Boticário","","k"],["d","2026-02",3,"Marketing e Publicidade","",2000,1,"RADIO SAO FRANCISCO LTDA","","c"],["d","2026-02",3,"Marketing e Publicidade","",2000,1,"RADIO SAO FRANCISCO LTDA","","k"],["d","2026-02",5,"Honorários Contábeis","",1156.3,1,"DELOGO & SAINTS CONTABILIDADE LTDA","","c"],["d","2026-02",5,"Honorários Contábeis","",1156.3,1,"DELOGO & SAINTS CONTABILIDADE LTDA","","k"],["d","2026-02",5,"Software / Licença de Uso","",650,1,"Sem cliente","","c"],["d","2026-02",5,"Software / Licença de Uso","",650,1,"Sem cliente","","k"],["d","2026-02",5,"Mentorias, Cursos e Treinamentos","",330.75,1,"SEGEX UVV ON","","c"],["d","2026-02",5,"Mentorias, Cursos e Treinamentos","",330.75,1,"SEGEX UVV ON","","k"],["d","2026-02",5,"INSS sobre Salários - GPS","",2955.54,1,"Sem cliente","","c"],["d","2026-02",5,"INSS sobre Salários - GPS","",2955.54,1,"Sem cliente","","k"],["d","2026-02",5,"FGTS e Multa de FGTS","",519.57,1,"Sem cliente","","c"],["d","2026-02",5,"FGTS e Multa de FGTS","",519.57,1,"Sem cliente","","k"],["d","2026-02",6,"Marketing e Publicidade","",2100,1,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","c"],["d","2026-02",6,"Marketing e Publicidade","",2100,1,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","k"],["d","2026-02",9,"ISS","",2040,1,"Sem cliente","","c"],["d","2026-02",9,"ISS","",2040,1,"Sem cliente","","k"],["d","2026-02",9,"Insumos e Materiais Clínicos","",7500,1,"Bio Meds Pharmaceutics","","c"],["d","2026-02",9,"Insumos e Materiais Clínicos","",7500,1,"Bio Meds Pharmaceutics","","k"],["d","2026-02",9,"Insumos e Materiais Clínicos","",3030.91,1,"Sgrancio & Souza LTDA","","c"],["d","2026-02",9,"Insumos e Materiais Clínicos","",3030.91,1,"Sgrancio & Souza LTDA","","k"],["d","2026-02",9,"Despesas a identificar","",1483.33,1,"Debora Nunes","","c"],["d","2026-02",9,"Despesas a identificar","",1483.33,1,"Debora Nunes","","k"],["d","2026-02",9,"Insumos e Materiais Clínicos","",1232.4,1,"Bios Farmacêutica","","c"],["d","2026-02",9,"Insumos e Materiais Clínicos","",1232.4,1,"Bios Farmacêutica","","k"],["d","2026-02",9,"Insumos e Materiais Clínicos","",1158.83,1,"Bios Farmacêutica","","c"],["d","2026-02",9,"Insumos e Materiais Clínicos","",1158.83,1,"Bios Farmacêutica","","k"],["d","2026-02",9,"Despesas a identificar","",1000,1,"Debora Nunes","","c"],["d","2026-02",9,"Despesas a identificar","",1000,1,"Debora Nunes","","k"],["d","2026-02",9,"Insumos e Materiais Clínicos","",810.45,1,"Bio Meds Pharmaceutics","","c"],["d","2026-02",9,"Insumos e Materiais Clínicos","",810.45,1,"Bio Meds Pharmaceutics","","k"],["d","2026-02",9,"Mentorias, Cursos e Treinamentos","",797,1,"School Seven","","c"],["d","2026-02",9,"Mentorias, Cursos e Treinamentos","",797,1,"School Seven","","k"],["d","2026-02",9,"Insumos e Materiais Clínicos","",598.67,1,"Grupo MDV","","c"],["d","2026-02",9,"Insumos e Materiais Clínicos","",598.67,1,"Grupo MDV","","k"],["d","2026-02",9,"Mentorias, Cursos e Treinamentos","",478,1,"School Seven","","c"],["d","2026-02",9,"Mentorias, Cursos e Treinamentos","",478,1,"School Seven","","k"],["d","2026-02",9,"Insumos e Materiais Clínicos","",424.07,1,"Central Farma","","c"],["d","2026-02",9,"Insumos e Materiais Clínicos","",424.07,1,"Central Farma","","k"],["d","2026-02",9,"Insumos e Materiais Clínicos","",263.4,1,"Sarita Scrubs","","c"],["d","2026-02",9,"Insumos e Materiais Clínicos","",263.4,1,"Sarita Scrubs","","k"],["d","2026-02",9,"Insumos e Materiais Clínicos","",243.07,1,"Central Farma","","c"],["d","2026-02",9,"Insumos e Materiais Clínicos","",243.07,1,"Central Farma","","k"],["d","2026-02",9,"Insumos e Materiais Clínicos","",229.45,1,"Central Farma","","c"],["d","2026-02",9,"Insumos e Materiais Clínicos","",229.45,1,"Central Farma","","k"],["d","2026-02",9,"Software / Licença de Uso","",219.96,1,"Web Diet","","c"],["d","2026-02",9,"Software / Licença de Uso","",219.96,1,"Web Diet","","k"],["d","2026-02",9,"Lanches e Refeições","",192.21,1,"Supermercado Cardoso","","c"],["d","2026-02",9,"Lanches e Refeições","",192.21,1,"Supermercado Cardoso","","k"],["d","2026-02",9,"Insumos e Materiais Clínicos","",162.3,1,"Cirúrgica Barra","","c"],["d","2026-02",9,"Insumos e Materiais Clínicos","",162.3,1,"Cirúrgica Barra","","k"],["d","2026-02",9,"Materiais de Escritório","",160,1,"Rosa Linda","","c"],["d","2026-02",9,"Materiais de Escritório","",160,1,"Rosa Linda","","k"],["d","2026-02",9,"Insumos e Materiais Clínicos","",158.5,1,"Magazine Med","","c"],["d","2026-02",9,"Insumos e Materiais Clínicos","",158.5,1,"Magazine Med","","k"],["d","2026-02",9,"Insumos e Materiais Clínicos","",123.52,1,"Farmácia Aliança","","c"],["d","2026-02",9,"Insumos e Materiais Clínicos","",123.52,1,"Farmácia Aliança","","k"],["d","2026-02",9,"Mentorias, Cursos e Treinamentos","",99,1,"Adapta","","c"],["d","2026-02",9,"Mentorias, Cursos e Treinamentos","",99,1,"Adapta","","k"],["d","2026-02",9,"Brindes para Clientes","",95.5,1,"O Boticário","","c"],["d","2026-02",9,"Brindes para Clientes","",95.5,1,"O Boticário","","k"],["d","2026-02",9,"Materiais de Escritório","",69.93,1,"SHOPEE La Casa Decora","","c"],["d","2026-02",9,"Materiais de Escritório","",69.93,1,"SHOPEE La Casa Decora","","k"],["d","2026-02",9,"Materiais de Escritório","",43.33,1,"Mercado Livre","","c"],["d","2026-02",9,"Materiais de Escritório","",43.33,1,"Mercado Livre","","k"],["d","2026-02",9,"Materiais de Escritório","",33,1,"Mercado Livre","","c"],["d","2026-02",9,"Materiais de Escritório","",33,1,"Mercado Livre","","k"],["d","2026-02",10,"ISS","",206.07,1,"Sem cliente","","c"],["d","2026-02",10,"ISS","",206.07,1,"Sem cliente","","k"],["d","2026-02",12,"Materiais de Escritório","",5,1,"REIS & SOUZA LIMITADA","","c"],["d","2026-02",12,"Materiais de Escritório","",5,1,"REIS & SOUZA LIMITADA","","k"],["d","2026-02",13,"Telefonia e Internet","",117.3,1,"BIZZ INTERNET LTDA","","c"],["d","2026-02",13,"Telefonia e Internet","",117.3,1,"BIZZ INTERNET LTDA","","k"],["d","2026-02",13,"Telefonia e Internet","",99.9,1,"BIZZ INTERNET LTDA","","c"],["d","2026-02",13,"Telefonia e Internet","",99.9,1,"BIZZ INTERNET LTDA","","k"],["d","2026-02",13,"Coleta de Resíduos Ambientais","",140.64,1,"RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP","","c"],["d","2026-02",13,"Coleta de Resíduos Ambientais","",140.64,1,"RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP","","k"],["d","2026-02",18,"Energia Elétrica","",735.14,1,"EDP ESPIRITO SANTO","","c"],["d","2026-02",18,"Energia Elétrica","",735.14,1,"EDP ESPIRITO SANTO","","k"],["d","2026-02",18,"Marketing e Publicidade","",1500,1,"Sem cliente","","c"],["d","2026-02",18,"Marketing e Publicidade","",1500,1,"Sem cliente","","k"],["d","2026-02",19,"Honorários Consultoria","",2500,1,"WOLF MENTOR'S SERVICOS DE APOIO ADMINISTRATIVO LTDA","","c"],["d","2026-02",19,"Honorários Consultoria","",2500,1,"WOLF MENTOR'S SERVICOS DE APOIO ADMINISTRATIVO LTDA","","k"],["d","2026-02",19,"Telefonia Móvel","",36.74,1,"TELEFONICA BRASIL S.A","","c"],["d","2026-02",19,"Telefonia Móvel","",36.74,1,"TELEFONICA BRASIL S.A","","k"],["d","2026-02",23,"Software / Licença de Uso","",601.25,1,"BIONEXO S.A","","c"],["d","2026-02",23,"Software / Licença de Uso","",601.25,1,"BIONEXO S.A","","k"],["d","2026-02",23,"Despesas a identificar","",2150,1,"Sem cliente","","c"],["d","2026-02",23,"Despesas a identificar","",2150,1,"Sem cliente","","k"],["d","2026-02",26,"Mentorias, Cursos e Treinamentos","",13000,1,"O MEDICO EMPRESARIO LTDA","","c"],["d","2026-02",26,"Mentorias, Cursos e Treinamentos","",13000,1,"O MEDICO EMPRESARIO LTDA","","k"],["d","2026-03",2,"Tarifas Bancárias","",30.85,1,"Sem cliente","","c"],["d","2026-03",2,"Tarifas Bancárias","",30.85,1,"Sem cliente","","k"],["d","2026-03",2,"Materiais de Escritório","",390,1,"CERIMONIAL ROSA LINDA LTDA ME","","c"],["d","2026-03",2,"Materiais de Escritório","",390,1,"CERIMONIAL ROSA LINDA LTDA ME","","k"],["d","2026-03",2,"Materiais de Escritório","",175,1,"CERIMONIAL ROSA LINDA LTDA ME","","c"],["d","2026-03",2,"Materiais de Escritório","",175,1,"CERIMONIAL ROSA LINDA LTDA ME","","k"],["d","2026-03",2,"Materiais de Escritório","",135.03,1,"Papelaria Rena","","c"],["d","2026-03",2,"Materiais de Escritório","",135.03,1,"Papelaria Rena","","k"],["d","2026-03",2,"Materiais de Escritório","",131.6,1,"FORTE EMBALAGENS LTDA","","c"],["d","2026-03",2,"Materiais de Escritório","",131.6,1,"FORTE EMBALAGENS LTDA","","k"],["d","2026-03",2,"Insumos e Materiais Clínicos","",83.27,1,"Sem cliente","","c"],["d","2026-03",2,"Insumos e Materiais Clínicos","",83.27,1,"Sem cliente","","k"],["d","2026-03",2,"Materiais de Escritório","",70,1,"Comercial V B","","c"],["d","2026-03",2,"Materiais de Escritório","",70,1,"Comercial V B","","k"],["d","2026-03",2,"Insumos e Materiais Clínicos","",49.98,1,"CIRURGICA BARRA LTDA","","c"],["d","2026-03",2,"Insumos e Materiais Clínicos","",49.98,1,"CIRURGICA BARRA LTDA","","k"],["d","2026-03",2,"Brindes para Clientes","",35.08,1,"O Boticário","","c"],["d","2026-03",2,"Brindes para Clientes","",35.08,1,"O Boticário","","k"],["d","2026-03",3,"Retiradas para Sócios","",20000,1,"Sem cliente","","c"],["d","2026-03",3,"Retiradas para Sócios","",20000,1,"Sem cliente","","k"],["d","2026-03",3,"Salários","",4604.02,1,"Sem cliente","","c"],["d","2026-03",3,"Salários","",4604.02,1,"Sem cliente","","k"],["d","2026-03",3,"Salários","",4400,1,"Sem cliente","","c"],["d","2026-03",3,"Salários","",4400,1,"Sem cliente","","k"],["d","2026-03",3,"Salários","",3781.71,1,"Sem cliente","","c"],["d","2026-03",3,"Salários","",3781.71,1,"Sem cliente","","k"],["d","2026-03",3,"Salários","",2299.32,1,"Sem cliente","","c"],["d","2026-03",3,"Salários","",2299.32,1,"Sem cliente","","k"],["d","2026-03",3,"Telefonia e Internet","",44.89,1,"TELEFONICA BRASIL S.A","","c"],["d","2026-03",3,"Telefonia e Internet","",44.89,1,"TELEFONICA BRASIL S.A","","k"],["d","2026-03",3,"Telefonia e Internet","",43,1,"TELEFONICA BRASIL S.A","","c"],["d","2026-03",3,"Telefonia e Internet","",43,1,"TELEFONICA BRASIL S.A","","k"],["d","2026-03",3,"Salários","",980,1,"Sem cliente","","c"],["d","2026-03",3,"Salários","",980,1,"Sem cliente","","k"],["d","2026-03",3,"Honorários Contábeis","",1156.3,1,"DELOGO & SAINTS CONTABILIDADE LTDA","","c"],["d","2026-02",27,"Honorários Contábeis","",1156.3,1,"DELOGO & SAINTS CONTABILIDADE LTDA","","k"],["d","2026-03",4,"Materiais de Escritório","",100,1,"EXTINSAN EXTINTORES LTDA","","c"],["d","2026-03",2,"Materiais de Escritório","",100,1,"EXTINSAN EXTINTORES LTDA","","k"],["d","2026-03",4,"Marketing e Publicidade","",2000,1,"RADIO SAO FRANCISCO LTDA","","c"],["d","2026-03",4,"Marketing e Publicidade","",2000,1,"RADIO SAO FRANCISCO LTDA","","k"],["d","2026-03",4,"Salários","",1500,1,"Sem cliente","","c"],["d","2026-03",4,"Salários","",1500,1,"Sem cliente","","k"],["d","2026-03",4,"Coleta de Resíduos Ambientais","",125.28,1,"RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP","","c"],["d","2026-03",4,"Coleta de Resíduos Ambientais","",125.28,1,"RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP","","k"],["d","2026-03",4,"Seguros","",61.29,1,"PORTO SEGURO COMPANHIA DE SEGUROS GERAIS","","c"],["d","2026-03",4,"Seguros","",61.29,1,"PORTO SEGURO COMPANHIA DE SEGUROS GERAIS","","k"],["d","2026-03",4,"Plano de Saúde Colaboradores","",260,1,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","c"],["d","2026-03",26,"Plano de Saúde Colaboradores","",260,1,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","k"],["d","2026-03",5,"Plano de Saúde Colaboradores","",499.09,1,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","c"],["d","2026-03",5,"Plano de Saúde Colaboradores","",499.09,1,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","k"],["d","2026-03",6,"Marketing e Publicidade","",2100,1,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","c"],["d","2026-03",6,"Marketing e Publicidade","",2100,1,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","k"],["d","2026-03",6,"Mentorias, Cursos e Treinamentos","",449.96,1,"SEGEX UVV ON","","c"],["d","2026-03",6,"Mentorias, Cursos e Treinamentos","",449.96,1,"SEGEX UVV ON","","k"],["d","2026-03",6,"Telefonia e Internet","",114.9,1,"BIZZ INTERNET LTDA","","c"],["d","2026-03",6,"Telefonia e Internet","",114.9,1,"BIZZ INTERNET LTDA","","k"],["d","2026-03",6,"Telefonia e Internet","",99.9,1,"BIZZ INTERNET LTDA","","c"],["d","2026-03",6,"Telefonia e Internet","",99.9,1,"BIZZ INTERNET LTDA","","k"],["d","2026-03",9,"Insumos e Materiais Clínicos","",6116.25,1,"Sem cliente","","c"],["d","2026-03",9,"Insumos e Materiais Clínicos","",6116.25,1,"Sem cliente","","k"],["d","2026-03",10,"Despesas a identificar","",1483.33,1,"Debora Nunes","","c"],["d","2026-03",13,"Despesas a identificar","",1483.33,1,"Debora Nunes","","k"],["d","2026-03",10,"Insumos e Materiais Clínicos","",1232.4,1,"Bios Farmacêutica","","c"],["d","2026-03",13,"Insumos e Materiais Clínicos","",1232.4,1,"Bios Farmacêutica","","k"],["d","2026-03",10,"Materiais de Escritório","",1206,1,"Next Segurança Eletr","","c"],["d","2026-03",13,"Materiais de Escritório","",1206,1,"Next Segurança Eletr","","k"],["d","2026-03",10,"Insumos e Materiais Clínicos","",1158.83,1,"Bios Farmacêutica","","c"],["d","2026-03",13,"Insumos e Materiais Clínicos","",1158.83,1,"Bios Farmacêutica","","k"],["d","2026-03",10,"Insumos e Materiais Clínicos","",810.45,1,"Bio Meds Pharmaceutics","","c"],["d","2026-03",13,"Insumos e Materiais Clínicos","",810.45,1,"Bio Meds Pharmaceutics","","k"],["d","2026-03",10,"Software / Licença de Uso","",599.9,1,"Cloudia","","c"],["d","2026-03",13,"Software / Licença de Uso","",599.9,1,"Cloudia","","k"],["d","2026-03",10,"Insumos e Materiais Clínicos","",598.65,1,"Grupo CMD","","c"],["d","2026-03",13,"Insumos e Materiais Clínicos","",598.65,1,"Grupo CMD","","k"],["d","2026-03",10,"Insumos e Materiais Clínicos","",592.67,1,"Stin Pharma e Comme","","c"],["d","2026-03",13,"Insumos e Materiais Clínicos","",592.67,1,"Stin Pharma e Comme","","k"],["d","2026-03",10,"Insumos e Materiais Clínicos","",424.07,1,"Central Farma","","c"],["d","2026-03",13,"Insumos e Materiais Clínicos","",424.07,1,"Central Farma","","k"],["d","2026-03",10,"Insumos e Materiais Clínicos","",320.1,1,"Magazine Med","","c"],["d","2026-03",13,"Insumos e Materiais Clínicos","",320.1,1,"Magazine Med","","k"],["d","2026-03",10,"Despesas a identificar","",318,1,"49.410.252 Gustavo S","","c"],["d","2026-03",13,"Despesas a identificar","",318,1,"49.410.252 Gustavo S","","k"],["d","2026-03",10,"Software / Licença de Uso","",305.88,1,"Conta Azul","","c"],["d","2026-03",13,"Software / Licença de Uso","",305.88,1,"Conta Azul","","k"],["d","2026-03",10,"Insumos e Materiais Clínicos","",263.4,1,"Sarita Scrubs","","c"],["d","2026-03",13,"Insumos e Materiais Clínicos","",263.4,1,"Sarita Scrubs","","k"],["d","2026-03",10,"Insumos e Materiais Clínicos","",243.07,1,"Central Farma","","c"],["d","2026-03",13,"Insumos e Materiais Clínicos","",243.07,1,"Central Farma","","k"],["d","2026-03",10,"Insumos e Materiais Clínicos","",229.45,1,"Central Farma","","c"],["d","2026-03",13,"Insumos e Materiais Clínicos","",229.45,1,"Central Farma","","k"],["d","2026-03",10,"Despesas a identificar","",212.67,1,"Marilza Moda Intima","","c"],["d","2026-03",13,"Despesas a identificar","",212.67,1,"Marilza Moda Intima","","k"],["d","2026-03",10,"Lanches e Refeições","",192.2,1,"Supermercado Cardoso","","c"],["d","2026-03",13,"Lanches e Refeições","",192.2,1,"Supermercado Cardoso","","k"],["d","2026-03",10,"Insumos e Materiais Clínicos","",162.3,1,"Cirúrgica Barra LTDA","","c"],["d","2026-03",13,"Insumos e Materiais Clínicos","",162.3,1,"Cirúrgica Barra LTDA","","k"],["d","2026-03",10,"Insumos e Materiais Clínicos","",158.5,1,"Magazine Med","","c"],["d","2026-03",13,"Insumos e Materiais Clínicos","",158.5,1,"Magazine Med","","k"],["d","2026-03",10,"Insumos e Materiais Clínicos","",123.52,1,"Farmácia Aliança","","c"],["d","2026-03",13,"Insumos e Materiais Clínicos","",123.52,1,"Farmácia Aliança","","k"],["d","2026-03",10,"Serviços de Pessoa Jurídica","",105,1,"Paizante Tem de Tudo","","c"],["d","2026-03",13,"Serviços de Pessoa Jurídica","",105,1,"Paizante Tem de Tudo","","k"],["d","2026-03",10,"Mentorias, Cursos e Treinamentos","",99,1,"Adapta","","c"],["d","2026-03",13,"Mentorias, Cursos e Treinamentos","",99,1,"Adapta","","k"],["d","2026-03",10,"Materiais de Escritório","",69.92,1,"SHOPEE La Casa Decora","","c"],["d","2026-03",13,"Materiais de Escritório","",69.92,1,"SHOPEE La Casa Decora","","k"],["d","2026-03",10,"Brindes para Clientes","",59.07,1,"O Boticário","","c"],["d","2026-03",13,"Brindes para Clientes","",59.07,1,"O Boticário","","k"],["d","2026-03",10,"Materiais de Escritório","",43.33,1,"Mercado Livre","","c"],["d","2026-03",13,"Materiais de Escritório","",43.33,1,"Mercado Livre","","k"],["d","2026-03",10,"Despesas a identificar","",27.74,1,"Debora Nunes","","c"],["d","2026-03",13,"Despesas a identificar","",27.74,1,"Debora Nunes","","k"],["d","2026-03",11,"Despesas a identificar","",728.25,1,"Debora Nunes","","c"],["d","2026-03",13,"Despesas a identificar","",728.25,1,"Debora Nunes","","k"],["d","2026-03",12,"Materiais de Escritório","",98,1,"REIS & SOUZA LIMITADA","","c"],["d","2026-03",12,"Materiais de Escritório","",98,1,"REIS & SOUZA LIMITADA","","k"],["d","2026-03",13,"FGTS e Multa de FGTS","",519.57,1,"Sem cliente","","c"],["d","2026-03",13,"FGTS e Multa de FGTS","",519.57,1,"Sem cliente","","k"],["d","2026-03",13,"INSS sobre Salários - GPS","",2876.6,1,"Sem cliente","","c"],["d","2026-03",13,"INSS sobre Salários - GPS","",2876.6,1,"Sem cliente","","k"],["d","2026-03",13,"Pis/Cofins","",199.83,1,"Sem cliente","","c"],["d","2026-03",13,"Pis/Cofins","",199.83,1,"Sem cliente","","k"],["d","2026-03",13,"Insumos e Materiais Clínicos","",582.6,1,"Bio Meds Pharmaceutics","","c"],["d","2026-03",13,"Insumos e Materiais Clínicos","",582.6,1,"Bio Meds Pharmaceutics","","k"],["d","2026-03",13,"Insumos e Materiais Clínicos","",6917.4,1,"Bio Meds Pharmaceutics","","c"],["d","2026-03",13,"Insumos e Materiais Clínicos","",6917.4,1,"Bio Meds Pharmaceutics","","k"],["d","2026-03",13,"Insumos e Materiais Clínicos","",3030.91,1,"Sgrancio & Souza LTDA","","c"],["d","2026-03",13,"Insumos e Materiais Clínicos","",3030.91,1,"Sgrancio & Souza LTDA","","k"],["d","2026-03",13,"Despesas a identificar","",244.01,1,"Debora Nunes","","c"],["d","2026-03",13,"Despesas a identificar","",244.01,1,"Debora Nunes","","k"],["d","2026-03",15,"Retiradas para Sócios","",9000.4,1,"Sem cliente","","c"],["d","2026-03",15,"Retiradas para Sócios","",9000.4,1,"Sem cliente","","k"],["d","2026-03",16,"Despesas a identificar","",240,1,"Sem cliente","","c"],["d","2026-03",16,"Despesas a identificar","",240,1,"Sem cliente","","k"],["d","2026-03",16,"Salários","",150,1,"Sem cliente","","c"],["d","2026-03",16,"Salários","",150,1,"Sem cliente","","k"],["d","2026-03",16,"Despesas a identificar","",100,1,"Sem cliente","","c"],["d","2026-03",16,"Despesas a identificar","",100,1,"Sem cliente","","k"],["d","2026-03",16,"Materiais de Escritório","",232.27,1,"Sem cliente","","c"],["d","2026-03",16,"Materiais de Escritório","",232.27,1,"Sem cliente","","k"],["d","2026-03",16,"Mentorias, Cursos e Treinamentos","",9540,1,"Sem cliente","","c"],["d","2026-03",16,"Mentorias, Cursos e Treinamentos","",9540,1,"Sem cliente","","k"],["d","2026-03",16,"Despesas a identificar","",8640,1,"Sem cliente","","c"],["d","2026-03",16,"Despesas a identificar","",8640,1,"Sem cliente","","k"],["d","2026-03",17,"Energia Elétrica","",718,1,"EDP ESPIRITO SANTO","","c"],["d","2026-03",17,"Energia Elétrica","",718,1,"EDP ESPIRITO SANTO","","k"],["d","2026-03",17,"Serviços de Pessoa Jurídica","",350,1,"Sem cliente","","c"],["d","2026-03",17,"Serviços de Pessoa Jurídica","",350,1,"Sem cliente","","k"],["d","2026-03",18,"Honorários Contábeis","",220,1,"Sem cliente","","c"],["d","2026-03",18,"Honorários Contábeis","",220,1,"Sem cliente","","k"],["d","2026-03",18,"Despesas a identificar","",30,1,"Sem cliente","","c"],["d","2026-03",18,"Despesas a identificar","",30,1,"Sem cliente","","k"],["d","2026-03",18,"Despesas a identificar","",190,1,"Sem cliente","","c"],["d","2026-03",18,"Despesas a identificar","",190,1,"Sem cliente","","k"],["d","2026-03",18,"Despesas a identificar","",400,1,"Sem cliente","","c"],["d","2026-03",18,"Despesas a identificar","",400,1,"Sem cliente","","k"],["d","2026-03",20,"Despesas a identificar","",820,1,"Sem cliente","","c"],["d","2026-03",20,"Despesas a identificar","",820,1,"Sem cliente","","k"],["d","2026-03",20,"Honorários Consultoria","",2500,1,"WOLF MENTOR'S SERVICOS DE APOIO ADMINISTRATIVO LTDA","","c"],["d","2026-03",17,"Honorários Consultoria","",2500,1,"WOLF MENTOR'S SERVICOS DE APOIO ADMINISTRATIVO LTDA","","k"],["d","2026-03",23,"Insumos e Materiais Clínicos","",3727.5,1,"FLUKKA FARMA","","c"],["d","2026-03",23,"Insumos e Materiais Clínicos","",3727.5,1,"FLUKKA FARMA","","k"],["d","2026-03",23,"Despesas a identificar","",2102.5,1,"Sem cliente","","c"],["d","2026-03",23,"Despesas a identificar","",2102.5,1,"Sem cliente","","k"],["d","2026-03",23,"Despesas a identificar","",60,1,"Sem cliente","","c"],["d","2026-03",23,"Despesas a identificar","",60,1,"Sem cliente","","k"],["d","2026-03",23,"Telefonia e Internet","",35.7,1,"TELEFONICA BRASIL S.A","","c"],["d","2026-03",23,"Telefonia e Internet","",35.7,1,"TELEFONICA BRASIL S.A","","k"],["d","2026-03",23,"Mentorias, Cursos e Treinamentos","",13000,1,"O MEDICO EMPRESARIO LTDA","","c"],["d","2026-03",23,"Mentorias, Cursos e Treinamentos","",13000,1,"O MEDICO EMPRESARIO LTDA","","k"],["d","2026-03",24,"Despesas a identificar","",1500,1,"Sem cliente","","c"],["d","2026-03",24,"Despesas a identificar","",1500,1,"Sem cliente","","k"],["d","2026-03",24,"Retiradas para Sócios","",750,1,"Sem cliente","","c"],["d","2026-03",24,"Retiradas para Sócios","",750,1,"Sem cliente","","k"],["d","2026-03",24,"Insumos e Materiais Clínicos","",243.07,2,"Central Farma","","c"],["d","2026-03",24,"Insumos e Materiais Clínicos","",243.07,2,"Central Farma","","k"],["d","2026-03",24,"Software / Licença de Uso","",99,2,"Adapta","","c"],["d","2026-03",24,"Software / Licença de Uso","",99,2,"Adapta","","k"],["d","2026-03",24,"Insumos e Materiais Clínicos","",1158.85,2,"Bios Farmacêutica","","c"],["d","2026-03",24,"Insumos e Materiais Clínicos","",1158.85,2,"Bios Farmacêutica","","k"],["d","2026-03",24,"Insumos e Materiais Clínicos","",158.5,2,"Magazine Med","","c"],["d","2026-03",24,"Insumos e Materiais Clínicos","",158.5,2,"Magazine Med","","k"],["d","2026-03",24,"Insumos e Materiais Clínicos","",229.45,2,"Central Farma","","c"],["d","2026-03",24,"Insumos e Materiais Clínicos","",229.45,2,"Central Farma","","k"],["d","2026-03",24,"Materiais de Escritório","",43.35,2,"Mercado Livre","","c"],["d","2026-03",24,"Materiais de Escritório","",43.35,2,"Mercado Livre","","k"],["d","2026-03",24,"Insumos e Materiais Clínicos","",424.07,2,"Central Farma","","c"],["d","2026-03",24,"Insumos e Materiais Clínicos","",424.07,2,"Central Farma","","k"],["d","2026-03",24,"Insumos e Materiais Clínicos","",162.3,2,"Cirúrgica Barra LTDA","","c"],["d","2026-03",24,"Insumos e Materiais Clínicos","",162.3,2,"Cirúrgica Barra LTDA","","k"],["d","2026-03",24,"Despesas a identificar","",1000,2,"Debora Nunes","","c"],["d","2026-03",24,"Despesas a identificar","",1000,2,"Debora Nunes","","k"],["d","2026-03",24,"Insumos e Materiais Clínicos","",263.4,2,"Sarita Scrubs","","c"],["d","2026-03",24,"Insumos e Materiais Clínicos","",263.4,2,"Sarita Scrubs","","k"],["d","2026-03",24,"Insumos e Materiais Clínicos","",810.46,2,"Bio Meds Pharmaceutics","","c"],["d","2026-03",24,"Insumos e Materiais Clínicos","",810.46,2,"Bio Meds Pharmaceutics","","k"],["d","2026-03",24,"Insumos e Materiais Clínicos","",1232.4,2,"Bios Farmacêutica","","c"],["d","2026-03",24,"Insumos e Materiais Clínicos","",1232.4,2,"Bios Farmacêutica","","k"],["d","2026-03",24,"Despesas a identificar","",212.66,2,"Marilza Moda Intima","","c"],["d","2026-03",24,"Despesas a identificar","",212.66,2,"Marilza Moda Intima","","k"],["d","2026-03",24,"Insumos e Materiais Clínicos","",320.1,2,"Magazine Med","","c"],["d","2026-03",24,"Insumos e Materiais Clínicos","",320.1,2,"Magazine Med","","k"],["d","2026-03",24,"Brindes para Clientes","",59.06,2,"O Boticário","","c"],["d","2026-03",24,"Brindes para Clientes","",59.06,2,"O Boticário","","k"],["d","2026-03",24,"Materiais de Escritório","",1206,2,"Next Segurança Eletr","","c"],["d","2026-03",24,"Materiais de Escritório","",1206,2,"Next Segurança Eletr","","k"],["d","2026-03",24,"Software / Licença de Uso","",305.88,2,"Conta Azul","","c"],["d","2026-03",24,"Software / Licença de Uso","",305.88,2,"Conta Azul","","k"],["d","2026-03",24,"Insumos e Materiais Clínicos","",592.66,2,"Stin Pharma e Comme","","c"],["d","2026-03",24,"Insumos e Materiais Clínicos","",592.66,2,"Stin Pharma e Comme","","k"],["d","2026-03",24,"Insumos e Materiais Clínicos","",2083.47,2,"Bios Farmacêutica","","c"],["d","2026-03",24,"Insumos e Materiais Clínicos","",2083.47,2,"Bios Farmacêutica","","k"],["d","2026-03",24,"Insumos e Materiais Clínicos","",6176.25,2,"Bio Meds Pharmaceutics","","c"],["d","2026-03",24,"Insumos e Materiais Clínicos","",6176.25,2,"Bio Meds Pharmaceutics","","k"],["d","2026-03",24,"Insumos e Materiais Clínicos","",639.18,2,"Bio Meds Pharmaceutics","","c"],["d","2026-03",24,"Insumos e Materiais Clínicos","",639.18,2,"Bio Meds Pharmaceutics","","k"],["d","2026-03",24,"Insumos e Materiais Clínicos","",6883.5,2,"Unikka Pharma","","c"],["d","2026-03",24,"Insumos e Materiais Clínicos","",6883.5,2,"Unikka Pharma","","k"],["d","2026-03",24,"Insumos e Materiais Clínicos","",509.55,2,"Cirúrgica Barra LTDA","","c"],["d","2026-03",24,"Insumos e Materiais Clínicos","",509.55,2,"Cirúrgica Barra LTDA","","k"],["d","2026-03",24,"Software / Licença de Uso","",399.9,2,"Cloudia","","c"],["d","2026-03",24,"Software / Licença de Uso","",399.9,2,"Cloudia","","k"],["d","2026-03",24,"Insumos e Materiais Clínicos","",606.5,2,"Magazine Med","","c"],["d","2026-03",24,"Insumos e Materiais Clínicos","",606.5,2,"Magazine Med","","k"],["d","2026-03",24,"Insumos e Materiais Clínicos","",998.85,2,"Central Farma","","c"],["d","2026-03",24,"Insumos e Materiais Clínicos","",998.85,2,"Central Farma","","k"],["d","2026-03",24,"Insumos e Materiais Clínicos","",2383.34,2,"Farmacia Arte","","c"],["d","2026-03",24,"Insumos e Materiais Clínicos","",2383.34,2,"Farmacia Arte","","k"],["d","2026-03",24,"Marketing e Publicidade","",39.89,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",39.89,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",50.14,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",50.14,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",174.82,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",174.82,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",67.24,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",67.24,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",258.65,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",258.65,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",67.2,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",67.2,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",258.64,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",258.64,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",67.16,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",67.16,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",292.65,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",292.65,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",67.24,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",67.24,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",292.68,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",292.68,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",67.19,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",67.19,2,"Facebook","","k"],["d","2026-03",24,"Software / Licença de Uso","",51.2,2,"Open AI","","c"],["d","2026-03",24,"Software / Licença de Uso","",51.2,2,"Open AI","","k"],["d","2026-03",24,"Marketing e Publicidade","",293.24,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",293.24,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",67.32,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",67.32,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",67.19,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",67.19,2,"Facebook","","k"],["d","2026-03",24,"Insumos e Materiais Clínicos","",588.9,2,"Bionexo S A","","c"],["d","2026-03",24,"Insumos e Materiais Clínicos","",588.9,2,"Bionexo S A","","k"],["d","2026-03",24,"Marketing e Publicidade","",292.8,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",292.8,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",67.24,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",67.24,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",120.42,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",120.42,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",33.88,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",33.88,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",293.01,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",293.01,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",67.19,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",67.19,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",292.66,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",292.66,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",67.17,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",67.17,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",292.93,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",292.93,2,"Facebook","","k"],["d","2026-03",24,"Software / Licença de Uso","",50.44,2,"Open AI","","c"],["d","2026-03",24,"Software / Licença de Uso","",50.44,2,"Open AI","","k"],["d","2026-03",24,"Marketing e Publicidade","",292.95,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",292.95,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",67.25,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",67.25,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",67.16,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",67.16,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",292.61,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",292.61,2,"Facebook","","k"],["d","2026-03",24,"Insumos e Materiais Clínicos","",243.07,2,"Central Farma","","c"],["d","2026-03",24,"Insumos e Materiais Clínicos","",243.07,2,"Central Farma","","k"],["d","2026-03",24,"Software / Licença de Uso","",99,2,"Adapta","","c"],["d","2026-03",24,"Software / Licença de Uso","",99,2,"Adapta","","k"],["d","2026-03",24,"Despesas a identificar","",43.33,2,"Mercado Livre","","c"],["d","2026-03",24,"Despesas a identificar","",43.33,2,"Mercado Livre","","k"],["d","2026-03",24,"Insumos e Materiais Clínicos","",1158.83,2,"Bios Farmacêutica","","c"],["d","2026-03",24,"Insumos e Materiais Clínicos","",1158.83,2,"Bios Farmacêutica","","k"],["d","2026-03",24,"Insumos e Materiais Clínicos","",158.5,2,"Magazine Med","","c"],["d","2026-03",24,"Insumos e Materiais Clínicos","",158.5,2,"Magazine Med","","k"],["d","2026-03",24,"Insumos e Materiais Clínicos","",229.45,2,"Central Farma","","c"],["d","2026-03",24,"Insumos e Materiais Clínicos","",229.45,2,"Central Farma","","k"],["d","2026-03",24,"Insumos e Materiais Clínicos","",424.07,2,"Central Farma","","c"],["d","2026-03",24,"Insumos e Materiais Clínicos","",424.07,2,"Central Farma","","k"],["d","2026-03",24,"Insumos e Materiais Clínicos","",162.3,2,"Cirúrgica Barra LTDA","","c"],["d","2026-03",24,"Insumos e Materiais Clínicos","",162.3,2,"Cirúrgica Barra LTDA","","k"],["d","2026-03",24,"Despesas a identificar","",1000,2,"Debora Nunes","","c"],["d","2026-03",24,"Despesas a identificar","",1000,2,"Debora Nunes","","k"],["d","2026-03",24,"Insumos e Materiais Clínicos","",810.45,2,"Bio Meds Pharmaceutics","","c"],["d","2026-03",24,"Insumos e Materiais Clínicos","",810.45,2,"Bio Meds Pharmaceutics","","k"],["d","2026-03",24,"Despesas a identificar","",1483.34,2,"Debora Nunes","","c"],["d","2026-03",24,"Despesas a identificar","",1483.34,2,"Debora Nunes","","k"],["d","2026-03",24,"Insumos e Materiais Clínicos","",1232.4,2,"Bios Farmacêutica","","c"],["d","2026-03",24,"Insumos e Materiais Clínicos","",1232.4,2,"Bios Farmacêutica","","k"],["d","2026-03",24,"Insumos e Materiais Clínicos","",123.52,2,"Farmácia Aliança","","c"],["d","2026-03",24,"Insumos e Materiais Clínicos","",123.52,2,"Farmácia Aliança","","k"],["d","2026-03",24,"Insumos e Materiais Clínicos","",7500,2,"Bio Meds Pharmaceutics","","c"],["d","2026-03",24,"Insumos e Materiais Clínicos","",7500,2,"Bio Meds Pharmaceutics","","k"],["d","2026-03",24,"Insumos e Materiais Clínicos","",263.4,2,"Sarita Scrubs","","c"],["d","2026-03",24,"Insumos e Materiais Clínicos","",263.4,2,"Sarita Scrubs","","k"],["d","2026-03",24,"Insumos e Materiais Clínicos","",320.1,2,"Magazine Med","","c"],["d","2026-03",24,"Insumos e Materiais Clínicos","",320.1,2,"Magazine Med","","k"],["d","2026-03",24,"Despesas a identificar","",212.67,2,"Marilza Moda Intima","","c"],["d","2026-03",24,"Despesas a identificar","",212.67,2,"Marilza Moda Intima","","k"],["d","2026-03",24,"Materiais de Escritório","",105,2,"Paizante Tem de Tudo","","c"],["d","2026-03",24,"Materiais de Escritório","",105,2,"Paizante Tem de Tudo","","k"],["d","2026-03",24,"Brindes para Clientes","",59.07,2,"O Boticário","","c"],["d","2026-03",24,"Brindes para Clientes","",59.07,2,"O Boticário","","k"],["d","2026-03",24,"Materiais de Escritório","",1206,2,"Next Segurança Eletr","","c"],["d","2026-03",24,"Materiais de Escritório","",1206,2,"Next Segurança Eletr","","k"],["d","2026-03",24,"Insumos e Materiais Clínicos","",592.67,2,"Stin Pharma e Comme","","c"],["d","2026-03",24,"Insumos e Materiais Clínicos","",592.67,2,"Stin Pharma e Comme","","k"],["d","2026-03",24,"Software / Licença de Uso","",305.88,2,"Conta Azul","","c"],["d","2026-03",24,"Software / Licença de Uso","",305.88,2,"Conta Azul","","k"],["d","2026-03",24,"Software / Licença de Uso","",599.9,2,"Cloudia","","c"],["d","2026-03",24,"Software / Licença de Uso","",599.9,2,"Cloudia","","k"],["d","2026-03",24,"Marketing e Publicidade","",11.99,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",11.99,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",26.24,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",26.24,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",12.91,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",12.91,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",13.86,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",13.86,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",12.56,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",12.56,2,"Facebook","","k"],["d","2026-03",24,"Insumos e Materiais Clínicos","",2383.34,2,"Farmacia Arte","","c"],["d","2026-03",24,"Insumos e Materiais Clínicos","",2383.34,2,"Farmacia Arte","","k"],["d","2026-03",24,"Marketing e Publicidade","",14.83,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",14.83,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",12.81,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",12.81,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",29.29,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",29.29,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",52.39,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",52.39,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",27.46,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",27.46,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",55.88,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",55.88,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",69.45,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",69.45,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",61.85,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",61.85,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",70.71,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",70.71,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",70.64,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",70.64,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",94.55,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",94.55,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",72.87,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",72.87,2,"Facebook","","k"],["d","2026-03",24,"Insumos e Materiais Clínicos","",1366.94,2,"Sgrancio & Souza LTDA","","c"],["d","2026-03",24,"Insumos e Materiais Clínicos","",1366.94,2,"Sgrancio & Souza LTDA","","k"],["d","2026-03",24,"Marketing e Publicidade","",73.39,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",73.39,2,"Facebook","","k"],["d","2026-03",24,"Insumos e Materiais Clínicos","",6176.25,2,"Bio Meds Pharmaceutics","","c"],["d","2026-03",24,"Insumos e Materiais Clínicos","",6176.25,2,"Bio Meds Pharmaceutics","","k"],["d","2026-03",24,"Marketing e Publicidade","",94.62,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",94.62,2,"Facebook","","k"],["d","2026-03",24,"Insumos e Materiais Clínicos","",588.9,2,"Bionexo S A","","c"],["d","2026-03",24,"Insumos e Materiais Clínicos","",588.9,2,"Bionexo S A","","k"],["d","2026-03",24,"Insumos e Materiais Clínicos","",2083.47,2,"Bios Farmacêutica","","c"],["d","2026-03",24,"Insumos e Materiais Clínicos","",2083.47,2,"Bios Farmacêutica","","k"],["d","2026-03",24,"Marketing e Publicidade","",91.47,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",91.47,2,"Facebook","","k"],["d","2026-03",24,"Insumos e Materiais Clínicos","",639.18,2,"Bio Meds Pharmaceutics","","c"],["d","2026-03",24,"Insumos e Materiais Clínicos","",639.18,2,"Bio Meds Pharmaceutics","","k"],["d","2026-03",24,"Marketing e Publicidade","",76.03,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",76.03,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",38.02,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",38.02,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",19,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",19,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",19,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",19,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",163.35,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",163.35,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",157.56,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",157.56,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",194.65,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",194.65,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",191.34,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",191.34,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",217.48,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",217.48,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",14.95,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",14.95,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",117.47,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",117.47,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",16.64,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",16.64,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",19.4,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",19.4,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",14.8,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",14.8,2,"Facebook","","k"],["d","2026-03",24,"Insumos e Materiais Clínicos","",6883.5,2,"Unikka Pharma","","c"],["d","2026-03",24,"Insumos e Materiais Clínicos","",6883.5,2,"Unikka Pharma","","k"],["d","2026-03",24,"Marketing e Publicidade","",13.74,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",13.74,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",37.59,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",37.59,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",233.65,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",233.65,2,"Facebook","","k"],["d","2026-03",24,"Marketing e Publicidade","",16.47,2,"Facebook","","c"],["d","2026-03",24,"Marketing e Publicidade","",16.47,2,"Facebook","","k"],["d","2026-03",24,"Combustíveis","",177,2,"Posto Alvorada LTDA","","c"],["d","2026-03",24,"Combustíveis","",177,2,"Posto Alvorada LTDA","","k"],["d","2026-03",24,"Viagens e Representações","",252,2,"Hotel Ilha do Boi Vitória","","c"],["d","2026-03",24,"Viagens e Representações","",252,2,"Hotel Ilha do Boi Vitória","","k"],["d","2026-03",24,"Software / Licença de Uso","",78,2,"OpenAI","","c"],["d","2026-03",24,"Software / Licença de Uso","",78,2,"OpenAI","","k"],["d","2026-03",24,"Marketing e Publicidade","",4000,2,"Google ADS","","c"],["d","2026-03",24,"Marketing e Publicidade","",4000,2,"Google ADS","","k"],["d","2026-03",24,"Lanches e Refeições","",311.06,2,"Restaurante Vitória","","c"],["d","2026-03",24,"Lanches e Refeições","",311.06,2,"Restaurante Vitória","","k"],["d","2026-03",24,"Lanches e Refeições","",118,2,"Don Paganotto","","c"],["d","2026-03",24,"Lanches e Refeições","",118,2,"Don Paganotto","","k"],["d","2026-03",24,"Software / Licença de Uso","",53.22,2,"OpenAI","","c"],["d","2026-03",24,"Software / Licença de Uso","",53.22,2,"OpenAI","","k"],["d","2026-03",26,"Lanches e Refeições","",284,1,"DON PAGANOTTO LTDA","","c"],["d","2026-03",26,"Lanches e Refeições","",284,1,"DON PAGANOTTO LTDA","","k"],["d","2026-03",26,"Despesas a identificar","",200,1,"Sem cliente","","c"],["d","2026-03",26,"Despesas a identificar","",200,1,"Sem cliente","","k"],["d","2026-03",26,"Despesas a identificar","",800,1,"Sem cliente","","c"],["d","2026-03",26,"Despesas a identificar","",800,1,"Sem cliente","","k"],["d","2026-03",26,"Materiais de Escritório","",160,1,"BARRACOPY COMUNICACAO VISUAL LTDA","","c"],["d","2026-03",26,"Materiais de Escritório","",160,1,"BARRACOPY COMUNICACAO VISUAL LTDA","","k"],["d","2026-03",26,"Despesas a identificar","",2192.5,1,"Sem cliente","","c"],["d","2026-03",26,"Despesas a identificar","",2192.5,1,"Sem cliente","","k"],["d","2026-03",26,"Pis/Cofins","",56.61,1,"Sem cliente","","c"],["d","2026-03",26,"Pis/Cofins","",56.61,1,"Sem cliente","","k"],["d","2026-03",26,"Marketing e Publicidade","",1500,1,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","c"],["d","2026-04",7,"Marketing e Publicidade","",1500,1,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","k"],["d","2026-03",27,"Materiais de Escritório","",115,1,"Sem cliente","","c"],["d","2026-03",27,"Materiais de Escritório","",115,1,"Sem cliente","","k"],["d","2026-03",27,"Despesas a identificar","",15,1,"Sem cliente","","c"],["d","2026-03",27,"Despesas a identificar","",15,1,"Sem cliente","","k"],["d","2026-03",30,"Telefonia e Internet","",21.56,1,"TELEFONICA BRASIL S.A","","c"],["d","2026-03",30,"Telefonia e Internet","",21.56,1,"TELEFONICA BRASIL S.A","","k"],["d","2026-03",30,"Serviços de Pessoa Jurídica","",70,1,"Sem cliente","","c"],["d","2026-03",30,"Serviços de Pessoa Jurídica","",70,1,"Sem cliente","","k"],["d","2026-03",30,"Materiais de Escritório","",230,1,"ARTCOPIAS","","c"],["d","2026-03",30,"Materiais de Escritório","",230,1,"ARTCOPIAS","","k"],["d","2026-03",30,"Marketing e Publicidade","",1500,1,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","c"],["d","2026-04",7,"Marketing e Publicidade","",1500,1,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","k"],["d","2026-03",31,"Despesas a identificar","",825,1,"Sem cliente","","c"],["d","2026-03",31,"Despesas a identificar","",825,1,"Sem cliente","","k"],["d","2026-03",31,"Pró-labore","",15000,1,"Sem cliente","","c"],["d","2026-03",31,"Pró-labore","",15000,1,"Sem cliente","","k"],["d","2026-04",1,"Tarifas Bancárias","",30.85,1,"Sem cliente","","c"],["d","2026-04",1,"Tarifas Bancárias","",30.85,1,"Sem cliente","","k"],["d","2026-04",1,"Salários","",4261,1,"Sem cliente","","c"],["d","2026-04",1,"Salários","",4261,1,"Sem cliente","","k"],["d","2026-04",1,"Salários","",3746.76,1,"Sem cliente","","c"],["d","2026-04",1,"Salários","",3746.76,1,"Sem cliente","","k"],["d","2026-04",1,"Salários","",3710,1,"Sem cliente","","c"],["d","2026-04",1,"Salários","",3710,1,"Sem cliente","","k"],["d","2026-04",1,"Salários","",2820,1,"Sem cliente","","c"],["d","2026-04",1,"Salários","",2820,1,"Sem cliente","","k"],["d","2026-04",1,"Salários","",2800,1,"Sem cliente","","c"],["d","2026-04",1,"Salários","",2800,1,"Sem cliente","","k"],["d","2026-04",1,"Retiradas para Sócios","",14444.75,1,"Sem cliente","","c"],["d","2026-04",1,"Retiradas para Sócios","",14444.75,1,"Sem cliente","","k"],["d","2026-04",1,"Plano de Saúde Colaboradores","",260,1,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","c"],["d","2026-02",26,"Plano de Saúde Colaboradores","",260,1,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","k"],["d","2026-04",1,"Materiais de Escritório","",1440,1,"Barra Copy Gráfica","","c"],["d","2026-04",1,"Materiais de Escritório","",1440,1,"Barra Copy Gráfica","","k"],["d","2026-04",1,"Lanches e Refeições","",175,1,"Adega Zero Grau Distr","","c"],["d","2026-04",1,"Lanches e Refeições","",175,1,"Adega Zero Grau Distr","","k"],["d","2026-04",1,"Lanches e Refeições","",170.24,1,"Supermercado Cardoso","","c"],["d","2026-04",1,"Lanches e Refeições","",170.24,1,"Supermercado Cardoso","","k"],["d","2026-04",1,"Materiais de Escritório","",140,1,"Cerimonial Rosa Linda","","c"],["d","2026-04",1,"Materiais de Escritório","",140,1,"Cerimonial Rosa Linda","","k"],["d","2026-04",1,"Materiais de Escritório","",140,1,"Rosa Linda","","c"],["d","2026-04",1,"Materiais de Escritório","",140,1,"Rosa Linda","","k"],["d","2026-04",1,"Materiais de Escritório","",135.03,1,"Papelaria Renascer","","c"],["d","2026-04",1,"Materiais de Escritório","",135.03,1,"Papelaria Renascer","","k"],["d","2026-04",1,"Lanches e Refeições","",133.59,1,"Supermercado Cardoso","","c"],["d","2026-04",1,"Lanches e Refeições","",133.59,1,"Supermercado Cardoso","","k"],["d","2026-04",1,"Materiais de Escritório","",130,1,"Rosa Linda","","c"],["d","2026-04",1,"Materiais de Escritório","",130,1,"Rosa Linda","","k"],["d","2026-04",1,"Materiais de Escritório","",121.5,1,"Reis e Souza L","","c"],["d","2026-04",1,"Materiais de Escritório","",121.5,1,"Reis e Souza L","","k"],["d","2026-04",1,"Materiais de Escritório","",115,1,"Rosa Linda","","c"],["d","2026-04",1,"Materiais de Escritório","",115,1,"Rosa Linda","","k"],["d","2026-04",1,"Serviços de Pessoa Jurídica","",91,1,"Nickscell","","c"],["d","2026-04",1,"Serviços de Pessoa Jurídica","",91,1,"Nickscell","","k"],["d","2026-04",1,"Insumos e Materiais Clínicos","",89.52,1,"Farmácia Aliança","","c"],["d","2026-04",1,"Insumos e Materiais Clínicos","",89.52,1,"Farmácia Aliança","","k"],["d","2026-04",1,"Materiais de Escritório","",86.7,1,"Papelaria Renascer","","c"],["d","2026-04",1,"Materiais de Escritório","",86.7,1,"Papelaria Renascer","","k"],["d","2026-04",1,"Materiais de Escritório","",69.99,1,"Comercial V B","","c"],["d","2026-04",1,"Materiais de Escritório","",69.99,1,"Comercial V B","","k"],["d","2026-04",1,"Lanches e Refeições","",63.92,1,"Supermercado Cardoso","","c"],["d","2026-04",1,"Lanches e Refeições","",63.92,1,"Supermercado Cardoso","","k"],["d","2026-04",1,"Lanches e Refeições","",52.71,1,"Supermercado Cardoso","","c"],["d","2026-04",1,"Lanches e Refeições","",52.71,1,"Supermercado Cardoso","","k"],["d","2026-04",1,"Insumos e Materiais Clínicos","",49.97,1,"Cirúrgica Barra","","c"],["d","2026-04",1,"Insumos e Materiais Clínicos","",49.97,1,"Cirúrgica Barra","","k"],["d","2026-04",1,"Brindes para Clientes","",35.08,1,"Boticário","","c"],["d","2026-04",1,"Brindes para Clientes","",35.08,1,"Boticário","","k"],["d","2026-04",1,"Insumos e Materiais Clínicos","",26.46,1,"Farmácia Aliança","","c"],["d","2026-04",1,"Insumos e Materiais Clínicos","",26.46,1,"Farmácia Aliança","","k"],["d","2026-04",2,"Salários","",2299.32,1,"Sem cliente","","c"],["d","2026-04",2,"Salários","",2299.32,1,"Sem cliente","","k"],["d","2026-04",2,"Salários","",1800,1,"Sem cliente","","c"],["d","2026-04",2,"Salários","",1800,1,"Sem cliente","","k"],["d","2026-04",2,"Materiais de Escritório","",7.1,1,"Sem cliente","","c"],["d","2026-04",2,"Materiais de Escritório","",7.1,1,"Sem cliente","","k"],["d","2026-04",2,"Despesas a identificar","",1800,1,"Sem cliente","","c"],["d","2026-04",2,"Despesas a identificar","",1800,1,"Sem cliente","","k"],["d","2026-04",2,"Salários","",1190,1,"Sem cliente","","c"],["d","2026-04",2,"Salários","",1190,1,"Sem cliente","","k"],["d","2026-04",2,"Despesas a identificar","",575.3,1,"Sem cliente","","c"],["d","2026-04",2,"Despesas a identificar","",575.3,1,"Sem cliente","","k"],["d","2026-04",2,"Lanches e Refeições","",155,1,"Sem cliente","","c"],["d","2026-04",2,"Lanches e Refeições","",155,1,"Sem cliente","","k"],["d","2026-04",6,"Insumos e Materiais Clínicos","",3000.3,1,"Sem cliente","","c"],["d","2026-04",6,"Insumos e Materiais Clínicos","",3000.3,1,"Sem cliente","","k"],["d","2026-04",6,"Honorários Contábeis","",1156.3,1,"DELOGO & SAINTS CONTABILIDADE LTDA","","c"],["d","2026-03",27,"Honorários Contábeis","",1156.3,1,"DELOGO & SAINTS CONTABILIDADE LTDA","","k"],["d","2026-04",6,"Mentorias, Cursos e Treinamentos","",330.75,1,"SEGEX UVV ON","","c"],["d","2026-04",6,"Mentorias, Cursos e Treinamentos","",330.75,1,"SEGEX UVV ON","","k"],["d","2026-04",6,"Honorários Contábeis","",300,1,"DELOGO & SAINTS CONTABILIDADE LTDA","","c"],["d","2026-04",6,"Honorários Contábeis","",300,1,"DELOGO & SAINTS CONTABILIDADE LTDA","","k"],["d","2026-04",6,"Insumos e Materiais Clínicos","",364.91,1,"Sem cliente","","c"],["d","2026-04",6,"Insumos e Materiais Clínicos","",364.91,1,"Sem cliente","","k"],["d","2026-04",6,"Marketing e Publicidade","",2100,1,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","c"],["d","2026-04",7,"Marketing e Publicidade","",2100,1,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","k"],["d","2026-04",7,"Coleta de Resíduos Ambientais","",3.36,1,"RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP","","c"],["d","2026-04",7,"Coleta de Resíduos Ambientais","",3.36,1,"RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP","","k"],["d","2026-04",7,"Marketing e Publicidade","",2000,1,"RADIO SAO FRANCISCO LTDA","","c"],["d","2026-04",4,"Marketing e Publicidade","",2000,1,"RADIO SAO FRANCISCO LTDA","","k"],["d","2026-04",7,"BPO Financeiro","",2400,1,"Sem cliente","","c"],["d","2026-04",7,"BPO Financeiro","",2400,1,"Sem cliente","","k"],["d","2026-04",7,"Plano de Saúde Colaboradores","",260,1,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","c"],["d","2026-04",28,"Plano de Saúde Colaboradores","",260,1,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","k"],["d","2026-04",7,"Despesas a identificar","",200,1,"Sem cliente","","c"],["d","2026-04",7,"Despesas a identificar","",200,1,"Sem cliente","","k"],["d","2026-04",7,"Coleta de Resíduos Ambientais","",126.72,1,"RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP","","c"],["d","2026-04",7,"Coleta de Resíduos Ambientais","",126.72,1,"RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP","","k"],["d","2026-04",8,"Serviços e Materiais de Limpeza e de Higiene","",320,1,"Sem cliente","","c"],["d","2026-04",8,"Serviços e Materiais de Limpeza e de Higiene","",320,1,"Sem cliente","","k"],["d","2026-04",8,"ISS","",17979.15,1,"Sem cliente","","c"],["d","2026-04",8,"ISS","",17979.15,1,"Sem cliente","","k"],["d","2026-04",9,"Despesas a identificar","",540,1,"Sem cliente","","c"],["d","2026-04",9,"Despesas a identificar","",540,1,"Sem cliente","","k"],["d","2026-04",9,"Despesas a identificar","",150.99,1,"Sem cliente","","c"],["d","2026-04",9,"Despesas a identificar","",150.99,1,"Sem cliente","","k"],["d","2026-04",14,"Retiradas para Sócios","",14100,1,"ANNA PAULA FERNANDES MARTINS","","c"],["d","2026-04",14,"Retiradas para Sócios","",14100,1,"ANNA PAULA FERNANDES MARTINS","","k"],["d","2026-04",14,"Telefonia e Internet","",99.9,1,"BIZZ INTERNET LTDA","","c"],["d","2026-04",6,"Telefonia e Internet","",99.9,1,"BIZZ INTERNET LTDA","","k"],["d","2026-04",14,"Telefonia e Internet","",117.34,1,"BIZZ INTERNET LTDA","","c"],["d","2026-04",6,"Telefonia e Internet","",117.34,1,"BIZZ INTERNET LTDA","","k"],["d","2026-04",14,"Salários","",1500,1,"Sem cliente","","c"],["d","2026-04",14,"Salários","",1500,1,"Sem cliente","","k"],["d","2026-04",14,"Retiradas para Sócios","",14100,1,"Sem cliente","","c"],["d","2026-04",14,"Retiradas para Sócios","",14100,1,"Sem cliente","","k"],["d","2026-04",16,"Honorários Consultoria","",2500,1,"WOLF MENTOR'S SERVICOS DE APOIO ADMINISTRATIVO LTDA","","c"],["d","2026-04",24,"Honorários Consultoria","",2500,1,"WOLF MENTOR'S SERVICOS DE APOIO ADMINISTRATIVO LTDA","","k"],["d","2026-04",16,"Despesas a identificar","",948,1,"Sem cliente","","c"],["d","2026-04",16,"Despesas a identificar","",948,1,"Sem cliente","","k"],["d","2026-04",17,"Honorários Contábeis","",1200,1,"DELOGO & SAINTS CONTABILIDADE LTDA","","c"],["d","2026-04",17,"Honorários Contábeis","",1200,1,"DELOGO & SAINTS CONTABILIDADE LTDA","","k"],["d","2026-04",22,"Viagens e Representações","",92.4,1,"JUAN CARLOS SOSA","","c"],["d","2026-04",22,"Viagens e Representações","",92.4,1,"JUAN CARLOS SOSA","","k"],["d","2026-04",22,"Energia Elétrica","",745.04,1,"EDP ESPIRITO SANTO","","c"],["d","2026-04",22,"Energia Elétrica","",745.04,1,"EDP ESPIRITO SANTO","","k"],["d","2026-04",22,"Salários","",705,1,"Sem cliente","","c"],["d","2026-04",22,"Salários","",705,1,"Sem cliente","","k"],["d","2026-04",22,"Serviços e Materiais de Limpeza e de Higiene","",655,1,"Sem cliente","","c"],["d","2026-04",22,"Serviços e Materiais de Limpeza e de Higiene","",655,1,"Sem cliente","","k"],["d","2026-04",22,"Telefonia e Internet","",49.43,1,"TELEFONICA BRASIL S.A","","c"],["d","2026-04",22,"Telefonia e Internet","",49.43,1,"TELEFONICA BRASIL S.A","","k"],["d","2026-04",22,"Telefonia e Internet","",41.76,1,"TELEFONICA BRASIL S.A","","c"],["d","2026-04",22,"Telefonia e Internet","",41.76,1,"TELEFONICA BRASIL S.A","","k"],["d","2026-04",22,"Salários","",88,1,"Sem cliente","","c"],["d","2026-04",22,"Salários","",88,1,"Sem cliente","","k"],["d","2026-04",23,"IRPJ E CSLL","",11216.09,1,"RECEITA FEDERAL","","c"],["d","2026-04",23,"IRPJ E CSLL","",11216.09,1,"RECEITA FEDERAL","","k"],["d","2026-04",23,"Pis/Cofins","",16405.95,1,"RECEITA FEDERAL","","c"],["d","2026-04",23,"Pis/Cofins","",16405.95,1,"RECEITA FEDERAL","","k"],["d","2026-04",23,"FGTS e Multa de FGTS","",548.22,1,"CEF MATRIZ","","c"],["d","2026-04",23,"FGTS e Multa de FGTS","",548.22,1,"CEF MATRIZ","","k"],["d","2026-04",23,"INSS sobre Salários - GPS","",2895.53,1,"Sem cliente","","c"],["d","2026-04",23,"INSS sobre Salários - GPS","",2895.53,1,"Sem cliente","","k"],["d","2026-04",27,"Mentorias, Cursos e Treinamentos","",13000,1,"O MEDICO EMPRESARIO LTDA","","c"],["d","2026-04",27,"Mentorias, Cursos e Treinamentos","",13000,1,"O MEDICO EMPRESARIO LTDA","","k"],["d","2026-04",29,"Software / Licença de Uso","",399.9,1,"CLOUDIA TECNOLOGIA EM SOFTWARE LTDA","","c"],["d","2026-04",29,"Software / Licença de Uso","",399.9,1,"CLOUDIA TECNOLOGIA EM SOFTWARE LTDA","","k"],["d","2026-04",30,"Serviços e Materiais de Limpeza e de Higiene","",390,1,"Sem cliente","","c"],["d","2026-04",30,"Serviços e Materiais de Limpeza e de Higiene","",390,1,"Sem cliente","","k"],["d","2026-05",4,"Retiradas para Sócios","",21318.51,1,"Sem cliente","","c"],["d","2026-05",4,"Retiradas para Sócios","",21318.51,1,"Sem cliente","","k"],["d","2026-05",4,"Tarifas Bancárias","",30.85,1,"Sem cliente","","c"],["d","2026-05",4,"Tarifas Bancárias","",30.85,1,"Sem cliente","","k"],["d","2026-05",4,"Salários","",2570,1,"Sem cliente","","c"],["d","2026-05",4,"Salários","",2570,1,"Sem cliente","","k"],["d","2026-05",4,"Salários","",4950,1,"Sem cliente","","c"],["d","2026-05",4,"Salários","",4950,1,"Sem cliente","","k"],["d","2026-05",4,"Salários","",3626.71,1,"Sem cliente","","c"],["d","2026-05",4,"Salários","",3626.71,1,"Sem cliente","","k"],["d","2026-05",4,"Salários","",1500,1,"Sem cliente","","c"],["d","2026-05",4,"Salários","",1500,1,"Sem cliente","","k"],["d","2026-05",4,"Serviços e Materiais de Limpeza e de Higiene","",281.46,1,"Casa do Cloro","","c"],["d","2026-05",4,"Serviços e Materiais de Limpeza e de Higiene","",281.46,1,"Casa do Cloro","","k"],["d","2026-05",4,"Lanches e Refeições","",133.59,1,"Supermercado C","","c"],["d","2026-05",4,"Lanches e Refeições","",133.59,1,"Supermercado C","","k"],["d","2026-05",4,"Materiais de Escritório","",121.5,1,"Reis e Souza L","","c"],["d","2026-05",4,"Materiais de Escritório","",121.5,1,"Reis e Souza L","","k"],["d","2026-05",4,"Materiais de Escritório","",115,1,"Rosa Linda","","c"],["d","2026-05",4,"Materiais de Escritório","",115,1,"Rosa Linda","","k"],["d","2026-05",4,"Insumos e Materiais Clínicos","",89.52,1,"Farmácia Alian","","c"],["d","2026-05",4,"Insumos e Materiais Clínicos","",89.52,1,"Farmácia Alian","","k"],["d","2026-05",4,"Despesas a identificar","",83.5,1,"DLKNET*AC","","c"],["d","2026-05",4,"Despesas a identificar","",83.5,1,"DLKNET*AC","","k"],["d","2026-05",4,"Materiais de Escritório","",74.95,1,"Forte Embalagens","","c"],["d","2026-05",4,"Materiais de Escritório","",74.95,1,"Forte Embalagens","","k"],["d","2026-05",4,"Despesas a identificar","",63,1,"Mironga","","c"],["d","2026-05",4,"Despesas a identificar","",63,1,"Mironga","","k"],["d","2026-05",4,"Materiais de Escritório","",57.7,1,"Papelaria Renascer","","c"],["d","2026-05",4,"Materiais de Escritório","",57.7,1,"Papelaria Renascer","","k"],["d","2026-05",4,"Lanches e Refeições","",52.7,1,"Supermercado C","","c"],["d","2026-05",4,"Lanches e Refeições","",52.7,1,"Supermercado C","","k"],["d","2026-05",4,"Despesas a identificar","",50,1,"Daniely Aguia Branca","","c"],["d","2026-05",4,"Despesas a identificar","",50,1,"Daniely Aguia Branca","","k"],["d","2026-05",4,"Brindes para Clientes","",35.08,1,"O Boticário","","c"],["d","2026-05",4,"Brindes para Clientes","",35.08,1,"O Boticário","","k"],["d","2026-05",4,"Lanches e Refeições","",23,1,"MP*TaTyDoces Osasco BR","","c"],["d","2026-05",4,"Lanches e Refeições","",23,1,"MP*TaTyDoces Osasco BR","","k"],["d","2026-05",4,"Lanches e Refeições","",20,1,"Ki-Pastel","","c"],["d","2026-05",4,"Lanches e Refeições","",20,1,"Ki-Pastel","","k"],["d","2026-05",4,"Lanches e Refeições","",16,1,"Dinomania Lanches","","c"],["d","2026-05",4,"Lanches e Refeições","",16,1,"Dinomania Lanches","","k"],["d","2026-05",4,"Lanches e Refeições","",7,1,"Cozinha da Ivone","","c"],["d","2026-05",4,"Lanches e Refeições","",7,1,"Cozinha da Ivone","","k"],["d","2026-05",5,"Salários","",3150,1,"Sem cliente","","c"],["d","2026-05",5,"Salários","",3150,1,"Sem cliente","","k"],["d","2026-05",5,"Salários","",2299.32,1,"Sem cliente","","c"],["d","2026-05",5,"Salários","",2299.32,1,"Sem cliente","","k"],["d","2026-05",5,"Viagens e Representações","",660.93,1,"Sup Princesa Búzios","","c"],["d","2026-05",5,"Viagens e Representações","",660.93,1,"Sup Princesa Búzios","","k"],["d","2026-05",5,"Viagens e Representações","",374.1,1,"Posto Armação dos Búzios","","c"],["d","2026-05",5,"Viagens e Representações","",374.1,1,"Posto Armação dos Búzios","","k"],["d","2026-05",5,"Viagens e Representações","",372.88,1,"Posto Bellas Búzios LT","","c"],["d","2026-05",5,"Viagens e Representações","",372.88,1,"Posto Bellas Búzios LT","","k"],["d","2026-05",5,"Viagens e Representações","",304.29,1,"Auto Posto Schueng MIL","","c"],["d","2026-05",5,"Viagens e Representações","",304.29,1,"Auto Posto Schueng MIL","","k"],["d","2026-05",5,"Viagens e Representações","",263.94,1,"Posto Iate LTDA","","c"],["d","2026-05",5,"Viagens e Representações","",263.94,1,"Posto Iate LTDA","","k"],["d","2026-05",5,"Viagens e Representações","",209.76,1,"Posto Praia de Camburi","","c"],["d","2026-05",5,"Viagens e Representações","",209.76,1,"Posto Praia de Camburi","","k"],["d","2026-05",5,"Lanches e Refeições","",108,1,"Espeluncas Bar","","c"],["d","2026-05",5,"Lanches e Refeições","",108,1,"Espeluncas Bar","","k"],["d","2026-05",5,"Viagens e Representações","",6.1,1,"Serra","","c"],["d","2026-05",5,"Viagens e Representações","",6.1,1,"Serra","","k"],["d","2026-05",5,"Viagens e Representações","",184.94,2,"Sup Princesa Búzios","","c"],["d","2026-05",5,"Viagens e Representações","",184.94,2,"Sup Princesa Búzios","","k"],["d","2026-05",6,"Mentorias, Cursos e Treinamentos","",449.96,1,"SEGEX UVV ON","","c"],["d","2026-05",6,"Mentorias, Cursos e Treinamentos","",449.96,1,"SEGEX UVV ON","","k"],["d","2026-05",7,"BPO Financeiro","",2400,1,"ALIADACONT CONTABILIDADE","","c"],["d","2026-05",7,"BPO Financeiro","",2400,1,"ALIADACONT CONTABILIDADE","","k"],["d","2026-05",7,"Insumos e Materiais Clínicos","",2521.26,1,"BIOMA4ME ANALISES CLINICAS S.A.","","c"],["d","2026-05",7,"Insumos e Materiais Clínicos","",2521.26,1,"BIOMA4ME ANALISES CLINICAS S.A.","","k"],["d","2026-05",7,"Honorários Contábeis","",1156.3,1,"DELOGO & SAINTS CONTABILIDADE LTDA","","c"],["d","2026-05",7,"Honorários Contábeis","",1156.3,1,"DELOGO & SAINTS CONTABILIDADE LTDA","","k"],["d","2026-05",7,"Honorários Contábeis","",300,1,"DELOGO & SAINTS CONTABILIDADE LTDA","","c"],["d","2026-05",7,"Honorários Contábeis","",300,1,"DELOGO & SAINTS CONTABILIDADE LTDA","","k"],["d","2026-05",7,"Plano de Saúde Colaboradores","",260,1,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","c"],["d","2026-05",4,"Plano de Saúde Colaboradores","",260,1,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","k"],["d","2026-05",7,"Telefonia e Internet","",114.9,1,"BIZZ INTERNET LTDA","","c"],["d","2026-05",6,"Telefonia e Internet","",114.9,1,"BIZZ INTERNET LTDA","","k"],["d","2026-05",7,"Telefonia e Internet","",99.9,1,"BIZZ INTERNET LTDA","","c"],["d","2026-05",6,"Telefonia e Internet","",99.9,1,"BIZZ INTERNET LTDA","","k"],["d","2026-05",7,"Marketing e Publicidade","",1875,1,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","c"],["d","2026-05",6,"Marketing e Publicidade","",1875,1,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","k"],["d","2026-05",7,"BPO Financeiro","",2400,1,"Sem cliente","","c"],["d","2026-05",7,"BPO Financeiro","",2400,1,"Sem cliente","","k"],["d","2026-05",7,"Insumos e Materiais Clínicos","",2590.26,1,"BIOMA4ME ANALISES CLINICAS S.A.","","c"],["d","2026-05",7,"Insumos e Materiais Clínicos","",2590.26,1,"BIOMA4ME ANALISES CLINICAS S.A.","","k"],["d","2026-05",8,"Troco","",26,1,"ERICA RODRIGUES DE LIMA","","c"],["d","2026-05",8,"Troco","",26,1,"ERICA RODRIGUES DE LIMA","","k"],["d","2026-05",11,"ISS","",486.47,1,"PREFEITURA MUNICIPAL DE BARRA DE SAO FRANCISCO","","c"],["d","2026-05",11,"ISS","",486.47,1,"PREFEITURA MUNICIPAL DE BARRA DE SAO FRANCISCO","","k"],["d","2026-05",11,"Salários","",3713.91,1,"HEMILLY LACERDA BARBOSA","","c"],["d","2026-05",11,"Salários","",3713.91,1,"HEMILLY LACERDA BARBOSA","","k"],["d","2026-05",11,"ISS","",8226.92,1,"PREFEITURA MUNICIPAL DE BARRA DE SAO FRANCISCO","","c"],["d","2026-05",11,"ISS","",8226.92,1,"PREFEITURA MUNICIPAL DE BARRA DE SAO FRANCISCO","","k"],["d","2026-05",11,"Marketing e Publicidade","",2000,1,"RADIO SAO FRANCISCO LTDA","","c"],["d","2026-05",4,"Marketing e Publicidade","",2000,1,"RADIO SAO FRANCISCO LTDA","","k"],["d","2026-05",11,"Coleta de Resíduos Ambientais","",118.08,1,"RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP","","c"],["d","2026-05",11,"Coleta de Resíduos Ambientais","",118.08,1,"RESITECH GERENCIAMENTO AMBIENTAL LTDA EPP","","k"],["d","2026-05",12,"Tarifas Bancárias","",133.85,1,"Sem cliente","","c"],["d","2026-05",12,"Tarifas Bancárias","",133.85,1,"Sem cliente","","k"],["d","2026-05",13,"Serviços e Materiais de Limpeza e de Higiene","",412,1,"SIDIANARA RODRIGUES DE SOUZA","","c"],["d","2026-05",13,"Serviços e Materiais de Limpeza e de Higiene","",412,1,"SIDIANARA RODRIGUES DE SOUZA","","k"],["d","2026-05",13,"INSS sobre Pró-labore - GPS","",2876.6,1,"RECEITA FEDERAL","","c"],["d","2026-05",13,"INSS sobre Pró-labore - GPS","",2876.6,1,"RECEITA FEDERAL","","k"],["d","2026-05",13,"Serviços de Pessoa Jurídica","",55,1,"AGILIZA MEDICINA E SEGURANCA DO TRABALHO LTDA","","c"],["d","2026-05",13,"Serviços de Pessoa Jurídica","",55,1,"AGILIZA MEDICINA E SEGURANCA DO TRABALHO LTDA","","k"],["d","2026-05",13,"Marketing e Publicidade","",1500,1,"VANESSA CORDOVAL DE BARROS","","c"],["d","2026-05",13,"Marketing e Publicidade","",1500,1,"VANESSA CORDOVAL DE BARROS","","k"],["d","2026-05",13,"Tarifas Bancárias","",144.03,1,"Sem cliente","","c"],["d","2026-05",13,"Tarifas Bancárias","",144.03,1,"Sem cliente","","k"],["d","2026-05",13,"Tarifas Bancárias","",417.06,1,"Sem cliente","","c"],["d","2026-05",13,"Tarifas Bancárias","",417.06,1,"Sem cliente","","k"],["d","2026-05",13,"Serviços e Materiais de Limpeza e de Higiene","",412,1,"Sem cliente","","c"],["d","2026-05",13,"Serviços e Materiais de Limpeza e de Higiene","",412,1,"Sem cliente","","k"],["d","2026-05",13,"INSS sobre Salários - GPS","",2876.6,1,"Sem cliente","","c"],["d","2026-05",13,"INSS sobre Salários - GPS","",2876.6,1,"Sem cliente","","k"],["d","2026-05",15,"Salários","",3709.42,1,"Sem cliente","","c"],["d","2026-05",15,"Salários","",3709.42,1,"Sem cliente","","k"],["d","2026-05",15,"Tarifas Bancárias","",291,1,"Sem cliente","","c"],["d","2026-05",15,"Tarifas Bancárias","",291,1,"Sem cliente","","k"],["d","2026-05",18,"Salários","",4732.93,1,"Sem cliente","","c"],["d","2026-05",18,"Salários","",4732.93,1,"Sem cliente","","k"],["d","2026-05",18,"Salários","",2955,1,"Sem cliente","","c"],["d","2026-05",18,"Salários","",2955,1,"Sem cliente","","k"],["d","2026-05",18,"Tarifas Bancárias","",384.08,1,"Sem cliente","","c"],["d","2026-05",18,"Tarifas Bancárias","",384.08,1,"Sem cliente","","k"],["d","2026-05",19,"Salários","",926.4,1,"Sem cliente","","c"],["d","2026-05",19,"Salários","",926.4,1,"Sem cliente","","k"],["d","2026-05",19,"Tarifas Bancárias","",351.12,1,"Sem cliente","","c"],["d","2026-05",19,"Tarifas Bancárias","",351.12,1,"Sem cliente","","k"],["d","2026-05",19,"Salários","",966.57,1,"Sem cliente","","c"],["d","2026-05",19,"Salários","",966.57,1,"Sem cliente","","k"],["d","2026-05",19,"ISS","",272,1,"PREFEITURA MUNICIPAL DE BARRA DE SAO FRANCISCO","","c"],["d","2026-05",19,"ISS","",272,1,"PREFEITURA MUNICIPAL DE BARRA DE SAO FRANCISCO","","k"],["d","2026-05",20,"Tarifas Bancárias","",368.56,1,"Sem cliente","","c"],["d","2026-05",20,"Tarifas Bancárias","",368.56,1,"Sem cliente","","k"],["d","2026-05",20,"Tarifas Bancárias","",314.41,1,"Sem cliente","","c"],["d","2026-05",20,"Tarifas Bancárias","",314.41,1,"Sem cliente","","k"],["d","2026-05",20,"Honorários Consultoria","",2500,1,"WOLF MENTOR'S SERVICOS DE APOIO ADMINISTRATIVO LTDA","","c"],["d","2026-05",20,"Honorários Consultoria","",2500,1,"WOLF MENTOR'S SERVICOS DE APOIO ADMINISTRATIVO LTDA","","k"],["d","2026-05",21,"Telefonia e Internet","",49,1,"TELEFONICA BRASIL S.A","","c"],["d","2026-05",21,"Telefonia e Internet","",49,1,"TELEFONICA BRASIL S.A","","k"],["d","2026-05",21,"Insumos e Materiais Clínicos","",46.89,1,"PIX Marketplace","","c"],["d","2026-05",21,"Insumos e Materiais Clínicos","",46.89,1,"PIX Marketplace","","k"],["d","2026-05",21,"Retenção - Darf 1708 - IRRF","",7947.55,1,"RECEITA FEDERAL","","c"],["d","2026-05",21,"Retenção - Darf 1708 - IRRF","",7947.55,1,"RECEITA FEDERAL","","k"],["d","2026-05",21,"Telefonia e Internet","",41.87,1,"TELEFONICA BRASIL S.A","","c"],["d","2026-05",21,"Telefonia e Internet","",41.87,1,"TELEFONICA BRASIL S.A","","k"],["d","2026-05",21,"Energia Elétrica","",546.33,1,"28.152.650/0001-71","","c"],["d","2026-05",21,"Energia Elétrica","",546.33,1,"28.152.650/0001-71","","k"],["d","2026-05",21,"Pis/Cofins","",7947.55,1,"RECEITA FEDERAL","","c"],["d","2026-05",21,"Pis/Cofins","",7947.55,1,"RECEITA FEDERAL","","k"],["d","2026-05",21,"Salários","",846.04,1,"Sem cliente","","c"],["d","2026-05",21,"Salários","",846.04,1,"Sem cliente","","k"],["d","2026-05",21,"Salários","",821.79,1,"Sem cliente","","c"],["d","2026-05",21,"Salários","",821.79,1,"Sem cliente","","k"],["d","2026-05",21,"Despesas a identificar","",46.89,1,"Sem cliente","","c"],["d","2026-05",21,"Despesas a identificar","",46.89,1,"Sem cliente","","k"],["d","2026-05",21,"Telefonia e Internet","",49,1,"TELEFONICA BRASIL S.A","","c"],["d","2026-05",21,"Telefonia e Internet","",49,1,"TELEFONICA BRASIL S.A","","k"],["d","2026-05",22,"Salários","",1432.3,1,"Sem cliente","","c"],["d","2026-05",22,"Salários","",1432.3,1,"Sem cliente","","k"],["d","2026-05",22,"Salários","",1262.6,1,"Sem cliente","","c"],["d","2026-05",22,"Salários","",1262.6,1,"Sem cliente","","k"],["d","2026-05",22,"Salários","",870.09,1,"Sem cliente","","c"],["d","2026-05",22,"Salários","",870.09,1,"Sem cliente","","k"],["d","2026-05",22,"Tarifas Bancárias","",480.1,1,"Sem cliente","","c"],["d","2026-05",22,"Tarifas Bancárias","",480.1,1,"Sem cliente","","k"],["d","2026-05",25,"Salários","",1473.09,1,"Sem cliente","","c"],["d","2026-05",25,"Salários","",1473.09,1,"Sem cliente","","k"],["d","2026-05",28,"Despesas a identificar","",184.75,1,"O MEDICO EMPRESARIO LTDA","","c"],["d","2026-05",28,"Despesas a identificar","",184.75,1,"O MEDICO EMPRESARIO LTDA","","k"],["d","2026-05",28,"FGTS e Multa de FGTS","",1448.01,1,"Sem cliente","","c"],["d","2026-05",28,"FGTS e Multa de FGTS","",1448.01,1,"Sem cliente","","k"],["d","2026-05",29,"Exames Médicos","",600,1,"Sem cliente","","c"],["d","2026-05",29,"Exames Médicos","",600,1,"Sem cliente","","k"],["d","2026-06",5,"Marketing e Publicidade","",2000,2,"RADIO SAO FRANCISCO LTDA","","c"],["d","2026-06",4,"Marketing e Publicidade","",2000,2,"RADIO SAO FRANCISCO LTDA","","k"],["d","2026-06",5,"Plano de Saúde Colaboradores","",260,2,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","c"],["d","2026-06",4,"Plano de Saúde Colaboradores","",260,2,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","k"],["d","2026-06",5,"Viagens e Representações","",184.94,2,"Sem cliente","","c"],["d","2026-06",5,"Viagens e Representações","",184.94,2,"Sem cliente","","k"],["d","2026-06",6,"Marketing e Publicidade","",2100,2,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","c"],["d","2026-06",6,"Marketing e Publicidade","",2100,2,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","k"],["d","2026-06",6,"Telefonia e Internet","",114.9,2,"BIZZ INTERNET LTDA","","c"],["d","2026-06",6,"Telefonia e Internet","",114.9,2,"BIZZ INTERNET LTDA","","k"],["d","2026-06",6,"Telefonia e Internet","",99.9,2,"BIZZ INTERNET LTDA","","c"],["d","2026-06",6,"Telefonia e Internet","",99.9,2,"BIZZ INTERNET LTDA","","k"],["d","2026-07",5,"Marketing e Publicidade","",2000,0,"RADIO SAO FRANCISCO LTDA","","c"],["d","2026-07",4,"Marketing e Publicidade","",2000,0,"RADIO SAO FRANCISCO LTDA","","k"],["d","2026-07",5,"Plano de Saúde Colaboradores","",260,0,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","c"],["d","2026-07",4,"Plano de Saúde Colaboradores","",260,0,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","k"],["d","2026-07",6,"Marketing e Publicidade","",2100,0,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","c"],["d","2026-07",6,"Marketing e Publicidade","",2100,0,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","k"],["d","2026-07",6,"Telefonia e Internet","",114.9,0,"BIZZ INTERNET LTDA","","c"],["d","2026-07",6,"Telefonia e Internet","",114.9,0,"BIZZ INTERNET LTDA","","k"],["d","2026-07",6,"Telefonia e Internet","",99.9,0,"BIZZ INTERNET LTDA","","c"],["d","2026-07",6,"Telefonia e Internet","",99.9,0,"BIZZ INTERNET LTDA","","k"],["d","2026-08",5,"Marketing e Publicidade","",2000,0,"RADIO SAO FRANCISCO LTDA","","c"],["d","2026-08",4,"Marketing e Publicidade","",2000,0,"RADIO SAO FRANCISCO LTDA","","k"],["d","2026-08",5,"Plano de Saúde Colaboradores","",260,0,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","c"],["d","2026-08",4,"Plano de Saúde Colaboradores","",260,0,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","k"],["d","2026-08",6,"Marketing e Publicidade","",2100,0,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","c"],["d","2026-08",6,"Marketing e Publicidade","",2100,0,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","k"],["d","2026-08",6,"Telefonia e Internet","",114.9,0,"BIZZ INTERNET LTDA","","c"],["d","2026-08",6,"Telefonia e Internet","",114.9,0,"BIZZ INTERNET LTDA","","k"],["d","2026-08",6,"Telefonia e Internet","",99.9,0,"BIZZ INTERNET LTDA","","c"],["d","2026-08",6,"Telefonia e Internet","",99.9,0,"BIZZ INTERNET LTDA","","k"],["d","2026-09",5,"Marketing e Publicidade","",2000,0,"RADIO SAO FRANCISCO LTDA","","c"],["d","2026-09",4,"Marketing e Publicidade","",2000,0,"RADIO SAO FRANCISCO LTDA","","k"],["d","2026-09",5,"Plano de Saúde Colaboradores","",260,0,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","c"],["d","2026-09",4,"Plano de Saúde Colaboradores","",260,0,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","k"],["d","2026-09",6,"Marketing e Publicidade","",2100,0,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","c"],["d","2026-09",6,"Marketing e Publicidade","",2100,0,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","k"],["d","2026-09",6,"Telefonia e Internet","",114.9,0,"BIZZ INTERNET LTDA","","c"],["d","2026-09",6,"Telefonia e Internet","",114.9,0,"BIZZ INTERNET LTDA","","k"],["d","2026-09",6,"Telefonia e Internet","",99.9,0,"BIZZ INTERNET LTDA","","c"],["d","2026-09",6,"Telefonia e Internet","",99.9,0,"BIZZ INTERNET LTDA","","k"],["d","2026-10",5,"Marketing e Publicidade","",2000,0,"RADIO SAO FRANCISCO LTDA","","c"],["d","2026-10",4,"Marketing e Publicidade","",2000,0,"RADIO SAO FRANCISCO LTDA","","k"],["d","2026-10",5,"Plano de Saúde Colaboradores","",260,0,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","c"],["d","2026-10",4,"Plano de Saúde Colaboradores","",260,0,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","k"],["d","2026-10",6,"Marketing e Publicidade","",2100,0,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","c"],["d","2026-10",6,"Marketing e Publicidade","",2100,0,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","k"],["d","2026-10",6,"Telefonia e Internet","",114.9,0,"BIZZ INTERNET LTDA","","c"],["d","2026-10",6,"Telefonia e Internet","",114.9,0,"BIZZ INTERNET LTDA","","k"],["d","2026-10",6,"Telefonia e Internet","",99.9,0,"BIZZ INTERNET LTDA","","c"],["d","2026-10",6,"Telefonia e Internet","",99.9,0,"BIZZ INTERNET LTDA","","k"],["d","2026-11",5,"Marketing e Publicidade","",2000,0,"RADIO SAO FRANCISCO LTDA","","c"],["d","2026-11",4,"Marketing e Publicidade","",2000,0,"RADIO SAO FRANCISCO LTDA","","k"],["d","2026-11",5,"Plano de Saúde Colaboradores","",260,0,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","c"],["d","2026-11",4,"Plano de Saúde Colaboradores","",260,0,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","k"],["d","2026-11",6,"Marketing e Publicidade","",2100,0,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","c"],["d","2026-11",6,"Marketing e Publicidade","",2100,0,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","k"],["d","2026-11",6,"Telefonia e Internet","",114.9,0,"BIZZ INTERNET LTDA","","c"],["d","2026-11",6,"Telefonia e Internet","",114.9,0,"BIZZ INTERNET LTDA","","k"],["d","2026-11",6,"Telefonia e Internet","",99.9,0,"BIZZ INTERNET LTDA","","c"],["d","2026-11",6,"Telefonia e Internet","",99.9,0,"BIZZ INTERNET LTDA","","k"],["d","2026-12",5,"Marketing e Publicidade","",2000,0,"RADIO SAO FRANCISCO LTDA","","c"],["d","2026-12",4,"Marketing e Publicidade","",2000,0,"RADIO SAO FRANCISCO LTDA","","k"],["d","2026-12",5,"Plano de Saúde Colaboradores","",260,0,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","c"],["d","2026-12",4,"Plano de Saúde Colaboradores","",260,0,"UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRABALHO MEDICO","","k"],["d","2026-12",6,"Marketing e Publicidade","",2100,0,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","c"],["d","2026-12",6,"Marketing e Publicidade","",2100,0,"52.526.409 WILIAN DE SOUZA OLIVEIRA","","k"],["d","2026-12",6,"Telefonia e Internet","",114.9,0,"BIZZ INTERNET LTDA","","c"],["d","2026-12",6,"Telefonia e Internet","",114.9,0,"BIZZ INTERNET LTDA","","k"],["d","2026-12",6,"Telefonia e Internet","",99.9,0,"BIZZ INTERNET LTDA","","c"],["d","2026-12",6,"Telefonia e Internet","",99.9,0,"BIZZ INTERNET LTDA","","k"]];
 
 const REF_YEAR = 2026;
 const AVAILABLE_YEARS = [2027,2026];
