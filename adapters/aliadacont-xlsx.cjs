@@ -37,8 +37,8 @@ module.exports = {
 
   validate(config) {
     const errors = [];
-    const drive = config.fontes && config.fontes.drive && config.fontes.drive.base_path;
-    if (!drive) errors.push('config.fontes.drive.base_path nao definido');
+    const drive = process.env.XLSX_BASE_PATH || (config.fontes && config.fontes.drive && config.fontes.drive.base_path);
+    if (!drive) errors.push('config.fontes.drive.base_path nao definido (ou XLSX_BASE_PATH env)');
     else if (!fs.existsSync(drive)) errors.push(`drive base_path nao existe: ${drive}`);
     const cx = config.fontes && config.fontes['aliadacont_xlsx'];
     if (!cx) errors.push('config.fontes.aliadacont_xlsx nao definido');
@@ -52,7 +52,7 @@ module.exports = {
 
   async pull(config, dataDir) {
     fs.mkdirSync(dataDir, { recursive: true });
-    const drive = config.fontes.drive.base_path;
+    const drive = process.env.XLSX_BASE_PATH || config.fontes.drive.base_path;
     const cx = config.fontes['aliadacont_xlsx'];
     const extratoFile = path.join(drive, cx.extrato_file || 'extrato_financeiroAliadacont.xlsx');
 

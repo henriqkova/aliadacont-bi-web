@@ -1,4 +1,4 @@
-/* BGP BI — gerado por build-data.cjs em 2026-06-12T12:23:21.129Z */
+/* BGP BI — gerado por build-data.cjs em 2026-06-12T12:41:32.435Z */
 /* Empresa: Aliadacont | Ano ref: 2026 */
 const MONTHS = ["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
 const MONTHS_FULL = ["janeiro","fevereiro","março","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"];
