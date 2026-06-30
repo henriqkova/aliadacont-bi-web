@@ -1,4 +1,4 @@
-/* BGP BI — gerado por build-data.cjs em 2026-06-29T11:52:08.064Z */
+/* BGP BI — gerado por build-data.cjs em 2026-06-30T12:16:49.456Z */
 /* Empresa: Aliadacont | Ano ref: 2026 */
 const MONTHS = ["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
 const MONTHS_FULL = ["janeiro","fevereiro","março","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"];
@@ -23,7 +23,7 @@ const META = {
   "empresa": {
     "nome_fantasia": "Aliadacont"
   },
-  "fetched_at": "2026-06-29T11:52:07.783Z",
+  "fetched_at": "2026-06-30T12:16:49.041Z",
   "ref_year": 2026,
   "counts": {
     "contas_pagar": 0,
